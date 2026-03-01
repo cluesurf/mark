@@ -78,7 +78,10 @@ async function main() {
 
   // Write out the mapping so we know which glyph is at which codepoint.
   const mappingPath = path.join(baseDir, 'mapping.json')
-  await fs.writeFile(mappingPath, JSON.stringify(mapping, null, 2) + '\n')
+  await fs.writeFile(
+    mappingPath,
+    JSON.stringify(mapping, null, 2) + '\n',
+  )
   console.log(`  -> ${mappingPath}`)
 
   console.log('\nDone.')

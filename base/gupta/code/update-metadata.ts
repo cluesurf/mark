@@ -4,7 +4,7 @@ import { updateFontMetadata } from '../../../code/update-font-metadata'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.join(__dirname, '..', 'base')
-const fontPath = path.join(baseDir, 'Gupta.otf')
+const fontPath = path.join(baseDir, 'GuptaMark.otf')
 
 async function main() {
   console.log('Updating GuptaMark font metadata...\n')
