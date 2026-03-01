@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'CrowMark';
-  src: url('./CrowMark.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'LeafMark';
   src: url('../base/LeafMark-Regular.otf') format('opentype');
   font-weight: normal;
