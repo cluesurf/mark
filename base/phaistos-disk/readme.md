@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>disk-mark</h3>
+<h3 align='center'>phaistos-disk</h3>
 <p align='center'>
   A Phaistos Disc Font
 </p>
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**DiskMark** captures the mysterious symbols stamped into the
+**PhaistosDiscMark** captures the mysterious symbols stamped into the
 [Phaistos Disc](https://en.wikipedia.org/wiki/Phaistos_Disc), a fired
 clay tablet discovered in 1908 at the Minoan palace of Phaistos on
 Crete. Dating to around **1700 BCE**, the disc bears 242 impressions of
@@ -85,7 +85,8 @@ The 45 signs are mapped to the Unicode Phaistos Disc block
 | 45 | Wavy band | U+101FC |
 
 Fonts are in the
-[`./base`](https://github.com/cluesurf/disk-mark/tree/make/base) folder.
+[`./base`](https://github.com/cluesurf/mark/tree/make/base/phaistos-disk/base)
+folder.
 
 ## License
 

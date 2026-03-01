@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>wall-mark</h3>
+<h3 align='center'>proto-sinaitic</h3>
 <p align='center'>
   A Proto-Sinaitic Font
 </p>
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**WallMark** traces the ancient impulse to carve meaning into stone.
+**ProtoSinaiticMark** traces the ancient impulse to carve meaning into stone.
 Based on Proto-Sinaitic script from around 1800 BCE, it captures that
 pivotal moment when humans first abstracted pictographs into letters.
 When miners in the Sinai Peninsula began scratching symbols that would
@@ -73,7 +73,8 @@ Here is how they seem to map to Phoenician glyphs, according to the
 |      𓏴      |     𐤕      |
 
 Fonts are in the
-[`./base`](https://github.com/cluesurf/wall-mark/tree/make/base) folder.
+[`./base`](https://github.com/cluesurf/mark/tree/make/base/proto-sinaitic/base)
+folder.
 
 ## License
 

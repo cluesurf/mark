@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**MoonMark** traces the celestial rhythm that guided the scribes,
+**MayanHieroglyphsMark** traces the celestial rhythm that guided the scribes,
 priests, and astronomers of the ancient Maya. It remembers a world
 measured not in years but in cycles, the turning of the moon, the return
 of Venus, the dance of shadow and illumination across the heavens. Each
@@ -41,12 +41,12 @@ governed by the interplay of sun, moon, and Venus.
 
 ## Background on the Font
 
-**MoonMark** is a collection of over **1,000 Maya hieroglyphs**, redrawn
+**MayanHieroglyphsMark** is a collection of over **1,000 Maya hieroglyphs**, redrawn
 from the great work of a few people curating everything for the
 [famsi.org dictionary project](http://www.famsi.org/mayawriting/dictionary.htm)
 (FAMSI, Foundation for the Advancement of Mesoamerican Studies, Inc.).
 Their drawings came from monumental inscriptions, codices, and scholarly
-reconstructions. MoonMark makes these unified and accessible.
+reconstructions. MayanHieroglyphsMark makes these unified and accessible.
 
 Each glyph has been cleaned, balanced, and redrawn to preserve its
 structure and ultimately to unify the stuff and make it easy to access.
@@ -55,7 +55,7 @@ structure and ultimately to unify the stuff and make it easy to access.
 
 | font family | description |
 | :---------- | :---------- |
-| `MoonMark` | Mayan hieroglyphs |
+| `MayanHieroglyphsMark` | Mayan hieroglyphs |
 
 Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/mayan-hieroglyphs/base)

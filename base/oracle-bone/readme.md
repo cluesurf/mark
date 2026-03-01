@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**WindMarkBone** traces the earliest known form of Chinese writing.
+**OracleBoneMark** traces the earliest known form of Chinese writing.
 [Oracle bone script](https://en.wikipedia.org/wiki/Oracle_bone_script)
 dates to around **1200-1000 BCE**, when symbols were carved onto ox
 shoulder blades and turtle shells for divination. Questions were
@@ -57,7 +57,7 @@ records, visit [hanziyuan.net](https://hanziyuan.net).
 
 | font family | # glyphs | description |
 | :---------- | :------- | :---------- |
-| `WindMarkBone` | 734 | Oracle bone script |
+| `OracleBoneMark` | 734 | Oracle bone script |
 
 The **734 glyphs** are mapped to their corresponding modern Chinese
 Unicode codepoints.
