@@ -24,19 +24,19 @@ making it accessible as a standard OpenType font.
 
 ## Fonts
 
-| font                                        | script                      | era              | region          | status |
-| :------------------------------------------ | :-------------------------- | :--------------- | :-------------- | :----- |
-| [oracle-bone](./base/oracle-bone)           | Oracle bone script (甲骨文) | ~1200-1000 BCE   | China           | ✅     |
-| [bronze-script](./base/bronze-script)       | Bronze inscriptions (金文)  | ~1000-700 BCE    | China           | ✅     |
-| [proto-sinaitic](./base/proto-sinaitic)     | Proto-Sinaitic              | ~1800 BCE        | Sinai Peninsula | ✅     |
-| [proto-canaanite](./base/proto-canaanite)   | Proto-Canaanite             | ~1600-1200 BCE   | Levant          | ✅     |
-| [phaistos-disk](./base/phaistos-disk)       | Phaistos Disc signs         | ~1700 BCE        | Crete           | ✅     |
-| [mayan-hieroglyph](./base/mayan-hieroglyph) | Mayan hieroglyphs           | ~300 BCE-1500 CE | Mesoamerica     | ✅     |
-| [gupta](./base/gupta)                       | Gupta script                | ~320-550 CE      | India           | ✅     |
-| aztec-hieroglyph                            | Aztec hieroglyphs           | ~1300-1521 CE    | Mesoamerica     | TODO   |
-| rongorongo                                  | Rongorongo                  | ~1200-1860 CE    | Easter Island   | TODO   |
-| cascajal-block                              | Cascajal Block signs        | ~900 BCE         | Mesoamerica     | TODO   |
-| isthmian-script                             | Isthmian script             | ~500 BCE-500 CE  | Mesoamerica     | TODO   |
+| font                                        | script                      | era              | region        | status |
+| :------------------------------------------ | :-------------------------- | :--------------- | :------------ | :----- |
+| [oracle-bone](./base/oracle-bone)           | Oracle bone script (甲骨文) | ~1200-1000 BCE   | China         | ✅     |
+| [bronze-script](./base/bronze-script)       | Bronze inscriptions (金文)  | ~1000-700 BCE    | China         | ✅     |
+| [proto-sinaitic](./base/proto-sinaitic)     | Proto-Sinaitic              | ~1800 BCE        | Levant        | ✅     |
+| [proto-canaanite](./base/proto-canaanite)   | Proto-Canaanite             | ~1600-1200 BCE   | Levant        | ✅     |
+| [phaistos-disk](./base/phaistos-disk)       | Phaistos Disc signs         | ~1700 BCE        | Crete         | ✅     |
+| [mayan-hieroglyph](./base/mayan-hieroglyph) | Mayan hieroglyphs           | ~300 BCE-1500 CE | Mesoamerica   | ✅     |
+| [gupta](./base/gupta)                       | Gupta script                | ~320-550 CE      | India         | ✅     |
+| aztec-hieroglyph                            | Aztec hieroglyphs           | ~1300-1521 CE    | Mesoamerica   | TODO   |
+| rongorongo                                  | Rongorongo                  | ~1200-1860 CE    | Easter Island | TODO   |
+| cascajal-block                              | Cascajal Block signs        | ~900 BCE         | Mesoamerica   | TODO   |
+| isthmian-script                             | Isthmian script             | ~500 BCE-500 CE  | Mesoamerica   | TODO   |
 
 ## Structure
 
