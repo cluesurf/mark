@@ -6,9 +6,9 @@
 <br/>
 <br/>
 
-<h3 align='center'>wall-mark</h3>
+<h3 align='center'>gupta</h3>
 <p align='center'>
-  A Proto-Sinaitic Font
+  A Gupta Script Font
 </p>
 
 <br/>
@@ -17,63 +17,31 @@
 
 ## Introduction
 
-**WallMark** traces the ancient impulse to carve meaning into stone.
-Based on Proto-Sinaitic script from around 1800 BCE, it captures that
-pivotal moment when humans first abstracted pictographs into letters.
-When miners in the Sinai Peninsula began scratching symbols that would
-echo through millennia.
+**Gupta** renders the script of the
+[Gupta Empire](https://en.wikipedia.org/wiki/Gupta_script), the golden
+age of classical India spanning roughly **320-550 CE**. The Gupta script
+descended from Brahmi and served as the writing system for Sanskrit
+during an era of extraordinary achievement in mathematics, astronomy,
+literature, and philosophy. It was during this period that the concept of
+zero was formalized, that Kalidasa wrote his great poems, and that
+Indian culture radiated outward across Asia.
 
-This was potentially one of humanity's leaps from depicting the world to
-encoding language. From drawing what we see to marking what we say. Each
-glyph a revolution carved in wall, transforming pictures into an
-alphabet that would father Hebrew, Arabic, Greek, Latin, and the letters
-you're reading now.
+The Gupta script stands at a crossroads in the history of writing. It
+is the ancestor of Nagari, which became Devanagari, the script used for
+Hindi, Sanskrit, and many other South Asian languages today. It also
+gave rise to the scripts of Southeast Asia, from Khmer to Javanese to
+Tibetan. Each glyph carries the genetic code of a vast family of
+writing systems.
 
-## Glyphs
+## Font
 
-The 27 glyphs are mapped to underlying associated Egyptian Heiroglyph
-characters:
-
-```
-𓃾 𓉐 𓉔 𓌙 𓆟 𓀠 𓌉 𓐅 𓉗 𓎛 𓄤 𓂝 𓂧 𓍢
-𓈖 𓆓 𓁹 𓂋 𓀁 𓂏 𓊋 𓇑 𓃻 𓁶 𓇴 𓌔 𓏴
-```
-
-Here is how they seem to map to Phoenician glyphs, according to the
-[Wikipedia page](https://en.wikipedia.org/wiki/Proto-Sinaitic_script#Table_of_Symbols):
-
-| hieroglyphs | phoenician |
-| :---------: | :--------: |
-|      𓃾      |     𐤀      |
-|      𓉐      |     𐤁      |
-|      𓉔      |     𐤁      |
-|      𓌙      |     𐤂      |
-|      𓆟      |     𐤃      |
-|      𓀠      |     𐤄      |
-|      𓌉      |     𐤅      |
-|      𓐅      |     𐤆      |
-|      𓉗      |     𐤇      |
-|      𓎛      |     𐤇      |
-|      𓄤      |     𐤈      |
-|      𓂝      |     𐤉      |
-|      𓂧      |     𐤊      |
-|      𓍢      |     𐤋      |
-|      𓈖      |     𐤌      |
-|      𓆓      |     𐤍      |
-|      𓁹      |     𐤏      |
-|      𓂋      |     𐤐      |
-|      𓀁      |     𐤄      |
-|      𓂏      |     𐤐      |
-|      𓊋      |     𐤐      |
-|      𓇑      |     𐤑      |
-|      𓃻      |     𐤒      |
-|      𓁶      |     𐤓      |
-|      𓇴      |     𐤔      |
-|      𓌔      |     𐤔      |
-|      𓏴      |     𐤕      |
+| font family | description |
+| :---------- | :---------- |
+| `Gupta` | Gupta script |
 
 Fonts are in the
-[`./base`](https://github.com/cluesurf/wall-mark/tree/make/base) folder.
+[`./base`](https://github.com/cluesurf/mark/tree/make/base/gupta/base)
+folder.
 
 ## License
 
