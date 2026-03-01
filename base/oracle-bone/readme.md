@@ -55,9 +55,9 @@ records, visit [hanziyuan.net](https://hanziyuan.net).
 
 ## Font
 
-| font family | # glyphs | description |
-| :---------- | :------- | :---------- |
-| `OracleBoneMark` | 734 | Oracle bone script |
+| font family      | # glyphs | description        |
+| :--------------- | :------- | :----------------- |
+| `OracleBoneMark` | 734      | Oracle bone script |
 
 The **734 glyphs** are mapped to their corresponding modern Chinese
 Unicode codepoints.
@@ -65,6 +65,12 @@ Unicode codepoints.
 Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/oracle-bone/base)
 folder.
+
+## Glyphs
+
+<p align='center'>
+  <img src='https://github.com/cluesurf/mark/blob/make/base/oracle-bone/view/list.png?raw=true'>
+</p>
 
 ## License
 

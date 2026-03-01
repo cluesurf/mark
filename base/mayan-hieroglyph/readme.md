@@ -61,6 +61,12 @@ Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/mayan-hieroglyph/base)
 folder.
 
+## Glyphs
+
+<p align='center'>
+  <img src='https://github.com/cluesurf/mark/blob/make/base/mayan-hieroglyph/view/list.png?raw=true'>
+</p>
+
 ## License
 
 [OFL](./license.md)
