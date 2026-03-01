@@ -17,10 +17,10 @@
 
 ## Introduction
 
-**Mark** is a collection of fonts for ancient and historical writing
-systems, built from SVG glyph drawings and mapped to Unicode codepoints
-where possible. Each font preserves the visual character of its source
-script while making it accessible as a standard OpenType font.
+**Mark** is a collection of high quality free fonts for ancient and
+historical writing systems, mapped to Unicode codepoints where possible.
+Each font preserves the visual character of its source script while
+making it accessible as a standard OpenType font.
 
 ## Fonts
 
