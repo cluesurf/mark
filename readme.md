@@ -24,15 +24,15 @@ script while making it accessible as a standard OpenType font.
 
 ## Fonts
 
-| font | family | script | era | region |
-| :--- | :----- | :----- | :-- | :----- |
-| [oracle-bone](./base/oracle-bone) | `OracleBoneMark` | Oracle bone script (甲骨文) | ~1200-1000 BCE | China |
-| [bronze-script](./base/bronze-script) | `BronzeScriptMark` | Bronze inscriptions (金文) | ~1000-700 BCE | China |
-| [proto-sinaitic](./base/proto-sinaitic) | `ProtoSinaiticMark` | Proto-Sinaitic | ~1800 BCE | Sinai Peninsula |
-| [proto-canaanite](./base/proto-canaanite) | `ProtoCanaaniteMark` | Proto-Canaanite | ~1600-1200 BCE | Levant |
-| [phaistos-disk](./base/phaistos-disk) | `PhaistosDiscMark` | Phaistos Disc signs | ~1700 BCE | Crete |
-| [mayan-hieroglyphs](./base/mayan-hieroglyphs) | `MayanHieroglyphsMark` | Mayan hieroglyphs | ~300 BCE-1500 CE | Mesoamerica |
-| [gupta](./base/gupta) | `GuptaMark` | Gupta script | ~320-550 CE | India |
+| font                                          | family                 | script                      | era              | region          |
+| :-------------------------------------------- | :--------------------- | :-------------------------- | :--------------- | :-------------- |
+| [oracle-bone](./base/oracle-bone)             | `OracleBoneMark`       | Oracle bone script (甲骨文) | ~1200-1000 BCE   | China           |
+| [bronze-script](./base/bronze-script)         | `BronzeScriptMark`     | Bronze inscriptions (金文)  | ~1000-700 BCE    | China           |
+| [proto-sinaitic](./base/proto-sinaitic)       | `ProtoSinaiticMark`    | Proto-Sinaitic              | ~1800 BCE        | Sinai Peninsula |
+| [proto-canaanite](./base/proto-canaanite)     | `ProtoCanaaniteMark`   | Proto-Canaanite             | ~1600-1200 BCE   | Levant          |
+| [phaistos-disk](./base/phaistos-disk)         | `PhaistosDiscMark`     | Phaistos Disc signs         | ~1700 BCE        | Crete           |
+| [mayan-hieroglyphs](./base/mayan-hieroglyphs) | `MayanHieroglyphsMark` | Mayan hieroglyphs           | ~300 BCE-1500 CE | Mesoamerica     |
+| [gupta](./base/gupta)                         | `GuptaMark`            | Gupta script                | ~320-550 CE      | India           |
 
 ## Structure
 
@@ -49,8 +49,7 @@ base/<name>/
 Shared build utilities live in `./code/`:
 
 - `make-font.ts` - SVG-to-OpenType conversion helpers
-- `diff-mark.ts` - compare CSV glyph lists against SVG directories
-- `update-font-metadata.ts` - update metadata on existing font files
+- `update-metadata.ts` - update metadata on existing font files
 
 ## License
 
