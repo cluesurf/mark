@@ -31,7 +31,7 @@ script while making it accessible as a standard OpenType font.
 | [proto-sinaitic](./base/proto-sinaitic)       | `ProtoSinaiticMark`    | Proto-Sinaitic              | ~1800 BCE        | Sinai Peninsula |
 | [proto-canaanite](./base/proto-canaanite)     | `ProtoCanaaniteMark`   | Proto-Canaanite             | ~1600-1200 BCE   | Levant          |
 | [phaistos-disk](./base/phaistos-disk)         | `PhaistosDiscMark`     | Phaistos Disc signs         | ~1700 BCE        | Crete           |
-| [mayan-hieroglyphs](./base/mayan-hieroglyphs) | `MayanHieroglyphsMark` | Mayan hieroglyphs           | ~300 BCE-1500 CE | Mesoamerica     |
+| [mayan-hieroglyph](./base/mayan-hieroglyph) | `MayanHieroglyphMark` | Mayan hieroglyphs           | ~300 BCE-1500 CE | Mesoamerica     |
 | [gupta](./base/gupta)                         | `GuptaMark`            | Gupta script                | ~320-550 CE      | India           |
 
 ## Structure

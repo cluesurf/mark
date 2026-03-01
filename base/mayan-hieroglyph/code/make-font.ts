@@ -19,7 +19,7 @@ const baseDir = path.join(__dirname, '..', 'base')
 const HANGUL_BASE = 0xac00
 
 async function main() {
-  console.log('Generating MayanHieroglyphsMark font...\n')
+  console.log('Generating MayanHieroglyphMark font...\n')
 
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
@@ -69,12 +69,12 @@ async function main() {
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, {
-    fontFamily: 'MayanHieroglyphsMark',
+    fontFamily: 'MayanHieroglyphMark',
     description:
       'Mayan hieroglyphic script font mapped to the Korean Hangul Syllables block.',
   })
 
-  await writeFont(font, path.join(baseDir, 'MayanHieroglyphsMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MayanHieroglyphMark.otf'))
 
   // Write out the mapping so we know which glyph is at which codepoint.
   const mappingPath = path.join(baseDir, 'mapping.json')
