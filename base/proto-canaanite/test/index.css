@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'CrowMark';
+  src: url('./CrowMark.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LeafMark';
+  src: url('../base/LeafMark-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LeafMarkLine';
+  src: url('../base/LeafMarkLine-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  word-break: break-all;
+  font-family: monospace;
+  line-height: 1;
+  font-size: 16px;
+  word-break: normal;
+  display: block;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 128px;
+}
+
+p {
+  margin-top: 48px;
+}
+
+.font-sans-serif,
+.font-sans-serif * {
+  font-family: sans-serif;
+}
+
+.font-monospace,
+.font-monospace * {
+  font-family: monospace;
+}
+
+.font-leafmark,
+.font-leafmark * {
+  font-family: LeafMark;
+}
+
+.font-leafmark-line,
+.font-leafmark-line * {
+  font-family: LeafMarkLine;
+}
+
+.font-size-large {
+  font-size: 192px;
+}
+
+.font-size-medium {
+  font-size: 96px;
+}
+
+.font-size-64 {
+  font-size: 64px;
+}
+
+.font-size-small {
+  font-size: 24px;
+  word-break: normal;
+}
+
+.text-h1 {
+  color: #71717a;
+  /* zinc-500 */
+  font-size: 56px;
+  letter-spacing: 0.1rem;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+}
+
+.matrix {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 48px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  row-gap: 32px;
+  justify-content: center;
+}
+
+.list-item {
+  text-align: center;
+  visibility: hidden;
+  border-radius: 4px;
+  width: 64px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item.visible {
+  visibility: visible;
+}
+
+.list-item .font-leafmark-leaf {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.list-item .font-leafmark-leaf.right {
+  justify-content: flex-end;
+  transform: translateX(-5px);
+}
+
+.list-item .font-leafmark-leaf img {
+  height: 72px;
+  width: auto;
+}
+
+.list-item.error {
+  background-color: #f4f4f5;
+}
+
+.list-item .font-leafmark {
+  font-size: 72px;
+}
+
+.list-item .font-leafmark-line {
+  font-size: 56px;
+  padding-top: 12px;
+  margin-bottom: -8px;
+}
+
+.list-item .base-text {
+  text-align: center;
+  font-size: 16px;
+  color: #71717a;
+  /* zinc-900 */
+}
+
+.list-item.error .base-text {
+  color: #71717a;
+}
+
+.list-item.error img {
+  display: none;
+}
+
+.glyph-period {
+  line-height: 0;
+  margin-top: -32px;
+  margin-bottom: 16px;
+}
+
+.item-period .base-text {
+  margin-top: 24px;
+}
+
+.item-period {
+  margin-bottom: 16px;
+}
+
+.glyph-i,
+.glyph-e,
+.glyph-a,
+.glyph-o,
+.glyph-u {
+  /* line-height: 0.25; */
+  margin-top: -24px;
+  margin-bottom: -8px;
+}
+
+.glyph-m,
+.glyph-n,
+.glyph-q,
+.glyph-g,
+.glyph-d,
+.glyph-b,
+.glyph-p,
+.glyph-t,
+.glyph-k,
+.glyph-h,
+.glyph-s,
+.glyph-f,
+.glyph-v,
+.glyph-z,
+.glyph-j,
+.glyph-C,
+.glyph-c,
+.glyph-x,
+.glyph-w,
+.glyph-l,
+.glyph-r,
+.glyph-y {
+  /* line-height: 0.8; */
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.center {
+  text-align: center;
+}

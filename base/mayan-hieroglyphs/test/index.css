@@ -1,0 +1,132 @@
+body {
+  word-break: break-all;
+  font-family: Arial;
+  line-height: 1.5;
+  font-size: 24px;
+  word-break: normal;
+  display: block;
+  max-width: 896px;
+  margin: 0 auto;
+}
+
+.font-sans-serif,
+.font-sans-serif * {
+  font-family: sans-serif;
+}
+
+.font-monospace,
+.font-monospace * {
+  font-family: monospace;
+}
+
+.font-noto-sans-mono {
+  font-family: 'Noto Sans Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+.font-noto-sans-sc {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-noto-sans-tc {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-size-large {
+  font-size: 192px;
+}
+
+.font-size-small {
+  font-size: 24px;
+  word-break: normal;
+}
+
+.text-h1 {
+  color: #71717a;
+  /* zinc-500 */
+  font-size: 48px;
+  letter-spacing: 0.1rem;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.text-h2 {
+  color: #a1a1aa;
+  /* zinc-300 */
+  font-size: 24px;
+  letter-spacing: 0.08rem;
+  margin-bottom: 0px;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.text-h1-secondary {
+  color: #a1a1aa;
+}
+
+.text-h2-secondary {
+  color: #d4d4d8;
+}
+
+.text-body {
+  color: #18181b;
+  /* zinc-900 */
+}
+
+.content {
+  padding: 16px;
+  position: relative;
+  height: 100%;
+}
+
+.mark-flow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 8px;
+  position: relative;
+  padding: 32px 0px 0px 0px;
+  justify-content: center;
+}
+
+.mark-flow-dock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.mark-flow-dock-moon-mark {
+  display: block;
+  height: 64px;
+  width: 112px;
+  position: relative;
+}
+
+.mark-flow-dock.visible {
+  visibility: visible;
+}
+
+.mark-flow-dock-moon-mark {
+  height: 100%;
+}
+
+.mark-flow-dock.error {
+  background-color: #f4f4f5;
+  border-radius: 4px;
+}
+
+.mark-flow-dock.error img {
+  display: none;
+}

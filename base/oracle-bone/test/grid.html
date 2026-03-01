@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>WindMark Grid</title>
+    <style>
+      @font-face {
+        font-family: 'CrowMark';
+        src: url('CrowMark-Regular.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'WindMarkBone';
+        src: url('../base/bone/WindMarkBone.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'WindMarkCast';
+        src: url('../base/cast/WindMarkCast.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #fff;
+      }
+
+      .section-label {
+        font-family: 'CrowMark', sans-serif;
+        font-size: 14px;
+        color: #71717a;
+        padding: 16px 8px 8px 8px;
+        text-align: center;
+      }
+
+      .grid {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 1;
+        width: 840px;
+        margin: 0 auto;
+      }
+
+      .grid span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        font-size: 36px;
+        color: #18181b;
+      }
+
+      .grid-bone span {
+        font-family: 'WindMarkBone', sans-serif;
+      }
+
+      .grid-cast span {
+        font-family: 'WindMarkCast', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section-label">
+      WindMarkBone (Oracle Bone Script)
+    </div>
+    <div class="grid grid-bone" id="grid-bone"></div>
+    <div class="section-label">
+      WindMarkCast (Bronze Script)
+    </div>
+    <div class="grid grid-cast" id="grid-cast"></div>
+    <script src="index.js"></script>
+    <script>
+      function fillGrid(container, list) {
+        const parts = []
+        list.forEach(function (ch) {
+          parts.push('<span>' + ch + '</span>')
+        })
+        container.innerHTML = parts.join('')
+      }
+
+      fillGrid(document.getElementById('grid-bone'), MARK_BONE_LIST)
+      fillGrid(document.getElementById('grid-cast'), MARK_CAST_LIST)
+    </script>
+  </body>
+</html>

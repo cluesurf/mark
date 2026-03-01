@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>MoonMark Base SVG Tests</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="index.css"
+    />
+  </head>
+  <body class="font-noto-sans-mono">
+    <div class="content">
+      <h1 class="text-h1">
+        MoonMark <span class="text-h2-secondary">(SVGs)</span>
+      </h1>
+      <div
+        id="moon-mark"
+        class="text-body mark-flow"
+      ></div>
+    </div>
+    <script src="index.js"></script>
+    <script>
+      function draw(list, sourceDirectory) {
+        const text = []
+        list.forEach(mark => {
+          text.push(`<div class="mark-flow-dock">`)
+          text.push(`<div class="mark-flow-dock-moon-mark">`)
+          text.push(
+            `<img src="../${sourceDirectory}/${mark.key}.svg" onload="this.parentElement.parentElement.classList.add('visible');" onerror="this.parentElement.parentElement.classList.add('error', 'visible');" />`,
+          )
+          text.push(`</div>`)
+          // text.push(
+          //   `<div class="mark-flow-dock-base-mark">${mark}</div>`,
+          // )
+          text.push(`</div>`)
+        })
+        return text.join('')
+      }
+
+      document.querySelector('#moon-mark').innerHTML = draw(
+        MOON_MARK_LIST,
+        'base/mark',
+      )
+    </script>
+  </body>
+</html>

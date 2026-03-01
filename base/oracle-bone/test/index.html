@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>WindMark Base SVG Tests</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="index.css"
+    />
+  </head>
+  <body class="font-noto-sans-mono">
+    <div class="content">
+      <h1 class="text-h1">
+        WindMark <span class="text-h2-secondary">(SVGs)</span>
+      </h1>
+      <h2 class="text-h2">
+        WindMarkBone
+        <span class="text-h2-secondary">(Oracle Bone Script)</span>
+      </h2>
+      <div
+        id="wind-mark-bone"
+        class="text-body mark-flow"
+      ></div>
+    </div>
+    <div class="content">
+      <h2 class="text-h2">
+        WindMarkCast
+        <span class="text-h2-secondary">(Bronze Script)</span>
+      </h2>
+      <div
+        id="wind-mark-cast"
+        class="text-body mark-flow"
+      ></div>
+    </div>
+    <script src="index.js"></script>
+    <script>
+      function draw(list, sourceDirectory) {
+        const text = []
+        list.forEach(mark => {
+          text.push(`<div class="mark-flow-dock">`)
+          text.push(`<div class="mark-flow-dock-wind-mark">`)
+          text.push(
+            `<img src="../${sourceDirectory}/${mark}.svg" onload="this.parentElement.parentElement.classList.add('visible');" onerror="this.parentElement.parentElement.classList.add('error', 'visible');" />`,
+          )
+          text.push(`</div>`)
+          text.push(
+            `<div class="mark-flow-dock-base-mark">${mark}</div>`,
+          )
+          text.push(`</div>`)
+        })
+        return text.join('')
+      }
+
+      document.querySelector('#wind-mark-bone').innerHTML = draw(
+        MARK_BONE_LIST,
+        'base/bone/mark',
+      )
+
+      document.querySelector('#wind-mark-cast').innerHTML = draw(
+        MARK_CAST_LIST,
+        'base/cast/mark',
+      )
+    </script>
+  </body>
+</html>

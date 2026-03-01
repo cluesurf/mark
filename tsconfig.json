@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2022",
+    "lib": ["es2020"],
+    "outDir": "host",
+    "rootDir": "code",
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noErrorTruncation": true,
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "~/*": ["./code/*"]
+    }
+  },
+  "include": ["code"],
+  "exclude": ["node_modules", "host"]
+}
