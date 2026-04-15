@@ -1,6 +1,6 @@
 {
   "name": "@cluesurf/mark",
-  "version": "0.1.0",
+  "version": "0.6.0",
   "type": "module",
   "scripts": {
     "make": "rm -rf host && tsc && tsc-alias",
