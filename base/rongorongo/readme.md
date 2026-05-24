@@ -53,6 +53,10 @@ its decipherment debates. For full scholarly reference and authentic
 sign records, visit
 [kohaumotu.org/rongorongo_org](http://kohaumotu.org/rongorongo_org/signs/g001099.html).
 
+<p align='center'>
+  <img src='https://github.com/cluesurf/dock/blob/make/base/rongorongo/view/demo.png?raw=true' />
+</p>
+
 ## Font
 
 | font family      | # glyphs | description       |
@@ -60,11 +64,11 @@ sign records, visit
 | `RongoRongoMark` | 600      | Rongorongo script |
 
 The **600 glyphs** are mapped sequentially to the
-[Egyptian Hieroglyphs](https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block))
+[Egyptian Hieroglyphs](<https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)>)
 Unicode block, starting at **U+13000**. Rongorongo has no codepoints of
 its own in Unicode, so this block was chosen as a host for its similar
-pictographic character. See
-[`./base/mapping.json`](./base/mapping.json) for the full glyph-to-codepoint mapping.
+pictographic character. See [`./base/mapping.json`](./base/mapping.json)
+for the full glyph-to-codepoint mapping.
 
 Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/rongorongo/base)
