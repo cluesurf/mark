@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>rongo-rongo</h3>
+<h3 align='center'>rongorongo</h3>
 <p align='center'>
   A Rongorongo Script Font
 </p>
@@ -57,9 +57,9 @@ sign records, visit
 
 | font family      | # glyphs | description       |
 | :--------------- | :------- | :---------------- |
-| `RongoRongoMark` | 300      | Rongorongo script |
+| `RongoRongoMark` | 600      | Rongorongo script |
 
-The **300 glyphs** are mapped sequentially to the
+The **600 glyphs** are mapped sequentially to the
 [Egyptian Hieroglyphs](https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block))
 Unicode block, starting at **U+13000**. Rongorongo has no codepoints of
 its own in Unicode, so this block was chosen as a host for its similar
@@ -67,13 +67,13 @@ pictographic character. See
 [`./base/mapping.json`](./base/mapping.json) for the full glyph-to-codepoint mapping.
 
 Fonts are in the
-[`./base`](https://github.com/cluesurf/mark/tree/make/base/rongo-rongo/base)
+[`./base`](https://github.com/cluesurf/mark/tree/make/base/rongorongo/base)
 folder.
 
 ## Glyphs
 
 <p align='center'>
-  <img src='https://github.com/cluesurf/mark/blob/make/base/rongo-rongo/view/list.png?raw=true'>
+  <img src='https://github.com/cluesurf/mark/blob/make/base/rongorongo/view/list.png?raw=true'>
 </p>
 
 ## License
