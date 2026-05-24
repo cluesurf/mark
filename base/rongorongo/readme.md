@@ -72,6 +72,8 @@ folder.
 
 ## Glyphs
 
+Here's some of them, many many more in the font.
+
 <p align='center'>
   <img src='https://github.com/cluesurf/mark/blob/make/base/rongorongo/view/demo.png?raw=true' />
 </p>
