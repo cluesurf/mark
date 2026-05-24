@@ -53,10 +53,6 @@ its decipherment debates. For full scholarly reference and authentic
 sign records, visit
 [kohaumotu.org/rongorongo_org](http://kohaumotu.org/rongorongo_org/signs/g001099.html).
 
-<p align='center'>
-  <img src='https://github.com/cluesurf/dock/blob/make/base/rongorongo/view/demo.png?raw=true' />
-</p>
-
 ## Font
 
 | font family      | # glyphs | description       |
@@ -77,7 +73,7 @@ folder.
 ## Glyphs
 
 <p align='center'>
-  <img src='https://github.com/cluesurf/mark/blob/make/base/rongorongo/view/list.png?raw=true'>
+  <img src='https://github.com/cluesurf/mark/blob/make/base/rongorongo/view/demo.png?raw=true' />
 </p>
 
 ## License
