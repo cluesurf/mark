@@ -51,6 +51,21 @@ async function main() {
 
   console.log(`Found ${svgFiles.length} SVGs`)
 
+  const present = new Set(
+    svgFiles.map(f => parseInt(path.basename(f, '.svg'), 10)),
+  )
+  const missing: Array<number> = []
+  for (let n = 1; n <= 800; n++) {
+    if (!present.has(n)) missing.push(n)
+  }
+  if (missing.length > 0) {
+    console.log(
+      `Missing ${missing.length} of 1-800: ${missing.join(', ')}`,
+    )
+  } else {
+    console.log('No missing numbers in 1-800.')
+  }
+
   const glyphs: Array<opentype.Glyph> = [createNotdefGlyph()]
   const mapping: Array<{ key: string; codepoint: string }> = []
   let processed = 0
