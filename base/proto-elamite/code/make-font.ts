@@ -9,6 +9,7 @@ import {
   writeFont,
   UNITS_PER_EM,
   ASCENDER,
+  DESCENDER,
 } from '../../../code/make-font'
 import opentype from 'opentype.js'
 
@@ -20,23 +21,12 @@ const baseDir = path.join(__dirname, '..', 'base')
 // read in order from `base/hangul-ks-x-1001.csv`.
 const CODEPOINT_CSV = 'hangul-ks-x-1001.csv'
 
-type ViewBox = { x: number; y: number; w: number; h: number }
 type Matrix = [number, number, number, number, number, number]
 
 // The glyph SVGs come from the CDLI proto-elamite sign list, converted
 // via pdftocairo. Each <path> carries its own affine transform (usually
-// matrix(0.1,0,0,-0.1,0,108)) and the viewBox has a non-zero x origin
-// (from the fit-width trim), so both must be applied per path.
-
-function extractViewBox(svg: string): ViewBox | null {
-  const m = svg.match(
-    /viewBox="\s*([-\d.]+)\s+([-\d.]+)\s+([\d.]+)\s+([\d.]+)\s*"/,
-  )
-  if (!m) {
-    return null
-  }
-  return { x: +m[1]!, y: +m[2]!, w: +m[3]!, h: +m[4]! }
-}
+// matrix(0.1,0,0,-0.1,0,108)); it is applied so all glyphs land in one
+// common coordinate space before a single global scale is computed.
 
 function extractPaths(
   svg: string,
@@ -97,10 +87,29 @@ async function main() {
     )
   }
 
-  const glyphs: Array<opentype.Glyph> = [createNotdefGlyph()]
-  const mapping: Array<{ key: string; codepoint: string }> = []
-  let processed = 0
+  // Glyphs are centered on the em's vertical middle and share ONE global
+  // scale (the tallest sign fills the target ink height). This keeps
+  // relative sizes, trims the common top/bottom whitespace, and keeps
+  // the outlier signs (whose source boxes are short) from ballooning.
+  const CENTER_Y = (ASCENDER + DESCENDER) / 2
+  const TARGET_INK_HEIGHT = UNITS_PER_EM * 0.94
+  const SIDE_BEARING = 40
+
+  type Item = {
+    key: string
+    codePoint: number
+    vbPath: opentype.Path
+    minX: number
+    minY: number
+    inkW: number
+    inkH: number
+  }
+
+  // Pass 1: parse each glyph into a common (viewBox) space and measure
+  // its ink box, tracking the tallest ink height across all glyphs.
+  const items: Array<Item> = []
   let skipped = 0
+  let globalMaxInkH = 0
 
   for (let i = 0; i < svgFiles.length; i++) {
     const file = svgFiles[i]!
@@ -109,13 +118,6 @@ async function main() {
 
     try {
       const svg = await fs.readFile(path.join(svgDir, file), 'utf-8')
-      const vb = extractViewBox(svg)
-      if (!vb) {
-        console.warn(`  skip ${file}: no viewBox`)
-        skipped++
-        continue
-      }
-
       const paths = extractPaths(svg)
       if (paths.length === 0) {
         console.warn(`  skip ${file}: no <path> found`)
@@ -123,42 +125,88 @@ async function main() {
         continue
       }
 
-      // Scale so the SVG height maps to the full em, preserving aspect.
-      const scale = UNITS_PER_EM / vb.h
-      const combined = new opentype.Path()
-
+      // Apply each path's own affine matrix so all glyphs share one
+      // coordinate space (y-down). No scaling yet.
+      const vbPath = new opentype.Path()
       for (const p of paths) {
         const mat = p.matrix
-        const transform = (
-          x: number,
-          y: number,
-        ): [number, number] => {
-          // First apply the path's own affine matrix (SVG user space),
-          // then map into font space (origin-shifted, y flipped up).
-          const ux = mat ? mat[0] * x + mat[2] * y + mat[4] : x
-          const uy = mat ? mat[1] * x + mat[3] * y + mat[5] : y
-          return [(ux - vb.x) * scale, ASCENDER - (uy - vb.y) * scale]
-        }
-
-        const sub = svgPathToOpentype(p.d, transform)
+        const toVb = (x: number, y: number): [number, number] => [
+          mat ? mat[0] * x + mat[2] * y + mat[4] : x,
+          mat ? mat[1] * x + mat[3] * y + mat[5] : y,
+        ]
+        const sub = svgPathToOpentype(p.d, toVb)
         for (const cmd of sub.commands) {
-          combined.commands.push(cmd)
+          vbPath.commands.push(cmd)
         }
       }
 
-      const advanceWidth = Math.round(vb.w * scale)
-      glyphs.push(createGlyph(codePoint, combined, advanceWidth))
+      const bb = vbPath.getBoundingBox()
+      const inkW = bb.x2 - bb.x1
+      const inkH = bb.y2 - bb.y1
+      if (!(inkW > 0) || !(inkH > 0)) {
+        console.warn(`  skip ${file}: empty ink box`)
+        skipped++
+        continue
+      }
 
-      const hexCode = codePoint
-        .toString(16)
-        .toUpperCase()
-        .padStart(4, '0')
-      mapping.push({ key, codepoint: `U+${hexCode}` })
-      processed++
+      items.push({
+        key,
+        codePoint,
+        vbPath,
+        minX: bb.x1,
+        minY: bb.y1,
+        inkW,
+        inkH,
+      })
+      globalMaxInkH = Math.max(globalMaxInkH, inkH)
     } catch (err) {
       console.warn(`  error ${file}:`, err)
       skipped++
     }
+  }
+
+  const globalScale = TARGET_INK_HEIGHT / globalMaxInkH
+  console.log(
+    `Global scale ${globalScale.toFixed(4)} (tallest ink ${globalMaxInkH.toFixed(1)})`,
+  )
+
+  // Pass 2: place each glyph with the shared scale, ink-centered on the
+  // em, advance width tight to the (scaled) ink plus a small bearing.
+  const glyphs: Array<opentype.Glyph> = [createNotdefGlyph()]
+  const mapping: Array<{ key: string; codepoint: string }> = []
+  let processed = 0
+
+  for (const it of items) {
+    const glyphH = it.inkH * globalScale
+    const top = CENTER_Y + glyphH / 2
+
+    const map = (x: number, y: number): [number, number] => [
+      (x - it.minX) * globalScale + SIDE_BEARING,
+      top - (y - it.minY) * globalScale,
+    ]
+
+    const finalPath = new opentype.Path()
+    for (const cmd of it.vbPath.commands) {
+      const nc: opentype.PathCommand = { ...cmd }
+      const c = cmd as { x1?: number; y1?: number; x2?: number; y2?: number; x?: number; y?: number }
+      const n = nc as { x1?: number; y1?: number; x2?: number; y2?: number; x?: number; y?: number }
+      if ('x1' in cmd) [n.x1, n.y1] = map(c.x1!, c.y1!)
+      if ('x2' in cmd) [n.x2, n.y2] = map(c.x2!, c.y2!)
+      if ('x' in cmd) [n.x, n.y] = map(c.x!, c.y!)
+      finalPath.commands.push(nc)
+    }
+
+    const advanceWidth = Math.round(
+      it.inkW * globalScale + 2 * SIDE_BEARING,
+    )
+    glyphs.push(createGlyph(it.codePoint, finalPath, advanceWidth))
+
+    const hexCode = it.codePoint
+      .toString(16)
+      .toUpperCase()
+      .padStart(4, '0')
+    mapping.push({ key: it.key, codepoint: `U+${hexCode}` })
+    processed++
   }
 
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
