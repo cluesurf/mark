@@ -37,6 +37,32 @@ making it accessible as a standard OpenType font.
 | [rongorongo](./base/rongorongo)             | Rongorongo                  | ~1200-1860 CE    | Easter Island | ✅     |
 | [cascajal](./base/cascajal)                 | Cascajal Block signs        | ~900 BCE         | Mesoamerica   | ✅     |
 | [isthmian-script](./base/isthmian-script)   | Isthmian script             | ~500 BCE-500 CE  | Mesoamerica   | ✅     |
+| proto-elamite                               | Proto-Elamite               | ~3100-2900 BCE   | Iran          | TODO   |
+| indus-script                                | Indus / Harappan            | ~2600-1900 BCE   | Indus Valley  | TODO   |
+| naxi-dongba                                 | Naxi Dongba                 | ~7th C CE-now    | China         | TODO   |
+| cretan-hieroglyph                           | Cretan hieroglyphs          | ~2100-1700 BCE   | Crete         | TODO   |
+| linear-elamite                              | Linear Elamite              | ~2300-2000 BCE   | Iran          | TODO   |
+| byblos-syllabary                            | Byblos syllabary            | ~2000-1500 BCE   | Levant        | TODO   |
+| zapotec                                     | Zapotec script              | ~500 BCE-800 CE  | Mesoamerica   | TODO   |
+| mixtec                                      | Mixtec script               | ~1000-1500 CE    | Mesoamerica   | TODO   |
+| teotihuacan                                 | Teotihuacan glyphs          | ~100-550 CE      | Mesoamerica   | TODO   |
+| hieratic                                    | Hieratic                    | ~3200 BCE-300 CE | Egypt         | TODO   |
+| demotic                                     | Demotic                     | ~650 BCE-450 CE  | Egypt         | TODO   |
+| nsibidi                                     | Nsibidi                     | ~500 CE-now      | West Africa   | TODO   |
+| woleai                                      | Woleai / Caroline Is.       | ~1900 CE         | Micronesia    | TODO   |
+| vinca-symbol                                | Vinča / Danube symbols      | ~5300-4000 BCE   | SE Europe     | TODO   |
+| jiahu-symbol                                | Jiahu symbols               | ~6600 BCE        | China         | TODO   |
+| dispilio                                    | Dispilio tablet             | ~5200 BCE        | Greece        | TODO   |
+| northeastern-iberian                        | NE Iberian                  | ~500-100 BCE     | Iberia        | TODO   |
+| tartessian                                  | Tartessian (SW)             | ~700-500 BCE     | Iberia        | TODO   |
+| cypro-minoan                                | Cypro-Minoan                | ~1550-1050 BCE   | Cyprus        | TODO   |
+| linear-a                                    | Linear A                    | ~1800-1450 BCE   | Crete         | TODO   |
+| anatolian-hieroglyph                        | Anatolian / Luwian          | ~1400-700 BCE    | Anatolia      | TODO   |
+| meroitic                                    | Meroitic                    | ~300 BCE-400 CE  | Nubia         | TODO   |
+| old-south-arabian                           | Old South Arabian           | ~900 BCE-600 CE  | Arabia        | TODO   |
+| tangut                                      | Tangut                      | ~1036-1500 CE    | China         | TODO   |
+| khitan-small                                | Khitan small script         | ~920-1250 CE     | China         | TODO   |
+| nushu                                       | Nüshu                       | ~1500 CE-now     | China         | TODO   |
 
 ## Structure
 
