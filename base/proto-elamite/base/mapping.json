@@ -1,0 +1,5318 @@
+[
+  {
+    "key": "M001+M379-C",
+    "codepoint": "U+AC00"
+  },
+  {
+    "key": "M001+M379-D",
+    "codepoint": "U+AC01"
+  },
+  {
+    "key": "M001-B",
+    "codepoint": "U+AC04"
+  },
+  {
+    "key": "M001",
+    "codepoint": "U+AC07"
+  },
+  {
+    "key": "M002+M379",
+    "codepoint": "U+AC08"
+  },
+  {
+    "key": "M002-B",
+    "codepoint": "U+AC09"
+  },
+  {
+    "key": "M002",
+    "codepoint": "U+AC0A"
+  },
+  {
+    "key": "M003-B+M379-C",
+    "codepoint": "U+AC10"
+  },
+  {
+    "key": "M003-B",
+    "codepoint": "U+AC11"
+  },
+  {
+    "key": "M003-C",
+    "codepoint": "U+AC12"
+  },
+  {
+    "key": "M003",
+    "codepoint": "U+AC13"
+  },
+  {
+    "key": "M004",
+    "codepoint": "U+AC14"
+  },
+  {
+    "key": "M005-A",
+    "codepoint": "U+AC15"
+  },
+  {
+    "key": "M005",
+    "codepoint": "U+AC16"
+  },
+  {
+    "key": "M006-B",
+    "codepoint": "U+AC17"
+  },
+  {
+    "key": "M006-B@g",
+    "codepoint": "U+AC19"
+  },
+  {
+    "key": "M006",
+    "codepoint": "U+AC1A"
+  },
+  {
+    "key": "M006@g",
+    "codepoint": "U+AC1B"
+  },
+  {
+    "key": "M007-A",
+    "codepoint": "U+AC1C"
+  },
+  {
+    "key": "M007-B",
+    "codepoint": "U+AC1D"
+  },
+  {
+    "key": "M007-C",
+    "codepoint": "U+AC20"
+  },
+  {
+    "key": "M007-D",
+    "codepoint": "U+AC24"
+  },
+  {
+    "key": "M009-A",
+    "codepoint": "U+AC2C"
+  },
+  {
+    "key": "M009-C",
+    "codepoint": "U+AC2D"
+  },
+  {
+    "key": "M009-D+M346+M009-D",
+    "codepoint": "U+AC2F"
+  },
+  {
+    "key": "M009-E",
+    "codepoint": "U+AC30"
+  },
+  {
+    "key": "M009-F",
+    "codepoint": "U+AC31"
+  },
+  {
+    "key": "M009-G",
+    "codepoint": "U+AC38"
+  },
+  {
+    "key": "M009-H",
+    "codepoint": "U+AC39"
+  },
+  {
+    "key": "M009-I",
+    "codepoint": "U+AC3C"
+  },
+  {
+    "key": "M009",
+    "codepoint": "U+AC40"
+  },
+  {
+    "key": "M010",
+    "codepoint": "U+AC4B"
+  },
+  {
+    "key": "M011",
+    "codepoint": "U+AC4D"
+  },
+  {
+    "key": "M012",
+    "codepoint": "U+AC54"
+  },
+  {
+    "key": "M014-A",
+    "codepoint": "U+AC58"
+  },
+  {
+    "key": "M014-B",
+    "codepoint": "U+AC5C"
+  },
+  {
+    "key": "M015",
+    "codepoint": "U+AC70"
+  },
+  {
+    "key": "M016",
+    "codepoint": "U+AC71"
+  },
+  {
+    "key": "M017",
+    "codepoint": "U+AC74"
+  },
+  {
+    "key": "M018",
+    "codepoint": "U+AC77"
+  },
+  {
+    "key": "M021",
+    "codepoint": "U+AC78"
+  },
+  {
+    "key": "M024-A",
+    "codepoint": "U+AC7A"
+  },
+  {
+    "key": "M024",
+    "codepoint": "U+AC80"
+  },
+  {
+    "key": "M025-A",
+    "codepoint": "U+AC81"
+  },
+  {
+    "key": "M025",
+    "codepoint": "U+AC83"
+  },
+  {
+    "key": "M026-A",
+    "codepoint": "U+AC84"
+  },
+  {
+    "key": "M026-B",
+    "codepoint": "U+AC85"
+  },
+  {
+    "key": "M026-D",
+    "codepoint": "U+AC86"
+  },
+  {
+    "key": "M026-H",
+    "codepoint": "U+AC89"
+  },
+  {
+    "key": "M029-A",
+    "codepoint": "U+AC8A"
+  },
+  {
+    "key": "M029-B",
+    "codepoint": "U+AC8B"
+  },
+  {
+    "key": "M029-C",
+    "codepoint": "U+AC8C"
+  },
+  {
+    "key": "M029-D",
+    "codepoint": "U+AC90"
+  },
+  {
+    "key": "M029-E",
+    "codepoint": "U+AC94"
+  },
+  {
+    "key": "M029-L+1(N08A)",
+    "codepoint": "U+AC9C"
+  },
+  {
+    "key": "M029-L",
+    "codepoint": "U+AC9D"
+  },
+  {
+    "key": "M029",
+    "codepoint": "U+AC9F"
+  },
+  {
+    "key": "M030-A",
+    "codepoint": "U+ACA0"
+  },
+  {
+    "key": "M030-C",
+    "codepoint": "U+ACA1"
+  },
+  {
+    "key": "M030-G",
+    "codepoint": "U+ACA8"
+  },
+  {
+    "key": "M032-A",
+    "codepoint": "U+ACA9"
+  },
+  {
+    "key": "M032-B",
+    "codepoint": "U+ACAA"
+  },
+  {
+    "key": "M032-D",
+    "codepoint": "U+ACAC"
+  },
+  {
+    "key": "M032-E",
+    "codepoint": "U+ACAF"
+  },
+  {
+    "key": "M032",
+    "codepoint": "U+ACB0"
+  },
+  {
+    "key": "M033-A",
+    "codepoint": "U+ACB8"
+  },
+  {
+    "key": "M033-C",
+    "codepoint": "U+ACB9"
+  },
+  {
+    "key": "M033",
+    "codepoint": "U+ACBB"
+  },
+  {
+    "key": "M034-A",
+    "codepoint": "U+ACBC"
+  },
+  {
+    "key": "M034",
+    "codepoint": "U+ACBD"
+  },
+  {
+    "key": "M035",
+    "codepoint": "U+ACC1"
+  },
+  {
+    "key": "M036+1(N14)",
+    "codepoint": "U+ACC4"
+  },
+  {
+    "key": "M036+1(N24)+M343-H",
+    "codepoint": "U+ACC8"
+  },
+  {
+    "key": "M036+1(N24)",
+    "codepoint": "U+ACCC"
+  },
+  {
+    "key": "M036+1(N30C)+1(N39C)",
+    "codepoint": "U+ACD5"
+  },
+  {
+    "key": "M036+1(N30C)",
+    "codepoint": "U+ACD7"
+  },
+  {
+    "key": "M036+1(N30D)+M343-H",
+    "codepoint": "U+ACE0"
+  },
+  {
+    "key": "M036+1(N30D)",
+    "codepoint": "U+ACE1"
+  },
+  {
+    "key": "M036+1(N39B)+M343-H",
+    "codepoint": "U+ACE4"
+  },
+  {
+    "key": "M036+1(N39B)",
+    "codepoint": "U+ACE7"
+  },
+  {
+    "key": "M036+1(N39C)",
+    "codepoint": "U+ACE8"
+  },
+  {
+    "key": "M036+M010",
+    "codepoint": "U+ACEA"
+  },
+  {
+    "key": "M036+M035",
+    "codepoint": "U+ACEC"
+  },
+  {
+    "key": "M036+M343-E",
+    "codepoint": "U+ACEF"
+  },
+  {
+    "key": "M036+M343-H",
+    "codepoint": "U+ACF0"
+  },
+  {
+    "key": "M036-A",
+    "codepoint": "U+ACF1"
+  },
+  {
+    "key": "M036",
+    "codepoint": "U+ACF3"
+  },
+  {
+    "key": "M037-A",
+    "codepoint": "U+ACF5"
+  },
+  {
+    "key": "M037",
+    "codepoint": "U+ACF6"
+  },
+  {
+    "key": "M038-A",
+    "codepoint": "U+ACFC"
+  },
+  {
+    "key": "M038-B",
+    "codepoint": "U+ACFD"
+  },
+  {
+    "key": "M038-E",
+    "codepoint": "U+AD00"
+  },
+  {
+    "key": "M038-F",
+    "codepoint": "U+AD04"
+  },
+  {
+    "key": "M038-H",
+    "codepoint": "U+AD06"
+  },
+  {
+    "key": "M038-I",
+    "codepoint": "U+AD0C"
+  },
+  {
+    "key": "M039+1(N30D)",
+    "codepoint": "U+AD0D"
+  },
+  {
+    "key": "M039-A",
+    "codepoint": "U+AD0F"
+  },
+  {
+    "key": "M039-B",
+    "codepoint": "U+AD11"
+  },
+  {
+    "key": "M039-C+1(N30D)",
+    "codepoint": "U+AD18"
+  },
+  {
+    "key": "M039-C",
+    "codepoint": "U+AD1C"
+  },
+  {
+    "key": "M039-CA+1(N30D)",
+    "codepoint": "U+AD20"
+  },
+  {
+    "key": "M039-D",
+    "codepoint": "U+AD29"
+  },
+  {
+    "key": "M039-E",
+    "codepoint": "U+AD2C"
+  },
+  {
+    "key": "M039-F",
+    "codepoint": "U+AD2D"
+  },
+  {
+    "key": "M039-G",
+    "codepoint": "U+AD34"
+  },
+  {
+    "key": "M039",
+    "codepoint": "U+AD35"
+  },
+  {
+    "key": "M041-C",
+    "codepoint": "U+AD38"
+  },
+  {
+    "key": "M041-D",
+    "codepoint": "U+AD3C"
+  },
+  {
+    "key": "M041-E",
+    "codepoint": "U+AD44"
+  },
+  {
+    "key": "M041-F",
+    "codepoint": "U+AD45"
+  },
+  {
+    "key": "M041-G",
+    "codepoint": "U+AD47"
+  },
+  {
+    "key": "M041-J",
+    "codepoint": "U+AD49"
+  },
+  {
+    "key": "M041",
+    "codepoint": "U+AD50"
+  },
+  {
+    "key": "M043",
+    "codepoint": "U+AD54"
+  },
+  {
+    "key": "M044-A",
+    "codepoint": "U+AD58"
+  },
+  {
+    "key": "M044-B",
+    "codepoint": "U+AD61"
+  },
+  {
+    "key": "M044-M",
+    "codepoint": "U+AD63"
+  },
+  {
+    "key": "M044",
+    "codepoint": "U+AD6C"
+  },
+  {
+    "key": "M045-B",
+    "codepoint": "U+AD6D"
+  },
+  {
+    "key": "M046-A",
+    "codepoint": "U+AD70"
+  },
+  {
+    "key": "M046",
+    "codepoint": "U+AD73"
+  },
+  {
+    "key": "M047",
+    "codepoint": "U+AD74"
+  },
+  {
+    "key": "M048-C",
+    "codepoint": "U+AD75"
+  },
+  {
+    "key": "M048-D",
+    "codepoint": "U+AD76"
+  },
+  {
+    "key": "M048-E",
+    "codepoint": "U+AD7B"
+  },
+  {
+    "key": "M048-G",
+    "codepoint": "U+AD7C"
+  },
+  {
+    "key": "M048-I",
+    "codepoint": "U+AD7D"
+  },
+  {
+    "key": "M048-K",
+    "codepoint": "U+AD7F"
+  },
+  {
+    "key": "M049-B",
+    "codepoint": "U+AD81"
+  },
+  {
+    "key": "M049-C",
+    "codepoint": "U+AD82"
+  },
+  {
+    "key": "M049-D",
+    "codepoint": "U+AD88"
+  },
+  {
+    "key": "M049-DA",
+    "codepoint": "U+AD89"
+  },
+  {
+    "key": "M049-E",
+    "codepoint": "U+AD8C"
+  },
+  {
+    "key": "M049-M",
+    "codepoint": "U+AD90"
+  },
+  {
+    "key": "M049-N",
+    "codepoint": "U+AD9C"
+  },
+  {
+    "key": "M050-F",
+    "codepoint": "U+AD9D"
+  },
+  {
+    "key": "M050-K",
+    "codepoint": "U+ADA4"
+  },
+  {
+    "key": "M050-M",
+    "codepoint": "U+ADB7"
+  },
+  {
+    "key": "M050-N",
+    "codepoint": "U+ADC0"
+  },
+  {
+    "key": "M050-P",
+    "codepoint": "U+ADC1"
+  },
+  {
+    "key": "M050-Q",
+    "codepoint": "U+ADC4"
+  },
+  {
+    "key": "M051-A",
+    "codepoint": "U+ADC8"
+  },
+  {
+    "key": "M051-B",
+    "codepoint": "U+ADD0"
+  },
+  {
+    "key": "M051-C",
+    "codepoint": "U+ADD1"
+  },
+  {
+    "key": "M052-A",
+    "codepoint": "U+ADD3"
+  },
+  {
+    "key": "M052-B",
+    "codepoint": "U+ADDC"
+  },
+  {
+    "key": "M053-A",
+    "codepoint": "U+ADE0"
+  },
+  {
+    "key": "M053-B",
+    "codepoint": "U+ADE4"
+  },
+  {
+    "key": "M054+M365+M054-I",
+    "codepoint": "U+ADF8"
+  },
+  {
+    "key": "M054+M384-I+M054-I",
+    "codepoint": "U+ADF9"
+  },
+  {
+    "key": "M054+M393-F+M054-I",
+    "codepoint": "U+ADFC"
+  },
+  {
+    "key": "M054-B",
+    "codepoint": "U+ADFF"
+  },
+  {
+    "key": "M054-C",
+    "codepoint": "U+AE00"
+  },
+  {
+    "key": "M054-I",
+    "codepoint": "U+AE01"
+  },
+  {
+    "key": "M054",
+    "codepoint": "U+AE08"
+  },
+  {
+    "key": "M056-E",
+    "codepoint": "U+AE09"
+  },
+  {
+    "key": "M056-F",
+    "codepoint": "U+AE0B"
+  },
+  {
+    "key": "M056-G",
+    "codepoint": "U+AE0D"
+  },
+  {
+    "key": "M056",
+    "codepoint": "U+AE14"
+  },
+  {
+    "key": "M057+M291",
+    "codepoint": "U+AE30"
+  },
+  {
+    "key": "M057-A",
+    "codepoint": "U+AE31"
+  },
+  {
+    "key": "M057-B",
+    "codepoint": "U+AE34"
+  },
+  {
+    "key": "M057-D",
+    "codepoint": "U+AE37"
+  },
+  {
+    "key": "M057-E",
+    "codepoint": "U+AE38"
+  },
+  {
+    "key": "M057-F",
+    "codepoint": "U+AE3A"
+  },
+  {
+    "key": "M057-I",
+    "codepoint": "U+AE40"
+  },
+  {
+    "key": "M057-N",
+    "codepoint": "U+AE41"
+  },
+  {
+    "key": "M057",
+    "codepoint": "U+AE43"
+  },
+  {
+    "key": "M058-B",
+    "codepoint": "U+AE45"
+  },
+  {
+    "key": "M058",
+    "codepoint": "U+AE46"
+  },
+  {
+    "key": "M059+M038-A",
+    "codepoint": "U+AE4A"
+  },
+  {
+    "key": "M059-A",
+    "codepoint": "U+AE4C"
+  },
+  {
+    "key": "M059-B",
+    "codepoint": "U+AE4D"
+  },
+  {
+    "key": "M059-D",
+    "codepoint": "U+AE4E"
+  },
+  {
+    "key": "M059-F",
+    "codepoint": "U+AE50"
+  },
+  {
+    "key": "M059-G",
+    "codepoint": "U+AE54"
+  },
+  {
+    "key": "M059",
+    "codepoint": "U+AE56"
+  },
+  {
+    "key": "M061-A",
+    "codepoint": "U+AE5C"
+  },
+  {
+    "key": "M061-B",
+    "codepoint": "U+AE5D"
+  },
+  {
+    "key": "M061",
+    "codepoint": "U+AE5F"
+  },
+  {
+    "key": "M062-B",
+    "codepoint": "U+AE60"
+  },
+  {
+    "key": "M062",
+    "codepoint": "U+AE61"
+  },
+  {
+    "key": "M063-A",
+    "codepoint": "U+AE65"
+  },
+  {
+    "key": "M063",
+    "codepoint": "U+AE68"
+  },
+  {
+    "key": "M064-A",
+    "codepoint": "U+AE69"
+  },
+  {
+    "key": "M064-D",
+    "codepoint": "U+AE6C"
+  },
+  {
+    "key": "M064",
+    "codepoint": "U+AE70"
+  },
+  {
+    "key": "M066-A",
+    "codepoint": "U+AE78"
+  },
+  {
+    "key": "M066-G",
+    "codepoint": "U+AE79"
+  },
+  {
+    "key": "M066-H",
+    "codepoint": "U+AE7B"
+  },
+  {
+    "key": "M066",
+    "codepoint": "U+AE7C"
+  },
+  {
+    "key": "M068-A",
+    "codepoint": "U+AE7D"
+  },
+  {
+    "key": "M068-B",
+    "codepoint": "U+AE84"
+  },
+  {
+    "key": "M068-C",
+    "codepoint": "U+AE85"
+  },
+  {
+    "key": "M069-A",
+    "codepoint": "U+AE8C"
+  },
+  {
+    "key": "M069-AB",
+    "codepoint": "U+AEBC"
+  },
+  {
+    "key": "M069-AD",
+    "codepoint": "U+AEBD"
+  },
+  {
+    "key": "M069-B",
+    "codepoint": "U+AEBE"
+  },
+  {
+    "key": "M069-G",
+    "codepoint": "U+AEC0"
+  },
+  {
+    "key": "M071-A",
+    "codepoint": "U+AEC4"
+  },
+  {
+    "key": "M071-D",
+    "codepoint": "U+AECC"
+  },
+  {
+    "key": "M072-A",
+    "codepoint": "U+AECD"
+  },
+  {
+    "key": "M072",
+    "codepoint": "U+AECF"
+  },
+  {
+    "key": "M073-A",
+    "codepoint": "U+AED0"
+  },
+  {
+    "key": "M073-B",
+    "codepoint": "U+AED1"
+  },
+  {
+    "key": "M073-C",
+    "codepoint": "U+AED8"
+  },
+  {
+    "key": "M074-A",
+    "codepoint": "U+AED9"
+  },
+  {
+    "key": "M074-B",
+    "codepoint": "U+AEDC"
+  },
+  {
+    "key": "M074-D",
+    "codepoint": "U+AEE8"
+  },
+  {
+    "key": "M074-F",
+    "codepoint": "U+AEEB"
+  },
+  {
+    "key": "M074-G",
+    "codepoint": "U+AEED"
+  },
+  {
+    "key": "M075-A",
+    "codepoint": "U+AEF4"
+  },
+  {
+    "key": "M075-AB",
+    "codepoint": "U+AEF8"
+  },
+  {
+    "key": "M075-E",
+    "codepoint": "U+AEFC"
+  },
+  {
+    "key": "M075-FF",
+    "codepoint": "U+AF07"
+  },
+  {
+    "key": "M075-G",
+    "codepoint": "U+AF08"
+  },
+  {
+    "key": "M075-GA",
+    "codepoint": "U+AF0D"
+  },
+  {
+    "key": "M075-H",
+    "codepoint": "U+AF10"
+  },
+  {
+    "key": "M075-K",
+    "codepoint": "U+AF2C"
+  },
+  {
+    "key": "M075-M",
+    "codepoint": "U+AF2D"
+  },
+  {
+    "key": "M075-O",
+    "codepoint": "U+AF30"
+  },
+  {
+    "key": "M075-R",
+    "codepoint": "U+AF32"
+  },
+  {
+    "key": "M075-S",
+    "codepoint": "U+AF34"
+  },
+  {
+    "key": "M076-C",
+    "codepoint": "U+AF3C"
+  },
+  {
+    "key": "M076-e",
+    "codepoint": "U+AF3D"
+  },
+  {
+    "key": "M077",
+    "codepoint": "U+AF3F"
+  },
+  {
+    "key": "M080-A",
+    "codepoint": "U+AF41"
+  },
+  {
+    "key": "M080-B",
+    "codepoint": "U+AF42"
+  },
+  {
+    "key": "M080-C",
+    "codepoint": "U+AF43"
+  },
+  {
+    "key": "M080-CA",
+    "codepoint": "U+AF48"
+  },
+  {
+    "key": "M080-D",
+    "codepoint": "U+AF49"
+  },
+  {
+    "key": "M080-F",
+    "codepoint": "U+AF50"
+  },
+  {
+    "key": "M081",
+    "codepoint": "U+AF5C"
+  },
+  {
+    "key": "M084",
+    "codepoint": "U+AF5D"
+  },
+  {
+    "key": "M085",
+    "codepoint": "U+AF64"
+  },
+  {
+    "key": "M086",
+    "codepoint": "U+AF65"
+  },
+  {
+    "key": "M087-B",
+    "codepoint": "U+AF79"
+  },
+  {
+    "key": "M087",
+    "codepoint": "U+AF80"
+  },
+  {
+    "key": "M088",
+    "codepoint": "U+AF84"
+  },
+  {
+    "key": "M089",
+    "codepoint": "U+AF88"
+  },
+  {
+    "key": "M090",
+    "codepoint": "U+AF90"
+  },
+  {
+    "key": "M091-A",
+    "codepoint": "U+AF91"
+  },
+  {
+    "key": "M093-A",
+    "codepoint": "U+AF95"
+  },
+  {
+    "key": "M093",
+    "codepoint": "U+AF9C"
+  },
+  {
+    "key": "M094-E",
+    "codepoint": "U+AFB8"
+  },
+  {
+    "key": "M094-I",
+    "codepoint": "U+AFB9"
+  },
+  {
+    "key": "M096+M029",
+    "codepoint": "U+AFBC"
+  },
+  {
+    "key": "M096+M139",
+    "codepoint": "U+AFC0"
+  },
+  {
+    "key": "M096-C",
+    "codepoint": "U+AFC7"
+  },
+  {
+    "key": "M096-D",
+    "codepoint": "U+AFC8"
+  },
+  {
+    "key": "M096",
+    "codepoint": "U+AFC9"
+  },
+  {
+    "key": "M097-F",
+    "codepoint": "U+AFCB"
+  },
+  {
+    "key": "M097-H",
+    "codepoint": "U+AFCD"
+  },
+  {
+    "key": "M098",
+    "codepoint": "U+AFCE"
+  },
+  {
+    "key": "M099-A",
+    "codepoint": "U+AFD4"
+  },
+  {
+    "key": "M099-B",
+    "codepoint": "U+AFDC"
+  },
+  {
+    "key": "M099",
+    "codepoint": "U+AFE8"
+  },
+  {
+    "key": "M101-B",
+    "codepoint": "U+AFE9"
+  },
+  {
+    "key": "M101",
+    "codepoint": "U+AFF0"
+  },
+  {
+    "key": "M102-A",
+    "codepoint": "U+AFF1"
+  },
+  {
+    "key": "M102-D",
+    "codepoint": "U+AFF4"
+  },
+  {
+    "key": "M102-DA",
+    "codepoint": "U+AFF8"
+  },
+  {
+    "key": "M102-E",
+    "codepoint": "U+B000"
+  },
+  {
+    "key": "M102-K",
+    "codepoint": "U+B001"
+  },
+  {
+    "key": "M102-L",
+    "codepoint": "U+B004"
+  },
+  {
+    "key": "M102-M",
+    "codepoint": "U+B00C"
+  },
+  {
+    "key": "M103",
+    "codepoint": "U+B010"
+  },
+  {
+    "key": "M104",
+    "codepoint": "U+B014"
+  },
+  {
+    "key": "M105-A",
+    "codepoint": "U+B01C"
+  },
+  {
+    "key": "M105-AB",
+    "codepoint": "U+B01D"
+  },
+  {
+    "key": "M105-B",
+    "codepoint": "U+B028"
+  },
+  {
+    "key": "M105-E",
+    "codepoint": "U+B044"
+  },
+  {
+    "key": "M105-G",
+    "codepoint": "U+B045"
+  },
+  {
+    "key": "M105",
+    "codepoint": "U+B048"
+  },
+  {
+    "key": "M106+M096-C",
+    "codepoint": "U+B04A"
+  },
+  {
+    "key": "M106+M288",
+    "codepoint": "U+B04C"
+  },
+  {
+    "key": "M106-A",
+    "codepoint": "U+B04E"
+  },
+  {
+    "key": "M106-B",
+    "codepoint": "U+B053"
+  },
+  {
+    "key": "M106",
+    "codepoint": "U+B054"
+  },
+  {
+    "key": "M107-A",
+    "codepoint": "U+B055"
+  },
+  {
+    "key": "M109",
+    "codepoint": "U+B057"
+  },
+  {
+    "key": "M110-C",
+    "codepoint": "U+B059"
+  },
+  {
+    "key": "M110",
+    "codepoint": "U+B05D"
+  },
+  {
+    "key": "M111-A",
+    "codepoint": "U+B07C"
+  },
+  {
+    "key": "M111-B",
+    "codepoint": "U+B07D"
+  },
+  {
+    "key": "M111-C",
+    "codepoint": "U+B080"
+  },
+  {
+    "key": "M111-D",
+    "codepoint": "U+B084"
+  },
+  {
+    "key": "M111-E",
+    "codepoint": "U+B08C"
+  },
+  {
+    "key": "M111-F",
+    "codepoint": "U+B08D"
+  },
+  {
+    "key": "M111-M",
+    "codepoint": "U+B08F"
+  },
+  {
+    "key": "M111-N",
+    "codepoint": "U+B091"
+  },
+  {
+    "key": "M111-O",
+    "codepoint": "U+B098"
+  },
+  {
+    "key": "M111-g",
+    "codepoint": "U+B099"
+  },
+  {
+    "key": "M111-h",
+    "codepoint": "U+B09A"
+  },
+  {
+    "key": "M111-i",
+    "codepoint": "U+B09C"
+  },
+  {
+    "key": "M111-l",
+    "codepoint": "U+B09F"
+  },
+  {
+    "key": "M111-p",
+    "codepoint": "U+B0A0"
+  },
+  {
+    "key": "M111",
+    "codepoint": "U+B0A1"
+  },
+  {
+    "key": "M112-A",
+    "codepoint": "U+B0A2"
+  },
+  {
+    "key": "M112-AA",
+    "codepoint": "U+B0A8"
+  },
+  {
+    "key": "M112-B",
+    "codepoint": "U+B0A9"
+  },
+  {
+    "key": "M112-C",
+    "codepoint": "U+B0AB"
+  },
+  {
+    "key": "M112-D",
+    "codepoint": "U+B0AC"
+  },
+  {
+    "key": "M112-E",
+    "codepoint": "U+B0AD"
+  },
+  {
+    "key": "M112-F",
+    "codepoint": "U+B0AE"
+  },
+  {
+    "key": "M112-I",
+    "codepoint": "U+B0AF"
+  },
+  {
+    "key": "M112-N",
+    "codepoint": "U+B0B1"
+  },
+  {
+    "key": "M112-O",
+    "codepoint": "U+B0B3"
+  },
+  {
+    "key": "M112-P",
+    "codepoint": "U+B0B4"
+  },
+  {
+    "key": "M112-Q",
+    "codepoint": "U+B0B5"
+  },
+  {
+    "key": "M112-R",
+    "codepoint": "U+B0B8"
+  },
+  {
+    "key": "M112",
+    "codepoint": "U+B0BC"
+  },
+  {
+    "key": "M114",
+    "codepoint": "U+B0C4"
+  },
+  {
+    "key": "M115-A",
+    "codepoint": "U+B0C5"
+  },
+  {
+    "key": "M115-B",
+    "codepoint": "U+B0C7"
+  },
+  {
+    "key": "M115",
+    "codepoint": "U+B0C8"
+  },
+  {
+    "key": "M117",
+    "codepoint": "U+B0C9"
+  },
+  {
+    "key": "M120",
+    "codepoint": "U+B0D0"
+  },
+  {
+    "key": "M122",
+    "codepoint": "U+B0D1"
+  },
+  {
+    "key": "M123-B",
+    "codepoint": "U+B0D4"
+  },
+  {
+    "key": "M123-CA",
+    "codepoint": "U+B0D8"
+  },
+  {
+    "key": "M123-D",
+    "codepoint": "U+B0E0"
+  },
+  {
+    "key": "M124-A",
+    "codepoint": "U+B0E5"
+  },
+  {
+    "key": "M124-B",
+    "codepoint": "U+B108"
+  },
+  {
+    "key": "M124-C",
+    "codepoint": "U+B109"
+  },
+  {
+    "key": "M124",
+    "codepoint": "U+B10B"
+  },
+  {
+    "key": "M125-A",
+    "codepoint": "U+B10C"
+  },
+  {
+    "key": "M125-B",
+    "codepoint": "U+B110"
+  },
+  {
+    "key": "M125",
+    "codepoint": "U+B112"
+  },
+  {
+    "key": "M126",
+    "codepoint": "U+B113"
+  },
+  {
+    "key": "M127+M127",
+    "codepoint": "U+B118"
+  },
+  {
+    "key": "M128-CA",
+    "codepoint": "U+B119"
+  },
+  {
+    "key": "M128-D",
+    "codepoint": "U+B11B"
+  },
+  {
+    "key": "M128-DA",
+    "codepoint": "U+B11C"
+  },
+  {
+    "key": "M128-DB",
+    "codepoint": "U+B11D"
+  },
+  {
+    "key": "M128-DC",
+    "codepoint": "U+B123"
+  },
+  {
+    "key": "M128-DD",
+    "codepoint": "U+B124"
+  },
+  {
+    "key": "M128-DE",
+    "codepoint": "U+B125"
+  },
+  {
+    "key": "M128-E",
+    "codepoint": "U+B128"
+  },
+  {
+    "key": "M128-EF",
+    "codepoint": "U+B12C"
+  },
+  {
+    "key": "M128",
+    "codepoint": "U+B134"
+  },
+  {
+    "key": "M129-B",
+    "codepoint": "U+B135"
+  },
+  {
+    "key": "M129",
+    "codepoint": "U+B137"
+  },
+  {
+    "key": "M130-B",
+    "codepoint": "U+B138"
+  },
+  {
+    "key": "M131+M388",
+    "codepoint": "U+B139"
+  },
+  {
+    "key": "M131-A",
+    "codepoint": "U+B140"
+  },
+  {
+    "key": "M131-D",
+    "codepoint": "U+B141"
+  },
+  {
+    "key": "M131-E",
+    "codepoint": "U+B144"
+  },
+  {
+    "key": "M131-G",
+    "codepoint": "U+B148"
+  },
+  {
+    "key": "M131-H",
+    "codepoint": "U+B150"
+  },
+  {
+    "key": "M131-IA",
+    "codepoint": "U+B151"
+  },
+  {
+    "key": "M131-K",
+    "codepoint": "U+B154"
+  },
+  {
+    "key": "M131",
+    "codepoint": "U+B155"
+  },
+  {
+    "key": "M134-A",
+    "codepoint": "U+B158"
+  },
+  {
+    "key": "M134-B",
+    "codepoint": "U+B15C"
+  },
+  {
+    "key": "M134-BA",
+    "codepoint": "U+B160"
+  },
+  {
+    "key": "M134-C",
+    "codepoint": "U+B178"
+  },
+  {
+    "key": "M134-D",
+    "codepoint": "U+B179"
+  },
+  {
+    "key": "M134-E",
+    "codepoint": "U+B17C"
+  },
+  {
+    "key": "M134-F",
+    "codepoint": "U+B180"
+  },
+  {
+    "key": "M134-G",
+    "codepoint": "U+B182"
+  },
+  {
+    "key": "M134",
+    "codepoint": "U+B188"
+  },
+  {
+    "key": "M135",
+    "codepoint": "U+B189"
+  },
+  {
+    "key": "M136+M071-A",
+    "codepoint": "U+B18B"
+  },
+  {
+    "key": "M136+M353",
+    "codepoint": "U+B18D"
+  },
+  {
+    "key": "M136+M365",
+    "codepoint": "U+B192"
+  },
+  {
+    "key": "M136+M387",
+    "codepoint": "U+B193"
+  },
+  {
+    "key": "M136-A",
+    "codepoint": "U+B194"
+  },
+  {
+    "key": "M136-B",
+    "codepoint": "U+B198"
+  },
+  {
+    "key": "M136-C",
+    "codepoint": "U+B19C"
+  },
+  {
+    "key": "M136-D",
+    "codepoint": "U+B1A8"
+  },
+  {
+    "key": "M136-E",
+    "codepoint": "U+B1CC"
+  },
+  {
+    "key": "M136-F",
+    "codepoint": "U+B1D0"
+  },
+  {
+    "key": "M136-G",
+    "codepoint": "U+B1D4"
+  },
+  {
+    "key": "M136-H",
+    "codepoint": "U+B1DC"
+  },
+  {
+    "key": "M136-I",
+    "codepoint": "U+B1DD"
+  },
+  {
+    "key": "M136-J",
+    "codepoint": "U+B1DF"
+  },
+  {
+    "key": "M136-K",
+    "codepoint": "U+B1E8"
+  },
+  {
+    "key": "M136-L",
+    "codepoint": "U+B1E9"
+  },
+  {
+    "key": "M136-M",
+    "codepoint": "U+B1EC"
+  },
+  {
+    "key": "M136-N",
+    "codepoint": "U+B1F0"
+  },
+  {
+    "key": "M136-O",
+    "codepoint": "U+B1F9"
+  },
+  {
+    "key": "M136-P",
+    "codepoint": "U+B1FB"
+  },
+  {
+    "key": "M136-Q",
+    "codepoint": "U+B1FD"
+  },
+  {
+    "key": "M136-R",
+    "codepoint": "U+B204"
+  },
+  {
+    "key": "M136-S",
+    "codepoint": "U+B205"
+  },
+  {
+    "key": "M136-T",
+    "codepoint": "U+B208"
+  },
+  {
+    "key": "M136-U",
+    "codepoint": "U+B20B"
+  },
+  {
+    "key": "M136-W",
+    "codepoint": "U+B20C"
+  },
+  {
+    "key": "M136",
+    "codepoint": "U+B214"
+  },
+  {
+    "key": "M139",
+    "codepoint": "U+B215"
+  },
+  {
+    "key": "M140-A",
+    "codepoint": "U+B217"
+  },
+  {
+    "key": "M141-A",
+    "codepoint": "U+B219"
+  },
+  {
+    "key": "M141-B",
+    "codepoint": "U+B220"
+  },
+  {
+    "key": "M141",
+    "codepoint": "U+B234"
+  },
+  {
+    "key": "M142",
+    "codepoint": "U+B23C"
+  },
+  {
+    "key": "M143-A",
+    "codepoint": "U+B258"
+  },
+  {
+    "key": "M143-D",
+    "codepoint": "U+B25C"
+  },
+  {
+    "key": "M143",
+    "codepoint": "U+B260"
+  },
+  {
+    "key": "M144-A",
+    "codepoint": "U+B268"
+  },
+  {
+    "key": "M144",
+    "codepoint": "U+B269"
+  },
+  {
+    "key": "M145-A",
+    "codepoint": "U+B274"
+  },
+  {
+    "key": "M145-B",
+    "codepoint": "U+B275"
+  },
+  {
+    "key": "M145-BB",
+    "codepoint": "U+B27C"
+  },
+  {
+    "key": "M145-C",
+    "codepoint": "U+B284"
+  },
+  {
+    "key": "M145-D",
+    "codepoint": "U+B285"
+  },
+  {
+    "key": "M145-E",
+    "codepoint": "U+B289"
+  },
+  {
+    "key": "M145-F",
+    "codepoint": "U+B290"
+  },
+  {
+    "key": "M145-N",
+    "codepoint": "U+B291"
+  },
+  {
+    "key": "M145",
+    "codepoint": "U+B294"
+  },
+  {
+    "key": "M146-D",
+    "codepoint": "U+B298"
+  },
+  {
+    "key": "M146-E",
+    "codepoint": "U+B299"
+  },
+  {
+    "key": "M146-F",
+    "codepoint": "U+B29A"
+  },
+  {
+    "key": "M146",
+    "codepoint": "U+B2A0"
+  },
+  {
+    "key": "M147-A",
+    "codepoint": "U+B2A1"
+  },
+  {
+    "key": "M147-B",
+    "codepoint": "U+B2A3"
+  },
+  {
+    "key": "M147-D",
+    "codepoint": "U+B2A5"
+  },
+  {
+    "key": "M147-E",
+    "codepoint": "U+B2A6"
+  },
+  {
+    "key": "M147",
+    "codepoint": "U+B2AA"
+  },
+  {
+    "key": "M149-A",
+    "codepoint": "U+B2AC"
+  },
+  {
+    "key": "M149-C",
+    "codepoint": "U+B2B0"
+  },
+  {
+    "key": "M149-D",
+    "codepoint": "U+B2B4"
+  },
+  {
+    "key": "M149-G",
+    "codepoint": "U+B2C8"
+  },
+  {
+    "key": "M149-H",
+    "codepoint": "U+B2C9"
+  },
+  {
+    "key": "M150-A",
+    "codepoint": "U+B2CC"
+  },
+  {
+    "key": "M150",
+    "codepoint": "U+B2D0"
+  },
+  {
+    "key": "M151-A",
+    "codepoint": "U+B2D2"
+  },
+  {
+    "key": "M151-B",
+    "codepoint": "U+B2D8"
+  },
+  {
+    "key": "M151-C",
+    "codepoint": "U+B2D9"
+  },
+  {
+    "key": "M151-D",
+    "codepoint": "U+B2DB"
+  },
+  {
+    "key": "M151-E",
+    "codepoint": "U+B2DD"
+  },
+  {
+    "key": "M151-F",
+    "codepoint": "U+B2E2"
+  },
+  {
+    "key": "M151",
+    "codepoint": "U+B2E4"
+  },
+  {
+    "key": "M152-D",
+    "codepoint": "U+B2E5"
+  },
+  {
+    "key": "M152-E",
+    "codepoint": "U+B2E6"
+  },
+  {
+    "key": "M152-F",
+    "codepoint": "U+B2E8"
+  },
+  {
+    "key": "M152-G",
+    "codepoint": "U+B2EB"
+  },
+  {
+    "key": "M152",
+    "codepoint": "U+B2EC"
+  },
+  {
+    "key": "M153+M029",
+    "codepoint": "U+B2ED"
+  },
+  {
+    "key": "M153+M106-a",
+    "codepoint": "U+B2EE"
+  },
+  {
+    "key": "M153+M106",
+    "codepoint": "U+B2EF"
+  },
+  {
+    "key": "M153+M205-C",
+    "codepoint": "U+B2F3"
+  },
+  {
+    "key": "M153+M320+M153",
+    "codepoint": "U+B2F4"
+  },
+  {
+    "key": "M153+M342",
+    "codepoint": "U+B2F5"
+  },
+  {
+    "key": "M153+M377-E+M153",
+    "codepoint": "U+B2F7"
+  },
+  {
+    "key": "M153",
+    "codepoint": "U+B2F8"
+  },
+  {
+    "key": "M154-B",
+    "codepoint": "U+B2F9"
+  },
+  {
+    "key": "M154-S",
+    "codepoint": "U+B2FA"
+  },
+  {
+    "key": "M155-F",
+    "codepoint": "U+B2FB"
+  },
+  {
+    "key": "M155",
+    "codepoint": "U+B2FF"
+  },
+  {
+    "key": "M157+M029",
+    "codepoint": "U+B300"
+  },
+  {
+    "key": "M157+M057",
+    "codepoint": "U+B301"
+  },
+  {
+    "key": "M157+M059",
+    "codepoint": "U+B304"
+  },
+  {
+    "key": "M157+M111-F",
+    "codepoint": "U+B308"
+  },
+  {
+    "key": "M157+M131-D",
+    "codepoint": "U+B310"
+  },
+  {
+    "key": "M157+M131",
+    "codepoint": "U+B311"
+  },
+  {
+    "key": "M157+M136",
+    "codepoint": "U+B313"
+  },
+  {
+    "key": "M157+M153",
+    "codepoint": "U+B314"
+  },
+  {
+    "key": "M157+M288",
+    "codepoint": "U+B315"
+  },
+  {
+    "key": "M157+M340",
+    "codepoint": "U+B31C"
+  },
+  {
+    "key": "M157+M377-E+M377-E",
+    "codepoint": "U+B354"
+  },
+  {
+    "key": "M157+M381",
+    "codepoint": "U+B355"
+  },
+  {
+    "key": "M157-A+M066",
+    "codepoint": "U+B356"
+  },
+  {
+    "key": "M157-A+M080-C",
+    "codepoint": "U+B358"
+  },
+  {
+    "key": "M157-A+M131-A",
+    "codepoint": "U+B35B"
+  },
+  {
+    "key": "M157-A+M131-D",
+    "codepoint": "U+B35C"
+  },
+  {
+    "key": "M157-A+M131",
+    "codepoint": "U+B35E"
+  },
+  {
+    "key": "M157-A+M342",
+    "codepoint": "U+B35F"
+  },
+  {
+    "key": "M157-A+M348",
+    "codepoint": "U+B364"
+  },
+  {
+    "key": "M157-A+M367",
+    "codepoint": "U+B365"
+  },
+  {
+    "key": "M157-A",
+    "codepoint": "U+B367"
+  },
+  {
+    "key": "M157",
+    "codepoint": "U+B369"
+  },
+  {
+    "key": "M158-C",
+    "codepoint": "U+B36B"
+  },
+  {
+    "key": "M158-D",
+    "codepoint": "U+B36E"
+  },
+  {
+    "key": "M158-E",
+    "codepoint": "U+B370"
+  },
+  {
+    "key": "M158-H",
+    "codepoint": "U+B371"
+  },
+  {
+    "key": "M158",
+    "codepoint": "U+B374"
+  },
+  {
+    "key": "M159",
+    "codepoint": "U+B378"
+  },
+  {
+    "key": "M165",
+    "codepoint": "U+B380"
+  },
+  {
+    "key": "M167-A+M131-K",
+    "codepoint": "U+B381"
+  },
+  {
+    "key": "M167-A",
+    "codepoint": "U+B383"
+  },
+  {
+    "key": "M172",
+    "codepoint": "U+B384"
+  },
+  {
+    "key": "M173",
+    "codepoint": "U+B385"
+  },
+  {
+    "key": "M175+M038-A",
+    "codepoint": "U+B38C"
+  },
+  {
+    "key": "M175+M131-D",
+    "codepoint": "U+B390"
+  },
+  {
+    "key": "M175+M131",
+    "codepoint": "U+B394"
+  },
+  {
+    "key": "M175+M136-N",
+    "codepoint": "U+B3A0"
+  },
+  {
+    "key": "M175+M136",
+    "codepoint": "U+B3A1"
+  },
+  {
+    "key": "M175+M153",
+    "codepoint": "U+B3A8"
+  },
+  {
+    "key": "M175+M157",
+    "codepoint": "U+B3AC"
+  },
+  {
+    "key": "M175+M175",
+    "codepoint": "U+B3C4"
+  },
+  {
+    "key": "M175+M203-A",
+    "codepoint": "U+B3C5"
+  },
+  {
+    "key": "M175+M286",
+    "codepoint": "U+B3C8"
+  },
+  {
+    "key": "M175+M288",
+    "codepoint": "U+B3CB"
+  },
+  {
+    "key": "M175+M325-D",
+    "codepoint": "U+B3CC"
+  },
+  {
+    "key": "M175+M376",
+    "codepoint": "U+B3CE"
+  },
+  {
+    "key": "M175+M377+M377",
+    "codepoint": "U+B3D0"
+  },
+  {
+    "key": "M175+M380",
+    "codepoint": "U+B3D4"
+  },
+  {
+    "key": "M175+M381",
+    "codepoint": "U+B3D5"
+  },
+  {
+    "key": "M175+M387-C",
+    "codepoint": "U+B3D7"
+  },
+  {
+    "key": "M175+M388",
+    "codepoint": "U+B3D9"
+  },
+  {
+    "key": "M175-B",
+    "codepoint": "U+B3DB"
+  },
+  {
+    "key": "M175",
+    "codepoint": "U+B3DD"
+  },
+  {
+    "key": "M176-B",
+    "codepoint": "U+B3E0"
+  },
+  {
+    "key": "M176",
+    "codepoint": "U+B3E4"
+  },
+  {
+    "key": "M177-A",
+    "codepoint": "U+B3E8"
+  },
+  {
+    "key": "M177",
+    "codepoint": "U+B3FC"
+  },
+  {
+    "key": "M180-A",
+    "codepoint": "U+B410"
+  },
+  {
+    "key": "M180-B",
+    "codepoint": "U+B418"
+  },
+  {
+    "key": "M180-C",
+    "codepoint": "U+B41C"
+  },
+  {
+    "key": "M180",
+    "codepoint": "U+B420"
+  },
+  {
+    "key": "M184-B",
+    "codepoint": "U+B428"
+  },
+  {
+    "key": "M184-E",
+    "codepoint": "U+B429"
+  },
+  {
+    "key": "M188-E",
+    "codepoint": "U+B42B"
+  },
+  {
+    "key": "M188-F",
+    "codepoint": "U+B434"
+  },
+  {
+    "key": "M188-G",
+    "codepoint": "U+B450"
+  },
+  {
+    "key": "M193-A",
+    "codepoint": "U+B451"
+  },
+  {
+    "key": "M193-AA",
+    "codepoint": "U+B454"
+  },
+  {
+    "key": "M193-CA",
+    "codepoint": "U+B458"
+  },
+  {
+    "key": "M193-E",
+    "codepoint": "U+B460"
+  },
+  {
+    "key": "M193-F",
+    "codepoint": "U+B461"
+  },
+  {
+    "key": "M193-G",
+    "codepoint": "U+B463"
+  },
+  {
+    "key": "M193-M",
+    "codepoint": "U+B465"
+  },
+  {
+    "key": "M193",
+    "codepoint": "U+B46C"
+  },
+  {
+    "key": "M195+M038-A",
+    "codepoint": "U+B480"
+  },
+  {
+    "key": "M195+M038",
+    "codepoint": "U+B488"
+  },
+  {
+    "key": "M195+M057",
+    "codepoint": "U+B49D"
+  },
+  {
+    "key": "M195-M",
+    "codepoint": "U+B4A4"
+  },
+  {
+    "key": "M195",
+    "codepoint": "U+B4A8"
+  },
+  {
+    "key": "M197",
+    "codepoint": "U+B4AC"
+  },
+  {
+    "key": "M201+M377+M377",
+    "codepoint": "U+B4B5"
+  },
+  {
+    "key": "M201",
+    "codepoint": "U+B4B7"
+  },
+  {
+    "key": "M203-A",
+    "codepoint": "U+B4B9"
+  },
+  {
+    "key": "M203-C",
+    "codepoint": "U+B4C0"
+  },
+  {
+    "key": "M203-D",
+    "codepoint": "U+B4C4"
+  },
+  {
+    "key": "M203-E",
+    "codepoint": "U+B4C8"
+  },
+  {
+    "key": "M204-G",
+    "codepoint": "U+B4D0"
+  },
+  {
+    "key": "M205-A",
+    "codepoint": "U+B4D5"
+  },
+  {
+    "key": "M205-B",
+    "codepoint": "U+B4DC"
+  },
+  {
+    "key": "M205-C",
+    "codepoint": "U+B4DD"
+  },
+  {
+    "key": "M205-D",
+    "codepoint": "U+B4E0"
+  },
+  {
+    "key": "M205-G",
+    "codepoint": "U+B4E3"
+  },
+  {
+    "key": "M205",
+    "codepoint": "U+B4E4"
+  },
+  {
+    "key": "M206-B",
+    "codepoint": "U+B4E6"
+  },
+  {
+    "key": "M206-D",
+    "codepoint": "U+B4EC"
+  },
+  {
+    "key": "M206-F",
+    "codepoint": "U+B4ED"
+  },
+  {
+    "key": "M206-FA",
+    "codepoint": "U+B4EF"
+  },
+  {
+    "key": "M206-G",
+    "codepoint": "U+B4F1"
+  },
+  {
+    "key": "M206-I",
+    "codepoint": "U+B4F8"
+  },
+  {
+    "key": "M206-J",
+    "codepoint": "U+B514"
+  },
+  {
+    "key": "M207-A",
+    "codepoint": "U+B515"
+  },
+  {
+    "key": "M207-B",
+    "codepoint": "U+B518"
+  },
+  {
+    "key": "M207-C",
+    "codepoint": "U+B51B"
+  },
+  {
+    "key": "M207-D",
+    "codepoint": "U+B51C"
+  },
+  {
+    "key": "M207-E",
+    "codepoint": "U+B524"
+  },
+  {
+    "key": "M207-F",
+    "codepoint": "U+B525"
+  },
+  {
+    "key": "M207-H",
+    "codepoint": "U+B527"
+  },
+  {
+    "key": "M207-M",
+    "codepoint": "U+B528"
+  },
+  {
+    "key": "M207-MA",
+    "codepoint": "U+B529"
+  },
+  {
+    "key": "M207-N",
+    "codepoint": "U+B52A"
+  },
+  {
+    "key": "M207",
+    "codepoint": "U+B530"
+  },
+  {
+    "key": "M208",
+    "codepoint": "U+B531"
+  },
+  {
+    "key": "M209-A",
+    "codepoint": "U+B534"
+  },
+  {
+    "key": "M209-B",
+    "codepoint": "U+B538"
+  },
+  {
+    "key": "M209-C",
+    "codepoint": "U+B540"
+  },
+  {
+    "key": "M209-D",
+    "codepoint": "U+B541"
+  },
+  {
+    "key": "M210-A",
+    "codepoint": "U+B543"
+  },
+  {
+    "key": "M210-B",
+    "codepoint": "U+B544"
+  },
+  {
+    "key": "M210-BA",
+    "codepoint": "U+B545"
+  },
+  {
+    "key": "M210-C",
+    "codepoint": "U+B54B"
+  },
+  {
+    "key": "M210-D",
+    "codepoint": "U+B54C"
+  },
+  {
+    "key": "M210-E",
+    "codepoint": "U+B54D"
+  },
+  {
+    "key": "M210-F",
+    "codepoint": "U+B550"
+  },
+  {
+    "key": "M210-G",
+    "codepoint": "U+B554"
+  },
+  {
+    "key": "M210-H",
+    "codepoint": "U+B55C"
+  },
+  {
+    "key": "M210-M",
+    "codepoint": "U+B55D"
+  },
+  {
+    "key": "M210-MA",
+    "codepoint": "U+B55F"
+  },
+  {
+    "key": "M210",
+    "codepoint": "U+B560"
+  },
+  {
+    "key": "M213-B",
+    "codepoint": "U+B561"
+  },
+  {
+    "key": "M213",
+    "codepoint": "U+B5A0"
+  },
+  {
+    "key": "M214-A",
+    "codepoint": "U+B5A1"
+  },
+  {
+    "key": "M214-B",
+    "codepoint": "U+B5A4"
+  },
+  {
+    "key": "M214-C",
+    "codepoint": "U+B5A8"
+  },
+  {
+    "key": "M214-D",
+    "codepoint": "U+B5AA"
+  },
+  {
+    "key": "M214-E",
+    "codepoint": "U+B5AB"
+  },
+  {
+    "key": "M214-H",
+    "codepoint": "U+B5B0"
+  },
+  {
+    "key": "M214-I",
+    "codepoint": "U+B5B1"
+  },
+  {
+    "key": "M215",
+    "codepoint": "U+B5B3"
+  },
+  {
+    "key": "M217+M124",
+    "codepoint": "U+B5B4"
+  },
+  {
+    "key": "M217+M388",
+    "codepoint": "U+B5B5"
+  },
+  {
+    "key": "M217-A",
+    "codepoint": "U+B5BB"
+  },
+  {
+    "key": "M217-E",
+    "codepoint": "U+B5BC"
+  },
+  {
+    "key": "M217-EA",
+    "codepoint": "U+B5BD"
+  },
+  {
+    "key": "M217-F",
+    "codepoint": "U+B5C0"
+  },
+  {
+    "key": "M217-H",
+    "codepoint": "U+B5C4"
+  },
+  {
+    "key": "M217-J",
+    "codepoint": "U+B5CC"
+  },
+  {
+    "key": "M217-M",
+    "codepoint": "U+B5CD"
+  },
+  {
+    "key": "M217-N",
+    "codepoint": "U+B5CF"
+  },
+  {
+    "key": "M217",
+    "codepoint": "U+B5D0"
+  },
+  {
+    "key": "M218+M099",
+    "codepoint": "U+B5D1"
+  },
+  {
+    "key": "M218+M101",
+    "codepoint": "U+B5D8"
+  },
+  {
+    "key": "M218+M218",
+    "codepoint": "U+B5EC"
+  },
+  {
+    "key": "M218+M288-F",
+    "codepoint": "U+B610"
+  },
+  {
+    "key": "M218+M288",
+    "codepoint": "U+B611"
+  },
+  {
+    "key": "M218+M320",
+    "codepoint": "U+B614"
+  },
+  {
+    "key": "M218+M388",
+    "codepoint": "U+B618"
+  },
+  {
+    "key": "M218-B",
+    "codepoint": "U+B625"
+  },
+  {
+    "key": "M218-C",
+    "codepoint": "U+B62C"
+  },
+  {
+    "key": "M218-D+M288",
+    "codepoint": "U+B634"
+  },
+  {
+    "key": "M218-G",
+    "codepoint": "U+B648"
+  },
+  {
+    "key": "M218",
+    "codepoint": "U+B664"
+  },
+  {
+    "key": "M219-F",
+    "codepoint": "U+B668"
+  },
+  {
+    "key": "M219-S",
+    "codepoint": "U+B69C"
+  },
+  {
+    "key": "M219",
+    "codepoint": "U+B69D"
+  },
+  {
+    "key": "M220-M",
+    "codepoint": "U+B6A0"
+  },
+  {
+    "key": "M220-N",
+    "codepoint": "U+B6A4"
+  },
+  {
+    "key": "M220",
+    "codepoint": "U+B6AB"
+  },
+  {
+    "key": "M221-C",
+    "codepoint": "U+B6AC"
+  },
+  {
+    "key": "M221-E",
+    "codepoint": "U+B6B1"
+  },
+  {
+    "key": "M221-F",
+    "codepoint": "U+B6D4"
+  },
+  {
+    "key": "M221",
+    "codepoint": "U+B6F0"
+  },
+  {
+    "key": "M222-E",
+    "codepoint": "U+B6F4"
+  },
+  {
+    "key": "M222",
+    "codepoint": "U+B6F8"
+  },
+  {
+    "key": "M223-A",
+    "codepoint": "U+B700"
+  },
+  {
+    "key": "M223-B",
+    "codepoint": "U+B701"
+  },
+  {
+    "key": "M223-C",
+    "codepoint": "U+B705"
+  },
+  {
+    "key": "M223-D",
+    "codepoint": "U+B728"
+  },
+  {
+    "key": "M223",
+    "codepoint": "U+B729"
+  },
+  {
+    "key": "M224-A",
+    "codepoint": "U+B72C"
+  },
+  {
+    "key": "M224-B",
+    "codepoint": "U+B72F"
+  },
+  {
+    "key": "M224",
+    "codepoint": "U+B730"
+  },
+  {
+    "key": "M226-C",
+    "codepoint": "U+B738"
+  },
+  {
+    "key": "M226-CA",
+    "codepoint": "U+B739"
+  },
+  {
+    "key": "M227",
+    "codepoint": "U+B73B"
+  },
+  {
+    "key": "M228+M101",
+    "codepoint": "U+B744"
+  },
+  {
+    "key": "M228+M288",
+    "codepoint": "U+B748"
+  },
+  {
+    "key": "M228+M320",
+    "codepoint": "U+B74C"
+  },
+  {
+    "key": "M228-B+M101",
+    "codepoint": "U+B754"
+  },
+  {
+    "key": "M228-B+M320",
+    "codepoint": "U+B755"
+  },
+  {
+    "key": "M228-B",
+    "codepoint": "U+B760"
+  },
+  {
+    "key": "M228-D",
+    "codepoint": "U+B764"
+  },
+  {
+    "key": "M228-G",
+    "codepoint": "U+B768"
+  },
+  {
+    "key": "M228-GA",
+    "codepoint": "U+B770"
+  },
+  {
+    "key": "M228-GB",
+    "codepoint": "U+B771"
+  },
+  {
+    "key": "M228",
+    "codepoint": "U+B773"
+  },
+  {
+    "key": "M229-E",
+    "codepoint": "U+B775"
+  },
+  {
+    "key": "M230-A",
+    "codepoint": "U+B77C"
+  },
+  {
+    "key": "M230",
+    "codepoint": "U+B77D"
+  },
+  {
+    "key": "M240-A",
+    "codepoint": "U+B780"
+  },
+  {
+    "key": "M240-B",
+    "codepoint": "U+B784"
+  },
+  {
+    "key": "M240-C",
+    "codepoint": "U+B78C"
+  },
+  {
+    "key": "M240-D",
+    "codepoint": "U+B78D"
+  },
+  {
+    "key": "M240-E",
+    "codepoint": "U+B78F"
+  },
+  {
+    "key": "M240",
+    "codepoint": "U+B790"
+  },
+  {
+    "key": "M241-A",
+    "codepoint": "U+B791"
+  },
+  {
+    "key": "M242-AB",
+    "codepoint": "U+B792"
+  },
+  {
+    "key": "M242-B",
+    "codepoint": "U+B796"
+  },
+  {
+    "key": "M242-D",
+    "codepoint": "U+B797"
+  },
+  {
+    "key": "M242-DA",
+    "codepoint": "U+B798"
+  },
+  {
+    "key": "M242-E",
+    "codepoint": "U+B799"
+  },
+  {
+    "key": "M242-F",
+    "codepoint": "U+B79C"
+  },
+  {
+    "key": "M242-K",
+    "codepoint": "U+B7A0"
+  },
+  {
+    "key": "M242-N",
+    "codepoint": "U+B7A8"
+  },
+  {
+    "key": "M242",
+    "codepoint": "U+B7A9"
+  },
+  {
+    "key": "M243-AA",
+    "codepoint": "U+B7AB"
+  },
+  {
+    "key": "M243-AC",
+    "codepoint": "U+B7AC"
+  },
+  {
+    "key": "M243-B",
+    "codepoint": "U+B7AD"
+  },
+  {
+    "key": "M243-C",
+    "codepoint": "U+B7B4"
+  },
+  {
+    "key": "M243-E",
+    "codepoint": "U+B7B5"
+  },
+  {
+    "key": "M243-EE",
+    "codepoint": "U+B7B8"
+  },
+  {
+    "key": "M243-EF",
+    "codepoint": "U+B7C7"
+  },
+  {
+    "key": "M243-F",
+    "codepoint": "U+B7C9"
+  },
+  {
+    "key": "M243-G",
+    "codepoint": "U+B7EC"
+  },
+  {
+    "key": "M243-H",
+    "codepoint": "U+B7ED"
+  },
+  {
+    "key": "M243-I",
+    "codepoint": "U+B7F0"
+  },
+  {
+    "key": "M243-J",
+    "codepoint": "U+B7F4"
+  },
+  {
+    "key": "M243-N",
+    "codepoint": "U+B7FC"
+  },
+  {
+    "key": "M243",
+    "codepoint": "U+B7FD"
+  },
+  {
+    "key": "M244",
+    "codepoint": "U+B7FF"
+  },
+  {
+    "key": "M246-A",
+    "codepoint": "U+B800"
+  },
+  {
+    "key": "M246-B",
+    "codepoint": "U+B801"
+  },
+  {
+    "key": "M246-C",
+    "codepoint": "U+B807"
+  },
+  {
+    "key": "M246-CA",
+    "codepoint": "U+B808"
+  },
+  {
+    "key": "M246-E",
+    "codepoint": "U+B809"
+  },
+  {
+    "key": "M246-F",
+    "codepoint": "U+B80C"
+  },
+  {
+    "key": "M246-G",
+    "codepoint": "U+B810"
+  },
+  {
+    "key": "M246-H",
+    "codepoint": "U+B818"
+  },
+  {
+    "key": "M246-M",
+    "codepoint": "U+B819"
+  },
+  {
+    "key": "M246-O",
+    "codepoint": "U+B81B"
+  },
+  {
+    "key": "M246-S",
+    "codepoint": "U+B81D"
+  },
+  {
+    "key": "M246",
+    "codepoint": "U+B824"
+  },
+  {
+    "key": "M247-A",
+    "codepoint": "U+B825"
+  },
+  {
+    "key": "M247-B",
+    "codepoint": "U+B828"
+  },
+  {
+    "key": "M247-C",
+    "codepoint": "U+B82C"
+  },
+  {
+    "key": "M247-D",
+    "codepoint": "U+B834"
+  },
+  {
+    "key": "M247-E",
+    "codepoint": "U+B835"
+  },
+  {
+    "key": "M247-F",
+    "codepoint": "U+B837"
+  },
+  {
+    "key": "M247-G",
+    "codepoint": "U+B838"
+  },
+  {
+    "key": "M247-M",
+    "codepoint": "U+B839"
+  },
+  {
+    "key": "M247-N",
+    "codepoint": "U+B840"
+  },
+  {
+    "key": "M247",
+    "codepoint": "U+B844"
+  },
+  {
+    "key": "M248-A",
+    "codepoint": "U+B851"
+  },
+  {
+    "key": "M248-B",
+    "codepoint": "U+B853"
+  },
+  {
+    "key": "M248-C",
+    "codepoint": "U+B85C"
+  },
+  {
+    "key": "M248-CA",
+    "codepoint": "U+B85D"
+  },
+  {
+    "key": "M248-D",
+    "codepoint": "U+B860"
+  },
+  {
+    "key": "M248-E",
+    "codepoint": "U+B864"
+  },
+  {
+    "key": "M248-F",
+    "codepoint": "U+B86C"
+  },
+  {
+    "key": "M248-G",
+    "codepoint": "U+B86D"
+  },
+  {
+    "key": "M248",
+    "codepoint": "U+B86F"
+  },
+  {
+    "key": "M249-C",
+    "codepoint": "U+B871"
+  },
+  {
+    "key": "M249-F",
+    "codepoint": "U+B878"
+  },
+  {
+    "key": "M249-G",
+    "codepoint": "U+B87C"
+  },
+  {
+    "key": "M249-H",
+    "codepoint": "U+B88D"
+  },
+  {
+    "key": "M249-M",
+    "codepoint": "U+B8A8"
+  },
+  {
+    "key": "M249-N",
+    "codepoint": "U+B8B0"
+  },
+  {
+    "key": "M249-P",
+    "codepoint": "U+B8B4"
+  },
+  {
+    "key": "M249",
+    "codepoint": "U+B8B8"
+  },
+  {
+    "key": "M250-A",
+    "codepoint": "U+B8C0"
+  },
+  {
+    "key": "M250-BA",
+    "codepoint": "U+B8C1"
+  },
+  {
+    "key": "M250-M",
+    "codepoint": "U+B8C3"
+  },
+  {
+    "key": "M250-N",
+    "codepoint": "U+B8C5"
+  },
+  {
+    "key": "M250-NA",
+    "codepoint": "U+B8CC"
+  },
+  {
+    "key": "M250-P",
+    "codepoint": "U+B8D0"
+  },
+  {
+    "key": "M250-R",
+    "codepoint": "U+B8D4"
+  },
+  {
+    "key": "M251-C",
+    "codepoint": "U+B8DD"
+  },
+  {
+    "key": "M251-E",
+    "codepoint": "U+B8DF"
+  },
+  {
+    "key": "M251-G",
+    "codepoint": "U+B8E1"
+  },
+  {
+    "key": "M251-H",
+    "codepoint": "U+B8E8"
+  },
+  {
+    "key": "M251-I",
+    "codepoint": "U+B8E9"
+  },
+  {
+    "key": "M251-M",
+    "codepoint": "U+B8EC"
+  },
+  {
+    "key": "M251",
+    "codepoint": "U+B8F0"
+  },
+  {
+    "key": "M252-H",
+    "codepoint": "U+B8F8"
+  },
+  {
+    "key": "M252-I",
+    "codepoint": "U+B8F9"
+  },
+  {
+    "key": "M252-L",
+    "codepoint": "U+B8FB"
+  },
+  {
+    "key": "M252-Q",
+    "codepoint": "U+B8FD"
+  },
+  {
+    "key": "M252-QA",
+    "codepoint": "U+B904"
+  },
+  {
+    "key": "M252-R",
+    "codepoint": "U+B918"
+  },
+  {
+    "key": "M252-T",
+    "codepoint": "U+B920"
+  },
+  {
+    "key": "M252",
+    "codepoint": "U+B93C"
+  },
+  {
+    "key": "M253",
+    "codepoint": "U+B93D"
+  },
+  {
+    "key": "M254-A",
+    "codepoint": "U+B940"
+  },
+  {
+    "key": "M254-B",
+    "codepoint": "U+B944"
+  },
+  {
+    "key": "M254-C",
+    "codepoint": "U+B94C"
+  },
+  {
+    "key": "M254-F",
+    "codepoint": "U+B94F"
+  },
+  {
+    "key": "M254-H",
+    "codepoint": "U+B951"
+  },
+  {
+    "key": "M254",
+    "codepoint": "U+B958"
+  },
+  {
+    "key": "M255-B",
+    "codepoint": "U+B959"
+  },
+  {
+    "key": "M255",
+    "codepoint": "U+B95C"
+  },
+  {
+    "key": "M256-B",
+    "codepoint": "U+B960"
+  },
+  {
+    "key": "M256-C",
+    "codepoint": "U+B968"
+  },
+  {
+    "key": "M256-D",
+    "codepoint": "U+B969"
+  },
+  {
+    "key": "M257-D",
+    "codepoint": "U+B96B"
+  },
+  {
+    "key": "M259",
+    "codepoint": "U+B96D"
+  },
+  {
+    "key": "M260+1(N14)",
+    "codepoint": "U+B974"
+  },
+  {
+    "key": "M260+1(N24)",
+    "codepoint": "U+B975"
+  },
+  {
+    "key": "M260+1(N30C)",
+    "codepoint": "U+B978"
+  },
+  {
+    "key": "M260+M266-A",
+    "codepoint": "U+B97C"
+  },
+  {
+    "key": "M260-A",
+    "codepoint": "U+B984"
+  },
+  {
+    "key": "M260-B",
+    "codepoint": "U+B985"
+  },
+  {
+    "key": "M260",
+    "codepoint": "U+B987"
+  },
+  {
+    "key": "M261-A",
+    "codepoint": "U+B989"
+  },
+  {
+    "key": "M261-D",
+    "codepoint": "U+B98A"
+  },
+  {
+    "key": "M262-A",
+    "codepoint": "U+B98D"
+  },
+  {
+    "key": "M262-B",
+    "codepoint": "U+B98E"
+  },
+  {
+    "key": "M262-BA",
+    "codepoint": "U+B9AC"
+  },
+  {
+    "key": "M262",
+    "codepoint": "U+B9AD"
+  },
+  {
+    "key": "M263-A",
+    "codepoint": "U+B9B0"
+  },
+  {
+    "key": "M263-B",
+    "codepoint": "U+B9B4"
+  },
+  {
+    "key": "M263-E",
+    "codepoint": "U+B9BC"
+  },
+  {
+    "key": "M263-F",
+    "codepoint": "U+B9BD"
+  },
+  {
+    "key": "M263-G",
+    "codepoint": "U+B9BF"
+  },
+  {
+    "key": "M263-H",
+    "codepoint": "U+B9C1"
+  },
+  {
+    "key": "M263",
+    "codepoint": "U+B9C8"
+  },
+  {
+    "key": "M264-A+1(N24)",
+    "codepoint": "U+B9C9"
+  },
+  {
+    "key": "M264-A",
+    "codepoint": "U+B9CC"
+  },
+  {
+    "key": "M264-B",
+    "codepoint": "U+B9CE"
+  },
+  {
+    "key": "M264-C",
+    "codepoint": "U+B9CF"
+  },
+  {
+    "key": "M264-D",
+    "codepoint": "U+B9D0"
+  },
+  {
+    "key": "M265-E",
+    "codepoint": "U+B9D1"
+  },
+  {
+    "key": "M265-F",
+    "codepoint": "U+B9D2"
+  },
+  {
+    "key": "M265-I",
+    "codepoint": "U+B9D8"
+  },
+  {
+    "key": "M265-K",
+    "codepoint": "U+B9D9"
+  },
+  {
+    "key": "M265-L",
+    "codepoint": "U+B9DB"
+  },
+  {
+    "key": "M265",
+    "codepoint": "U+B9DD"
+  },
+  {
+    "key": "M266-A",
+    "codepoint": "U+B9DE"
+  },
+  {
+    "key": "M266-B",
+    "codepoint": "U+B9E1"
+  },
+  {
+    "key": "M266-F",
+    "codepoint": "U+B9E3"
+  },
+  {
+    "key": "M267-F",
+    "codepoint": "U+B9E4"
+  },
+  {
+    "key": "M267-G",
+    "codepoint": "U+B9E5"
+  },
+  {
+    "key": "M268-B",
+    "codepoint": "U+B9E8"
+  },
+  {
+    "key": "M268-C",
+    "codepoint": "U+B9EC"
+  },
+  {
+    "key": "M268-D",
+    "codepoint": "U+B9F4"
+  },
+  {
+    "key": "M268-M",
+    "codepoint": "U+B9F5"
+  },
+  {
+    "key": "M269-A",
+    "codepoint": "U+B9F7"
+  },
+  {
+    "key": "M269-B",
+    "codepoint": "U+B9F8"
+  },
+  {
+    "key": "M269-C",
+    "codepoint": "U+B9F9"
+  },
+  {
+    "key": "M269",
+    "codepoint": "U+B9FA"
+  },
+  {
+    "key": "M270-C",
+    "codepoint": "U+BA00"
+  },
+  {
+    "key": "M270-D",
+    "codepoint": "U+BA01"
+  },
+  {
+    "key": "M270-E",
+    "codepoint": "U+BA08"
+  },
+  {
+    "key": "M270-M",
+    "codepoint": "U+BA15"
+  },
+  {
+    "key": "M270-N",
+    "codepoint": "U+BA38"
+  },
+  {
+    "key": "M270",
+    "codepoint": "U+BA39"
+  },
+  {
+    "key": "M271-CA",
+    "codepoint": "U+BA3C"
+  },
+  {
+    "key": "M271-G",
+    "codepoint": "U+BA40"
+  },
+  {
+    "key": "M272",
+    "codepoint": "U+BA42"
+  },
+  {
+    "key": "M276-D",
+    "codepoint": "U+BA48"
+  },
+  {
+    "key": "M276-F",
+    "codepoint": "U+BA49"
+  },
+  {
+    "key": "M277-E",
+    "codepoint": "U+BA4B"
+  },
+  {
+    "key": "M277-G",
+    "codepoint": "U+BA4D"
+  },
+  {
+    "key": "M277-H",
+    "codepoint": "U+BA4E"
+  },
+  {
+    "key": "M277-HA",
+    "codepoint": "U+BA53"
+  },
+  {
+    "key": "M277",
+    "codepoint": "U+BA54"
+  },
+  {
+    "key": "M278+M124",
+    "codepoint": "U+BA55"
+  },
+  {
+    "key": "M278-AB",
+    "codepoint": "U+BA58"
+  },
+  {
+    "key": "M278-B",
+    "codepoint": "U+BA5C"
+  },
+  {
+    "key": "M278-C",
+    "codepoint": "U+BA64"
+  },
+  {
+    "key": "M278-D",
+    "codepoint": "U+BA65"
+  },
+  {
+    "key": "M278-DA",
+    "codepoint": "U+BA67"
+  },
+  {
+    "key": "M278-E",
+    "codepoint": "U+BA68"
+  },
+  {
+    "key": "M278-F",
+    "codepoint": "U+BA69"
+  },
+  {
+    "key": "M278-G",
+    "codepoint": "U+BA70"
+  },
+  {
+    "key": "M278-H",
+    "codepoint": "U+BA71"
+  },
+  {
+    "key": "M278-J",
+    "codepoint": "U+BA74"
+  },
+  {
+    "key": "M278",
+    "codepoint": "U+BA78"
+  },
+  {
+    "key": "M281-A",
+    "codepoint": "U+BA83"
+  },
+  {
+    "key": "M281-C",
+    "codepoint": "U+BA84"
+  },
+  {
+    "key": "M281-D",
+    "codepoint": "U+BA85"
+  },
+  {
+    "key": "M281-E",
+    "codepoint": "U+BA87"
+  },
+  {
+    "key": "M281-F",
+    "codepoint": "U+BA8C"
+  },
+  {
+    "key": "M281-G",
+    "codepoint": "U+BAA8"
+  },
+  {
+    "key": "M282",
+    "codepoint": "U+BAA9"
+  },
+  {
+    "key": "M283-A",
+    "codepoint": "U+BAAB"
+  },
+  {
+    "key": "M283-J",
+    "codepoint": "U+BAAC"
+  },
+  {
+    "key": "M283",
+    "codepoint": "U+BAB0"
+  },
+  {
+    "key": "M284-E",
+    "codepoint": "U+BAB2"
+  },
+  {
+    "key": "M284-K",
+    "codepoint": "U+BAB8"
+  },
+  {
+    "key": "M284-M",
+    "codepoint": "U+BAB9"
+  },
+  {
+    "key": "M285-B",
+    "codepoint": "U+BABB"
+  },
+  {
+    "key": "M285-C",
+    "codepoint": "U+BABD"
+  },
+  {
+    "key": "M285-CA",
+    "codepoint": "U+BAC4"
+  },
+  {
+    "key": "M285-D",
+    "codepoint": "U+BAC8"
+  },
+  {
+    "key": "M285-K",
+    "codepoint": "U+BAD8"
+  },
+  {
+    "key": "M285-M",
+    "codepoint": "U+BAD9"
+  },
+  {
+    "key": "M285-S",
+    "codepoint": "U+BAFC"
+  },
+  {
+    "key": "M285",
+    "codepoint": "U+BB00"
+  },
+  {
+    "key": "M286-A",
+    "codepoint": "U+BB04"
+  },
+  {
+    "key": "M286-B",
+    "codepoint": "U+BB0D"
+  },
+  {
+    "key": "M286",
+    "codepoint": "U+BB0F"
+  },
+  {
+    "key": "M287-C",
+    "codepoint": "U+BB11"
+  },
+  {
+    "key": "M288+1(N01)",
+    "codepoint": "U+BB18"
+  },
+  {
+    "key": "M288+1(N39B)",
+    "codepoint": "U+BB1C"
+  },
+  {
+    "key": "M288+M376",
+    "codepoint": "U+BB20"
+  },
+  {
+    "key": "M288-A",
+    "codepoint": "U+BB29"
+  },
+  {
+    "key": "M288-B",
+    "codepoint": "U+BB2B"
+  },
+  {
+    "key": "M288-C",
+    "codepoint": "U+BB34"
+  },
+  {
+    "key": "M288-D",
+    "codepoint": "U+BB35"
+  },
+  {
+    "key": "M288-E",
+    "codepoint": "U+BB36"
+  },
+  {
+    "key": "M288-F",
+    "codepoint": "U+BB38"
+  },
+  {
+    "key": "M288-G",
+    "codepoint": "U+BB3B"
+  },
+  {
+    "key": "M288-H",
+    "codepoint": "U+BB3C"
+  },
+  {
+    "key": "M288-I",
+    "codepoint": "U+BB3D"
+  },
+  {
+    "key": "M288",
+    "codepoint": "U+BB3E"
+  },
+  {
+    "key": "M289-A",
+    "codepoint": "U+BB44"
+  },
+  {
+    "key": "M289-B",
+    "codepoint": "U+BB45"
+  },
+  {
+    "key": "M289-D",
+    "codepoint": "U+BB47"
+  },
+  {
+    "key": "M289",
+    "codepoint": "U+BB49"
+  },
+  {
+    "key": "M290-A",
+    "codepoint": "U+BB4D"
+  },
+  {
+    "key": "M290-C",
+    "codepoint": "U+BB4F"
+  },
+  {
+    "key": "M290-D",
+    "codepoint": "U+BB50"
+  },
+  {
+    "key": "M290-H",
+    "codepoint": "U+BB54"
+  },
+  {
+    "key": "M290",
+    "codepoint": "U+BB58"
+  },
+  {
+    "key": "M291-A",
+    "codepoint": "U+BB61"
+  },
+  {
+    "key": "M291-F",
+    "codepoint": "U+BB63"
+  },
+  {
+    "key": "M291",
+    "codepoint": "U+BB6C"
+  },
+  {
+    "key": "M292-A",
+    "codepoint": "U+BB88"
+  },
+  {
+    "key": "M292-C",
+    "codepoint": "U+BB8C"
+  },
+  {
+    "key": "M292-D",
+    "codepoint": "U+BB90"
+  },
+  {
+    "key": "M292-E",
+    "codepoint": "U+BBA4"
+  },
+  {
+    "key": "M292-F",
+    "codepoint": "U+BBA8"
+  },
+  {
+    "key": "M292-H",
+    "codepoint": "U+BBAC"
+  },
+  {
+    "key": "M292-I",
+    "codepoint": "U+BBB4"
+  },
+  {
+    "key": "M292",
+    "codepoint": "U+BBB7"
+  },
+  {
+    "key": "M293-A",
+    "codepoint": "U+BBC0"
+  },
+  {
+    "key": "M293-B",
+    "codepoint": "U+BBC4"
+  },
+  {
+    "key": "M293-C",
+    "codepoint": "U+BBC8"
+  },
+  {
+    "key": "M293-D",
+    "codepoint": "U+BBD0"
+  },
+  {
+    "key": "M293",
+    "codepoint": "U+BBD3"
+  },
+  {
+    "key": "M294-A",
+    "codepoint": "U+BBF8"
+  },
+  {
+    "key": "M295-A",
+    "codepoint": "U+BBF9"
+  },
+  {
+    "key": "M295-B",
+    "codepoint": "U+BBFC"
+  },
+  {
+    "key": "M295-C",
+    "codepoint": "U+BBFF"
+  },
+  {
+    "key": "M295-D",
+    "codepoint": "U+BC00"
+  },
+  {
+    "key": "M295-DA",
+    "codepoint": "U+BC02"
+  },
+  {
+    "key": "M295-E",
+    "codepoint": "U+BC08"
+  },
+  {
+    "key": "M295-EE",
+    "codepoint": "U+BC09"
+  },
+  {
+    "key": "M295-EF",
+    "codepoint": "U+BC0B"
+  },
+  {
+    "key": "M295-F",
+    "codepoint": "U+BC0C"
+  },
+  {
+    "key": "M295-H",
+    "codepoint": "U+BC0D"
+  },
+  {
+    "key": "M295-I",
+    "codepoint": "U+BC0F"
+  },
+  {
+    "key": "M295-K",
+    "codepoint": "U+BC11"
+  },
+  {
+    "key": "M295-KA",
+    "codepoint": "U+BC14"
+  },
+  {
+    "key": "M295-L",
+    "codepoint": "U+BC15"
+  },
+  {
+    "key": "M295-LA",
+    "codepoint": "U+BC16"
+  },
+  {
+    "key": "M295-O",
+    "codepoint": "U+BC17"
+  },
+  {
+    "key": "M295-P",
+    "codepoint": "U+BC18"
+  },
+  {
+    "key": "M295-Q",
+    "codepoint": "U+BC1B"
+  },
+  {
+    "key": "M295-S",
+    "codepoint": "U+BC1C"
+  },
+  {
+    "key": "M295-U",
+    "codepoint": "U+BC1D"
+  },
+  {
+    "key": "M295-W",
+    "codepoint": "U+BC1E"
+  },
+  {
+    "key": "M295-WA",
+    "codepoint": "U+BC1F"
+  },
+  {
+    "key": "M295-Y",
+    "codepoint": "U+BC24"
+  },
+  {
+    "key": "M295",
+    "codepoint": "U+BC25"
+  },
+  {
+    "key": "M296+M296",
+    "codepoint": "U+BC27"
+  },
+  {
+    "key": "M296-D",
+    "codepoint": "U+BC29"
+  },
+  {
+    "key": "M296",
+    "codepoint": "U+BC2D"
+  },
+  {
+    "key": "M297+M296",
+    "codepoint": "U+BC30"
+  },
+  {
+    "key": "M297-A",
+    "codepoint": "U+BC31"
+  },
+  {
+    "key": "M297-B+M388",
+    "codepoint": "U+BC34"
+  },
+  {
+    "key": "M297-B",
+    "codepoint": "U+BC38"
+  },
+  {
+    "key": "M297-BC",
+    "codepoint": "U+BC40"
+  },
+  {
+    "key": "M297-D",
+    "codepoint": "U+BC41"
+  },
+  {
+    "key": "M297",
+    "codepoint": "U+BC43"
+  },
+  {
+    "key": "M298-A",
+    "codepoint": "U+BC44"
+  },
+  {
+    "key": "M298",
+    "codepoint": "U+BC45"
+  },
+  {
+    "key": "M301-A",
+    "codepoint": "U+BC49"
+  },
+  {
+    "key": "M301-AA",
+    "codepoint": "U+BC4C"
+  },
+  {
+    "key": "M301-B",
+    "codepoint": "U+BC4D"
+  },
+  {
+    "key": "M301-E",
+    "codepoint": "U+BC50"
+  },
+  {
+    "key": "M301-EA",
+    "codepoint": "U+BC5D"
+  },
+  {
+    "key": "M301-EB",
+    "codepoint": "U+BC84"
+  },
+  {
+    "key": "M301-G",
+    "codepoint": "U+BC85"
+  },
+  {
+    "key": "M301",
+    "codepoint": "U+BC88"
+  },
+  {
+    "key": "M302-A",
+    "codepoint": "U+BC8B"
+  },
+  {
+    "key": "M302-B",
+    "codepoint": "U+BC8C"
+  },
+  {
+    "key": "M302-BA",
+    "codepoint": "U+BC8E"
+  },
+  {
+    "key": "M302-C",
+    "codepoint": "U+BC94"
+  },
+  {
+    "key": "M302-CA",
+    "codepoint": "U+BC95"
+  },
+  {
+    "key": "M302-E",
+    "codepoint": "U+BC97"
+  },
+  {
+    "key": "M302-F",
+    "codepoint": "U+BC99"
+  },
+  {
+    "key": "M302-I",
+    "codepoint": "U+BC9A"
+  },
+  {
+    "key": "M302-J",
+    "codepoint": "U+BCA0"
+  },
+  {
+    "key": "M302-O",
+    "codepoint": "U+BCA1"
+  },
+  {
+    "key": "M302-S",
+    "codepoint": "U+BCA4"
+  },
+  {
+    "key": "M302-T",
+    "codepoint": "U+BCA7"
+  },
+  {
+    "key": "M302",
+    "codepoint": "U+BCA8"
+  },
+  {
+    "key": "M304+M041-G",
+    "codepoint": "U+BCB0"
+  },
+  {
+    "key": "M304+M304",
+    "codepoint": "U+BCB1"
+  },
+  {
+    "key": "M304+M342",
+    "codepoint": "U+BCB3"
+  },
+  {
+    "key": "M304-A",
+    "codepoint": "U+BCB4"
+  },
+  {
+    "key": "M304-B",
+    "codepoint": "U+BCB5"
+  },
+  {
+    "key": "M304",
+    "codepoint": "U+BCBC"
+  },
+  {
+    "key": "M305+M009",
+    "codepoint": "U+BCBD"
+  },
+  {
+    "key": "M305+M029-A",
+    "codepoint": "U+BCC0"
+  },
+  {
+    "key": "M305+M038-A",
+    "codepoint": "U+BCC4"
+  },
+  {
+    "key": "M305+M041-E",
+    "codepoint": "U+BCCD"
+  },
+  {
+    "key": "M305+M075-A",
+    "codepoint": "U+BCCF"
+  },
+  {
+    "key": "M305+M111-C",
+    "codepoint": "U+BCD0"
+  },
+  {
+    "key": "M305+M136",
+    "codepoint": "U+BCD1"
+  },
+  {
+    "key": "M305+M153",
+    "codepoint": "U+BCD5"
+  },
+  {
+    "key": "M305+M157",
+    "codepoint": "U+BCD8"
+  },
+  {
+    "key": "M305+M180",
+    "codepoint": "U+BCDC"
+  },
+  {
+    "key": "M305+M209-A",
+    "codepoint": "U+BCF4"
+  },
+  {
+    "key": "M305+M288",
+    "codepoint": "U+BCF5"
+  },
+  {
+    "key": "M305+M320",
+    "codepoint": "U+BCF6"
+  },
+  {
+    "key": "M305+M324-C",
+    "codepoint": "U+BCF8"
+  },
+  {
+    "key": "M305+M342",
+    "codepoint": "U+BCFC"
+  },
+  {
+    "key": "M305+M365",
+    "codepoint": "U+BD04"
+  },
+  {
+    "key": "M305+M387-C",
+    "codepoint": "U+BD05"
+  },
+  {
+    "key": "M305-B",
+    "codepoint": "U+BD07"
+  },
+  {
+    "key": "M305-C",
+    "codepoint": "U+BD09"
+  },
+  {
+    "key": "M305-F",
+    "codepoint": "U+BD10"
+  },
+  {
+    "key": "M305-G",
+    "codepoint": "U+BD14"
+  },
+  {
+    "key": "M305-H",
+    "codepoint": "U+BD24"
+  },
+  {
+    "key": "M305-I",
+    "codepoint": "U+BD2C"
+  },
+  {
+    "key": "M305",
+    "codepoint": "U+BD40"
+  },
+  {
+    "key": "M308-E",
+    "codepoint": "U+BD48"
+  },
+  {
+    "key": "M308-F",
+    "codepoint": "U+BD49"
+  },
+  {
+    "key": "M309-A",
+    "codepoint": "U+BD4C"
+  },
+  {
+    "key": "M309-B",
+    "codepoint": "U+BD50"
+  },
+  {
+    "key": "M309-D",
+    "codepoint": "U+BD58"
+  },
+  {
+    "key": "M309",
+    "codepoint": "U+BD59"
+  },
+  {
+    "key": "M310",
+    "codepoint": "U+BD64"
+  },
+  {
+    "key": "M311-B",
+    "codepoint": "U+BD68"
+  },
+  {
+    "key": "M311-G",
+    "codepoint": "U+BD80"
+  },
+  {
+    "key": "M311",
+    "codepoint": "U+BD81"
+  },
+  {
+    "key": "M312-A",
+    "codepoint": "U+BD84"
+  },
+  {
+    "key": "M312-C",
+    "codepoint": "U+BD87"
+  },
+  {
+    "key": "M312-F",
+    "codepoint": "U+BD88"
+  },
+  {
+    "key": "M312",
+    "codepoint": "U+BD89"
+  },
+  {
+    "key": "M314-C",
+    "codepoint": "U+BD8A"
+  },
+  {
+    "key": "M314-E",
+    "codepoint": "U+BD90"
+  },
+  {
+    "key": "M314-F",
+    "codepoint": "U+BD91"
+  },
+  {
+    "key": "M314-G",
+    "codepoint": "U+BD93"
+  },
+  {
+    "key": "M314",
+    "codepoint": "U+BD95"
+  },
+  {
+    "key": "M315-A",
+    "codepoint": "U+BD99"
+  },
+  {
+    "key": "M315",
+    "codepoint": "U+BD9A"
+  },
+  {
+    "key": "M317-A",
+    "codepoint": "U+BD9C"
+  },
+  {
+    "key": "M317-B",
+    "codepoint": "U+BDA4"
+  },
+  {
+    "key": "M317-E",
+    "codepoint": "U+BDB0"
+  },
+  {
+    "key": "M317-G",
+    "codepoint": "U+BDB8"
+  },
+  {
+    "key": "M317",
+    "codepoint": "U+BDD4"
+  },
+  {
+    "key": "M318-A",
+    "codepoint": "U+BDD5"
+  },
+  {
+    "key": "M318-C",
+    "codepoint": "U+BDD8"
+  },
+  {
+    "key": "M318-E",
+    "codepoint": "U+BDDC"
+  },
+  {
+    "key": "M318-G",
+    "codepoint": "U+BDE9"
+  },
+  {
+    "key": "M318-H",
+    "codepoint": "U+BDF0"
+  },
+  {
+    "key": "M318-N",
+    "codepoint": "U+BDF4"
+  },
+  {
+    "key": "M318",
+    "codepoint": "U+BDF8"
+  },
+  {
+    "key": "M319-A",
+    "codepoint": "U+BE00"
+  },
+  {
+    "key": "M319-C",
+    "codepoint": "U+BE03"
+  },
+  {
+    "key": "M319",
+    "codepoint": "U+BE05"
+  },
+  {
+    "key": "M320-C",
+    "codepoint": "U+BE0C"
+  },
+  {
+    "key": "M320-F",
+    "codepoint": "U+BE0D"
+  },
+  {
+    "key": "M320-M",
+    "codepoint": "U+BE10"
+  },
+  {
+    "key": "M320-N",
+    "codepoint": "U+BE14"
+  },
+  {
+    "key": "M320",
+    "codepoint": "U+BE1C"
+  },
+  {
+    "key": "M321-B",
+    "codepoint": "U+BE1D"
+  },
+  {
+    "key": "M321-C",
+    "codepoint": "U+BE1F"
+  },
+  {
+    "key": "M321-D",
+    "codepoint": "U+BE44"
+  },
+  {
+    "key": "M321-F",
+    "codepoint": "U+BE45"
+  },
+  {
+    "key": "M321-FA",
+    "codepoint": "U+BE48"
+  },
+  {
+    "key": "M321-H",
+    "codepoint": "U+BE4C"
+  },
+  {
+    "key": "M321-HA",
+    "codepoint": "U+BE4E"
+  },
+  {
+    "key": "M321-HB",
+    "codepoint": "U+BE54"
+  },
+  {
+    "key": "M321-J",
+    "codepoint": "U+BE55"
+  },
+  {
+    "key": "M321",
+    "codepoint": "U+BE57"
+  },
+  {
+    "key": "M323-A",
+    "codepoint": "U+BE59"
+  },
+  {
+    "key": "M323-C",
+    "codepoint": "U+BE5A"
+  },
+  {
+    "key": "M323-G",
+    "codepoint": "U+BE5B"
+  },
+  {
+    "key": "M323-I",
+    "codepoint": "U+BE60"
+  },
+  {
+    "key": "M323",
+    "codepoint": "U+BE61"
+  },
+  {
+    "key": "M324-A",
+    "codepoint": "U+BE64"
+  },
+  {
+    "key": "M324-C",
+    "codepoint": "U+BE68"
+  },
+  {
+    "key": "M324-D",
+    "codepoint": "U+BE6A"
+  },
+  {
+    "key": "M324-E",
+    "codepoint": "U+BE70"
+  },
+  {
+    "key": "M324-F",
+    "codepoint": "U+BE71"
+  },
+  {
+    "key": "M324",
+    "codepoint": "U+BE73"
+  },
+  {
+    "key": "M325-D",
+    "codepoint": "U+BE74"
+  },
+  {
+    "key": "M325-E",
+    "codepoint": "U+BE75"
+  },
+  {
+    "key": "M325-G",
+    "codepoint": "U+BE7B"
+  },
+  {
+    "key": "M325-H",
+    "codepoint": "U+BE7C"
+  },
+  {
+    "key": "M325",
+    "codepoint": "U+BE7D"
+  },
+  {
+    "key": "M326-A",
+    "codepoint": "U+BE80"
+  },
+  {
+    "key": "M327+M057",
+    "codepoint": "U+BE84"
+  },
+  {
+    "key": "M327+M059",
+    "codepoint": "U+BE8C"
+  },
+  {
+    "key": "M327+M074-A",
+    "codepoint": "U+BE8D"
+  },
+  {
+    "key": "M327+M320",
+    "codepoint": "U+BE8F"
+  },
+  {
+    "key": "M327+M342",
+    "codepoint": "U+BE90"
+  },
+  {
+    "key": "M327+M348",
+    "codepoint": "U+BE91"
+  },
+  {
+    "key": "M327+M365",
+    "codepoint": "U+BE98"
+  },
+  {
+    "key": "M327+M367",
+    "codepoint": "U+BE99"
+  },
+  {
+    "key": "M327-D",
+    "codepoint": "U+BEA8"
+  },
+  {
+    "key": "M327-N",
+    "codepoint": "U+BED0"
+  },
+  {
+    "key": "M327-P",
+    "codepoint": "U+BED1"
+  },
+  {
+    "key": "M327",
+    "codepoint": "U+BED4"
+  },
+  {
+    "key": "M328-B",
+    "codepoint": "U+BED7"
+  },
+  {
+    "key": "M328-C",
+    "codepoint": "U+BED8"
+  },
+  {
+    "key": "M329",
+    "codepoint": "U+BEE0"
+  },
+  {
+    "key": "M330-D",
+    "codepoint": "U+BEE3"
+  },
+  {
+    "key": "M332-C",
+    "codepoint": "U+BEE4"
+  },
+  {
+    "key": "M332-D",
+    "codepoint": "U+BEE5"
+  },
+  {
+    "key": "M332-E",
+    "codepoint": "U+BEEC"
+  },
+  {
+    "key": "M332-F",
+    "codepoint": "U+BF01"
+  },
+  {
+    "key": "M332-G",
+    "codepoint": "U+BF08"
+  },
+  {
+    "key": "M340",
+    "codepoint": "U+BF09"
+  },
+  {
+    "key": "M341-Q",
+    "codepoint": "U+BF18"
+  },
+  {
+    "key": "M342",
+    "codepoint": "U+BF19"
+  },
+  {
+    "key": "M343-D",
+    "codepoint": "U+BF1B"
+  },
+  {
+    "key": "M343-H+M354",
+    "codepoint": "U+BF1C"
+  },
+  {
+    "key": "M343-H",
+    "codepoint": "U+BF1D"
+  },
+  {
+    "key": "M343",
+    "codepoint": "U+BF40"
+  },
+  {
+    "key": "M344-D",
+    "codepoint": "U+BF41"
+  },
+  {
+    "key": "M346-A",
+    "codepoint": "U+BF44"
+  },
+  {
+    "key": "M346-B",
+    "codepoint": "U+BF48"
+  },
+  {
+    "key": "M346-C",
+    "codepoint": "U+BF50"
+  },
+  {
+    "key": "M346-D",
+    "codepoint": "U+BF51"
+  },
+  {
+    "key": "M346",
+    "codepoint": "U+BF55"
+  },
+  {
+    "key": "M347",
+    "codepoint": "U+BF94"
+  },
+  {
+    "key": "M348+M004",
+    "codepoint": "U+BFB0"
+  },
+  {
+    "key": "M348+M346",
+    "codepoint": "U+BFC5"
+  },
+  {
+    "key": "M348",
+    "codepoint": "U+BFCC"
+  },
+  {
+    "key": "M349",
+    "codepoint": "U+BFCD"
+  },
+  {
+    "key": "M351+1(N14)",
+    "codepoint": "U+BFD0"
+  },
+  {
+    "key": "M351+3(N01)",
+    "codepoint": "U+BFD4"
+  },
+  {
+    "key": "M351+M342",
+    "codepoint": "U+BFDC"
+  },
+  {
+    "key": "M351+M380-B",
+    "codepoint": "U+BFDF"
+  },
+  {
+    "key": "M351-C",
+    "codepoint": "U+BFE1"
+  },
+  {
+    "key": "M351-D",
+    "codepoint": "U+C03C"
+  },
+  {
+    "key": "M351-M",
+    "codepoint": "U+C051"
+  },
+  {
+    "key": "M351",
+    "codepoint": "U+C058"
+  },
+  {
+    "key": "M352-A",
+    "codepoint": "U+C05C"
+  },
+  {
+    "key": "M352-B",
+    "codepoint": "U+C060"
+  },
+  {
+    "key": "M352-C",
+    "codepoint": "U+C068"
+  },
+  {
+    "key": "M352-E",
+    "codepoint": "U+C069"
+  },
+  {
+    "key": "M352-H",
+    "codepoint": "U+C090"
+  },
+  {
+    "key": "M352-N",
+    "codepoint": "U+C091"
+  },
+  {
+    "key": "M352-O",
+    "codepoint": "U+C094"
+  },
+  {
+    "key": "M352-R",
+    "codepoint": "U+C098"
+  },
+  {
+    "key": "M352-S",
+    "codepoint": "U+C0A0"
+  },
+  {
+    "key": "M354",
+    "codepoint": "U+C0A1"
+  },
+  {
+    "key": "M356-B",
+    "codepoint": "U+C0A3"
+  },
+  {
+    "key": "M356",
+    "codepoint": "U+C0A5"
+  },
+  {
+    "key": "M357",
+    "codepoint": "U+C0AC"
+  },
+  {
+    "key": "M358-A",
+    "codepoint": "U+C0AD"
+  },
+  {
+    "key": "M358-B",
+    "codepoint": "U+C0AF"
+  },
+  {
+    "key": "M358-F",
+    "codepoint": "U+C0B0"
+  },
+  {
+    "key": "M358",
+    "codepoint": "U+C0B3"
+  },
+  {
+    "key": "M359",
+    "codepoint": "U+C0B4"
+  },
+  {
+    "key": "M360-B",
+    "codepoint": "U+C0B5"
+  },
+  {
+    "key": "M361-A",
+    "codepoint": "U+C0B6"
+  },
+  {
+    "key": "M361-B",
+    "codepoint": "U+C0BC"
+  },
+  {
+    "key": "M361-C",
+    "codepoint": "U+C0BD"
+  },
+  {
+    "key": "M361-D",
+    "codepoint": "U+C0BF"
+  },
+  {
+    "key": "M362+M005",
+    "codepoint": "U+C0C0"
+  },
+  {
+    "key": "M362+M026-H",
+    "codepoint": "U+C0C1"
+  },
+  {
+    "key": "M362+M041-E",
+    "codepoint": "U+C0C5"
+  },
+  {
+    "key": "M362+M059-D",
+    "codepoint": "U+C0C8"
+  },
+  {
+    "key": "M362+M059",
+    "codepoint": "U+C0C9"
+  },
+  {
+    "key": "M362+M099-B",
+    "codepoint": "U+C0CC"
+  },
+  {
+    "key": "M362+M123-B",
+    "codepoint": "U+C0D0"
+  },
+  {
+    "key": "M362+M158",
+    "codepoint": "U+C0D8"
+  },
+  {
+    "key": "M362+M207-N",
+    "codepoint": "U+C0D9"
+  },
+  {
+    "key": "M362+M244",
+    "codepoint": "U+C0DB"
+  },
+  {
+    "key": "M362+M247-G",
+    "codepoint": "U+C0DC"
+  },
+  {
+    "key": "M362+M312-A",
+    "codepoint": "U+C0DD"
+  },
+  {
+    "key": "M362+M365",
+    "codepoint": "U+C0E4"
+  },
+  {
+    "key": "M362+M367",
+    "codepoint": "U+C0E5"
+  },
+  {
+    "key": "M362+M383-C",
+    "codepoint": "U+C0E8"
+  },
+  {
+    "key": "M362+M384-A",
+    "codepoint": "U+C0EC"
+  },
+  {
+    "key": "M362-A",
+    "codepoint": "U+C0F4"
+  },
+  {
+    "key": "M362-B",
+    "codepoint": "U+C0F5"
+  },
+  {
+    "key": "M362-GC",
+    "codepoint": "U+C0F7"
+  },
+  {
+    "key": "M362",
+    "codepoint": "U+C0F9"
+  },
+  {
+    "key": "M363-B",
+    "codepoint": "U+C100"
+  },
+  {
+    "key": "M365-A",
+    "codepoint": "U+C104"
+  },
+  {
+    "key": "M365-C",
+    "codepoint": "U+C108"
+  },
+  {
+    "key": "M365-D",
+    "codepoint": "U+C110"
+  },
+  {
+    "key": "M365-G",
+    "codepoint": "U+C115"
+  },
+  {
+    "key": "M365",
+    "codepoint": "U+C11C"
+  },
+  {
+    "key": "M367-A",
+    "codepoint": "U+C11D"
+  },
+  {
+    "key": "M367-B",
+    "codepoint": "U+C11E"
+  },
+  {
+    "key": "M367-C",
+    "codepoint": "U+C11F"
+  },
+  {
+    "key": "M367-D",
+    "codepoint": "U+C120"
+  },
+  {
+    "key": "M367-E",
+    "codepoint": "U+C123"
+  },
+  {
+    "key": "M367-F",
+    "codepoint": "U+C124"
+  },
+  {
+    "key": "M367-G",
+    "codepoint": "U+C126"
+  },
+  {
+    "key": "M367-I",
+    "codepoint": "U+C127"
+  },
+  {
+    "key": "M367",
+    "codepoint": "U+C12C"
+  },
+  {
+    "key": "M368-A",
+    "codepoint": "U+C12D"
+  },
+  {
+    "key": "M368-B",
+    "codepoint": "U+C12F"
+  },
+  {
+    "key": "M368-C",
+    "codepoint": "U+C130"
+  },
+  {
+    "key": "M369-A",
+    "codepoint": "U+C131"
+  },
+  {
+    "key": "M369-B",
+    "codepoint": "U+C136"
+  },
+  {
+    "key": "M369",
+    "codepoint": "U+C138"
+  },
+  {
+    "key": "M370+M046+M370",
+    "codepoint": "U+C139"
+  },
+  {
+    "key": "M370+M072+M370",
+    "codepoint": "U+C13C"
+  },
+  {
+    "key": "M370+M388+M370",
+    "codepoint": "U+C140"
+  },
+  {
+    "key": "M370-B+M046",
+    "codepoint": "U+C148"
+  },
+  {
+    "key": "M370-B+M072",
+    "codepoint": "U+C149"
+  },
+  {
+    "key": "M370-B+M388",
+    "codepoint": "U+C14B"
+  },
+  {
+    "key": "M370-B",
+    "codepoint": "U+C14C"
+  },
+  {
+    "key": "M370-C",
+    "codepoint": "U+C14D"
+  },
+  {
+    "key": "M370-D",
+    "codepoint": "U+C154"
+  },
+  {
+    "key": "M370-DA",
+    "codepoint": "U+C155"
+  },
+  {
+    "key": "M370",
+    "codepoint": "U+C158"
+  },
+  {
+    "key": "M371-A",
+    "codepoint": "U+C15C"
+  },
+  {
+    "key": "M371-B",
+    "codepoint": "U+C164"
+  },
+  {
+    "key": "M371-C",
+    "codepoint": "U+C165"
+  },
+  {
+    "key": "M371-D",
+    "codepoint": "U+C167"
+  },
+  {
+    "key": "M371-E",
+    "codepoint": "U+C168"
+  },
+  {
+    "key": "M371",
+    "codepoint": "U+C169"
+  },
+  {
+    "key": "M372-A",
+    "codepoint": "U+C170"
+  },
+  {
+    "key": "M372-M",
+    "codepoint": "U+C174"
+  },
+  {
+    "key": "M372",
+    "codepoint": "U+C178"
+  },
+  {
+    "key": "M373-A",
+    "codepoint": "U+C185"
+  },
+  {
+    "key": "M373",
+    "codepoint": "U+C18C"
+  },
+  {
+    "key": "M374-A",
+    "codepoint": "U+C18D"
+  },
+  {
+    "key": "M374-C",
+    "codepoint": "U+C18E"
+  },
+  {
+    "key": "M375-A",
+    "codepoint": "U+C190"
+  },
+  {
+    "key": "M375-B",
+    "codepoint": "U+C194"
+  },
+  {
+    "key": "M375-D",
+    "codepoint": "U+C196"
+  },
+  {
+    "key": "M375-E",
+    "codepoint": "U+C19C"
+  },
+  {
+    "key": "M375-I",
+    "codepoint": "U+C19D"
+  },
+  {
+    "key": "M375-N",
+    "codepoint": "U+C19F"
+  },
+  {
+    "key": "M375",
+    "codepoint": "U+C1A1"
+  },
+  {
+    "key": "M376-A",
+    "codepoint": "U+C1A5"
+  },
+  {
+    "key": "M376-B",
+    "codepoint": "U+C1A8"
+  },
+  {
+    "key": "M376",
+    "codepoint": "U+C1A9"
+  },
+  {
+    "key": "M377+M320+M377",
+    "codepoint": "U+C1AC"
+  },
+  {
+    "key": "M377+M377-G+M377",
+    "codepoint": "U+C1B0"
+  },
+  {
+    "key": "M377+M377",
+    "codepoint": "U+C1BD"
+  },
+  {
+    "key": "M377+M383+M377",
+    "codepoint": "U+C1C4"
+  },
+  {
+    "key": "M377-E+M320+M377-E",
+    "codepoint": "U+C1C8"
+  },
+  {
+    "key": "M377-E+M377-E",
+    "codepoint": "U+C1CC"
+  },
+  {
+    "key": "M377-E",
+    "codepoint": "U+C1D4"
+  },
+  {
+    "key": "M377-G",
+    "codepoint": "U+C1D7"
+  },
+  {
+    "key": "M377",
+    "codepoint": "U+C1D8"
+  },
+  {
+    "key": "M378",
+    "codepoint": "U+C1E0"
+  },
+  {
+    "key": "M379-C",
+    "codepoint": "U+C1E4"
+  },
+  {
+    "key": "M379-D",
+    "codepoint": "U+C1E8"
+  },
+  {
+    "key": "M379-G",
+    "codepoint": "U+C1F0"
+  },
+  {
+    "key": "M379",
+    "codepoint": "U+C1F1"
+  },
+  {
+    "key": "M380-B",
+    "codepoint": "U+C1F3"
+  },
+  {
+    "key": "M380-C",
+    "codepoint": "U+C1FC"
+  },
+  {
+    "key": "M380",
+    "codepoint": "U+C1FD"
+  },
+  {
+    "key": "M381-E",
+    "codepoint": "U+C200"
+  },
+  {
+    "key": "M381",
+    "codepoint": "U+C204"
+  },
+  {
+    "key": "M382-A",
+    "codepoint": "U+C20C"
+  },
+  {
+    "key": "M382-B",
+    "codepoint": "U+C20D"
+  },
+  {
+    "key": "M382-C",
+    "codepoint": "U+C20F"
+  },
+  {
+    "key": "M382-D",
+    "codepoint": "U+C211"
+  },
+  {
+    "key": "M382-E",
+    "codepoint": "U+C218"
+  },
+  {
+    "key": "M382-F",
+    "codepoint": "U+C219"
+  },
+  {
+    "key": "M382-G",
+    "codepoint": "U+C21C"
+  },
+  {
+    "key": "M382",
+    "codepoint": "U+C21F"
+  },
+  {
+    "key": "M383-A",
+    "codepoint": "U+C220"
+  },
+  {
+    "key": "M383-B",
+    "codepoint": "U+C228"
+  },
+  {
+    "key": "M383-C",
+    "codepoint": "U+C229"
+  },
+  {
+    "key": "M383-D",
+    "codepoint": "U+C22B"
+  },
+  {
+    "key": "M383-E",
+    "codepoint": "U+C22D"
+  },
+  {
+    "key": "M383-H",
+    "codepoint": "U+C22F"
+  },
+  {
+    "key": "M383-J",
+    "codepoint": "U+C231"
+  },
+  {
+    "key": "M383-K",
+    "codepoint": "U+C232"
+  },
+  {
+    "key": "M383-M",
+    "codepoint": "U+C234"
+  },
+  {
+    "key": "M383-N",
+    "codepoint": "U+C248"
+  },
+  {
+    "key": "M383",
+    "codepoint": "U+C250"
+  },
+  {
+    "key": "M384-AB",
+    "codepoint": "U+C251"
+  },
+  {
+    "key": "M384-B",
+    "codepoint": "U+C254"
+  },
+  {
+    "key": "M384-C",
+    "codepoint": "U+C258"
+  },
+  {
+    "key": "M384-D",
+    "codepoint": "U+C260"
+  },
+  {
+    "key": "M384-E",
+    "codepoint": "U+C265"
+  },
+  {
+    "key": "M384-F",
+    "codepoint": "U+C26C"
+  },
+  {
+    "key": "M384",
+    "codepoint": "U+C26D"
+  },
+  {
+    "key": "M385-A",
+    "codepoint": "U+C270"
+  },
+  {
+    "key": "M385-C",
+    "codepoint": "U+C274"
+  },
+  {
+    "key": "M385-F",
+    "codepoint": "U+C27C"
+  },
+  {
+    "key": "M385",
+    "codepoint": "U+C27D"
+  },
+  {
+    "key": "M386+M111-J",
+    "codepoint": "U+C27F"
+  },
+  {
+    "key": "M386-A",
+    "codepoint": "U+C281"
+  },
+  {
+    "key": "M386-D",
+    "codepoint": "U+C288"
+  },
+  {
+    "key": "M386-DA",
+    "codepoint": "U+C289"
+  },
+  {
+    "key": "M386",
+    "codepoint": "U+C290"
+  },
+  {
+    "key": "M387-A",
+    "codepoint": "U+C298"
+  },
+  {
+    "key": "M387-B",
+    "codepoint": "U+C29B"
+  },
+  {
+    "key": "M387-C",
+    "codepoint": "U+C29D"
+  },
+  {
+    "key": "M387-CA+M340+M387-CA",
+    "codepoint": "U+C2A4"
+  },
+  {
+    "key": "M387-CA",
+    "codepoint": "U+C2A5"
+  },
+  {
+    "key": "M387-EE",
+    "codepoint": "U+C2A8"
+  },
+  {
+    "key": "M387-EF",
+    "codepoint": "U+C2AC"
+  },
+  {
+    "key": "M387-EG",
+    "codepoint": "U+C2AD"
+  },
+  {
+    "key": "M387-EH",
+    "codepoint": "U+C2B4"
+  },
+  {
+    "key": "M387-H",
+    "codepoint": "U+C2B5"
+  },
+  {
+    "key": "M387-HA",
+    "codepoint": "U+C2B7"
+  },
+  {
+    "key": "M387-HB",
+    "codepoint": "U+C2B9"
+  },
+  {
+    "key": "M387-I",
+    "codepoint": "U+C2DC"
+  },
+  {
+    "key": "M387-L",
+    "codepoint": "U+C2DD"
+  },
+  {
+    "key": "M387-O",
+    "codepoint": "U+C2E0"
+  },
+  {
+    "key": "M387",
+    "codepoint": "U+C2E3"
+  },
+  {
+    "key": "M388",
+    "codepoint": "U+C2E4"
+  },
+  {
+    "key": "M390",
+    "codepoint": "U+C2EB"
+  },
+  {
+    "key": "M391",
+    "codepoint": "U+C2EC"
+  },
+  {
+    "key": "M393-A",
+    "codepoint": "U+C2ED"
+  },
+  {
+    "key": "M393-B",
+    "codepoint": "U+C2EF"
+  },
+  {
+    "key": "M393-E",
+    "codepoint": "U+C2F1"
+  },
+  {
+    "key": "M393-F",
+    "codepoint": "U+C2F6"
+  },
+  {
+    "key": "M393-FA",
+    "codepoint": "U+C2F8"
+  },
+  {
+    "key": "M401",
+    "codepoint": "U+C2F9"
+  },
+  {
+    "key": "M402",
+    "codepoint": "U+C2FB"
+  },
+  {
+    "key": "M410",
+    "codepoint": "U+C2FC"
+  },
+  {
+    "key": "M411",
+    "codepoint": "U+C300"
+  },
+  {
+    "key": "M412",
+    "codepoint": "U+C308"
+  },
+  {
+    "key": "M417-D",
+    "codepoint": "U+C309"
+  },
+  {
+    "key": "M417-E",
+    "codepoint": "U+C30C"
+  },
+  {
+    "key": "M417-F",
+    "codepoint": "U+C30D"
+  },
+  {
+    "key": "M417-G",
+    "codepoint": "U+C313"
+  },
+  {
+    "key": "M417-H",
+    "codepoint": "U+C314"
+  },
+  {
+    "key": "M418-A",
+    "codepoint": "U+C315"
+  },
+  {
+    "key": "M418-B",
+    "codepoint": "U+C318"
+  },
+  {
+    "key": "M418-C",
+    "codepoint": "U+C31C"
+  },
+  {
+    "key": "M420",
+    "codepoint": "U+C324"
+  },
+  {
+    "key": "M421",
+    "codepoint": "U+C325"
+  },
+  {
+    "key": "M424",
+    "codepoint": "U+C328"
+  },
+  {
+    "key": "M431",
+    "codepoint": "U+C329"
+  },
+  {
+    "key": "M433",
+    "codepoint": "U+C345"
+  },
+  {
+    "key": "M438",
+    "codepoint": "U+C368"
+  },
+  {
+    "key": "M441",
+    "codepoint": "U+C369"
+  },
+  {
+    "key": "M444",
+    "codepoint": "U+C36C"
+  },
+  {
+    "key": "M445",
+    "codepoint": "U+C370"
+  },
+  {
+    "key": "M446",
+    "codepoint": "U+C372"
+  },
+  {
+    "key": "M447-B",
+    "codepoint": "U+C378"
+  },
+  {
+    "key": "M447-C",
+    "codepoint": "U+C379"
+  },
+  {
+    "key": "M447-D",
+    "codepoint": "U+C37C"
+  },
+  {
+    "key": "M447",
+    "codepoint": "U+C37D"
+  },
+  {
+    "key": "M448",
+    "codepoint": "U+C384"
+  },
+  {
+    "key": "M449",
+    "codepoint": "U+C388"
+  },
+  {
+    "key": "M450",
+    "codepoint": "U+C38C"
+  },
+  {
+    "key": "M452",
+    "codepoint": "U+C3C0"
+  },
+  {
+    "key": "M453",
+    "codepoint": "U+C3D8"
+  },
+  {
+    "key": "M454",
+    "codepoint": "U+C3D9"
+  },
+  {
+    "key": "M455",
+    "codepoint": "U+C3DC"
+  },
+  {
+    "key": "M461-B",
+    "codepoint": "U+C3DF"
+  },
+  {
+    "key": "M461-Q",
+    "codepoint": "U+C3E0"
+  },
+  {
+    "key": "M461",
+    "codepoint": "U+C3E2"
+  },
+  {
+    "key": "M462",
+    "codepoint": "U+C3E8"
+  },
+  {
+    "key": "M465",
+    "codepoint": "U+C3E9"
+  },
+  {
+    "key": "M466",
+    "codepoint": "U+C3ED"
+  },
+  {
+    "key": "M467",
+    "codepoint": "U+C3F4"
+  },
+  {
+    "key": "M468",
+    "codepoint": "U+C3F5"
+  },
+  {
+    "key": "M469",
+    "codepoint": "U+C3F8"
+  },
+  {
+    "key": "M470",
+    "codepoint": "U+C408"
+  },
+  {
+    "key": "M471-B",
+    "codepoint": "U+C410"
+  },
+  {
+    "key": "M471",
+    "codepoint": "U+C424"
+  },
+  {
+    "key": "M479",
+    "codepoint": "U+C42C"
+  },
+  {
+    "key": "M482",
+    "codepoint": "U+C430"
+  },
+  {
+    "key": "M486",
+    "codepoint": "U+C434"
+  },
+  {
+    "key": "M489",
+    "codepoint": "U+C43C"
+  },
+  {
+    "key": "M490",
+    "codepoint": "U+C43D"
+  },
+  {
+    "key": "M491",
+    "codepoint": "U+C448"
+  },
+  {
+    "key": "M492",
+    "codepoint": "U+C464"
+  },
+  {
+    "key": "M495",
+    "codepoint": "U+C465"
+  },
+  {
+    "key": "M496",
+    "codepoint": "U+C468"
+  },
+  {
+    "key": "M500",
+    "codepoint": "U+C46C"
+  },
+  {
+    "key": "M501",
+    "codepoint": "U+C474"
+  },
+  {
+    "key": "M503",
+    "codepoint": "U+C475"
+  },
+  {
+    "key": "M504",
+    "codepoint": "U+C479"
+  },
+  {
+    "key": "M505",
+    "codepoint": "U+C480"
+  },
+  {
+    "key": "M506",
+    "codepoint": "U+C494"
+  }
+]
