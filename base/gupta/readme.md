@@ -43,6 +43,12 @@ Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/gupta/base)
 folder.
 
+## Glyphs
+
+<p align='center'>
+  <img src='https://github.com/cluesurf/mark/blob/make/base/gupta/view/list.png?raw=true'>
+</p>
+
 ## License
 
 [OFL](./license.md)

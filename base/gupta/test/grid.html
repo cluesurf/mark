@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>GuptaMark Grid</title>
+    <style>
+      @font-face {
+        font-family: 'GuptaMark';
+        src: url('../base/GuptaMark.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #fff;
+      }
+
+      .section-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #71717a;
+        padding: 16px 8px 8px 8px;
+        text-align: center;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        line-height: 1;
+        width: 840px;
+        margin: 0 auto;
+      }
+
+      .grid span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1;
+        font-size: 52px;
+        color: #18181b;
+        font-family: 'GuptaMark', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section-label">
+      GuptaMark (Gupta · Brahmi block)
+    </div>
+    <div class="grid" id="grid"></div>
+    <script>
+      // Gupta glyphs are mapped to the Unicode Brahmi block
+      // (U+11000 onward), spanning U+11000-U+1104D and U+11052-U+11075
+      // (skipping the Brahmi number signs at U+1104E-U+11051).
+      var ranges = [
+        [0x11000, 0x1104d],
+        [0x11052, 0x11075],
+      ]
+      var parts = []
+      ranges.forEach(function (range) {
+        for (var cp = range[0]; cp <= range[1]; cp++) {
+          var ch = String.fromCodePoint(cp)
+          var hex = cp.toString(16).toUpperCase()
+          parts.push('<span title="U+' + hex + '">' + ch + '</span>')
+        }
+      })
+      document.getElementById('grid').innerHTML = parts.join('')
+    </script>
+  </body>
+</html>

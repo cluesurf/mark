@@ -33,6 +33,10 @@ entirely remains an open question.
 
 ## Glyphs
 
+<p align='center'>
+  <img src='https://github.com/cluesurf/mark/blob/make/base/phaistos-disk/view/list.png?raw=true'>
+</p>
+
 The 45 signs are mapped to the Unicode Phaistos Disc block
 (U+101D0-U+101FC):
 

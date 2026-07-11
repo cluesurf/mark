@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>BronzeScriptMark Grid</title>
+    <style>
+      @font-face {
+        font-family: 'BronzeScriptMark';
+        src: url('../base/BronzeScriptMark.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #fff;
+      }
+
+      .section-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #71717a;
+        padding: 16px 8px 8px 8px;
+        text-align: center;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        line-height: 1;
+        width: 840px;
+        margin: 0 auto;
+      }
+
+      .grid span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1;
+        font-size: 52px;
+        color: #18181b;
+        font-family: 'BronzeScriptMark', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section-label">
+      BronzeScriptMark (Bronze Script · Chinese codepoints)
+    </div>
+    <div class="grid" id="grid"></div>
+    <script>
+      // Bronze inscription glyphs are mapped to their corresponding
+      // modern Chinese Unicode codepoints. The font covers 1326
+      // characters.
+      var CHARS =
+        '䜣一丁七三上下与丐丑丕世丘丙业东丝两丧中丰串临丹丽举乃之乌乍乎乏乐乔乘乙九也书买乱事二于五井亚亟亡亢交亥亦产亩京亮亲亳亵人亿仁仆今从仑仓仔仕付令以仪仲任伊伏伐休会传伯似佃位体何作佥佩使侃侄依侧侪侮侵便俗俘保俨俱俾偿傅傧儆儿兀允元兄光克免兑兢入八公六兮共关兴兵具典兹养兼兽冀内冈冉册再冒军农冢冬冰冲减几凡凫函分刑则刚初利到制剌前剑剩割劓力功加务动劳勇勋勒勤勿匀匆匍匕化北匚匡匹区匿十千卅升午半华卑卒卓单卖博卜卟卢卤卫卯印即厂厄历厉厌厚原去县参及友反发叔取变口古句可台右叶司吁各合同名后吏向吕君否听吴吹吾告员周呼命和咏咸哀品哉哦哲唐唬唯啬啻善喜嗣嘉嘏器嚣四回因围固国图囿圃圉土圣在圭地均坠坡坪坯垣城基堂堇堋堵塍墙增士壬壮壶备复夏夕外夙多夜夤大天夫夭央头夷夸夹夺奄奉奋奎奔奚奠奢女奴奸如妃妄妆妇妊妣妥妹妻妾姊始姑姓姜姬威娈婚婴媚媾嬴子孔字孙孚孝孟季学孳宁它宄宅宇守安宋宏宕官定宜宝实宠客宣室宥宦宪宫宰害宴宵家容宿密寇富寒寓寝寡寺封射将尊小少尔尚尝尢尤尸尺尽居屈屯山岩川州工左巨巩巫差己巳巾市布帅师帏帛帝席帱常干平年并幺幻幼幽广庄库应庙府庭庶康庸延廷建廿异弃弄弋弓引弟张弭强弼归当录彘彤彪彭彻彼往征径待後徐徒得徙徵心必忌忍志忘忠忤忧念忽怀怠性恃恐恒恕恤息惑惕惟惠惧惮愆愈愉愚愧慈慎慕懈懋懿戈戌戍戎戏成我戒或战戚戟戮所手才扑执扬扰扶承折报招择持捷搏播撸攸攻放政故敉敌敏救敕敖教敛散敦敬整文斋斗料斛斤斧断斯新旁旃旄旋族旗无日旦旧旨早旬时昃昆昌明易昔星春昧是昱昶昼晋晨智曰曲更曹曼曾替月有朋服朔望朝期木未末本朱朽杀李杜杞束杠来杨松析林枚果枣枪某柞柬柳栎格栽栾桐桴梁梅棘棺楚樊次欧歌止正此步武死殳段殷毁毅毋每比毕毛毳氐民气水永汉江汤汪沅沈沙没沦沮沱沽泸泺洛津洹流浅浊测济浮海涂涉涕淑淠淮深渊渔渴游湖湘湛溉滔滕漾潘潭潸澧澹濒濯炎焉焦照熏熙熬燮燹爪爰爵爻爽牙牛牡牢牧牲犀犬犹狄狐狱猎献玄率玉环珈班瑾璋璜璧瓜瓶甚生甫甬田甲申电男甸画甾畀畏留畜番疑疾癸登白百皆皇皮皿盂盅盆盉盌监盖盛盟盥目盱直相盾省眉真睽睿矛矢矣知石硕磷礼社祀祖祗祜祝神祠祥祭祸禄禋福禘禦禹禺禽禾秉秦秬秭稣稷稻穆穑空窎立竞章童竹笋筑筥筮箕箭篚簟簠簧粤粱糯系素紫絅縢纁纪纯纳组织终绍经绝绥继绩维绶绾缄缶网罚罪羊美羕羝羞群羽翟翼老者耆耇而耑耳耿聋职聿肃肄肆肇肖肯育胃胄胤能脐膳膺膻臣臧自臾舂舄舍舞舟般船良艰艿节芮苏苛苟茅荅荆荐荣药莒莫获萃萆萌营萦萬葉葬葱蒐蒙蒿蓥蓼蔑蔡蕃薛藏蘇虎虑虔虘虞虽虿蚊蛔蛮蜀行衍衡衣袭裔裕裘裡裨褱襄要覃覆見观觅视觌觐角解言誓讯讳许论讼诃识诈诋诒诛诞语诲请诸诺谁谋谌谏谐谓谢谰谷豆豊豕豚象貉貘貙贝贞责贤败贮贰贸费贺贼赁赋赎赏赐赓赢赤赦走赵赶越趣足距路跻身軎车轨转轸载辂较辅辇辔辛辞辟辨辰边达迂过迈返还进远违连迟迮追退送适逃逆逌逐通逞速造逢逦逸遂遄遇道遗遘遣遹遽邑邓邕邗邛邡邦邳邵邾邿郁郐郑郓郜郢郭郯郸都郾鄂鄘鄙鄫酆酉酌配酒酢酱醴釆采里重野量釐金銮錞鑄钟钦钧钲铃铊铎铜铭铺锊锡锯锺镈镐镠镬長閑闢门闭问闲闵闻闾阑阔队阳阴阿陆陈降限陟陨陲陵陶隹难雍雒雔雕雚雠雩雷需青静非革鞭韦韩頵页顶顺须顼顾颂颉颐颔颜食飨饔饕饭饲饴馑马驷驹骄骆鬯鬳鬼鱻鱼鲁鲍鲜鲧鳏鸟鸣鹚鹰鹿麃麇麓麦麻黄黑黹黼黾鼍鼓齐齿龍龚龛龟龠龢'
+      var parts = []
+      Array.from(CHARS).forEach(function (ch) {
+        var hex = ch.codePointAt(0).toString(16).toUpperCase()
+        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
+      })
+      document.getElementById('grid').innerHTML = parts.join('')
+    </script>
+  </body>
+</html>

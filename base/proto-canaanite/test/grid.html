@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>ProtoCanaaniteMark Grid</title>
+    <style>
+      @font-face {
+        font-family: 'ProtoCanaaniteMark';
+        src: url('../base/ProtoCanaaniteMark.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #fff;
+      }
+
+      .section-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #71717a;
+        padding: 16px 8px 8px 8px;
+        text-align: center;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        line-height: 1;
+        width: 840px;
+        margin: 0 auto;
+      }
+
+      .grid span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1;
+        font-size: 52px;
+        color: #18181b;
+        font-family: 'ProtoCanaaniteMark', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section-label">
+      ProtoCanaaniteMark (Proto-Canaanite · Phoenician block)
+    </div>
+    <div class="grid" id="grid"></div>
+    <script>
+      // Proto-Canaanite letters are mapped to the Unicode Phoenician
+      // block (U+10900 onward). The font covers the 22 letters from
+      // U+10900 to U+10915.
+      var PHOENICIAN_BASE = 0x10900
+      var COUNT = 22
+      var parts = []
+      for (var i = 0; i < COUNT; i++) {
+        var cp = PHOENICIAN_BASE + i
+        var ch = String.fromCodePoint(cp)
+        var hex = cp.toString(16).toUpperCase()
+        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
+      }
+      document.getElementById('grid').innerHTML = parts.join('')
+    </script>
+  </body>
+</html>

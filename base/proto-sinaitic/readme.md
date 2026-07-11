@@ -31,6 +31,10 @@ you're reading now.
 
 ## Glyphs
 
+<p align='center'>
+  <img src='https://github.com/cluesurf/mark/blob/make/base/proto-sinaitic/view/list.png?raw=true'>
+</p>
+
 The 27 glyphs are mapped to underlying associated Egyptian Heiroglyph
 characters:
 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>ProtoSinaiticMark Grid</title>
+    <style>
+      @font-face {
+        font-family: 'ProtoSinaiticMark';
+        src: url('../base/ProtoSinaiticMark-Regular.ttf')
+          format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #fff;
+      }
+
+      .section-label {
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #71717a;
+        padding: 16px 8px 8px 8px;
+        text-align: center;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        line-height: 1;
+        width: 840px;
+        margin: 0 auto;
+      }
+
+      .grid span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1;
+        font-size: 52px;
+        color: #18181b;
+        font-family: 'ProtoSinaiticMark', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section-label">
+      ProtoSinaiticMark (Proto-Sinaitic · Egyptian Hieroglyphs)
+    </div>
+    <div class="grid" id="grid"></div>
+    <script>
+      // Proto-Sinaitic glyphs are mapped onto the associated Egyptian
+      // Hieroglyph characters they descend from (27 signs).
+      var CHARS = [
+        '𓃾', '𓉐', '𓉔', '𓌙', '𓆟', '𓀠', '𓌉', '𓐅', '𓉗',
+        '𓎛', '𓄤', '𓂝', '𓂧', '𓍢', '𓈖', '𓆓', '𓁹', '𓂋',
+        '𓀁', '𓂏', '𓊋', '𓇑', '𓃻', '𓁶', '𓇴', '𓌔', '𓏴',
+      ]
+      var parts = []
+      CHARS.forEach(function (ch) {
+        var hex = ch.codePointAt(0).toString(16).toUpperCase()
+        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
+      })
+      document.getElementById('grid').innerHTML = parts.join('')
+    </script>
+  </body>
+</html>
