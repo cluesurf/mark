@@ -33,10 +33,10 @@ making it accessible as a standard OpenType font.
 | [phaistos-disk](./base/phaistos-disk)       | Phaistos Disc signs         | ~1700 BCE        | Crete         | ✅     |
 | [mayan-hieroglyph](./base/mayan-hieroglyph) | Mayan hieroglyphs           | ~300 BCE-1500 CE | Mesoamerica   | ✅     |
 | [gupta](./base/gupta)                       | Gupta script                | ~320-550 CE      | India         | ✅     |
-| aztec-hieroglyph                            | Aztec hieroglyphs           | ~1300-1521 CE    | Mesoamerica   | TODO   |
+| [aztec-hieroglyph](./base/aztec-hieroglyph) | Aztec hieroglyphs           | ~1300-1521 CE    | Mesoamerica   | ✅     |
 | [rongorongo](./base/rongorongo)             | Rongorongo                  | ~1200-1860 CE    | Easter Island | ✅     |
-| cascajal-block                              | Cascajal Block signs        | ~900 BCE         | Mesoamerica   | TODO   |
-| isthmian-script                             | Isthmian script             | ~500 BCE-500 CE  | Mesoamerica   | TODO   |
+| [cascajal](./base/cascajal)                 | Cascajal Block signs        | ~900 BCE         | Mesoamerica   | ✅     |
+| [isthmian-script](./base/isthmian-script)   | Isthmian script             | ~500 BCE-500 CE  | Mesoamerica   | ✅     |
 
 ## Structure
 

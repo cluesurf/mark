@@ -1,0 +1,138 @@
+[
+  {
+    "key": "a",
+    "codepoint": "U+10080"
+  },
+  {
+    "key": "ch",
+    "codepoint": "U+10081"
+  },
+  {
+    "key": "e",
+    "codepoint": "U+10082"
+  },
+  {
+    "key": "i",
+    "codepoint": "U+10083"
+  },
+  {
+    "key": "ka'",
+    "codepoint": "U+10084"
+  },
+  {
+    "key": "ka",
+    "codepoint": "U+10085"
+  },
+  {
+    "key": "ke",
+    "codepoint": "U+10086"
+  },
+  {
+    "key": "ko",
+    "codepoint": "U+10087"
+  },
+  {
+    "key": "kwe",
+    "codepoint": "U+10088"
+  },
+  {
+    "key": "ma",
+    "codepoint": "U+10089"
+  },
+  {
+    "key": "me",
+    "codepoint": "U+1008A"
+  },
+  {
+    "key": "mi",
+    "codepoint": "U+1008B"
+  },
+  {
+    "key": "mo",
+    "codepoint": "U+1008C"
+  },
+  {
+    "key": "na",
+    "codepoint": "U+1008D"
+  },
+  {
+    "key": "ne",
+    "codepoint": "U+1008E"
+  },
+  {
+    "key": "o",
+    "codepoint": "U+1008F"
+  },
+  {
+    "key": "pa",
+    "codepoint": "U+10090"
+  },
+  {
+    "key": "pe",
+    "codepoint": "U+10091"
+  },
+  {
+    "key": "pi",
+    "codepoint": "U+10092"
+  },
+  {
+    "key": "po",
+    "codepoint": "U+10093"
+  },
+  {
+    "key": "sa",
+    "codepoint": "U+10094"
+  },
+  {
+    "key": "si",
+    "codepoint": "U+10095"
+  },
+  {
+    "key": "so",
+    "codepoint": "U+10096"
+  },
+  {
+    "key": "te'",
+    "codepoint": "U+10097"
+  },
+  {
+    "key": "te",
+    "codepoint": "U+10098"
+  },
+  {
+    "key": "tla",
+    "codepoint": "U+10099"
+  },
+  {
+    "key": "to",
+    "codepoint": "U+1009A"
+  },
+  {
+    "key": "wa'",
+    "codepoint": "U+1009B"
+  },
+  {
+    "key": "wa",
+    "codepoint": "U+1009C"
+  },
+  {
+    "key": "we'",
+    "codepoint": "U+1009D"
+  },
+  {
+    "key": "we",
+    "codepoint": "U+1009E"
+  },
+  {
+    "key": "wi",
+    "codepoint": "U+1009F"
+  },
+  {
+    "key": "xa",
+    "codepoint": "U+100A0"
+  },
+  {
+    "key": "xo",
+    "codepoint": "U+100A1"
+  }
+]
