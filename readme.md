@@ -38,7 +38,7 @@ making it accessible as a standard OpenType font.
 | [cascajal](./base/cascajal)                 | Cascajal Block signs        | ~900 BCE         | Mesoamerica   | ✅     |
 | [isthmian-script](./base/isthmian-script)   | Isthmian script             | ~500 BCE-500 CE  | Mesoamerica   | ✅     |
 | [proto-elamite](./base/proto-elamite)       | Proto-Elamite               | ~3100-2900 BCE   | Iran          | ✅     |
-| [indus-script](./base/indus-script)         | Indus / Harappan            | ~2600-1900 BCE   | Indus Valley  | TODO   |
+| [indus-script](./base/indus-script)         | Indus / Harappan            | ~2600-1900 BCE   | Indus Valley  | ✅     |
 | naxi-dongba                                 | Naxi Dongba                 | ~7th C CE-now    | China         | TODO   |
 | cretan-hieroglyph                           | Cretan hieroglyphs          | ~2100-1700 BCE   | Crete         | TODO   |
 | linear-elamite                              | Linear Elamite              | ~2300-2000 BCE   | Iran          | TODO   |
