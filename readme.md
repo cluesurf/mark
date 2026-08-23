@@ -39,10 +39,10 @@ making it accessible as a standard OpenType font.
 | [isthmian-script](./base/isthmian-script)   | Isthmian script             | ~500 BCE-500 CE  | Mesoamerica   | ✅     |
 | [proto-elamite](./base/proto-elamite)       | Proto-Elamite               | ~3100-2900 BCE   | Iran          | ✅     |
 | [indus-script](./base/indus-script)         | Indus / Harappan            | ~2600-1900 BCE   | Indus Valley  | ✅     |
+| [byblos-script](./base/byblos-script)       | Byblos syllabary            | ~2000-1500 BCE   | Levant        | ✅     |
 | naxi-dongba                                 | Naxi Dongba                 | ~7th C CE-now    | China         | TODO   |
 | cretan-hieroglyph                           | Cretan hieroglyphs          | ~2100-1700 BCE   | Crete         | TODO   |
 | linear-elamite                              | Linear Elamite              | ~2300-2000 BCE   | Iran          | TODO   |
-| byblos-syllabary                            | Byblos syllabary            | ~2000-1500 BCE   | Levant        | TODO   |
 | zapotec                                     | Zapotec script              | ~500 BCE-800 CE  | Mesoamerica   | TODO   |
 | mixtec                                      | Mixtec script               | ~1000-1500 CE    | Mesoamerica   | TODO   |
 | teotihuacan                                 | Teotihuacan glyphs          | ~100-550 CE      | Mesoamerica   | TODO   |
