@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**GuptaMark** renders the script of the
+**MarkGupta** renders the script of the
 [Gupta Empire](https://en.wikipedia.org/wiki/Gupta_script), the golden
 age of classical India spanning roughly **320-550 CE**. The Gupta script
 descended from Brahmi and served as the writing system for Sanskrit
@@ -37,7 +37,7 @@ writing systems.
 
 | font family | description |
 | :---------- | :---------- |
-| `GuptaMark` | Gupta script |
+| `MarkGupta` | Gupta script |
 
 Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/gupta/base)

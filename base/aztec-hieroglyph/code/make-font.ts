@@ -37,7 +37,7 @@ function extractViewBox(
 }
 
 async function main() {
-  console.log('Generating AztecHieroglyphMark font...\n')
+  console.log('Generating MarkAztecHieroglyph font...\n')
 
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
@@ -101,12 +101,12 @@ async function main() {
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, {
-    fontFamily: 'AztecHieroglyphMark',
+    fontFamily: 'MarkAztecHieroglyph',
     description:
       'Aztec (Nahuatl) hieroglyphic script font mapped to the Linear B Ideograms block.',
   })
 
-  await writeFont(font, path.join(baseDir, 'AztecHieroglyphMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MarkAztecHieroglyph-Regular.otf'))
 
   const mappingPath = path.join(baseDir, 'mapping.json')
   await fs.writeFile(

@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**AztecHieroglyphMark** preserves the glyphs of
+**MarkAztecHieroglyph** preserves the glyphs of
 [Aztec writing](https://en.wikipedia.org/wiki/Aztec_writing), the
 pictographic and phonetic system used by the Nahuatl-speaking peoples of
 central Mexico. Painted into screenfold codices and carved into stone,
@@ -46,7 +46,7 @@ without getting lost in the technical layers of its scholarship.
 
 | font family           | # glyphs | description       |
 | :-------------------- | :------- | :---------------- |
-| `AztecHieroglyphMark` | 34       | Aztec hieroglyphs |
+| `MarkAztecHieroglyph` | 34       | Aztec hieroglyphs |
 
 The **34 glyphs** are mapped sequentially to the
 [Linear B Ideograms](<https://en.wikipedia.org/wiki/Linear_B_Ideograms_(Unicode_block)>)

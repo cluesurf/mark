@@ -57,7 +57,7 @@ function extractViewBox(
 }
 
 async function main() {
-  console.log('Generating ByblosScriptMark font...\n')
+  console.log('Generating MarkByblosScript font...\n')
 
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
@@ -123,12 +123,12 @@ async function main() {
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, {
-    fontFamily: 'ByblosScriptMark',
+    fontFamily: 'MarkByblosScript',
     description:
       'Byblos syllabary (pseudo-hieroglyphic) script font mapped to the Egyptian Hieroglyphs block.',
   })
 
-  await writeFont(font, path.join(baseDir, 'ByblosScriptMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MarkByblosScript-Regular.otf'))
 
   const mappingPath = path.join(baseDir, 'mapping.json')
   await fs.writeFile(

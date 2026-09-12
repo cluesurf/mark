@@ -69,7 +69,7 @@ async function main() {
     .sort()
 
   console.log(
-    `Building PhaistosDiscMark from ${svgFiles.length} SVGs\n`,
+    `Building MarkPhaistosDisc from ${svgFiles.length} SVGs\n`,
   )
 
   // First pass: read all SVGs and find the max height.
@@ -181,12 +181,12 @@ async function main() {
   )
 
   const font = createFont(glyphs, {
-    fontFamily: 'PhaistosDiscMark',
+    fontFamily: 'MarkPhaistosDisc',
     description:
       'Phaistos Disc signs mapped to the Unicode Phaistos Disc block (U+101D0-U+101FF).',
   })
 
-  await writeFont(font, path.join(baseDir, 'PhaistosDiscMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MarkPhaistosDisc-Regular.otf'))
 
   console.log('\nDone.')
 }

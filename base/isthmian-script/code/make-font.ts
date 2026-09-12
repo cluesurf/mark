@@ -39,7 +39,7 @@ function extractViewBox(
 }
 
 async function main() {
-  console.log('Generating IsthmianScriptMark font...\n')
+  console.log('Generating MarkIsthmianScript font...\n')
 
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
@@ -107,12 +107,12 @@ async function main() {
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, {
-    fontFamily: 'IsthmianScriptMark',
+    fontFamily: 'MarkIsthmianScript',
     description:
       'Isthmian (Epi-Olmec) script font mapped to the Linear B blocks starting at U+10000.',
   })
 
-  await writeFont(font, path.join(baseDir, 'IsthmianScriptMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MarkIsthmianScript-Regular.otf'))
 
   const mappingPath = path.join(baseDir, 'mapping.json')
   await fs.writeFile(

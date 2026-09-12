@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**IndusScriptMark** preserves the signs of the
+**MarkIndusScript** preserves the signs of the
 [Indus script](https://en.wikipedia.org/wiki/Indus_script), also known
 as the **Harappan** script, used across the cities of the Indus Valley
 Civilization between roughly **2600 and 1900 BCE**. The signs survive
@@ -60,7 +60,7 @@ inscriptions and is the basis for the sign numbering used here.
 
 | font family       | # glyphs | description  |
 | :---------------- | :------- | :----------- |
-| `IndusScriptMark` | 417      | Indus script |
+| `MarkIndusScript` | 417      | Indus script |
 
 The **417 glyphs** are mapped sequentially to the
 [Egyptian Hieroglyphs](<https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)>)

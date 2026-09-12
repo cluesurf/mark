@@ -3,6 +3,7 @@ import opentype from 'opentype.js'
 
 export type FontMetadata = {
   familyName?: string
+  styleName?: string
   copyright?: string
   designer?: string
   designerURL?: string
@@ -23,12 +24,16 @@ export async function updateFontMetadata(
   const buffer = await fs.readFile(inputPath)
   const font = opentype.parse(buffer.buffer)
 
+  const styleName = metadata.styleName ?? 'Regular'
+
   if (metadata.familyName) {
     font.names.fontFamily = { en: metadata.familyName }
     font.names.preferredFamily = { en: metadata.familyName }
-    font.names.fullName = { en: `${metadata.familyName} Regular` }
+    font.names.fontSubfamily = { en: styleName }
+    font.names.preferredSubfamily = { en: styleName }
+    font.names.fullName = { en: `${metadata.familyName} ${styleName}` }
     font.names.postScriptName = {
-      en: `${metadata.familyName}-Regular`,
+      en: `${metadata.familyName}-${styleName}`,
     }
   }
 

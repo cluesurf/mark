@@ -37,7 +37,7 @@ function extractViewBox(
 }
 
 async function main() {
-  console.log('Generating RongoRongoMark font...\n')
+  console.log('Generating MarkRongoRongo font...\n')
 
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
@@ -120,12 +120,12 @@ async function main() {
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, {
-    fontFamily: 'RongoRongoMark',
+    fontFamily: 'MarkRongoRongo',
     description:
       'Rongorongo script font mapped to the Egyptian Hieroglyphs block.',
   })
 
-  await writeFont(font, path.join(baseDir, 'RongoRongoMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MarkRongoRongo-Regular.otf'))
 
   const mappingPath = path.join(baseDir, 'mapping.json')
   await fs.writeFile(

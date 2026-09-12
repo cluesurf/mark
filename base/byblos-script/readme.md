@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**ByblosScriptMark** preserves the signs of the
+**MarkByblosScript** preserves the signs of the
 [Byblos syllabary](https://en.wikipedia.org/wiki/Byblos_syllabary), the
 script also called **pseudo-hieroglyphic** for the way its shapes echo
 Egyptian hieroglyphs without behaving like them. It was written in the
@@ -86,7 +86,7 @@ catalogue:
 
 | font family        | # glyphs | description      |
 | :----------------- | :------- | :--------------- |
-| `ByblosScriptMark` | 114      | Byblos syllabary |
+| `MarkByblosScript` | 114      | Byblos syllabary |
 
 The **114 glyphs** are mapped sequentially to the
 [Egyptian Hieroglyphs](<https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)>)
@@ -115,7 +115,7 @@ pnpm tsx base/byblos-script/code/make-font.ts
 ```
 
 This reads the SVGs in [`./base/mark`](./base/mark) and writes
-`./base/ByblosScriptMark.otf` alongside `./base/mapping.json`.
+`./base/MarkByblosScript-Regular.otf` alongside `./base/mapping.json`.
 
 ## Test
 

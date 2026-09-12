@@ -6,13 +6,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.join(__dirname, '..', 'base')
 
 async function main() {
-  console.log('Updating ProtoSinaiticMark font metadata...\n')
+  console.log('Updating MarkProtoSinaitic font metadata...\n')
 
   await updateFontMetadata(
-    path.join(baseDir, 'ProtoSinaiticMark-Regular.ttf'),
-    path.join(baseDir, 'ProtoSinaiticMark-Regular.ttf'),
+    path.join(baseDir, 'MarkProtoSinaitic-Regular.ttf'),
+    path.join(baseDir, 'MarkProtoSinaitic-Regular.ttf'),
     {
-      familyName: 'ProtoSinaiticMark',
+      familyName: 'MarkProtoSinaitic',
+      styleName: 'Regular',
       copyright: 'Copyright 2025 ClueSurf. All rights reserved.',
       designer: 'ClueSurf',
       designerURL: 'https://clue.surf',
@@ -24,15 +25,16 @@ async function main() {
       version: 'Version 0.1.0',
       description:
         'Proto-Sinaitic script font, one of the earliest alphabets.',
-      trademark: 'ProtoSinaiticMark is a trademark of ClueSurf.',
+      trademark: 'MarkProtoSinaitic is a trademark of ClueSurf.',
     },
   )
 
   await updateFontMetadata(
-    path.join(baseDir, 'ProtoSinaiticMark-Semibold.ttf'),
-    path.join(baseDir, 'ProtoSinaiticMark-Semibold.ttf'),
+    path.join(baseDir, 'MarkProtoSinaitic-Semibold.ttf'),
+    path.join(baseDir, 'MarkProtoSinaitic-Semibold.ttf'),
     {
-      familyName: 'ProtoSinaiticMark',
+      familyName: 'MarkProtoSinaitic',
+      styleName: 'Semibold',
       copyright: 'Copyright 2025 ClueSurf. All rights reserved.',
       designer: 'ClueSurf',
       designerURL: 'https://clue.surf',
@@ -44,7 +46,7 @@ async function main() {
       version: 'Version 0.1.0',
       description:
         'Proto-Sinaitic script font, one of the earliest alphabets.',
-      trademark: 'ProtoSinaiticMark is a trademark of ClueSurf.',
+      trademark: 'MarkProtoSinaitic is a trademark of ClueSurf.',
     },
   )
 

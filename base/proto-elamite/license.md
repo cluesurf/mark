@@ -1,5 +1,5 @@
 Copyright (c) 2025 - Present, ClueSurf, with Reserved Font Name
-ProtoElamiteMark.
+MarkProtoElamite.
 
 ## Glyph Source Attribution
 

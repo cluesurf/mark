@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**BronzeScriptMark** carries the writing tradition that followed oracle bone
+**MarkBronzeScript** carries the writing tradition that followed oracle bone
 script onto
 [bronze vessels](https://en.wikipedia.org/wiki/Chinese_bronze_inscriptions)
 used for rituals and record-keeping. Dating to roughly **1000-700 BCE**,
@@ -55,7 +55,7 @@ visit [hanziyuan.net](https://hanziyuan.net).
 
 | font family | # glyphs | description |
 | :---------- | :------- | :---------- |
-| `BronzeScriptMark` | 1326 | Bronze script |
+| `MarkBronzeScript` | 1326 | Bronze script |
 
 The **1326 glyphs** are mapped to their corresponding modern Chinese
 Unicode codepoints.

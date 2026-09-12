@@ -4,13 +4,14 @@ import { updateFontMetadata } from '../../../code/update-font-metadata'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.join(__dirname, '..', 'base')
-const fontPath = path.join(baseDir, 'GuptaMark.otf')
+const fontPath = path.join(baseDir, 'MarkGupta-Regular.otf')
 
 async function main() {
-  console.log('Updating GuptaMark font metadata...\n')
+  console.log('Updating MarkGupta font metadata...\n')
 
   await updateFontMetadata(fontPath, fontPath, {
-    familyName: 'GuptaMark',
+    familyName: 'MarkGupta',
+    styleName: 'Regular',
     copyright: 'Copyright 2025 ClueSurf. All rights reserved.',
     designer: 'ClueSurf',
     designerURL: 'https://clue.surf',
@@ -21,7 +22,7 @@ async function main() {
     licenseURL: 'https://openfontlicense.org',
     version: 'Version 0.1.0',
     description: 'Gupta Empire script font from classical India.',
-    trademark: 'GuptaMark is a trademark of ClueSurf.',
+    trademark: 'MarkGupta is a trademark of ClueSurf.',
   })
 
   console.log('\nDone.')

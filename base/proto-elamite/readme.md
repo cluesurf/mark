@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**ProtoElamiteMark** preserves the signs of
+**MarkProtoElamite** preserves the signs of
 [Proto-Elamite](https://en.wikipedia.org/wiki/Proto-Elamite), one of the
 oldest writing systems in the world. It was used across the Iranian
 plateau, centered on **Susa**, from roughly **3100 to 2900 BCE**,
@@ -49,7 +49,7 @@ glyph-to-codepoint mapping.
 
 | font family        | # glyphs | description         |
 | :----------------- | :------- | :------------------ |
-| `ProtoElamiteMark` | 1329     | Proto-Elamite signs |
+| `MarkProtoElamite` | 1329     | Proto-Elamite signs |
 
 Proto-Elamite has no codepoints of its own in Unicode, so the **1329
 glyphs** are hosted on the precomposed **Hangul** syllables that carry a

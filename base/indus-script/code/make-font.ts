@@ -40,7 +40,7 @@ function extractViewBox(
 }
 
 async function main() {
-  console.log('Generating IndusScriptMark font...\n')
+  console.log('Generating MarkIndusScript font...\n')
 
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
@@ -125,12 +125,12 @@ async function main() {
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, {
-    fontFamily: 'IndusScriptMark',
+    fontFamily: 'MarkIndusScript',
     description:
       'Indus (Harappan) script font mapped to the Egyptian Hieroglyphs block.',
   })
 
-  await writeFont(font, path.join(baseDir, 'IndusScriptMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MarkIndusScript-Regular.otf'))
 
   const mappingPath = path.join(baseDir, 'mapping.json')
   await fs.writeFile(

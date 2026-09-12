@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**PhaistosDiscMark** captures the mysterious symbols stamped into the
+**MarkPhaistosDisc** captures the mysterious symbols stamped into the
 [Phaistos Disc](https://en.wikipedia.org/wiki/Phaistos_Disc), a fired
 clay tablet discovered in 1908 at the Minoan palace of Phaistos on
 Crete. Dating to around **1700 BCE**, the disc bears 242 impressions of

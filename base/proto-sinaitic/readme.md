@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**ProtoSinaiticMark** traces the ancient impulse to carve meaning into stone.
+**MarkProtoSinaitic** traces the ancient impulse to carve meaning into stone.
 Based on Proto-Sinaitic script from around 1800 BCE, it captures that
 pivotal moment when humans first abstracted pictographs into letters.
 When miners in the Sinai Peninsula began scratching symbols that would

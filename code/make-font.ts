@@ -144,6 +144,7 @@ export function createNotdefGlyph(): opentype.Glyph {
 export type FontMetadataOptions = {
   fontFamily: string
   description: string
+  styleName?: string
 }
 
 /**
@@ -155,11 +156,15 @@ export function createFont(
   glyphs: Array<opentype.Glyph>,
   options: FontMetadataOptions,
 ): opentype.Font {
-  const { fontFamily, description } = options
+  const { fontFamily, description, styleName = 'Regular' } = options
 
   return new opentype.Font({
     familyName: fontFamily,
-    styleName: 'Regular',
+    styleName,
+    // opentype.js would otherwise join these without a hyphen, so
+    // name 4 and name 6 are set here to the house spelling.
+    fullName: `${fontFamily} ${styleName}`,
+    postScriptName: `${fontFamily}-${styleName}`,
     unitsPerEm: UNITS_PER_EM,
     ascender: ASCENDER,
     descender: DESCENDER,
@@ -206,6 +211,7 @@ export type MakeFontOptions = {
   outputPath: string
   fontFamily: string
   description: string
+  styleName?: string
   svgSize?: number
 }
 
@@ -215,6 +221,7 @@ export async function makeFont(options: MakeFontOptions) {
     outputPath,
     fontFamily,
     description,
+    styleName = 'Regular',
     svgSize = 3000,
   } = options
 
@@ -222,7 +229,7 @@ export async function makeFont(options: MakeFontOptions) {
   const svgFiles = entries.filter(f => f.endsWith('.svg')).sort()
 
   console.log(
-    `Building ${fontFamily} from ${svgFiles.length} SVGs in ${svgDir}`,
+    `Building ${fontFamily}-${styleName} from ${svgFiles.length} SVGs in ${svgDir}`,
   )
 
   const transform = squareTransform(svgSize)
@@ -264,6 +271,6 @@ export async function makeFont(options: MakeFontOptions) {
 
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
-  const font = createFont(glyphs, { fontFamily, description })
+  const font = createFont(glyphs, { fontFamily, description, styleName })
   await writeFont(font, outputPath)
 }

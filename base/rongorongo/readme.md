@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**RongoRongoMark** preserves the mysterious glyphs of
+**MarkRongoRongo** preserves the mysterious glyphs of
 [rongorongo](https://en.wikipedia.org/wiki/Rongorongo), a system of
 markings discovered on **Easter Island (Rapa Nui)** in the 19th century.
 Carved into wooden tablets with shark teeth and obsidian flakes, the
@@ -57,7 +57,7 @@ sign records, visit
 
 | font family      | # glyphs | description       |
 | :--------------- | :------- | :---------------- |
-| `RongoRongoMark` | 600      | Rongorongo script |
+| `MarkRongoRongo` | 600      | Rongorongo script |
 
 The **600 glyphs** are mapped sequentially to the
 [Egyptian Hieroglyphs](<https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)>)

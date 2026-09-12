@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**ProtoCanaaniteMark** captures the script that bridged Proto-Sinaitic
+**MarkProtoCanaanite** captures the script that bridged Proto-Sinaitic
 writing and the Phoenician alphabet. Emerging in the land of Canaan
 around **1600-1200 BCE**, the
 [Proto-Canaanite script](https://en.wikipedia.org/wiki/Proto-Canaanite_script)
@@ -37,7 +37,7 @@ Latin, then to the letters used across the world today.
 
 | font family | description |
 | :---------- | :---------- |
-| `ProtoCanaaniteMark` | Proto-Canaanite script |
+| `MarkProtoCanaanite` | Proto-Canaanite script |
 
 Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/proto-canaanite/base)

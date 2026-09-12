@@ -4,13 +4,14 @@ import { updateFontMetadata } from '../../../code/update-font-metadata'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.join(__dirname, '..', 'base')
-const fontPath = path.join(baseDir, 'ProtoCanaaniteMark.otf')
+const fontPath = path.join(baseDir, 'MarkProtoCanaanite-Regular.otf')
 
 async function main() {
-  console.log('Updating ProtoCanaaniteMark font metadata...\n')
+  console.log('Updating MarkProtoCanaanite font metadata...\n')
 
   await updateFontMetadata(fontPath, fontPath, {
-    familyName: 'ProtoCanaaniteMark',
+    familyName: 'MarkProtoCanaanite',
+    styleName: 'Regular',
     copyright: 'Copyright 2025 ClueSurf. All rights reserved.',
     designer: 'ClueSurf',
     designerURL: 'https://clue.surf',
@@ -22,7 +23,7 @@ async function main() {
     version: 'Version 0.1.0',
     description:
       'Proto-Canaanite script font from the Bronze Age Levant.',
-    trademark: 'ProtoCanaaniteMark is a trademark of ClueSurf.',
+    trademark: 'MarkProtoCanaanite is a trademark of ClueSurf.',
   })
 
   console.log('\nDone.')

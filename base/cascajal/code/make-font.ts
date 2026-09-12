@@ -37,7 +37,7 @@ function extractViewBox(
 }
 
 async function main() {
-  console.log('Generating CascajalMark font...\n')
+  console.log('Generating MarkCascajal font...\n')
 
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
@@ -105,12 +105,12 @@ async function main() {
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, {
-    fontFamily: 'CascajalMark',
+    fontFamily: 'MarkCascajal',
     description:
       'Cascajal Block (Olmec) script font mapped to the Linear B Ideograms block.',
   })
 
-  await writeFont(font, path.join(baseDir, 'CascajalMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MarkCascajal-Regular.otf'))
 
   const mappingPath = path.join(baseDir, 'mapping.json')
   await fs.writeFile(

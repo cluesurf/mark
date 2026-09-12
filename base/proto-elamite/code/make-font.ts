@@ -60,7 +60,7 @@ function extractPaths(
 }
 
 async function main() {
-  console.log('Generating ProtoElamiteMark font...\n')
+  console.log('Generating MarkProtoElamite font...\n')
 
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
@@ -212,12 +212,12 @@ async function main() {
   console.log(`  ${processed} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, {
-    fontFamily: 'ProtoElamiteMark',
+    fontFamily: 'MarkProtoElamite',
     description:
       'Proto-Elamite sign list hosted on the KS X 1001 hangul syllables. Glyphs derived from the CDLI proto-elamite_data corpus (CC-BY-4.0).',
   })
 
-  await writeFont(font, path.join(baseDir, 'ProtoElamiteMark.otf'))
+  await writeFont(font, path.join(baseDir, 'MarkProtoElamite-Regular.otf'))
 
   const mappingPath = path.join(baseDir, 'mapping.json')
   await fs.writeFile(

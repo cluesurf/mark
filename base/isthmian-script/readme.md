@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**IsthmianScriptMark** preserves the glyphs of the
+**MarkIsthmianScript** preserves the glyphs of the
 [Isthmian script](https://en.wikipedia.org/wiki/Isthmian_script), also
 known as **Epi-Olmec**, one of the earliest writing systems of
 Mesoamerica. It appears on a small handful of surviving artifacts from
@@ -49,7 +49,7 @@ of its decipherment debates.
 
 | font family          | # glyphs | description     |
 | :------------------- | :------- | :-------------- |
-| `IsthmianScriptMark` | 185      | Isthmian script |
+| `MarkIsthmianScript` | 185      | Isthmian script |
 
 The **185 glyphs** are mapped sequentially to the
 [Linear B](<https://en.wikipedia.org/wiki/Linear_B_Syllabary_(Unicode_block)>)

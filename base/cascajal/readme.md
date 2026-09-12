@@ -17,7 +17,7 @@
 
 ## Introduction
 
-**CascajalMark** preserves the signs of the
+**MarkCascajal** preserves the signs of the
 [Cascajal Block](https://en.wikipedia.org/wiki/Cascajal_Block), a
 serpentine slab discovered near San Lorenzo in Veracruz, Mexico, and
 associated with the **Olmec** civilization. Dated to roughly **900
@@ -48,7 +48,7 @@ of its decipherment debates.
 
 | font family   | # glyphs | description   |
 | :------------ | :------- | :------------ |
-| `CascajalMark` | 62       | Cascajal signs |
+| `MarkCascajal` | 62       | Cascajal signs |
 
 The **62 glyphs** are mapped sequentially to the
 [Linear B Ideograms](<https://en.wikipedia.org/wiki/Linear_B_Ideograms_(Unicode_block)>)

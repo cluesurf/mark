@@ -6,12 +6,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.join(__dirname, '..', 'base')
 
 async function main() {
-  console.log('Generating OracleBoneMark font...\n')
+  console.log('Generating MarkOracleBone font...\n')
 
   await makeFont({
     svgDir: path.join(baseDir, 'mark'),
-    outputPath: path.join(baseDir, 'OracleBoneMark.otf'),
-    fontFamily: 'OracleBoneMark',
+    outputPath: path.join(baseDir, 'MarkOracleBone-Regular.otf'),
+    fontFamily: 'MarkOracleBone',
     description: 'Ancient Chinese oracle bone (甲骨文) script font.',
   })
 

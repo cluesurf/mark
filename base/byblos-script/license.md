@@ -1,5 +1,5 @@
 Copyright (c) 2025 - Present, ClueSurf, with Reserved Font Name
-ByblosScriptMark.
+MarkByblosScript.
 
 This Font Software is licensed under the SIL Open Font License, Version
 1.1. This license is copied below, and is also available with a FAQ at:
