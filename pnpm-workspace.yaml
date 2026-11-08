@@ -1,0 +1,45 @@
+allowBuilds:
+  esbuild: set this to true or false
+
+# pnpm 11 reads overrides from this file and ignores `pnpm.overrides` in
+# package.json, so the floors live here. Every flagged package is a dev
+# tool (eslint, tsx, concurrently); none ships in the published fonts.
+
+# Only resolve releases at least 7 days old (10080 minutes), so a
+# hijacked or broken publish has a week to be caught first. Every floor
+# below was checked on 2026-11-07: each fix predates 2026-10-31.
+minimumReleaseAge: 10080
+
+overrides:
+  # critical
+  # GHSA-395f-4hp3-45gv, GHSA-w7jw-789q-3m8p, and GHSA-pqg4-j6r4-53mv
+  # (quote() injection through a line terminator), fixed in 1.11.0.
+  # Via concurrently.
+  shell-quote: '>=1.11.0 <2'
+  # high
+  # Eight DoS advisories (exponential and quadratic expansion, unbounded
+  # recursion and length, zero-step sequences). Under minimatch 9 and 10.
+  'brace-expansion@2': '>=2.1.7 <3'
+  'brace-expansion@5': '>=5.0.12 <6'
+  # GHSA-25h7-pfq9-p65f and GHSA-rf6f-7fwh-wjgh, recursion DoS and
+  # prototype pollution in parse(). Under eslint's file cache.
+  flatted: '>=3.4.2 <4'
+  # Three ReDoS advisories, fixed per line. GHSA-g3hv-75wg-m249 is fixed
+  # only in 11.x, a major eslint and typescript-eslint do not accept yet.
+  'minimatch@9': '>=9.0.7 <10'
+  'minimatch@10': '>=10.2.6 <11'
+  # GHSA-3v7f-55p6-f55p and GHSA-c2c7-rcm5-vvqj, method injection in
+  # POSIX classes and extglob ReDoS.
+  'picomatch@2': '>=2.3.2 <3'
+  'picomatch@4': '>=4.0.4 <5'
+  # medium
+  # GHSA-p498-v437-472g, recursive copy follows symlinked files. Under
+  # eslint. Scoped under 0.17 because 0.x minors are breaking.
+  '@humanfs/node': '>=0.16.8 <0.17'
+  # GHSA-2g4f-4pwh-qvx6, ReDoS with the $data option. Capped under 7: an
+  # open floor resolves ajv 8 for every ajv@6 dependent and crashes eslint.
+  'ajv@6': '>=6.14.0 <7'
+  # low
+  # GHSA-g7r4-m6w7-qqqr, arbitrary file read from the dev server on
+  # Windows. tsx 4.21 asks for 0.27; the cluesurf root runs tsx on 0.28.
+  esbuild: '>=0.28.1 <0.29'
