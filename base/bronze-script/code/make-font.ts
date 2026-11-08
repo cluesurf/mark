@@ -1,22 +1,28 @@
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { makeFont } from '../../../code/make-font'
+import { makeFont, writeMapping } from '../../../code/make-font'
+
+/**
+ * Build MarkBronzeScript from `base/mark/*.svg`. Each file is named by
+ * the modern character it is read as, and is drawn on its plane 15
+ * private use code point in `code-points.json`, never on that
+ * character, so a copied sign is not mistaken for the modern one.
+ */
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.join(__dirname, '..', 'base')
 
 async function main() {
-  console.log('Generating MarkBronzeScript font...\n')
-
-  await makeFont({
+  const mapping = await makeFont({
+    font: 'bronze-script',
     svgDir: path.join(baseDir, 'mark'),
     outputPath: path.join(baseDir, 'MarkBronzeScript-Regular.otf'),
     fontFamily: 'MarkBronzeScript',
     description:
-      'Ancient Chinese bronze inscription (金文) script font.',
+      'Chinese bronze inscription (金文) signs, each on its own plane 15 private use code point.',
   })
 
-  console.log('\nDone.')
+  await writeMapping(baseDir, mapping)
 }
 
 main().catch(err => {

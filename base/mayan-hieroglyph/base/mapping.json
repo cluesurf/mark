@@ -1,4370 +1,4370 @@
 [
   {
     "key": "0--il",
-    "codepoint": "U+AC00"
+    "codepoint": "U+F0647"
   },
   {
     "key": "0--ji-ya",
-    "codepoint": "U+AC01"
+    "codepoint": "U+F0648"
   },
   {
     "key": "0--la-ja",
-    "codepoint": "U+AC02"
+    "codepoint": "U+F0649"
   },
   {
     "key": "0-.@.@.@wi-ya",
-    "codepoint": "U+AC03"
+    "codepoint": "U+F064A"
   },
   {
     "key": "0-.@.@.@ya-ni",
-    "codepoint": "U+AC04"
+    "codepoint": "U+F064B"
   },
   {
     "key": "0-AB{}",
-    "codepoint": "U+AC05"
+    "codepoint": "U+F064C"
   },
   {
     "key": "0-K{}A@CHAAN-na",
-    "codepoint": "U+AC06"
+    "codepoint": "U+F064D"
   },
   {
     "key": "0-NA@ka-KAN",
-    "codepoint": "U+AC07"
+    "codepoint": "U+F064E"
   },
   {
     "key": "0-TA@OCH-le-{l}",
-    "codepoint": "U+AC08"
+    "codepoint": "U+F064F"
   },
   {
     "key": "0-TAB{}",
-    "codepoint": "U+AC09"
+    "codepoint": "U+F0650"
   },
   {
     "key": "0-U@.@.@.@wa",
-    "codepoint": "U+AC0A"
+    "codepoint": "U+F0651"
   },
   {
     "key": "0-a-AK{}OT-ta",
-    "codepoint": "U+AC0B"
+    "codepoint": "U+F0652"
   },
   {
     "key": "0-b{}a",
-    "codepoint": "U+AC0C"
+    "codepoint": "U+F0653"
   },
   {
     "key": "0-cha-CHAN$ka-KAN",
-    "codepoint": "U+AC0D"
+    "codepoint": "U+F0654"
   },
   {
     "key": "0-ch{}a",
-    "codepoint": "U+AC0E"
+    "codepoint": "U+F0655"
   },
   {
     "key": "0-e",
-    "codepoint": "U+AC0F"
+    "codepoint": "U+F0656"
   },
   {
     "key": "0-ka",
-    "codepoint": "U+AC10"
+    "codepoint": "U+F0657"
   },
   {
     "key": "0-o",
-    "codepoint": "U+AC12"
+    "codepoint": "U+F0659"
   },
   {
     "key": "0-pa-k{}a",
-    "codepoint": "U+AC13"
+    "codepoint": "U+F065A"
   },
   {
     "key": "0-sa",
-    "codepoint": "U+AC14"
+    "codepoint": "U+F065B"
   },
   {
     "key": "0-tza",
-    "codepoint": "U+AC15"
+    "codepoint": "U+F065C"
   },
   {
     "key": "0-tz{}a-pa-ja",
-    "codepoint": "U+AC16"
+    "codepoint": "U+F065D"
   },
   {
     "key": "0-xa-ma-na",
-    "codepoint": "U+AC17"
+    "codepoint": "U+F065E"
   },
   {
     "key": "1--il",
-    "codepoint": "U+AC18"
+    "codepoint": "U+F065F"
   },
   {
     "key": "1--ji-ya",
-    "codepoint": "U+AC19"
+    "codepoint": "U+F0660"
   },
   {
     "key": "1--la-ja",
-    "codepoint": "U+AC1A"
+    "codepoint": "U+F0661"
   },
   {
     "key": "1-AB{}-[b{}i]",
-    "codepoint": "U+AC1B"
+    "codepoint": "U+F0662"
   },
   {
     "key": "1-B{}A@AJAW",
-    "codepoint": "U+AC1C"
+    "codepoint": "U+F0663"
   },
   {
     "key": "1-TA@yu-ta-{l}",
-    "codepoint": "U+AC1D"
+    "codepoint": "U+F0664"
   },
   {
     "key": "1-TAB{}-[yi]",
-    "codepoint": "U+AC1E"
+    "codepoint": "U+F0665"
   },
   {
     "key": "1-U@.@.@.@wi",
-    "codepoint": "U+AC1F"
+    "codepoint": "U+F0666"
   },
   {
     "key": "1-a-ja-wa",
-    "codepoint": "U+AC20"
+    "codepoint": "U+F0667"
   },
   {
     "key": "1-cha-ki",
-    "codepoint": "U+AC21"
+    "codepoint": "U+F0668"
   },
   {
     "key": "1-ch{}a-b{}a",
-    "codepoint": "U+AC22"
+    "codepoint": "U+F0669"
   },
   {
     "key": "1-e",
-    "codepoint": "U+AC23"
+    "codepoint": "U+F066A"
   },
   {
     "key": "1-ka",
-    "codepoint": "U+AC24"
+    "codepoint": "U+F066B"
   },
   {
     "key": "1-k{}a-K{}AK{}",
-    "codepoint": "U+AC25"
+    "codepoint": "U+F066C"
   },
   {
     "key": "1-ma",
-    "codepoint": "U+AC26"
+    "codepoint": "U+F066D"
   },
   {
     "key": "1-na-b{}i",
-    "codepoint": "U+AC27"
+    "codepoint": "U+F066E"
   },
   {
     "key": "1-o",
-    "codepoint": "U+AC28"
+    "codepoint": "U+F066F"
   },
   {
     "key": "1-pa-k{}a-ji-ya",
-    "codepoint": "U+AC29"
+    "codepoint": "U+F0670"
   },
   {
     "key": "1-sa",
-    "codepoint": "U+AC2A"
+    "codepoint": "U+F0671"
   },
   {
     "key": "1-tza",
-    "codepoint": "U+AC2B"
+    "codepoint": "U+F0672"
   },
   {
     "key": "1-tz{}a-pa-ji-ya",
-    "codepoint": "U+AC2C"
+    "codepoint": "U+F0673"
   },
   {
     "key": "1-wa-wa-aj-ni",
-    "codepoint": "U+AC2D"
+    "codepoint": "U+F0674"
   },
   {
     "key": "1-xa-XAN-na",
-    "codepoint": "U+AC2E"
+    "codepoint": "U+F0675"
   },
   {
     "key": "1-ya",
-    "codepoint": "U+AC2F"
+    "codepoint": "U+F0676"
   },
   {
     "key": "10-AB{}",
-    "codepoint": "U+AC30"
+    "codepoint": "U+F0677"
   },
   {
     "key": "10-EK{}",
-    "codepoint": "U+AC31"
+    "codepoint": "U+F0678"
   },
   {
     "key": "10-I-IL-ji",
-    "codepoint": "U+AC32"
+    "codepoint": "U+F0679"
   },
   {
     "key": "10-KAB{}",
-    "codepoint": "U+AC33"
+    "codepoint": "U+F067A"
   },
   {
     "key": "10-LAJUN",
-    "codepoint": "U+AC34"
+    "codepoint": "U+F067B"
   },
   {
     "key": "10-b{}a-tz{}u",
-    "codepoint": "U+AC35"
+    "codepoint": "U+F067C"
   },
   {
     "key": "10-cha$ka",
-    "codepoint": "U+AC36"
+    "codepoint": "U+F067D"
   },
   {
     "key": "10-ch{}a$CH{}A",
-    "codepoint": "U+AC37"
+    "codepoint": "U+F067E"
   },
   {
     "key": "10-ja-tz{}a-yi",
-    "codepoint": "U+AC38"
+    "codepoint": "U+F067F"
   },
   {
     "key": "10-je",
-    "codepoint": "U+AC39"
+    "codepoint": "U+F0680"
   },
   {
     "key": "10-k{}a$ch{}a",
-    "codepoint": "U+AC3A"
+    "codepoint": "U+F0681"
   },
   {
     "key": "10-ma-xi",
-    "codepoint": "U+AC3B"
+    "codepoint": "U+F0682"
   },
   {
     "key": "10-na$NA$NAJ",
-    "codepoint": "U+AC3C"
+    "codepoint": "U+F0683"
   },
   {
     "key": "10-o",
-    "codepoint": "U+AC3D"
+    "codepoint": "U+F0684"
   },
   {
     "key": "10-pa-ta-{n}",
-    "codepoint": "U+AC3E"
+    "codepoint": "U+F0685"
   },
   {
     "key": "10-sa$SA",
-    "codepoint": "U+AC3F"
+    "codepoint": "U+F0686"
   },
   {
     "key": "10-ta$TA",
-    "codepoint": "U+AC40"
+    "codepoint": "U+F0687"
   },
   {
     "key": "10-tzi$TZI",
-    "codepoint": "U+AC41"
+    "codepoint": "U+F0688"
   },
   {
     "key": "10-tz{}i",
-    "codepoint": "U+AC42"
+    "codepoint": "U+F0689"
   },
   {
     "key": "10-u-ti-ji-ya",
-    "codepoint": "U+AC43"
+    "codepoint": "U+F068A"
   },
   {
     "key": "10-wa$WA",
-    "codepoint": "U+AC44"
+    "codepoint": "U+F068B"
   },
   {
     "key": "10-xo",
-    "codepoint": "U+AC45"
+    "codepoint": "U+F068C"
   },
   {
     "key": "10-ya-AL",
-    "codepoint": "U+AC46"
+    "codepoint": "U+F068D"
   },
   {
     "key": "11-AB{}-[b{}i]",
-    "codepoint": "U+AC47"
+    "codepoint": "U+F068E"
   },
   {
     "key": "11-EK{}",
-    "codepoint": "U+AC48"
+    "codepoint": "U+F068F"
   },
   {
     "key": "11-KAB{}-ji",
-    "codepoint": "U+AC49"
+    "codepoint": "U+F0690"
   },
   {
     "key": "11-LAJUN",
-    "codepoint": "U+AC4A"
+    "codepoint": "U+F0691"
   },
   {
     "key": "11-b{}a$B{}A",
-    "codepoint": "U+AC4B"
+    "codepoint": "U+F0692"
   },
   {
     "key": "11-cha$ka",
-    "codepoint": "U+AC4C"
+    "codepoint": "U+F0693"
   },
   {
     "key": "11-ch{}a$CH{}A",
-    "codepoint": "U+AC4D"
+    "codepoint": "U+F0694"
   },
   {
     "key": "11-i-ka-tzi",
-    "codepoint": "U+AC4E"
+    "codepoint": "U+F0695"
   },
   {
     "key": "11-ja-wa-te{}",
-    "codepoint": "U+AC4F"
+    "codepoint": "U+F0696"
   },
   {
     "key": "11-ji",
-    "codepoint": "U+AC50"
+    "codepoint": "U+F0697"
   },
   {
     "key": "11-k{}a$ch{}a",
-    "codepoint": "U+AC51"
+    "codepoint": "U+F0698"
   },
   {
     "key": "11-ma-xi",
-    "codepoint": "U+AC52"
+    "codepoint": "U+F0699"
   },
   {
     "key": "11-na$NA$NAJ",
-    "codepoint": "U+AC53"
+    "codepoint": "U+F069A"
   },
   {
     "key": "11-o",
-    "codepoint": "U+AC54"
+    "codepoint": "U+F069B"
   },
   {
     "key": "11-pa-ti",
-    "codepoint": "U+AC55"
+    "codepoint": "U+F069C"
   },
   {
     "key": "11-sa$SA",
-    "codepoint": "U+AC56"
+    "codepoint": "U+F069D"
   },
   {
     "key": "11-ta$TA",
-    "codepoint": "U+AC57"
+    "codepoint": "U+F069E"
   },
   {
     "key": "11-tzo",
-    "codepoint": "U+AC58"
+    "codepoint": "U+F069F"
   },
   {
     "key": "11-tz{}i",
-    "codepoint": "U+AC59"
+    "codepoint": "U+F06A0"
   },
   {
     "key": "11-u-ti-ya",
-    "codepoint": "U+AC5A"
+    "codepoint": "U+F06A1"
   },
   {
     "key": "11-wa$WA",
-    "codepoint": "U+AC5B"
+    "codepoint": "U+F06A2"
   },
   {
     "key": "11-xo-ki",
-    "codepoint": "U+AC5C"
+    "codepoint": "U+F06A3"
   },
   {
     "key": "11-ya-AL",
-    "codepoint": "U+AC5D"
+    "codepoint": "U+F06A4"
   },
   {
     "key": "12-ACH-cha",
-    "codepoint": "U+AC5E"
+    "codepoint": "U+F06A5"
   },
   {
     "key": "12-CH{}AB{}",
-    "codepoint": "U+AC5F"
+    "codepoint": "U+F06A6"
   },
   {
     "key": "12-EK{}@JUN",
-    "codepoint": "U+AC60"
+    "codepoint": "U+F06A7"
   },
   {
     "key": "12-KAB{}-ji",
-    "codepoint": "U+AC61"
+    "codepoint": "U+F06A8"
   },
   {
     "key": "12-LAK",
-    "codepoint": "U+AC62"
+    "codepoint": "U+F06A9"
   },
   {
     "key": "12-b{}a$B{}A",
-    "codepoint": "U+AC63"
+    "codepoint": "U+F06AA"
   },
   {
     "key": "12-cha$ka",
-    "codepoint": "U+AC64"
+    "codepoint": "U+F06AB"
   },
   {
     "key": "12-i-ka-tzi",
-    "codepoint": "U+AC65"
+    "codepoint": "U+F06AC"
   },
   {
     "key": "12-ja-wa-te{}",
-    "codepoint": "U+AC66"
+    "codepoint": "U+F06AD"
   },
   {
     "key": "12-ji-IX",
-    "codepoint": "U+AC67"
+    "codepoint": "U+F06AE"
   },
   {
     "key": "12-k{}a$ch{}a",
-    "codepoint": "U+AC68"
+    "codepoint": "U+F06AF"
   },
   {
     "key": "12-ma-xi",
-    "codepoint": "U+AC69"
+    "codepoint": "U+F06B0"
   },
   {
     "key": "12-na$NA$NAJ",
-    "codepoint": "U+AC6A"
+    "codepoint": "U+F06B1"
   },
   {
     "key": "12-o-la-si",
-    "codepoint": "U+AC6B"
+    "codepoint": "U+F06B2"
   },
   {
     "key": "12-pa$PAJ",
-    "codepoint": "U+AC6C"
+    "codepoint": "U+F06B3"
   },
   {
     "key": "12-sa$SA",
-    "codepoint": "U+AC6D"
+    "codepoint": "U+F06B4"
   },
   {
     "key": "12-ta$TA",
-    "codepoint": "U+AC6E"
+    "codepoint": "U+F06B5"
   },
   {
     "key": "12-tzo",
-    "codepoint": "U+AC6F"
+    "codepoint": "U+F06B6"
   },
   {
     "key": "12-tz{}i",
-    "codepoint": "U+AC70"
+    "codepoint": "U+F06B7"
   },
   {
     "key": "12-u-ti-ya",
-    "codepoint": "U+AC71"
+    "codepoint": "U+F06B8"
   },
   {
     "key": "12-wa$WA",
-    "codepoint": "U+AC72"
+    "codepoint": "U+F06B9"
   },
   {
     "key": "12-xu",
-    "codepoint": "U+AC73"
+    "codepoint": "U+F06BA"
   },
   {
     "key": "12-ya-AL",
-    "codepoint": "U+AC74"
+    "codepoint": "U+F06BB"
   },
   {
     "key": "13-AJ@k{}u-JUN-na",
-    "codepoint": "U+AC75"
+    "codepoint": "U+F06BC"
   },
   {
     "key": "13-B{}AK",
-    "codepoint": "U+AC76"
+    "codepoint": "U+F06BD"
   },
   {
     "key": "13-CH{}AB{}",
-    "codepoint": "U+AC77"
+    "codepoint": "U+F06BE"
   },
   {
     "key": "13-EK{}@WAY-NAL",
-    "codepoint": "U+AC78"
+    "codepoint": "U+F06BF"
   },
   {
     "key": "13-KAB{}-ji-ya",
-    "codepoint": "U+AC79"
+    "codepoint": "U+F06C0"
   },
   {
     "key": "13-LAK-K{}IN-ni",
-    "codepoint": "U+AC7A"
+    "codepoint": "U+F06C1"
   },
   {
     "key": "13-MA-[IL]-aj",
-    "codepoint": "U+AC7B"
+    "codepoint": "U+F06C2"
   },
   {
     "key": "13-SAK",
-    "codepoint": "U+AC7C"
+    "codepoint": "U+F06C3"
   },
   {
     "key": "13-TZ{}I",
-    "codepoint": "U+AC7D"
+    "codepoint": "U+F06C4"
   },
   {
     "key": "13-WAK",
-    "codepoint": "U+AC7E"
+    "codepoint": "U+F06C5"
   },
   {
     "key": "13-cha$ka",
-    "codepoint": "U+AC7F"
+    "codepoint": "U+F06C6"
   },
   {
     "key": "13-i-ki-tzi",
-    "codepoint": "U+AC80"
+    "codepoint": "U+F06C7"
   },
   {
     "key": "13-ja-yi",
-    "codepoint": "U+AC81"
+    "codepoint": "U+F06C8"
   },
   {
     "key": "13-ji-JIX",
-    "codepoint": "U+AC82"
+    "codepoint": "U+F06C9"
   },
   {
     "key": "13-k{}a$ch{}a@(K{}A$CH{}A_)",
-    "codepoint": "U+AC83"
+    "codepoint": "U+F06CA"
   },
   {
     "key": "13-na$NA$NAJ",
-    "codepoint": "U+AC84"
+    "codepoint": "U+F06CB"
   },
   {
     "key": "13-o-la-si@K{}U",
-    "codepoint": "U+AC85"
+    "codepoint": "U+F06CC"
   },
   {
     "key": "13-pa$PAJ",
-    "codepoint": "U+AC86"
+    "codepoint": "U+F06CD"
   },
   {
     "key": "13-ta$TA",
-    "codepoint": "U+AC87"
+    "codepoint": "U+F06CE"
   },
   {
     "key": "13-tzu",
-    "codepoint": "U+AC88"
+    "codepoint": "U+F06CF"
   },
   {
     "key": "13-u-ti-ya",
-    "codepoint": "U+AC89"
+    "codepoint": "U+F06D0"
   },
   {
     "key": "13-xu-[ku]",
-    "codepoint": "U+AC8A"
+    "codepoint": "U+F06D1"
   },
   {
     "key": "13-ya-b{}i-li",
-    "codepoint": "U+AC8B"
+    "codepoint": "U+F06D2"
   },
   {
     "key": "14-AJ@k{}u-{JUN}-na",
-    "codepoint": "U+AC8C"
+    "codepoint": "U+F06D3"
   },
   {
     "key": "14-B{}AK",
-    "codepoint": "U+AC8D"
+    "codepoint": "U+F06D4"
   },
   {
     "key": "14-CHA$KA",
-    "codepoint": "U+AC8E"
+    "codepoint": "U+F06D5"
   },
   {
     "key": "14-CH{}AK",
-    "codepoint": "U+AC8F"
+    "codepoint": "U+F06D6"
   },
   {
     "key": "14-KAB{}-la@K{}U",
-    "codepoint": "U+AC90"
+    "codepoint": "U+F06D7"
   },
   {
     "key": "14-K{}AB{}",
-    "codepoint": "U+AC91"
+    "codepoint": "U+F06D8"
   },
   {
     "key": "14-LAKAM",
-    "codepoint": "U+AC92"
+    "codepoint": "U+F06D9"
   },
   {
     "key": "14-SAK",
-    "codepoint": "U+AC93"
+    "codepoint": "U+F06DA"
   },
   {
     "key": "14-TZ{}I",
-    "codepoint": "U+AC94"
+    "codepoint": "U+F06DB"
   },
   {
     "key": "14-WAK",
-    "codepoint": "U+AC95"
+    "codepoint": "U+F06DC"
   },
   {
     "key": "14-i-tz{}a-ta",
-    "codepoint": "U+AC96"
+    "codepoint": "U+F06DD"
   },
   {
     "key": "14-ja-yi",
-    "codepoint": "U+AC97"
+    "codepoint": "U+F06DE"
   },
   {
     "key": "14-ji-li",
-    "codepoint": "U+AC98"
+    "codepoint": "U+F06DF"
   },
   {
     "key": "14-ma$MA",
-    "codepoint": "U+AC99"
+    "codepoint": "U+F06E0"
   },
   {
     "key": "14-na$NA$NAJ",
-    "codepoint": "U+AC9A"
+    "codepoint": "U+F06E1"
   },
   {
     "key": "14-o-OL-si",
-    "codepoint": "U+AC9B"
+    "codepoint": "U+F06E2"
   },
   {
     "key": "14-pa$PAJ",
-    "codepoint": "U+AC9C"
+    "codepoint": "U+F06E3"
   },
   {
     "key": "14-ta$TA",
-    "codepoint": "U+AC9D"
+    "codepoint": "U+F06E4"
   },
   {
     "key": "14-tzu-lu",
-    "codepoint": "U+AC9E"
+    "codepoint": "U+F06E5"
   },
   {
     "key": "14-u-to-ma",
-    "codepoint": "U+AC9F"
+    "codepoint": "U+F06E6"
   },
   {
     "key": "14-xu-[ku]-pi",
-    "codepoint": "U+ACA0"
+    "codepoint": "U+F06E7"
   },
   {
     "key": "14-ya-CH{}AM",
-    "codepoint": "U+ACA1"
+    "codepoint": "U+F06E8"
   },
   {
     "key": "15-AJ@na-b{}i",
-    "codepoint": "U+ACA2"
+    "codepoint": "U+F06E9"
   },
   {
     "key": "15-CHAAK",
-    "codepoint": "U+ACA3"
+    "codepoint": "U+F06EA"
   },
   {
     "key": "15-CH{}AK-ka",
-    "codepoint": "U+ACA4"
+    "codepoint": "U+F06EB"
   },
   {
     "key": "15-EM",
-    "codepoint": "U+ACA5"
+    "codepoint": "U+F06EC"
   },
   {
     "key": "15-JANAAB{}",
-    "codepoint": "U+ACA6"
+    "codepoint": "U+F06ED"
   },
   {
     "key": "15-JIX",
-    "codepoint": "U+ACA7"
+    "codepoint": "U+F06EE"
   },
   {
     "key": "15-KAB{}-la-K{}U",
-    "codepoint": "U+ACA8"
+    "codepoint": "U+F06EF"
   },
   {
     "key": "15-K{}AB{}A",
-    "codepoint": "U+ACA9"
+    "codepoint": "U+F06F0"
   },
   {
     "key": "15-LAKAM",
-    "codepoint": "U+ACAA"
+    "codepoint": "U+F06F1"
   },
   {
     "key": "15-NAAB{}",
-    "codepoint": "U+ACAB"
+    "codepoint": "U+F06F2"
   },
   {
     "key": "15-SAK@CHUWEN",
-    "codepoint": "U+ACAC"
+    "codepoint": "U+F06F3"
   },
   {
     "key": "15-WAK",
-    "codepoint": "U+ACAD"
+    "codepoint": "U+F06F4"
   },
   {
     "key": "15-i-tz{}i-{n}",
-    "codepoint": "U+ACAE"
+    "codepoint": "U+F06F5"
   },
   {
     "key": "15-ma$MA",
-    "codepoint": "U+ACAF"
+    "codepoint": "U+F06F6"
   },
   {
     "key": "15-o-OL-si",
-    "codepoint": "U+ACB0"
+    "codepoint": "U+F06F7"
   },
   {
     "key": "15-pa$PAJ",
-    "codepoint": "U+ACB1"
+    "codepoint": "U+F06F8"
   },
   {
     "key": "15-ta$TA",
-    "codepoint": "U+ACB2"
+    "codepoint": "U+F06F9"
   },
   {
     "key": "15-tzu-tzu-ja",
-    "codepoint": "U+ACB3"
+    "codepoint": "U+F06FA"
   },
   {
     "key": "15-tz{}i",
-    "codepoint": "U+ACB4"
+    "codepoint": "U+F06FB"
   },
   {
     "key": "15-u-to-ma",
-    "codepoint": "U+ACB5"
+    "codepoint": "U+F06FC"
   },
   {
     "key": "15-xu-[lu]",
-    "codepoint": "U+ACB6"
+    "codepoint": "U+F06FD"
   },
   {
     "key": "15-ya-CH{}AM",
-    "codepoint": "U+ACB7"
+    "codepoint": "U+F06FE"
   },
   {
     "key": "16-AJ@na-b{}i",
-    "codepoint": "U+ACB8"
+    "codepoint": "U+F06FF"
   },
   {
     "key": "16-CHAAK",
-    "codepoint": "U+ACB9"
+    "codepoint": "U+F0700"
   },
   {
     "key": "16-CH{}AK-ka-b{}a",
-    "codepoint": "U+ACBA"
+    "codepoint": "U+F0701"
   },
   {
     "key": "16-ETZ{}NAB{}",
-    "codepoint": "U+ACBB"
+    "codepoint": "U+F0702"
   },
   {
     "key": "16-JANAAB{}",
-    "codepoint": "U+ACBC"
+    "codepoint": "U+F0703"
   },
   {
     "key": "16-KAB{}-ya",
-    "codepoint": "U+ACBD"
+    "codepoint": "U+F0704"
   },
   {
     "key": "16-K{}AK{}",
-    "codepoint": "U+ACBE"
+    "codepoint": "U+F0705"
   },
   {
     "key": "16-LAKAM@JA{}",
-    "codepoint": "U+ACBF"
+    "codepoint": "U+F0706"
   },
   {
     "key": "16-NAAB{}",
-    "codepoint": "U+ACC0"
+    "codepoint": "U+F0707"
   },
   {
     "key": "16-PAKAL",
-    "codepoint": "U+ACC1"
+    "codepoint": "U+F0708"
   },
   {
     "key": "16-SAK@IK{}@EK{}",
-    "codepoint": "U+ACC2"
+    "codepoint": "U+F0709"
   },
   {
     "key": "16-TAJ",
-    "codepoint": "U+ACC3"
+    "codepoint": "U+F070A"
   },
   {
     "key": "16-WAK@CHAAN-wa@AJAW@$@WAK@KAAN-wa@AJAW",
-    "codepoint": "U+ACC4"
+    "codepoint": "U+F070B"
   },
   {
     "key": "16-XUL",
-    "codepoint": "U+ACC5"
+    "codepoint": "U+F070C"
   },
   {
     "key": "16-i-tz{}i-{n}@wi-WINIK-ki",
-    "codepoint": "U+ACC6"
+    "codepoint": "U+F070D"
   },
   {
     "key": "16-jo",
-    "codepoint": "U+ACC7"
+    "codepoint": "U+F070E"
   },
   {
     "key": "16-ma$MA",
-    "codepoint": "U+ACC8"
+    "codepoint": "U+F070F"
   },
   {
     "key": "16-o-OL-si@K{}U",
-    "codepoint": "U+ACC9"
+    "codepoint": "U+F0710"
   },
   {
     "key": "16-tzu$TZU",
-    "codepoint": "U+ACCA"
+    "codepoint": "U+F0711"
   },
   {
     "key": "16-tz{}i",
-    "codepoint": "U+ACCB"
+    "codepoint": "U+F0712"
   },
   {
     "key": "16-u-xu-[lu]",
-    "codepoint": "U+ACCC"
+    "codepoint": "U+F0713"
   },
   {
     "key": "16-ya-CH{}AM-ma",
-    "codepoint": "U+ACCD"
+    "codepoint": "U+F0714"
   },
   {
     "key": "17-AJ@pa-ya-la",
-    "codepoint": "U+ACCE"
+    "codepoint": "U+F0715"
   },
   {
     "key": "17-CHAAK",
-    "codepoint": "U+ACCF"
+    "codepoint": "U+F0716"
   },
   {
     "key": "17-CH{}AK-ka-b{}a",
-    "codepoint": "U+ACD0"
+    "codepoint": "U+F0717"
   },
   {
     "key": "17-JANAAB{}",
-    "codepoint": "U+ACD1"
+    "codepoint": "U+F0718"
   },
   {
     "key": "17-KAB{}AN",
-    "codepoint": "U+ACD3"
+    "codepoint": "U+F071A"
   },
   {
     "key": "17-K{}AK{}",
-    "codepoint": "U+ACD4"
+    "codepoint": "U+F071B"
   },
   {
     "key": "17-LAKAM@TUN",
-    "codepoint": "U+ACD5"
+    "codepoint": "U+F071C"
   },
   {
     "key": "17-NAAB{}@TUN-chi",
-    "codepoint": "U+ACD6"
+    "codepoint": "U+F071D"
   },
   {
     "key": "17-OCH",
-    "codepoint": "U+ACD7"
+    "codepoint": "U+F071E"
   },
   {
     "key": "17-PAS$PASAJ",
-    "codepoint": "U+ACD8"
+    "codepoint": "U+F071F"
   },
   {
     "key": "17-SAK@la-ka-TUN",
-    "codepoint": "U+ACD9"
+    "codepoint": "U+F0720"
   },
   {
     "key": "17-TAJ",
-    "codepoint": "U+ACDA"
+    "codepoint": "U+F0721"
   },
   {
     "key": "17-TZUTZ",
-    "codepoint": "U+ACDB"
+    "codepoint": "U+F0722"
   },
   {
     "key": "17-WAK-ki@CHAAN@$@WAK-ki@KAAN",
-    "codepoint": "U+ACDC"
+    "codepoint": "U+F0723"
   },
   {
     "key": "17-i-tz{}i-{n}@WINIK",
-    "codepoint": "U+ACDD"
+    "codepoint": "U+F0724"
   },
   {
     "key": "17-ma$MA",
-    "codepoint": "U+ACDE"
+    "codepoint": "U+F0725"
   },
   {
     "key": "17-tz{}i-b{}a",
-    "codepoint": "U+ACDF"
+    "codepoint": "U+F0726"
   },
   {
     "key": "17-u$U",
-    "codepoint": "U+ACE0"
+    "codepoint": "U+F0727"
   },
   {
     "key": "17-ya-ja-li",
-    "codepoint": "U+ACE1"
+    "codepoint": "U+F0728"
   },
   {
     "key": "18-AJ@pi-tzi",
-    "codepoint": "U+ACE2"
+    "codepoint": "U+F0729"
   },
   {
     "key": "18-B{}ALAM",
-    "codepoint": "U+ACE3"
+    "codepoint": "U+F072A"
   },
   {
     "key": "18-CHAAK-ki",
-    "codepoint": "U+ACE4"
+    "codepoint": "U+F072B"
   },
   {
     "key": "18-CH{}AM",
-    "codepoint": "U+ACE5"
+    "codepoint": "U+F072C"
   },
   {
     "key": "18-JO",
-    "codepoint": "U+ACE6"
+    "codepoint": "U+F072D"
   },
   {
     "key": "18-KALOMTE{}",
-    "codepoint": "U+ACE7"
+    "codepoint": "U+F072E"
   },
   {
     "key": "18-K{}AK{}@NAAB{}",
-    "codepoint": "U+ACE8"
+    "codepoint": "U+F072F"
   },
   {
     "key": "18-LAKAM@TUN-ni",
-    "codepoint": "U+ACE9"
+    "codepoint": "U+F0730"
   },
   {
     "key": "18-MAK",
-    "codepoint": "U+ACEA"
+    "codepoint": "U+F0731"
   },
   {
     "key": "18-NAL",
-    "codepoint": "U+ACEB"
+    "codepoint": "U+F0732"
   },
   {
     "key": "18-OCH",
-    "codepoint": "U+ACEC"
+    "codepoint": "U+F0733"
   },
   {
     "key": "18-PAS$PASAJ",
-    "codepoint": "U+ACED"
+    "codepoint": "U+F0734"
   },
   {
     "key": "18-SAK@la-ka-TUN-ni",
-    "codepoint": "U+ACEE"
+    "codepoint": "U+F0735"
   },
   {
     "key": "18-TAJ@TUN",
-    "codepoint": "U+ACEF"
+    "codepoint": "U+F0736"
   },
   {
     "key": "18-TZUTZ",
-    "codepoint": "U+ACF0"
+    "codepoint": "U+F0737"
   },
   {
     "key": "18-WAXAK",
-    "codepoint": "U+ACF1"
+    "codepoint": "U+F0738"
   },
   {
     "key": "18-i-u-ti",
-    "codepoint": "U+ACF2"
+    "codepoint": "U+F0739"
   },
   {
     "key": "18-je",
-    "codepoint": "U+ACF3"
+    "codepoint": "U+F073A"
   },
   {
     "key": "18-tz{}i-b{}a",
-    "codepoint": "U+ACF4"
+    "codepoint": "U+F073B"
   },
   {
     "key": "18-u$U",
-    "codepoint": "U+ACF5"
+    "codepoint": "U+F073C"
   },
   {
     "key": "18-ya-ja-wa",
-    "codepoint": "U+ACF6"
+    "codepoint": "U+F073D"
   },
   {
     "key": "19-AJ@pi-tzi-la-wa-la",
-    "codepoint": "U+ACF7"
+    "codepoint": "U+F073E"
   },
   {
     "key": "19-CHAAN@CH{}EN-na@$@KAAN@CH{}EN-na",
-    "codepoint": "U+ACF8"
+    "codepoint": "U+F073F"
   },
   {
     "key": "19-CH{}AM",
-    "codepoint": "U+ACF9"
+    "codepoint": "U+F0740"
   },
   {
     "key": "19-JOM",
-    "codepoint": "U+ACFA"
+    "codepoint": "U+F0741"
   },
   {
     "key": "19-KALOMTE{}-te{}",
-    "codepoint": "U+ACFB"
+    "codepoint": "U+F0742"
   },
   {
     "key": "19-K{}AK{}-k{}a",
-    "codepoint": "U+ACFC"
+    "codepoint": "U+F0743"
   },
   {
     "key": "19-LAMAT",
-    "codepoint": "U+ACFD"
+    "codepoint": "U+F0744"
   },
   {
     "key": "19-MAM",
-    "codepoint": "U+ACFE"
+    "codepoint": "U+F0745"
   },
   {
     "key": "19-NAL",
-    "codepoint": "U+ACFF"
+    "codepoint": "U+F0746"
   },
   {
     "key": "19-OCH",
-    "codepoint": "U+AD00"
+    "codepoint": "U+F0747"
   },
   {
     "key": "19-PAT",
-    "codepoint": "U+AD01"
+    "codepoint": "U+F0748"
   },
   {
     "key": "19-SAK@NIK",
-    "codepoint": "U+AD02"
+    "codepoint": "U+F0749"
   },
   {
     "key": "19-TAK",
-    "codepoint": "U+AD03"
+    "codepoint": "U+F074A"
   },
   {
     "key": "19-TZUTZ",
-    "codepoint": "U+AD04"
+    "codepoint": "U+F074B"
   },
   {
     "key": "19-b{}e$B{}E",
-    "codepoint": "U+AD06"
+    "codepoint": "U+F074D"
   },
   {
     "key": "19-i-u-ti",
-    "codepoint": "U+AD07"
+    "codepoint": "U+F074E"
   },
   {
     "key": "19-ji",
-    "codepoint": "U+AD08"
+    "codepoint": "U+F074F"
   },
   {
     "key": "19-tz{}i-b{}i",
-    "codepoint": "U+AD09"
+    "codepoint": "U+F0750"
   },
   {
     "key": "19-u$U",
-    "codepoint": "U+AD0A"
+    "codepoint": "U+F0751"
   },
   {
     "key": "19-ya-k{}a-wa",
-    "codepoint": "U+AD0B"
+    "codepoint": "U+F0752"
   },
   {
     "key": "2--il",
-    "codepoint": "U+AD0C"
+    "codepoint": "U+F0753"
   },
   {
     "key": "2--la-ji",
-    "codepoint": "U+AD0D"
+    "codepoint": "U+F0754"
   },
   {
     "key": "2-B{}A@ch{}o-ko",
-    "codepoint": "U+AD0E"
+    "codepoint": "U+F0755"
   },
   {
     "key": "2-TAB{}-[yi]",
-    "codepoint": "U+AD0F"
+    "codepoint": "U+F0756"
   },
   {
     "key": "2-U@B{}A",
-    "codepoint": "U+AD10"
+    "codepoint": "U+F0757"
   },
   {
     "key": "2-a-ku",
-    "codepoint": "U+AD11"
+    "codepoint": "U+F0758"
   },
   {
     "key": "2-cha-ki",
-    "codepoint": "U+AD12"
+    "codepoint": "U+F0759"
   },
   {
     "key": "2-ch{}a-ja-{l}-te{}",
-    "codepoint": "U+AD13"
+    "codepoint": "U+F075A"
   },
   {
     "key": "2-e",
-    "codepoint": "U+AD14"
+    "codepoint": "U+F075B"
   },
   {
     "key": "2-hi",
-    "codepoint": "U+AD15"
+    "codepoint": "U+F075C"
   },
   {
     "key": "2-ja",
-    "codepoint": "U+AD16"
+    "codepoint": "U+F075D"
   },
   {
     "key": "2-ka",
-    "codepoint": "U+AD17"
+    "codepoint": "U+F075E"
   },
   {
     "key": "2-k{}a-K{}AWIL",
-    "codepoint": "U+AD18"
+    "codepoint": "U+F075F"
   },
   {
     "key": "2-ma",
-    "codepoint": "U+AD19"
+    "codepoint": "U+F0760"
   },
   {
     "key": "2-na-ja",
-    "codepoint": "U+AD1A"
+    "codepoint": "U+F0761"
   },
   {
     "key": "2-o",
-    "codepoint": "U+AD1B"
+    "codepoint": "U+F0762"
   },
   {
     "key": "2-pa-ka-b{}a",
-    "codepoint": "U+AD1C"
+    "codepoint": "U+F0763"
   },
   {
     "key": "2-sa",
-    "codepoint": "U+AD1D"
+    "codepoint": "U+F0764"
   },
   {
     "key": "2-ta-ji",
-    "codepoint": "U+AD1E"
+    "codepoint": "U+F0765"
   },
   {
     "key": "2-tza-[ka]",
-    "codepoint": "U+AD1F"
+    "codepoint": "U+F0766"
   },
   {
     "key": "2-tz{}a-[pa]",
-    "codepoint": "U+AD20"
+    "codepoint": "U+F0767"
   },
   {
     "key": "2-wa-wa-aj-ni",
-    "codepoint": "U+AD21"
+    "codepoint": "U+F0768"
   },
   {
     "key": "2-xa$XA",
-    "codepoint": "U+AD22"
+    "codepoint": "U+F0769"
   },
   {
     "key": "2-ya",
-    "codepoint": "U+AD23"
+    "codepoint": "U+F076A"
   },
   {
     "key": "20-AJ@pi-tzi-la-wa-{l}",
-    "codepoint": "U+AD24"
+    "codepoint": "U+F076B"
   },
   {
     "key": "20-CHAAN-na@CH{}EN-na@$@KAAN-na@CH{}EN-na",
-    "codepoint": "U+AD25"
+    "codepoint": "U+F076C"
   },
   {
     "key": "20-CH{}AM@K{}AWIL-la",
-    "codepoint": "U+AD26"
+    "codepoint": "U+F076D"
   },
   {
     "key": "20-JOM",
-    "codepoint": "U+AD27"
+    "codepoint": "U+F076E"
   },
   {
     "key": "20-K{}AK{}-k{}a@B{}UTZ{}-tz{}i",
-    "codepoint": "U+AD28"
+    "codepoint": "U+F076F"
   },
   {
     "key": "20-MANIK{}",
-    "codepoint": "U+AD29"
+    "codepoint": "U+F0770"
   },
   {
     "key": "20-NAL",
-    "codepoint": "U+AD2A"
+    "codepoint": "U+F0771"
   },
   {
     "key": "20-OCH",
-    "codepoint": "U+AD2B"
+    "codepoint": "U+F0772"
   },
   {
     "key": "20-PAT",
-    "codepoint": "U+AD2C"
+    "codepoint": "U+F0773"
   },
   {
     "key": "20-SAK@NIK",
-    "codepoint": "U+AD2D"
+    "codepoint": "U+F0774"
   },
   {
     "key": "20-TAK-ki",
-    "codepoint": "U+AD2E"
+    "codepoint": "U+F0775"
   },
   {
     "key": "20-TZUTZ-ja",
-    "codepoint": "U+AD2F"
+    "codepoint": "U+F0776"
   },
   {
     "key": "20-WAXAK@NA@CHAAK",
-    "codepoint": "U+AD30"
+    "codepoint": "U+F0777"
   },
   {
     "key": "20-b{}e$B{}E",
-    "codepoint": "U+AD31"
+    "codepoint": "U+F0778"
   },
   {
     "key": "20-i-yu-wa-la",
-    "codepoint": "U+AD32"
+    "codepoint": "U+F0779"
   },
   {
     "key": "20-ji",
-    "codepoint": "U+AD33"
+    "codepoint": "U+F077A"
   },
   {
     "key": "20-le",
-    "codepoint": "U+AD34"
+    "codepoint": "U+F077B"
   },
   {
     "key": "20-tz{}i-b{}i",
-    "codepoint": "U+AD35"
+    "codepoint": "U+F077C"
   },
   {
     "key": "20-u$U",
-    "codepoint": "U+AD36"
+    "codepoint": "U+F077D"
   },
   {
     "key": "20-ya-k{}a-wa",
-    "codepoint": "U+AD37"
+    "codepoint": "U+F077E"
   },
   {
     "key": "21-AJ@su-lu",
-    "codepoint": "U+AD38"
+    "codepoint": "U+F077F"
   },
   {
     "key": "21-B{}EN",
-    "codepoint": "U+AD39"
+    "codepoint": "U+F0780"
   },
   {
     "key": "21-CHAAN-na@CH{}UL@$@KAAN-na@K{}UL",
-    "codepoint": "U+AD3A"
+    "codepoint": "U+F0781"
   },
   {
     "key": "21-CH{}AM-ma",
-    "codepoint": "U+AD3B"
+    "codepoint": "U+F0782"
   },
   {
     "key": "21-JOM",
-    "codepoint": "U+AD3C"
+    "codepoint": "U+F0783"
   },
   {
     "key": "21-KAWAK",
-    "codepoint": "U+AD3D"
+    "codepoint": "U+F0784"
   },
   {
     "key": "21-K{}AL",
-    "codepoint": "U+AD3E"
+    "codepoint": "U+F0785"
   },
   {
     "key": "21-MAY(_)",
-    "codepoint": "U+AD3F"
+    "codepoint": "U+F0786"
   },
   {
     "key": "21-NAL(_)",
-    "codepoint": "U+AD40"
+    "codepoint": "U+F0787"
   },
   {
     "key": "21-OCH@B{}I",
-    "codepoint": "U+AD41"
+    "codepoint": "U+F0788"
   },
   {
     "key": "21-PAT",
-    "codepoint": "U+AD42"
+    "codepoint": "U+F0789"
   },
   {
     "key": "21-SAK@nu-ku@NAJ",
-    "codepoint": "U+AD43"
+    "codepoint": "U+F078A"
   },
   {
     "key": "21-TAL",
-    "codepoint": "U+AD44"
+    "codepoint": "U+F078B"
   },
   {
     "key": "21-TZUTZ-yi",
-    "codepoint": "U+AD45"
+    "codepoint": "U+F078C"
   },
   {
     "key": "21-WAXAKLAJUN@U@B{}A",
-    "codepoint": "U+AD46"
+    "codepoint": "U+F078D"
   },
   {
     "key": "21-i-yu-wa-la",
-    "codepoint": "U+AD47"
+    "codepoint": "U+F078E"
   },
   {
     "key": "21-ji",
-    "codepoint": "U+AD48"
+    "codepoint": "U+F078F"
   },
   {
     "key": "21-li",
-    "codepoint": "U+AD49"
+    "codepoint": "U+F0790"
   },
   {
     "key": "21-tz{}i-i",
-    "codepoint": "U+AD4A"
+    "codepoint": "U+F0791"
   },
   {
     "key": "21-u$U",
-    "codepoint": "U+AD4B"
+    "codepoint": "U+F0792"
   },
   {
     "key": "21-ya-k{}u",
-    "codepoint": "U+AD4C"
+    "codepoint": "U+F0793"
   },
   {
     "key": "22-AJ@tz{}i-b{}a",
-    "codepoint": "U+AD4D"
+    "codepoint": "U+F0794"
   },
   {
     "key": "22-CHAAN-na@K{}AWIL@$@KAAN-na@K{}AWIL",
-    "codepoint": "U+AD4E"
+    "codepoint": "U+F0795"
   },
   {
     "key": "22-CH{}AM-ma",
-    "codepoint": "U+AD4F"
+    "codepoint": "U+F0796"
   },
   {
     "key": "22-JOM",
-    "codepoint": "U+AD50"
+    "codepoint": "U+F0797"
   },
   {
     "key": "22-K{}AL",
-    "codepoint": "U+AD51"
+    "codepoint": "U+F0798"
   },
   {
     "key": "22-MEN",
-    "codepoint": "U+AD52"
+    "codepoint": "U+F0799"
   },
   {
     "key": "22-OCH@B{}I-ja",
-    "codepoint": "U+AD53"
+    "codepoint": "U+F079A"
   },
   {
     "key": "22-PAT",
-    "codepoint": "U+AD54"
+    "codepoint": "U+F079B"
   },
   {
     "key": "22-SAK@TE{}@AJAW-wa",
-    "codepoint": "U+AD55"
+    "codepoint": "U+F079C"
   },
   {
     "key": "22-TAN",
-    "codepoint": "U+AD56"
+    "codepoint": "U+F079D"
   },
   {
     "key": "22-TZUTZ-yi",
-    "codepoint": "U+AD57"
+    "codepoint": "U+F079E"
   },
   {
     "key": "22-WAY",
-    "codepoint": "U+AD58"
+    "codepoint": "U+F079F"
   },
   {
     "key": "22-b{}i$B{}I",
-    "codepoint": "U+AD59"
+    "codepoint": "U+F07A0"
   },
   {
     "key": "22-i$I",
-    "codepoint": "U+AD5A"
+    "codepoint": "U+F07A1"
   },
   {
     "key": "22-ji",
-    "codepoint": "U+AD5B"
+    "codepoint": "U+F07A2"
   },
   {
     "key": "22-ke",
-    "codepoint": "U+AD5C"
+    "codepoint": "U+F07A3"
   },
   {
     "key": "22-li",
-    "codepoint": "U+AD5D"
+    "codepoint": "U+F07A4"
   },
   {
     "key": "22-ne$NE",
-    "codepoint": "U+AD5E"
+    "codepoint": "U+F07A5"
   },
   {
     "key": "22-tz{}o",
-    "codepoint": "U+AD5F"
+    "codepoint": "U+F07A6"
   },
   {
     "key": "22-u$U",
-    "codepoint": "U+AD60"
+    "codepoint": "U+F07A7"
   },
   {
     "key": "22-ya-la",
-    "codepoint": "U+AD61"
+    "codepoint": "U+F07A8"
   },
   {
     "key": "23-AJ@tz{}i-b{}a",
-    "codepoint": "U+AD62"
+    "codepoint": "U+F07A9"
   },
   {
     "key": "23-CHAAN-na-NAL@$@KAAN-na-NAL",
-    "codepoint": "U+AD63"
+    "codepoint": "U+F07AA"
   },
   {
     "key": "23-CH{}AM-ma@K{}AWIL-la",
-    "codepoint": "U+AD64"
+    "codepoint": "U+F07AB"
   },
   {
     "key": "23-K{}AL@JUN@NA",
-    "codepoint": "U+AD65"
+    "codepoint": "U+F07AC"
   },
   {
     "key": "23-MI-OL-la",
-    "codepoint": "U+AD66"
+    "codepoint": "U+F07AD"
   },
   {
     "key": "23-OCH@B{}I-ji-ji-ya",
-    "codepoint": "U+AD67"
+    "codepoint": "U+F07AE"
   },
   {
     "key": "23-PAT-b{}u-ya",
-    "codepoint": "U+AD68"
+    "codepoint": "U+F07AF"
   },
   {
     "key": "23-TAN",
-    "codepoint": "U+AD69"
+    "codepoint": "U+F07B0"
   },
   {
     "key": "23-WAY",
-    "codepoint": "U+AD6A"
+    "codepoint": "U+F07B1"
   },
   {
     "key": "23-b{}i$B{}I",
-    "codepoint": "U+AD6B"
+    "codepoint": "U+F07B2"
   },
   {
     "key": "23-i$I",
-    "codepoint": "U+AD6C"
+    "codepoint": "U+F07B3"
   },
   {
     "key": "23-ji",
-    "codepoint": "U+AD6D"
+    "codepoint": "U+F07B4"
   },
   {
     "key": "23-ju",
-    "codepoint": "U+AD6E"
+    "codepoint": "U+F07B5"
   },
   {
     "key": "23-ke-KELEM",
-    "codepoint": "U+AD6F"
+    "codepoint": "U+F07B6"
   },
   {
     "key": "23-li",
-    "codepoint": "U+AD70"
+    "codepoint": "U+F07B7"
   },
   {
     "key": "23-ne$NE",
-    "codepoint": "U+AD71"
+    "codepoint": "U+F07B8"
   },
   {
     "key": "23-se",
-    "codepoint": "U+AD72"
+    "codepoint": "U+F07B9"
   },
   {
     "key": "23-tz{}u",
-    "codepoint": "U+AD73"
+    "codepoint": "U+F07BA"
   },
   {
     "key": "23-u$U",
-    "codepoint": "U+AD74"
+    "codepoint": "U+F07BB"
   },
   {
     "key": "23-ya-la-ja",
-    "codepoint": "U+AD75"
+    "codepoint": "U+F07BC"
   },
   {
     "key": "24-AJ@u-xu-[lu]",
-    "codepoint": "U+AD76"
+    "codepoint": "U+F07BD"
   },
   {
     "key": "24-B{}IXAN-na",
-    "codepoint": "U+AD77"
+    "codepoint": "U+F07BE"
   },
   {
     "key": "24-CHAAN-na$KAAN-na",
-    "codepoint": "U+AD78"
+    "codepoint": "U+F07BF"
   },
   {
     "key": "24-CH{}EN",
-    "codepoint": "U+AD79"
+    "codepoint": "U+F07C0"
   },
   {
     "key": "24-K{}AL@SAK@ju-na",
-    "codepoint": "U+AD7A"
+    "codepoint": "U+F07C1"
   },
   {
     "key": "24-OCH@JA{}",
-    "codepoint": "U+AD7B"
+    "codepoint": "U+F07C2"
   },
   {
     "key": "24-PAT-ta",
-    "codepoint": "U+AD7C"
+    "codepoint": "U+F07C3"
   },
   {
     "key": "24-SEK",
-    "codepoint": "U+AD7D"
+    "codepoint": "U+F07C4"
   },
   {
     "key": "24-TAN",
-    "codepoint": "U+AD7E"
+    "codepoint": "U+F07C5"
   },
   {
     "key": "24-WAY-b{}i-li",
-    "codepoint": "U+AD7F"
+    "codepoint": "U+F07C6"
   },
   {
     "key": "24-i$I",
-    "codepoint": "U+AD80"
+    "codepoint": "U+F07C7"
   },
   {
     "key": "24-ji",
-    "codepoint": "U+AD81"
+    "codepoint": "U+F07C8"
   },
   {
     "key": "24-ju-li",
-    "codepoint": "U+AD82"
+    "codepoint": "U+F07C9"
   },
   {
     "key": "24-ke-le-ma",
-    "codepoint": "U+AD83"
+    "codepoint": "U+F07CA"
   },
   {
     "key": "24-li",
-    "codepoint": "U+AD84"
+    "codepoint": "U+F07CB"
   },
   {
     "key": "24-mi$MI",
-    "codepoint": "U+AD85"
+    "codepoint": "U+F07CC"
   },
   {
     "key": "24-ne$NE",
-    "codepoint": "U+AD86"
+    "codepoint": "U+F07CD"
   },
   {
     "key": "24-tz{}u",
-    "codepoint": "U+AD87"
+    "codepoint": "U+F07CE"
   },
   {
     "key": "24-u$U",
-    "codepoint": "U+AD88"
+    "codepoint": "U+F07CF"
   },
   {
     "key": "24-ya-la-ji",
-    "codepoint": "U+AD89"
+    "codepoint": "U+F07D0"
   },
   {
     "key": "25-AJ-wa-chi-NAL",
-    "codepoint": "U+AD8A"
+    "codepoint": "U+F07D1"
   },
   {
     "key": "25-B{}IXAN-ni-ya",
-    "codepoint": "U+AD8B"
+    "codepoint": "U+F07D2"
   },
   {
     "key": "25-CHAAN$KAAN",
-    "codepoint": "U+AD8C"
+    "codepoint": "U+F07D3"
   },
   {
     "key": "25-CH{}EN",
-    "codepoint": "U+AD8D"
+    "codepoint": "U+F07D4"
   },
   {
     "key": "25-ICH{}AK{}",
-    "codepoint": "U+AD8E"
+    "codepoint": "U+F07D5"
   },
   {
     "key": "25-KEJ",
-    "codepoint": "U+AD8F"
+    "codepoint": "U+F07D6"
   },
   {
     "key": "25-K{}AL@SAK@JUN",
-    "codepoint": "U+AD90"
+    "codepoint": "U+F07D7"
   },
   {
     "key": "25-OCH@JA{}-ja",
-    "codepoint": "U+AD91"
+    "codepoint": "U+F07D8"
   },
   {
     "key": "25-PAT-ta-b{}u-ji",
-    "codepoint": "U+AD92"
+    "codepoint": "U+F07D9"
   },
   {
     "key": "25-TAN@CH{}EN@OX@WITZ-aj",
-    "codepoint": "U+AD93"
+    "codepoint": "U+F07DA"
   },
   {
     "key": "25-WAY-ya",
-    "codepoint": "U+AD94"
+    "codepoint": "U+F07DB"
   },
   {
     "key": "25-ji-chi",
-    "codepoint": "U+AD95"
+    "codepoint": "U+F07DC"
   },
   {
     "key": "25-ju-li-OB{}",
-    "codepoint": "U+AD96"
+    "codepoint": "U+F07DD"
   },
   {
     "key": "25-li",
-    "codepoint": "U+AD97"
+    "codepoint": "U+F07DE"
   },
   {
     "key": "25-mi$MI",
-    "codepoint": "U+AD98"
+    "codepoint": "U+F07DF"
   },
   {
     "key": "25-ne$NE",
-    "codepoint": "U+AD99"
+    "codepoint": "U+F07E0"
   },
   {
     "key": "25-si",
-    "codepoint": "U+AD9A"
+    "codepoint": "U+F07E1"
   },
   {
     "key": "25-tz{}u-nu-{n}",
-    "codepoint": "U+AD9B"
+    "codepoint": "U+F07E2"
   },
   {
     "key": "25-u$U",
-    "codepoint": "U+AD9C"
+    "codepoint": "U+F07E3"
   },
   {
     "key": "25-ya-la-ji-ya",
-    "codepoint": "U+AD9D"
+    "codepoint": "U+F07E4"
   },
   {
     "key": "26-AJ-wi-na-{i}-ke-na",
-    "codepoint": "U+AD9E"
+    "codepoint": "U+F07E5"
   },
   {
     "key": "26-CHAAN$KAAN",
-    "codepoint": "U+AD9F"
+    "codepoint": "U+F07E6"
   },
   {
     "key": "26-CH{}EN",
-    "codepoint": "U+ADA0"
+    "codepoint": "U+F07E7"
   },
   {
     "key": "26-ICH{}AK{}@TUN-ni",
-    "codepoint": "U+ADA1"
+    "codepoint": "U+F07E8"
   },
   {
     "key": "26-K{}AL@TUN-ni",
-    "codepoint": "U+ADA2"
+    "codepoint": "U+F07E9"
   },
   {
     "key": "26-OCH@K{}AK{}",
-    "codepoint": "U+ADA3"
+    "codepoint": "U+F07EA"
   },
   {
     "key": "26-PAT-ta-wa-ni",
-    "codepoint": "U+ADA4"
+    "codepoint": "U+F07EB"
   },
   {
     "key": "26-TAN@CH{}EN-na",
-    "codepoint": "U+ADA5"
+    "codepoint": "U+F07EC"
   },
   {
     "key": "26-WAYEB{}",
-    "codepoint": "U+ADA6"
+    "codepoint": "U+F07ED"
   },
   {
     "key": "26-b{}o",
-    "codepoint": "U+ADA7"
+    "codepoint": "U+F07EE"
   },
   {
     "key": "26-ji-chi",
-    "codepoint": "U+ADA8"
+    "codepoint": "U+F07EF"
   },
   {
     "key": "26-ju-li-ya",
-    "codepoint": "U+ADA9"
+    "codepoint": "U+F07F0"
   },
   {
     "key": "26-ki",
-    "codepoint": "U+ADAA"
+    "codepoint": "U+F07F1"
   },
   {
     "key": "26-li",
-    "codepoint": "U+ADAB"
+    "codepoint": "U+F07F2"
   },
   {
     "key": "26-mi$MI",
-    "codepoint": "U+ADAC"
+    "codepoint": "U+F07F3"
   },
   {
     "key": "26-ni",
-    "codepoint": "U+ADAD"
+    "codepoint": "U+F07F4"
   },
   {
     "key": "26-si",
-    "codepoint": "U+ADAE"
+    "codepoint": "U+F07F5"
   },
   {
     "key": "26-u$U",
-    "codepoint": "U+ADAF"
+    "codepoint": "U+F07F6"
   },
   {
     "key": "26-ya-ta-ji",
-    "codepoint": "U+ADB0"
+    "codepoint": "U+F07F7"
   },
   {
     "key": "27-AJ-wo-la",
-    "codepoint": "U+ADB1"
+    "codepoint": "U+F07F8"
   },
   {
     "key": "27-B{}OLON",
-    "codepoint": "U+ADB2"
+    "codepoint": "U+F07F9"
   },
   {
     "key": "27-CHAAN$KAAN",
-    "codepoint": "U+ADB3"
+    "codepoint": "U+F07FA"
   },
   {
     "key": "27-CH{}EN",
-    "codepoint": "U+ADB4"
+    "codepoint": "U+F07FB"
   },
   {
     "key": "27-ICH{}AK{}-ki",
-    "codepoint": "U+ADB5"
+    "codepoint": "U+F07FC"
   },
   {
     "key": "27-K{}AL-ja",
-    "codepoint": "U+ADB6"
+    "codepoint": "U+F07FD"
   },
   {
     "key": "27-OCH@K{}IN",
-    "codepoint": "U+ADB7"
+    "codepoint": "U+F07FE"
   },
   {
     "key": "27-PAT-wa-ni",
-    "codepoint": "U+ADB8"
+    "codepoint": "U+F07FF"
   },
   {
     "key": "27-TAN-na",
-    "codepoint": "U+ADB9"
+    "codepoint": "U+F0800"
   },
   {
     "key": "27-jo",
-    "codepoint": "U+ADBA"
+    "codepoint": "U+F0801"
   },
   {
     "key": "27-ju-na",
-    "codepoint": "U+ADBB"
+    "codepoint": "U+F0802"
   },
   {
     "key": "27-ki",
-    "codepoint": "U+ADBC"
+    "codepoint": "U+F0803"
   },
   {
     "key": "27-li",
-    "codepoint": "U+ADBD"
+    "codepoint": "U+F0804"
   },
   {
     "key": "27-mi$MI",
-    "codepoint": "U+ADBE"
+    "codepoint": "U+F0805"
   },
   {
     "key": "27-ni",
-    "codepoint": "U+ADBF"
+    "codepoint": "U+F0806"
   },
   {
     "key": "27-si",
-    "codepoint": "U+ADC0"
+    "codepoint": "U+F0807"
   },
   {
     "key": "27-u$U",
-    "codepoint": "U+ADC1"
+    "codepoint": "U+F0808"
   },
   {
     "key": "27-we{}$WE{}",
-    "codepoint": "U+ADC2"
+    "codepoint": "U+F0809"
   },
   {
     "key": "27-ya-ta-na",
-    "codepoint": "U+ADC3"
+    "codepoint": "U+F080A"
   },
   {
     "key": "28-AJ-X-B{}AK",
-    "codepoint": "U+ADC4"
+    "codepoint": "U+F080B"
   },
   {
     "key": "28-B{}OLON",
-    "codepoint": "U+ADC5"
+    "codepoint": "U+F080C"
   },
   {
     "key": "28-CHAK",
-    "codepoint": "U+ADC6"
+    "codepoint": "U+F080D"
   },
   {
     "key": "28-CH{}EN",
-    "codepoint": "U+ADC7"
+    "codepoint": "U+F080E"
   },
   {
     "key": "28-IK{}",
-    "codepoint": "U+ADC8"
+    "codepoint": "U+F080F"
   },
   {
     "key": "28-K{}AL-ja@MAY(_)-ji",
-    "codepoint": "U+ADC9"
+    "codepoint": "U+F0810"
   },
   {
     "key": "28-OCH@TA@CHAAN-na$OK@TA@KAAN-na",
-    "codepoint": "U+ADCA"
+    "codepoint": "U+F0811"
   },
   {
     "key": "28-PAT-[la]-ja",
-    "codepoint": "U+ADCB"
+    "codepoint": "U+F0812"
   },
   {
     "key": "28-SI",
-    "codepoint": "U+ADCC"
+    "codepoint": "U+F0813"
   },
   {
     "key": "28-UCH{}",
-    "codepoint": "U+ADCD"
+    "codepoint": "U+F0814"
   },
   {
     "key": "28-jo",
-    "codepoint": "U+ADCE"
+    "codepoint": "U+F0815"
   },
   {
     "key": "28-ju-na",
-    "codepoint": "U+ADCF"
+    "codepoint": "U+F0816"
   },
   {
     "key": "28-ki",
-    "codepoint": "U+ADD0"
+    "codepoint": "U+F0817"
   },
   {
     "key": "28-li",
-    "codepoint": "U+ADD1"
+    "codepoint": "U+F0818"
   },
   {
     "key": "28-mo",
-    "codepoint": "U+ADD2"
+    "codepoint": "U+F0819"
   },
   {
     "key": "28-ni-chi-{m}",
-    "codepoint": "U+ADD3"
+    "codepoint": "U+F081A"
   },
   {
     "key": "28-te{}-k{}a",
-    "codepoint": "U+ADD4"
+    "codepoint": "U+F081B"
   },
   {
     "key": "28-we{}$WE{}",
-    "codepoint": "U+ADD5"
+    "codepoint": "U+F081C"
   },
   {
     "key": "28-ya-ti-ji",
-    "codepoint": "U+ADD6"
+    "codepoint": "U+F081D"
   },
   {
     "key": "29-AJ-X-B{}AK",
-    "codepoint": "U+ADD7"
+    "codepoint": "U+F081E"
   },
   {
     "key": "29-B{}OLON@i-pi-[la]-ja",
-    "codepoint": "U+ADD8"
+    "codepoint": "U+F081F"
   },
   {
     "key": "29-CHAK",
-    "codepoint": "U+ADD9"
+    "codepoint": "U+F0820"
   },
   {
     "key": "29-CH{}EN",
-    "codepoint": "U+ADDA"
+    "codepoint": "U+F0821"
   },
   {
     "key": "29-IK{}",
-    "codepoint": "U+ADDB"
+    "codepoint": "U+F0822"
   },
   {
     "key": "29-KIB{}",
-    "codepoint": "U+ADDC"
+    "codepoint": "U+F0823"
   },
   {
     "key": "29-K{}AL-ji-ya@SAK@JUN",
-    "codepoint": "U+ADDD"
+    "codepoint": "U+F0824"
   },
   {
     "key": "29-MO{}@WITZ",
-    "codepoint": "U+ADDE"
+    "codepoint": "U+F0825"
   },
   {
     "key": "29-NICH-li$NIK-li",
-    "codepoint": "U+ADDF"
+    "codepoint": "U+F0826"
   },
   {
     "key": "29-OCH@TE{}$OK@TE{}",
-    "codepoint": "U+ADE0"
+    "codepoint": "U+F0827"
   },
   {
     "key": "29-PAX",
-    "codepoint": "U+ADE1"
+    "codepoint": "U+F0828"
   },
   {
     "key": "29-SI-ji-ya",
-    "codepoint": "U+ADE2"
+    "codepoint": "U+F0829"
   },
   {
     "key": "29-WI@CH{}OK@TE{}@NA",
-    "codepoint": "U+ADE3"
+    "codepoint": "U+F082A"
   },
   {
     "key": "29-jo",
-    "codepoint": "U+ADE4"
+    "codepoint": "U+F082B"
   },
   {
     "key": "29-ju-na-la",
-    "codepoint": "U+ADE5"
+    "codepoint": "U+F082C"
   },
   {
     "key": "29-lo",
-    "codepoint": "U+ADE6"
+    "codepoint": "U+F082D"
   },
   {
     "key": "29-te{}-k{}a-ja",
-    "codepoint": "U+ADE7"
+    "codepoint": "U+F082E"
   },
   {
     "key": "29-ya-ti-ji",
-    "codepoint": "U+ADE8"
+    "codepoint": "U+F082F"
   },
   {
     "key": "3--[la]-ja",
-    "codepoint": "U+ADE9"
+    "codepoint": "U+F0830"
   },
   {
     "key": "3--il",
-    "codepoint": "U+ADEA"
+    "codepoint": "U+F0831"
   },
   {
     "key": "3-B{}A@u-xu-[lu]",
-    "codepoint": "U+ADEB"
+    "codepoint": "U+F0832"
   },
   {
     "key": "3-JA{}",
-    "codepoint": "U+ADEC"
+    "codepoint": "U+F0833"
   },
   {
     "key": "3-TAB{}-[yi]",
-    "codepoint": "U+ADED"
+    "codepoint": "U+F0834"
   },
   {
     "key": "3-U@B{}A",
-    "codepoint": "U+ADEE"
+    "codepoint": "U+F0835"
   },
   {
     "key": "3-a-li-ya",
-    "codepoint": "U+ADEF"
+    "codepoint": "U+F0836"
   },
   {
     "key": "3-cha-ki@CHAAN-na@$@cha-ki@KAAN-na",
-    "codepoint": "U+ADF0"
+    "codepoint": "U+F0837"
   },
   {
     "key": "3-ch{}a-ji",
-    "codepoint": "U+ADF1"
+    "codepoint": "U+F0838"
   },
   {
     "key": "3-e",
-    "codepoint": "U+ADF2"
+    "codepoint": "U+F0839"
   },
   {
     "key": "3-ja",
-    "codepoint": "U+ADF3"
+    "codepoint": "U+F083A"
   },
   {
     "key": "3-k{}a-li",
-    "codepoint": "U+ADF4"
+    "codepoint": "U+F083B"
   },
   {
     "key": "3-ma",
-    "codepoint": "U+ADF5"
+    "codepoint": "U+F083C"
   },
   {
     "key": "3-na-ja-yi",
-    "codepoint": "U+ADF6"
+    "codepoint": "U+F083D"
   },
   {
     "key": "3-o",
-    "codepoint": "U+ADF7"
+    "codepoint": "U+F083E"
   },
   {
     "key": "3-pa-ka-la",
-    "codepoint": "U+ADF8"
+    "codepoint": "U+F083F"
   },
   {
     "key": "3-sa-aj-mi-ya",
-    "codepoint": "U+ADF9"
+    "codepoint": "U+F0840"
   },
   {
     "key": "3-ta-ki",
-    "codepoint": "U+ADFA"
+    "codepoint": "U+F0841"
   },
   {
     "key": "3-tza-[ka]",
-    "codepoint": "U+ADFB"
+    "codepoint": "U+F0842"
   },
   {
     "key": "3-tz{}a-[pa]-ja",
-    "codepoint": "U+ADFC"
+    "codepoint": "U+F0843"
   },
   {
     "key": "3-wa-WA-ji",
-    "codepoint": "U+ADFD"
+    "codepoint": "U+F0844"
   },
   {
     "key": "3-xa$XA",
-    "codepoint": "U+ADFE"
+    "codepoint": "U+F0845"
   },
   {
     "key": "3-ya",
-    "codepoint": "U+ADFF"
+    "codepoint": "U+F0846"
   },
   {
     "key": "30-AJ-X-B{}AK",
-    "codepoint": "U+AE00"
+    "codepoint": "U+F0847"
   },
   {
     "key": "30-CHAK",
-    "codepoint": "U+AE01"
+    "codepoint": "U+F0848"
   },
   {
     "key": "30-CH{}EN",
-    "codepoint": "U+AE02"
+    "codepoint": "U+F0849"
   },
   {
     "key": "30-IK{}",
-    "codepoint": "U+AE03"
+    "codepoint": "U+F084A"
   },
   {
     "key": "30-JUL",
-    "codepoint": "U+AE04"
+    "codepoint": "U+F084B"
   },
   {
     "key": "30-KIMI",
-    "codepoint": "U+AE05"
+    "codepoint": "U+F084C"
   },
   {
     "key": "30-K{}ALяJUN-na",
-    "codepoint": "U+AE06"
+    "codepoint": "U+F084D"
   },
   {
     "key": "30-NICH-li$NIK-li",
-    "codepoint": "U+AE07"
+    "codepoint": "U+F084E"
   },
   {
     "key": "30-OCH-chi",
-    "codepoint": "U+AE08"
+    "codepoint": "U+F084F"
   },
   {
     "key": "30-PAX",
-    "codepoint": "U+AE09"
+    "codepoint": "U+F0850"
   },
   {
     "key": "30-b{}u",
-    "codepoint": "U+AE0A"
+    "codepoint": "U+F0851"
   },
   {
     "key": "30-jo-JOY{}",
-    "codepoint": "U+AE0B"
+    "codepoint": "U+F0852"
   },
   {
     "key": "30-lo-k{}u-ta",
-    "codepoint": "U+AE0C"
+    "codepoint": "U+F0853"
   },
   {
     "key": "30-mo-ko-chi",
-    "codepoint": "U+AE0D"
+    "codepoint": "U+F0854"
   },
   {
     "key": "30-si-tzi@WINIK-ki",
-    "codepoint": "U+AE0E"
+    "codepoint": "U+F0855"
   },
   {
     "key": "30-te{}-TE{}-le",
-    "codepoint": "U+AE0F"
+    "codepoint": "U+F0856"
   },
   {
     "key": "30-wi-ti-ki@AJAW",
-    "codepoint": "U+AE10"
+    "codepoint": "U+F0857"
   },
   {
     "key": "30-ya-xa",
-    "codepoint": "U+AE11"
+    "codepoint": "U+F0858"
   },
   {
     "key": "31-AJ-X-B{}AK",
-    "codepoint": "U+AE12"
+    "codepoint": "U+F0859"
   },
   {
     "key": "31-CHAK",
-    "codepoint": "U+AE13"
+    "codepoint": "U+F085A"
   },
   {
     "key": "31-CH{}EN-na",
-    "codepoint": "U+AE14"
+    "codepoint": "U+F085B"
   },
   {
     "key": "31-IK{}@K{}U",
-    "codepoint": "U+AE15"
+    "codepoint": "U+F085C"
   },
   {
     "key": "31-JUL",
-    "codepoint": "U+AE16"
+    "codepoint": "U+F085D"
   },
   {
     "key": "31-KIX(_)",
-    "codepoint": "U+AE17"
+    "codepoint": "U+F085E"
   },
   {
     "key": "31-K{}AN",
-    "codepoint": "U+AE18"
+    "codepoint": "U+F085F"
   },
   {
     "key": "31-NICH$NIK",
-    "codepoint": "U+AE19"
+    "codepoint": "U+F0860"
   },
   {
     "key": "31-OCH-chi@K{}AK{}",
-    "codepoint": "U+AE1A"
+    "codepoint": "U+F0861"
   },
   {
     "key": "31-PET",
-    "codepoint": "U+AE1B"
+    "codepoint": "U+F0862"
   },
   {
     "key": "31-SI-ya-ja",
-    "codepoint": "U+AE1C"
+    "codepoint": "U+F0863"
   },
   {
     "key": "31-b{}u",
-    "codepoint": "U+AE1D"
+    "codepoint": "U+F0864"
   },
   {
     "key": "31-jo-JOY-ja",
-    "codepoint": "U+AE1E"
+    "codepoint": "U+F0865"
   },
   {
     "key": "31-lo-mu",
-    "codepoint": "U+AE1F"
+    "codepoint": "U+F0866"
   },
   {
     "key": "31-mo-o@WITZ@AJAW",
-    "codepoint": "U+AE20"
+    "codepoint": "U+F0867"
   },
   {
     "key": "31-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AE21"
+    "codepoint": "U+F0868"
   },
   {
     "key": "31-wi-tzi",
-    "codepoint": "U+AE22"
+    "codepoint": "U+F0869"
   },
   {
     "key": "31-ya-xu-na@(_)",
-    "codepoint": "U+AE23"
+    "codepoint": "U+F086A"
   },
   {
     "key": "32-AJAW",
-    "codepoint": "U+AE24"
+    "codepoint": "U+F086B"
   },
   {
     "key": "32-CHAK",
-    "codepoint": "U+AE25"
+    "codepoint": "U+F086C"
   },
   {
     "key": "32-CH{}EN-na",
-    "codepoint": "U+AE26"
+    "codepoint": "U+F086D"
   },
   {
     "key": "32-IL",
-    "codepoint": "U+AE27"
+    "codepoint": "U+F086E"
   },
   {
     "key": "32-JUL-li",
-    "codepoint": "U+AE28"
+    "codepoint": "U+F086F"
   },
   {
     "key": "32-KIX(_)",
-    "codepoint": "U+AE29"
+    "codepoint": "U+F0870"
   },
   {
     "key": "32-K{}AN",
-    "codepoint": "U+AE2A"
+    "codepoint": "U+F0871"
   },
   {
     "key": "32-LOK{}-yi",
-    "codepoint": "U+AE2B"
+    "codepoint": "U+F0872"
   },
   {
     "key": "32-NICH$NIK",
-    "codepoint": "U+AE2C"
+    "codepoint": "U+F0873"
   },
   {
     "key": "32-OCH-chi@K{}AK{}",
-    "codepoint": "U+AE2D"
+    "codepoint": "U+F0874"
   },
   {
     "key": "32-PET-ji-ya",
-    "codepoint": "U+AE2E"
+    "codepoint": "U+F0875"
   },
   {
     "key": "32-SIP",
-    "codepoint": "U+AE2F"
+    "codepoint": "U+F0876"
   },
   {
     "key": "32-YAX",
-    "codepoint": "U+AE30"
+    "codepoint": "U+F0877"
   },
   {
     "key": "32-b{}u-ku",
-    "codepoint": "U+AE31"
+    "codepoint": "U+F0878"
   },
   {
     "key": "32-jo-JOY-ja@TI@AJAW-le-{l}",
-    "codepoint": "U+AE32"
+    "codepoint": "U+F0879"
   },
   {
     "key": "32-mo-oяwi-tziяAJAW",
-    "codepoint": "U+AE33"
+    "codepoint": "U+F087A"
   },
   {
     "key": "32-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AE34"
+    "codepoint": "U+F087B"
   },
   {
     "key": "32-wi-tzi@mo-o",
-    "codepoint": "U+AE35"
+    "codepoint": "U+F087C"
   },
   {
     "key": "33-AJAW",
-    "codepoint": "U+AE36"
+    "codepoint": "U+F087D"
   },
   {
     "key": "33-CHAK@CH{}UL@AJAW@$@CHAK@K{}UL@AJAW",
-    "codepoint": "U+AE37"
+    "codepoint": "U+F087E"
   },
   {
     "key": "33-IL-ja",
-    "codepoint": "U+AE38"
+    "codepoint": "U+F087F"
   },
   {
     "key": "33-JOL",
-    "codepoint": "U+AE39"
+    "codepoint": "U+F0880"
   },
   {
     "key": "33-JUL-li-ja",
-    "codepoint": "U+AE3A"
+    "codepoint": "U+F0881"
   },
   {
     "key": "33-KIX(_)",
-    "codepoint": "U+AE3B"
+    "codepoint": "U+F0882"
   },
   {
     "key": "33-K{}AN@TUN-ni",
-    "codepoint": "U+AE3C"
+    "codepoint": "U+F0883"
   },
   {
     "key": "33-NIKTE{}",
-    "codepoint": "U+AE3D"
+    "codepoint": "U+F0884"
   },
   {
     "key": "33-OCH-ja$OK-ja",
-    "codepoint": "U+AE3E"
+    "codepoint": "U+F0885"
   },
   {
     "key": "33-SOTZ{}",
-    "codepoint": "U+AE3F"
+    "codepoint": "U+F0886"
   },
   {
     "key": "33-YAX",
-    "codepoint": "U+AE40"
+    "codepoint": "U+F0887"
   },
   {
     "key": "33-b{}u-la",
-    "codepoint": "U+AE41"
+    "codepoint": "U+F0888"
   },
   {
     "key": "33-ch{}o",
-    "codepoint": "U+AE42"
+    "codepoint": "U+F0889"
   },
   {
     "key": "33-lu",
-    "codepoint": "U+AE43"
+    "codepoint": "U+F088A"
   },
   {
     "key": "33-mo$MO{}",
-    "codepoint": "U+AE44"
+    "codepoint": "U+F088B"
   },
   {
     "key": "33-pi",
-    "codepoint": "U+AE45"
+    "codepoint": "U+F088C"
   },
   {
     "key": "33-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AE46"
+    "codepoint": "U+F088D"
   },
   {
     "key": "33-wi-tzi@SAK-NIK-ki@NAL",
-    "codepoint": "U+AE47"
+    "codepoint": "U+F088E"
   },
   {
     "key": "34-AJAW",
-    "codepoint": "U+AE48"
+    "codepoint": "U+F088F"
   },
   {
     "key": "34-B{}ULUK",
-    "codepoint": "U+AE49"
+    "codepoint": "U+F0890"
   },
   {
     "key": "34-CHAK@EK{}",
-    "codepoint": "U+AE4A"
+    "codepoint": "U+F0891"
   },
   {
     "key": "34-IMIX",
-    "codepoint": "U+AE4B"
+    "codepoint": "U+F0892"
   },
   {
     "key": "34-JOL-lo",
-    "codepoint": "U+AE4C"
+    "codepoint": "U+F0893"
   },
   {
     "key": "34-JUL-li-ja",
-    "codepoint": "U+AE4D"
+    "codepoint": "U+F0894"
   },
   {
     "key": "34-K{}AN-na",
-    "codepoint": "U+AE4E"
+    "codepoint": "U+F0895"
   },
   {
     "key": "34-MOL",
-    "codepoint": "U+AE4F"
+    "codepoint": "U+F0896"
   },
   {
     "key": "34-NIKTE{}",
-    "codepoint": "U+AE50"
+    "codepoint": "U+F0897"
   },
   {
     "key": "34-OCH$OK",
-    "codepoint": "U+AE51"
+    "codepoint": "U+F0898"
   },
   {
     "key": "34-YAX",
-    "codepoint": "U+AE52"
+    "codepoint": "U+F0899"
   },
   {
     "key": "34-ch{}o",
-    "codepoint": "U+AE53"
+    "codepoint": "U+F089A"
   },
   {
     "key": "34-ko",
-    "codepoint": "U+AE54"
+    "codepoint": "U+F089B"
   },
   {
     "key": "34-lu",
-    "codepoint": "U+AE55"
+    "codepoint": "U+F089C"
   },
   {
     "key": "34-pi-b{}i@NA-aj",
-    "codepoint": "U+AE56"
+    "codepoint": "U+F089D"
   },
   {
     "key": "34-su",
-    "codepoint": "U+AE57"
+    "codepoint": "U+F089E"
   },
   {
     "key": "34-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AE58"
+    "codepoint": "U+F089F"
   },
   {
     "key": "34-wi-WINIK-ki",
-    "codepoint": "U+AE59"
+    "codepoint": "U+F08A0"
   },
   {
     "key": "35-AJAW",
-    "codepoint": "U+AE5A"
+    "codepoint": "U+F08A1"
   },
   {
     "key": "35-CHAK@K{}AT",
-    "codepoint": "U+AE5C"
+    "codepoint": "U+F08A3"
   },
   {
     "key": "35-IMIX",
-    "codepoint": "U+AE5D"
+    "codepoint": "U+F08A4"
   },
   {
     "key": "35-JOY",
-    "codepoint": "U+AE5E"
+    "codepoint": "U+F08A5"
   },
   {
     "key": "35-JUN",
-    "codepoint": "U+AE5F"
+    "codepoint": "U+F08A6"
   },
   {
     "key": "35-K{}AN-NAL-la@e-b{}u",
-    "codepoint": "U+AE60"
+    "codepoint": "U+F08A7"
   },
   {
     "key": "35-MOL(_)",
-    "codepoint": "U+AE61"
+    "codepoint": "U+F08A8"
   },
   {
     "key": "35-NIKTE{}-te{}",
-    "codepoint": "U+AE62"
+    "codepoint": "U+F08A9"
   },
   {
     "key": "35-OCH$OK",
-    "codepoint": "U+AE63"
+    "codepoint": "U+F08AA"
   },
   {
     "key": "35-YAX",
-    "codepoint": "U+AE64"
+    "codepoint": "U+F08AB"
   },
   {
     "key": "35-ch{}o",
-    "codepoint": "U+AE65"
+    "codepoint": "U+F08AC"
   },
   {
     "key": "35-ko-ja-wa",
-    "codepoint": "U+AE66"
+    "codepoint": "U+F08AD"
   },
   {
     "key": "35-lu-k{}u",
-    "codepoint": "U+AE67"
+    "codepoint": "U+F08AE"
   },
   {
     "key": "35-pi-b{}i-NA-li",
-    "codepoint": "U+AE68"
+    "codepoint": "U+F08AF"
   },
   {
     "key": "35-su-ku-{n}",
-    "codepoint": "U+AE69"
+    "codepoint": "U+F08B0"
   },
   {
     "key": "35-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AE6A"
+    "codepoint": "U+F08B1"
   },
   {
     "key": "35-wi-WINIK-ki",
-    "codepoint": "U+AE6B"
+    "codepoint": "U+F08B2"
   },
   {
     "key": "36-AJAW",
-    "codepoint": "U+AE6C"
+    "codepoint": "U+F08B3"
   },
   {
     "key": "36-B{}UTZ",
-    "codepoint": "U+AE6D"
+    "codepoint": "U+F08B4"
   },
   {
     "key": "36-CHAK@XIB{}@cha-ki",
-    "codepoint": "U+AE6E"
+    "codepoint": "U+F08B5"
   },
   {
     "key": "36-IMIX",
-    "codepoint": "U+AE6F"
+    "codepoint": "U+F08B6"
   },
   {
     "key": "36-JOY-ja",
-    "codepoint": "U+AE70"
+    "codepoint": "U+F08B7"
   },
   {
     "key": "36-JUN",
-    "codepoint": "U+AE71"
+    "codepoint": "U+F08B8"
   },
   {
     "key": "36-K{}ANK{}IN",
-    "codepoint": "U+AE72"
+    "codepoint": "U+F08B9"
   },
   {
     "key": "36-MOL(_)@TUN-ni",
-    "codepoint": "U+AE73"
+    "codepoint": "U+F08BA"
   },
   {
     "key": "36-OK",
-    "codepoint": "U+AE74"
+    "codepoint": "U+F08BB"
   },
   {
     "key": "36-YAX@ch{}a-CH{}AM",
-    "codepoint": "U+AE75"
+    "codepoint": "U+F08BC"
   },
   {
     "key": "36-ch{}o-ko",
-    "codepoint": "U+AE76"
+    "codepoint": "U+F08BD"
   },
   {
     "key": "36-ko-jo-yi",
-    "codepoint": "U+AE77"
+    "codepoint": "U+F08BE"
   },
   {
     "key": "36-lu-mi",
-    "codepoint": "U+AE78"
+    "codepoint": "U+F08BF"
   },
   {
     "key": "36-no",
-    "codepoint": "U+AE79"
+    "codepoint": "U+F08C0"
   },
   {
     "key": "36-pi-ji",
-    "codepoint": "U+AE7A"
+    "codepoint": "U+F08C1"
   },
   {
     "key": "36-su-ku-{n}@WINIK-ki",
-    "codepoint": "U+AE7B"
+    "codepoint": "U+F08C2"
   },
   {
     "key": "36-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AE7C"
+    "codepoint": "U+F08C3"
   },
   {
     "key": "36-wi$WI",
-    "codepoint": "U+AE7D"
+    "codepoint": "U+F08C4"
   },
   {
     "key": "37-AJAW",
-    "codepoint": "U+AE7E"
+    "codepoint": "U+F08C5"
   },
   {
     "key": "37-B{}UTZ",
-    "codepoint": "U+AE7F"
+    "codepoint": "U+F08C6"
   },
   {
     "key": "37-IN",
-    "codepoint": "U+AE80"
+    "codepoint": "U+F08C7"
   },
   {
     "key": "37-JOY-[ja]-ji-ya",
-    "codepoint": "U+AE81"
+    "codepoint": "U+F08C8"
   },
   {
     "key": "37-K{}ATUN",
-    "codepoint": "U+AE82"
+    "codepoint": "U+F08C9"
   },
   {
     "key": "37-NOJ",
-    "codepoint": "U+AE83"
+    "codepoint": "U+F08CA"
   },
   {
     "key": "37-OL",
-    "codepoint": "U+AE84"
+    "codepoint": "U+F08CB"
   },
   {
     "key": "37-YAX@CH{}AM",
-    "codepoint": "U+AE85"
+    "codepoint": "U+F08CC"
   },
   {
     "key": "37-ch{}o-ko",
-    "codepoint": "U+AE86"
+    "codepoint": "U+F08CD"
   },
   {
     "key": "37-ko-ko-no-OB{}",
-    "codepoint": "U+AE87"
+    "codepoint": "U+F08CE"
   },
   {
     "key": "37-mu",
-    "codepoint": "U+AE88"
+    "codepoint": "U+F08CF"
   },
   {
     "key": "37-pi-si",
-    "codepoint": "U+AE89"
+    "codepoint": "U+F08D0"
   },
   {
     "key": "37-su-sa-ja",
-    "codepoint": "U+AE8A"
+    "codepoint": "U+F08D1"
   },
   {
     "key": "37-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AE8B"
+    "codepoint": "U+F08D2"
   },
   {
     "key": "37-wi$WI",
-    "codepoint": "U+AE8C"
+    "codepoint": "U+F08D3"
   },
   {
     "key": "38-AJAW",
-    "codepoint": "U+AE8D"
+    "codepoint": "U+F08D4"
   },
   {
     "key": "38-CHALAJUN@$@KALAJUN",
-    "codepoint": "U+AE8E"
+    "codepoint": "U+F08D5"
   },
   {
     "key": "38-IN@CH{}EN",
-    "codepoint": "U+AE8F"
+    "codepoint": "U+F08D6"
   },
   {
     "key": "38-K{}ATUN",
-    "codepoint": "U+AE90"
+    "codepoint": "U+F08D7"
   },
   {
     "key": "38-NOJOL",
-    "codepoint": "U+AE91"
+    "codepoint": "U+F08D8"
   },
   {
     "key": "38-OL",
-    "codepoint": "U+AE92"
+    "codepoint": "U+F08D9"
   },
   {
     "key": "38-YAX@CH{}AM@K{}AWIL",
-    "codepoint": "U+AE93"
+    "codepoint": "U+F08DA"
   },
   {
     "key": "38-ch{}o-[ko]",
-    "codepoint": "U+AE94"
+    "codepoint": "U+F08DB"
   },
   {
     "key": "38-ju",
-    "codepoint": "U+AE95"
+    "codepoint": "U+F08DC"
   },
   {
     "key": "38-ko-tz{}o",
-    "codepoint": "U+AE96"
+    "codepoint": "U+F08DD"
   },
   {
     "key": "38-mu",
-    "codepoint": "U+AE97"
+    "codepoint": "U+F08DE"
   },
   {
     "key": "38-pi-tzi",
-    "codepoint": "U+AE98"
+    "codepoint": "U+F08DF"
   },
   {
     "key": "38-su-tz{}i",
-    "codepoint": "U+AE99"
+    "codepoint": "U+F08E0"
   },
   {
     "key": "38-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AE9A"
+    "codepoint": "U+F08E1"
   },
   {
     "key": "38-wi$WI",
-    "codepoint": "U+AE9B"
+    "codepoint": "U+F08E2"
   },
   {
     "key": "39-AJAW-le-le",
-    "codepoint": "U+AE9C"
+    "codepoint": "U+F08E3"
   },
   {
     "key": "39-CHALAJUN$KALAJUN",
-    "codepoint": "U+AE9D"
+    "codepoint": "U+F08E4"
   },
   {
     "key": "39-IN@KAB{}",
-    "codepoint": "U+AE9E"
+    "codepoint": "U+F08E5"
   },
   {
     "key": "39-KOJAW",
-    "codepoint": "U+AE9F"
+    "codepoint": "U+F08E6"
   },
   {
     "key": "39-K{}AWIL",
-    "codepoint": "U+AEA0"
+    "codepoint": "U+F08E7"
   },
   {
     "key": "39-OTOT",
-    "codepoint": "U+AEA1"
+    "codepoint": "U+F08E8"
   },
   {
     "key": "39-YAX@CHIT",
-    "codepoint": "U+AEA2"
+    "codepoint": "U+F08E9"
   },
   {
     "key": "39-ch{}o-[ko]@K{}AB{}A",
-    "codepoint": "U+AEA3"
+    "codepoint": "U+F08EA"
   },
   {
     "key": "39-ju",
-    "codepoint": "U+AEA4"
+    "codepoint": "U+F08EB"
   },
   {
     "key": "39-mu-ka",
-    "codepoint": "U+AEA5"
+    "codepoint": "U+F08EC"
   },
   {
     "key": "39-nu",
-    "codepoint": "U+AEA6"
+    "codepoint": "U+F08ED"
   },
   {
     "key": "39-pi-tzi-la",
-    "codepoint": "U+AEA7"
+    "codepoint": "U+F08EE"
   },
   {
     "key": "39-te{}$TE{}@(che{}$CHE{})",
-    "codepoint": "U+AEA8"
+    "codepoint": "U+F08EF"
   },
   {
     "key": "39-wi$WI",
-    "codepoint": "U+AEA9"
+    "codepoint": "U+F08F0"
   },
   {
     "key": "4--[la]-ja",
-    "codepoint": "U+AEAA"
+    "codepoint": "U+F08F1"
   },
   {
     "key": "4--il",
-    "codepoint": "U+AEAB"
+    "codepoint": "U+F08F2"
   },
   {
     "key": "4-B{}A@YAL",
-    "codepoint": "U+AEAC"
+    "codepoint": "U+F08F3"
   },
   {
     "key": "4-JA{}",
-    "codepoint": "U+AEAD"
+    "codepoint": "U+F08F4"
   },
   {
     "key": "4-TAB{}-[yi]",
-    "codepoint": "U+AEAE"
+    "codepoint": "U+F08F5"
   },
   {
     "key": "4-U@we{}-ya",
-    "codepoint": "U+AEAF"
+    "codepoint": "U+F08F6"
   },
   {
     "key": "4-XAN-na",
-    "codepoint": "U+AEB0"
+    "codepoint": "U+F08F7"
   },
   {
     "key": "4-a-ya",
-    "codepoint": "U+AEB1"
+    "codepoint": "U+F08F8"
   },
   {
     "key": "4-cha-nu$ka-nu",
-    "codepoint": "U+AEB2"
+    "codepoint": "U+F08F9"
   },
   {
     "key": "4-ch{}a-jo-ma",
-    "codepoint": "U+AEB3"
+    "codepoint": "U+F08FA"
   },
   {
     "key": "4-e-b{}u",
-    "codepoint": "U+AEB4"
+    "codepoint": "U+F08FB"
   },
   {
     "key": "4-ja",
-    "codepoint": "U+AEB5"
+    "codepoint": "U+F08FC"
   },
   {
     "key": "4-ka-ka-wa",
-    "codepoint": "U+AEB6"
+    "codepoint": "U+F08FD"
   },
   {
     "key": "4-k{}a-wi-NAL@WINIK",
-    "codepoint": "U+AEB7"
+    "codepoint": "U+F08FE"
   },
   {
     "key": "4-ma",
-    "codepoint": "U+AEB8"
+    "codepoint": "U+F08FF"
   },
   {
     "key": "4-na-ku",
-    "codepoint": "U+AEB9"
+    "codepoint": "U+F0900"
   },
   {
     "key": "4-o",
-    "codepoint": "U+AEBA"
+    "codepoint": "U+F0901"
   },
   {
     "key": "4-pa-ka-la-ja",
-    "codepoint": "U+AEBB"
+    "codepoint": "U+F0902"
   },
   {
     "key": "4-sa-ja-la",
-    "codepoint": "U+AEBC"
+    "codepoint": "U+F0903"
   },
   {
     "key": "4-ta-ki-ja",
-    "codepoint": "U+AEBD"
+    "codepoint": "U+F0904"
   },
   {
     "key": "4-tza-[ka]-wa",
-    "codepoint": "U+AEBE"
+    "codepoint": "U+F0905"
   },
   {
     "key": "4-tz{}a-[pa]-wa",
-    "codepoint": "U+AEBF"
+    "codepoint": "U+F0906"
   },
   {
     "key": "4-wa-WAY-{a}-[b{}i]",
-    "codepoint": "U+AEC0"
+    "codepoint": "U+F0907"
   },
   {
     "key": "4-ya",
-    "codepoint": "U+AEC1"
+    "codepoint": "U+F0908"
   },
   {
     "key": "40-AJAW-wa",
-    "codepoint": "U+AEC2"
+    "codepoint": "U+F0909"
   },
   {
     "key": "40-CHAM",
-    "codepoint": "U+AEC3"
+    "codepoint": "U+F090A"
   },
   {
     "key": "40-CH{}OK@TE{}@NA",
-    "codepoint": "U+AEC4"
+    "codepoint": "U+F090B"
   },
   {
     "key": "40-IN@pa-ta",
-    "codepoint": "U+AEC5"
+    "codepoint": "U+F090C"
   },
   {
     "key": "40-KOJAW-wa",
-    "codepoint": "U+AEC6"
+    "codepoint": "U+F090D"
   },
   {
     "key": "40-K{}AWIL-la",
-    "codepoint": "U+AEC7"
+    "codepoint": "U+F090E"
   },
   {
     "key": "40-OTOT-ja",
-    "codepoint": "U+AEC8"
+    "codepoint": "U+F090F"
   },
   {
     "key": "40-TI@AJAW@le-{l}",
-    "codepoint": "U+AEC9"
+    "codepoint": "U+F0910"
   },
   {
     "key": "40-YAX@K{}AL@TUN-ni",
-    "codepoint": "U+AECA"
+    "codepoint": "U+F0911"
   },
   {
     "key": "40-ju-b{}u-yi",
-    "codepoint": "U+AECB"
+    "codepoint": "U+F0912"
   },
   {
     "key": "40-mu-ka-ja",
-    "codepoint": "U+AECC"
+    "codepoint": "U+F0913"
   },
   {
     "key": "40-nu",
-    "codepoint": "U+AECD"
+    "codepoint": "U+F0914"
   },
   {
     "key": "40-pi-tzi-la-ja",
-    "codepoint": "U+AECE"
+    "codepoint": "U+F0915"
   },
   {
     "key": "40-wi$WI",
-    "codepoint": "U+AECF"
+    "codepoint": "U+F0916"
   },
   {
     "key": "41-AJAW-wa@TE{}",
-    "codepoint": "U+AED0"
+    "codepoint": "U+F0917"
   },
   {
     "key": "41-CHAM",
-    "codepoint": "U+AED1"
+    "codepoint": "U+F0918"
   },
   {
     "key": "41-CH{}UL@cha-TAN@WINIK@$@K{}UL@cha-TAN@WINIK@(CH{}UJUL@cha-TAN@WINIK@$@K{}UJUL@cha-TAN@WINIK)",
-    "codepoint": "U+AED2"
+    "codepoint": "U+F0919"
   },
   {
     "key": "41-IN@tu-pa",
-    "codepoint": "U+AED3"
+    "codepoint": "U+F091A"
   },
   {
     "key": "41-K{}AWIL-li",
-    "codepoint": "U+AED4"
+    "codepoint": "U+F091B"
   },
   {
     "key": "41-TI@ya-AK{}-il",
-    "codepoint": "U+AED6"
+    "codepoint": "U+F091D"
   },
   {
     "key": "41-WINAL",
-    "codepoint": "U+AED7"
+    "codepoint": "U+F091E"
   },
   {
     "key": "41-YAX@k{}o-jo",
-    "codepoint": "U+AED8"
+    "codepoint": "U+F091F"
   },
   {
     "key": "41-ju-b{}u-yi",
-    "codepoint": "U+AED9"
+    "codepoint": "U+F0920"
   },
   {
     "key": "41-ku",
-    "codepoint": "U+AEDA"
+    "codepoint": "U+F0921"
   },
   {
     "key": "41-mu-ka-ja",
-    "codepoint": "U+AEDB"
+    "codepoint": "U+F0922"
   },
   {
     "key": "41-nu",
-    "codepoint": "U+AEDC"
+    "codepoint": "U+F0923"
   },
   {
     "key": "41-pi-xo-ma",
-    "codepoint": "U+AEDD"
+    "codepoint": "U+F0924"
   },
   {
     "key": "42-CHAM-li",
-    "codepoint": "U+AEDE"
+    "codepoint": "U+F0925"
   },
   {
     "key": "42-CH{}UL@CHAAN@CH{}UL@KAB{}@$@K{}UL@KAAN@K{}UL@KAB{}@(CH{}UJUL@CHAN@KAB{}@$@K{}UJUL@KAAN@KAB{}",
-    "codepoint": "U+AEDF"
+    "codepoint": "U+F0926"
   },
   {
     "key": "42-IN-b{}u-ku",
-    "codepoint": "U+AEE0"
+    "codepoint": "U+F0927"
   },
   {
     "key": "42-JUB{}",
-    "codepoint": "U+AEE1"
+    "codepoint": "U+F0928"
   },
   {
     "key": "42-K{}AWIL-NAL-OB{}",
-    "codepoint": "U+AEE2"
+    "codepoint": "U+F0929"
   },
   {
     "key": "42-OX",
-    "codepoint": "U+AEE3"
+    "codepoint": "U+F092A"
   },
   {
     "key": "42-PI-ya",
-    "codepoint": "U+AEE4"
+    "codepoint": "U+F092B"
   },
   {
     "key": "42-WINAL",
-    "codepoint": "U+AEE5"
+    "codepoint": "U+F092C"
   },
   {
     "key": "42-YAX@pa-{s}",
-    "codepoint": "U+AEE6"
+    "codepoint": "U+F092D"
   },
   {
     "key": "42-ak{}$AK{}",
-    "codepoint": "U+AEE7"
+    "codepoint": "U+F092E"
   },
   {
     "key": "42-ku-chu",
-    "codepoint": "U+AEE8"
+    "codepoint": "U+F092F"
   },
   {
     "key": "42-mu-ka-ja",
-    "codepoint": "U+AEE9"
+    "codepoint": "U+F0930"
   },
   {
     "key": "42-nu",
-    "codepoint": "U+AEEA"
+    "codepoint": "U+F0931"
   },
   {
     "key": "42-ti-ka-la",
-    "codepoint": "U+AEEB"
+    "codepoint": "U+F0932"
   },
   {
     "key": "43-CHAM-mi",
-    "codepoint": "U+AEEC"
+    "codepoint": "U+F0933"
   },
   {
     "key": "43-CH{}UL@IXIK-ki@$@K{}UL@IXIK-ki@(CH{}UJUL@IXIK-ki@$@K{}UJUL@IXIK-ki)",
-    "codepoint": "U+AEED"
+    "codepoint": "U+F0934"
   },
   {
     "key": "43-ITZ{}",
-    "codepoint": "U+AEEE"
+    "codepoint": "U+F0935"
   },
   {
     "key": "43-JUB{}(_)",
-    "codepoint": "U+AEEF"
+    "codepoint": "U+F0936"
   },
   {
     "key": "43-K{}AWIL-OB{}",
-    "codepoint": "U+AEF0"
+    "codepoint": "U+F0937"
   },
   {
     "key": "43-OX@B{}OLON@CHAAK",
-    "codepoint": "U+AEF1"
+    "codepoint": "U+F0938"
   },
   {
     "key": "43-WINIK",
-    "codepoint": "U+AEF2"
+    "codepoint": "U+F0939"
   },
   {
     "key": "43-YAX@PAS",
-    "codepoint": "U+AEF3"
+    "codepoint": "U+F093A"
   },
   {
     "key": "43-ak{}$AK{}OT",
-    "codepoint": "U+AEF4"
+    "codepoint": "U+F093B"
   },
   {
     "key": "43-ku-tz{}u",
-    "codepoint": "U+AEF5"
+    "codepoint": "U+F093C"
   },
   {
     "key": "43-mu-ku-yi",
-    "codepoint": "U+AEF6"
+    "codepoint": "U+F093D"
   },
   {
     "key": "43-nu",
-    "codepoint": "U+AEF7"
+    "codepoint": "U+F093E"
   },
   {
     "key": "43-pi$PI$PIJ",
-    "codepoint": "U+AEF8"
+    "codepoint": "U+F093F"
   },
   {
     "key": "43-ti-ki-li",
-    "codepoint": "U+AEF9"
+    "codepoint": "U+F0940"
   },
   {
     "key": "44-CHAM-mi-ya",
-    "codepoint": "U+AEFA"
+    "codepoint": "U+F0941"
   },
   {
     "key": "44-CH{}UL@K{}AB{}A$K{}UL@K{}AB{}A",
-    "codepoint": "U+AEFB"
+    "codepoint": "U+F0942"
   },
   {
     "key": "44-JUB{}(_)-yi",
-    "codepoint": "U+AEFC"
+    "codepoint": "U+F0943"
   },
   {
     "key": "44-KUCH",
-    "codepoint": "U+AEFD"
+    "codepoint": "U+F0944"
   },
   {
     "key": "44-K{}AYAB{}",
-    "codepoint": "U+AEFE"
+    "codepoint": "U+F0945"
   },
   {
     "key": "44-OX-aj-ja-li",
-    "codepoint": "U+AEFF"
+    "codepoint": "U+F0946"
   },
   {
     "key": "44-WITZ",
-    "codepoint": "U+AF00"
+    "codepoint": "U+F0947"
   },
   {
     "key": "44-YAXK{}IN",
-    "codepoint": "U+AF01"
+    "codepoint": "U+F0948"
   },
   {
     "key": "44-ak{}$AK{}OT",
-    "codepoint": "U+AF02"
+    "codepoint": "U+F0949"
   },
   {
     "key": "44-itz{}-am-{na}",
-    "codepoint": "U+AF03"
+    "codepoint": "U+F094A"
   },
   {
     "key": "44-mu-ti",
-    "codepoint": "U+AF04"
+    "codepoint": "U+F094B"
   },
   {
     "key": "44-nu",
-    "codepoint": "U+AF05"
+    "codepoint": "U+F094C"
   },
   {
     "key": "44-pi$PI$PIJ",
-    "codepoint": "U+AF06"
+    "codepoint": "U+F094D"
   },
   {
     "key": "44-ti-xu-[ku]-pi",
-    "codepoint": "U+AF07"
+    "codepoint": "U+F094E"
   },
   {
     "key": "45-AK{}AB{}",
-    "codepoint": "U+AF08"
+    "codepoint": "U+F094F"
   },
   {
     "key": "45-CHAN$KAN",
-    "codepoint": "U+AF09"
+    "codepoint": "U+F0950"
   },
   {
     "key": "45-CH{}UL@WINIK-ki@$@K{}UL@WINIK-ki@(CH{}UJUL@WINIK-ki@$@K{}UJUL@WINIK-ki)",
-    "codepoint": "U+AF0A"
+    "codepoint": "U+F0951"
   },
   {
     "key": "45-ITZ{}AM@ye-ji",
-    "codepoint": "U+AF0B"
+    "codepoint": "U+F0952"
   },
   {
     "key": "45-JUB{}(_)-yi-ya",
-    "codepoint": "U+AF0C"
+    "codepoint": "U+F0953"
   },
   {
     "key": "45-KUCH@AB{}AK",
-    "codepoint": "U+AF0D"
+    "codepoint": "U+F0954"
   },
   {
     "key": "45-K{}IN",
-    "codepoint": "U+AF0E"
+    "codepoint": "U+F0955"
   },
   {
     "key": "45-PIK",
-    "codepoint": "U+AF0F"
+    "codepoint": "U+F0956"
   },
   {
     "key": "45-WO",
-    "codepoint": "U+AF10"
+    "codepoint": "U+F0957"
   },
   {
     "key": "45-mu-ti",
-    "codepoint": "U+AF11"
+    "codepoint": "U+F0958"
   },
   {
     "key": "45-nu",
-    "codepoint": "U+AF12"
+    "codepoint": "U+F0959"
   },
   {
     "key": "45-ti$TI",
-    "codepoint": "U+AF13"
+    "codepoint": "U+F095A"
   },
   {
     "key": "45-ye-b{}a-li",
-    "codepoint": "U+AF14"
+    "codepoint": "U+F095B"
   },
   {
     "key": "46-AK{}OT-ta",
-    "codepoint": "U+AF15"
+    "codepoint": "U+F095C"
   },
   {
     "key": "46-CHAN$KAN",
-    "codepoint": "U+AF16"
+    "codepoint": "U+F095D"
   },
   {
     "key": "46-CH{}UL-lu@$@K{}UL-lu@(CH{}UJUL-lu@$@K{}UJUL-lu)",
-    "codepoint": "U+AF17"
+    "codepoint": "U+F095E"
   },
   {
     "key": "46-ITZ{}AT",
-    "codepoint": "U+AF18"
+    "codepoint": "U+F095F"
   },
   {
     "key": "46-JUB{}-b{}a",
-    "codepoint": "U+AF19"
+    "codepoint": "U+F0960"
   },
   {
     "key": "46-KUCH@TUN",
-    "codepoint": "U+AF1A"
+    "codepoint": "U+F0961"
   },
   {
     "key": "46-K{}IN",
-    "codepoint": "U+AF1B"
+    "codepoint": "U+F0962"
   },
   {
     "key": "46-mu-wa-ni",
-    "codepoint": "U+AF1C"
+    "codepoint": "U+F0963"
   },
   {
     "key": "46-nu",
-    "codepoint": "U+AF1D"
+    "codepoint": "U+F0964"
   },
   {
     "key": "46-po",
-    "codepoint": "U+AF1E"
+    "codepoint": "U+F0965"
   },
   {
     "key": "46-ti$TI",
-    "codepoint": "U+AF1F"
+    "codepoint": "U+F0966"
   },
   {
     "key": "46-wo",
-    "codepoint": "U+AF20"
+    "codepoint": "U+F0967"
   },
   {
     "key": "46-ye-ma-la",
-    "codepoint": "U+AF21"
+    "codepoint": "U+F0968"
   },
   {
     "key": "47-AK{}OT-ta-ja",
-    "codepoint": "U+AF22"
+    "codepoint": "U+F0969"
   },
   {
     "key": "47-CHAN$KAN",
-    "codepoint": "U+AF23"
+    "codepoint": "U+F096A"
   },
   {
     "key": "47-CH{}UL-lu@to-k{}a@$@K{}UL-lu@to-k{}a@(CH{}UJUL-lu@to-k{}a@$@K{}UJUL-lu@to-k{}a)",
-    "codepoint": "U+AF24"
+    "codepoint": "U+F096B"
   },
   {
     "key": "47-ITZ{}AT",
-    "codepoint": "U+AF25"
+    "codepoint": "U+F096C"
   },
   {
     "key": "47-JUB{}-EMBLEMяGLYPH",
-    "codepoint": "U+AF26"
+    "codepoint": "U+F096D"
   },
   {
     "key": "47-KUCH-ta-ja",
-    "codepoint": "U+AF27"
+    "codepoint": "U+F096E"
   },
   {
     "key": "47-K{}IN-ni",
-    "codepoint": "U+AF28"
+    "codepoint": "U+F096F"
   },
   {
     "key": "47-MULUK",
-    "codepoint": "U+AF29"
+    "codepoint": "U+F0970"
   },
   {
     "key": "47-POP",
-    "codepoint": "U+AF2A"
+    "codepoint": "U+F0971"
   },
   {
     "key": "47-TIL",
-    "codepoint": "U+AF2B"
+    "codepoint": "U+F0972"
   },
   {
     "key": "47-nu-ku",
-    "codepoint": "U+AF2C"
+    "codepoint": "U+F0973"
   },
   {
     "key": "47-wo",
-    "codepoint": "U+AF2D"
+    "codepoint": "U+F0974"
   },
   {
     "key": "47-ye-ma-la",
-    "codepoint": "U+AF2E"
+    "codepoint": "U+F0975"
   },
   {
     "key": "48-AKB{}AL",
-    "codepoint": "U+AF2F"
+    "codepoint": "U+F0976"
   },
   {
     "key": "48-CHAN$KAN",
-    "codepoint": "U+AF30"
+    "codepoint": "U+F0977"
   },
   {
     "key": "48-CH{}UL$K{}UL@(CH{}UJUL$K{}UJUL)",
-    "codepoint": "U+AF31"
+    "codepoint": "U+F0978"
   },
   {
     "key": "48-ITZ{}AT-ta",
-    "codepoint": "U+AF32"
+    "codepoint": "U+F0979"
   },
   {
     "key": "48-JUL",
-    "codepoint": "U+AF33"
+    "codepoint": "U+F097A"
   },
   {
     "key": "48-KUMK{}U",
-    "codepoint": "U+AF34"
+    "codepoint": "U+F097B"
   },
   {
     "key": "48-K{}IN-ni",
-    "codepoint": "U+AF35"
+    "codepoint": "U+F097C"
   },
   {
     "key": "48-MUTUL",
-    "codepoint": "U+AF36"
+    "codepoint": "U+F097D"
   },
   {
     "key": "48-pu-lu-yi",
-    "codepoint": "U+AF37"
+    "codepoint": "U+F097E"
   },
   {
     "key": "48-to",
-    "codepoint": "U+AF38"
+    "codepoint": "U+F097F"
   },
   {
     "key": "48-wo",
-    "codepoint": "U+AF39"
+    "codepoint": "U+F0980"
   },
   {
     "key": "48-ye-te{}",
-    "codepoint": "U+AF3A"
+    "codepoint": "U+F0981"
   },
   {
     "key": "49-CH{}UL$K{}UL@(CH{}UJUL$K{}UJUL)",
-    "codepoint": "U+AF3C"
+    "codepoint": "U+F0983"
   },
   {
     "key": "49-IX",
-    "codepoint": "U+AF3D"
+    "codepoint": "U+F0984"
   },
   {
     "key": "49-JUN",
-    "codepoint": "U+AF3E"
+    "codepoint": "U+F0985"
   },
   {
     "key": "49-K{}IN-ni@AJAW",
-    "codepoint": "U+AF3F"
+    "codepoint": "U+F0986"
   },
   {
     "key": "49-MUTUL",
-    "codepoint": "U+AF40"
+    "codepoint": "U+F0987"
   },
   {
     "key": "49-am",
-    "codepoint": "U+AF41"
+    "codepoint": "U+F0988"
   },
   {
     "key": "49-pu$PU$PUJ",
-    "codepoint": "U+AF42"
+    "codepoint": "U+F0989"
   },
   {
     "key": "49-to",
-    "codepoint": "U+AF43"
+    "codepoint": "U+F098A"
   },
   {
     "key": "49-wo-jo-li",
-    "codepoint": "U+AF44"
+    "codepoint": "U+F098B"
   },
   {
     "key": "49-ye-te{}",
-    "codepoint": "U+AF45"
+    "codepoint": "U+F098C"
   },
   {
     "key": "5--il",
-    "codepoint": "U+AF46"
+    "codepoint": "U+F098D"
   },
   {
     "key": "5-EB{}",
-    "codepoint": "U+AF47"
+    "codepoint": "U+F098E"
   },
   {
     "key": "5-JA{}",
-    "codepoint": "U+AF48"
+    "codepoint": "U+F098F"
   },
   {
     "key": "5-TAB{}-[yi]",
-    "codepoint": "U+AF49"
+    "codepoint": "U+F0990"
   },
   {
     "key": "5-U@ya-AJAW-wa@TE{}",
-    "codepoint": "U+AF4A"
+    "codepoint": "U+F0991"
   },
   {
     "key": "5-a-ya-ya",
-    "codepoint": "U+AF4B"
+    "codepoint": "U+F0992"
   },
   {
     "key": "5-b{}a-ji-ni",
-    "codepoint": "U+AF4C"
+    "codepoint": "U+F0993"
   },
   {
     "key": "5-cha-TAN-na",
-    "codepoint": "U+AF4D"
+    "codepoint": "U+F0994"
   },
   {
     "key": "5-ch{}a-jo-ma",
-    "codepoint": "U+AF4E"
+    "codepoint": "U+F0995"
   },
   {
     "key": "5-ja",
-    "codepoint": "U+AF4F"
+    "codepoint": "U+F0996"
   },
   {
     "key": "5-ka-KALOMTE{}-te{}",
-    "codepoint": "U+AF50"
+    "codepoint": "U+F0997"
   },
   {
     "key": "5-k{}a-yi@U@SAK@NIK@IK{}-li@$@ch{}a-yi@U@SAK@NICH@IK{}-li",
-    "codepoint": "U+AF51"
+    "codepoint": "U+F0998"
   },
   {
     "key": "5-la",
-    "codepoint": "U+AF52"
+    "codepoint": "U+F0999"
   },
   {
     "key": "5-ma-ka",
-    "codepoint": "U+AF53"
+    "codepoint": "U+F099A"
   },
   {
     "key": "5-na-NAL(_)",
-    "codepoint": "U+AF54"
+    "codepoint": "U+F099B"
   },
   {
     "key": "5-o",
-    "codepoint": "U+AF55"
+    "codepoint": "U+F099C"
   },
   {
     "key": "5-pa-ka-xa",
-    "codepoint": "U+AF56"
+    "codepoint": "U+F099D"
   },
   {
     "key": "5-sa-ja-la",
-    "codepoint": "U+AF57"
+    "codepoint": "U+F099E"
   },
   {
     "key": "5-ta-li",
-    "codepoint": "U+AF58"
+    "codepoint": "U+F099F"
   },
   {
     "key": "5-tza-[ka]-waяCH{}UL@$@tza-[ka]-waяK{}UL",
-    "codepoint": "U+AF59"
+    "codepoint": "U+F09A0"
   },
   {
     "key": "5-tz{}a$TZ{}A",
-    "codepoint": "U+AF5A"
+    "codepoint": "U+F09A1"
   },
   {
     "key": "5-wa-ya-k{}a-wa",
-    "codepoint": "U+AF5B"
+    "codepoint": "U+F09A2"
   },
   {
     "key": "5-xi",
-    "codepoint": "U+AF5C"
+    "codepoint": "U+F09A3"
   },
   {
     "key": "5-ya",
-    "codepoint": "U+AF5D"
+    "codepoint": "U+F09A4"
   },
   {
     "key": "50-CHAPAT",
-    "codepoint": "U+AF5E"
+    "codepoint": "U+F09A5"
   },
   {
     "key": "50-CH{}UL$K{}UL@(CH{}UJUL$K{}UJUL)",
-    "codepoint": "U+AF5F"
+    "codepoint": "U+F09A6"
   },
   {
     "key": "50-IX",
-    "codepoint": "U+AF60"
+    "codepoint": "U+F09A7"
   },
   {
     "key": "50-JUN",
-    "codepoint": "U+AF61"
+    "codepoint": "U+F09A8"
   },
   {
     "key": "50-K{}IN-ni@JA{}-NAL",
-    "codepoint": "U+AF62"
+    "codepoint": "U+F09A9"
   },
   {
     "key": "50-MUTUL",
-    "codepoint": "U+AF63"
+    "codepoint": "U+F09AA"
   },
   {
     "key": "50-PUL-[yi]",
-    "codepoint": "U+AF64"
+    "codepoint": "U+F09AB"
   },
   {
     "key": "50-am",
-    "codepoint": "U+AF65"
+    "codepoint": "U+F09AC"
   },
   {
     "key": "50-to",
-    "codepoint": "U+AF66"
+    "codepoint": "U+F09AD"
   },
   {
     "key": "50-wo-la",
-    "codepoint": "U+AF67"
+    "codepoint": "U+F09AE"
   },
   {
     "key": "50-ye-te{}",
-    "codepoint": "U+AF68"
+    "codepoint": "U+F09AF"
   },
   {
     "key": "51-AT",
-    "codepoint": "U+AF69"
+    "codepoint": "U+F09B0"
   },
   {
     "key": "51-CHAY$KAY",
-    "codepoint": "U+AF6A"
+    "codepoint": "U+F09B1"
   },
   {
     "key": "51-CH{}UL$K{}UL@(CH{}UJUL$K{}UJUL)",
-    "codepoint": "U+AF6B"
+    "codepoint": "U+F09B2"
   },
   {
     "key": "51-IX@TZ{}AM(_)",
-    "codepoint": "U+AF6C"
+    "codepoint": "U+F09B3"
   },
   {
     "key": "51-K{}IN-ni-chiяTZAM(_)яTUN-ni",
-    "codepoint": "U+AF6E"
+    "codepoint": "U+F09B5"
   },
   {
     "key": "51-MUTUL@AJAW-TAK",
-    "codepoint": "U+AF6F"
+    "codepoint": "U+F09B6"
   },
   {
     "key": "51-WUK",
-    "codepoint": "U+AF70"
+    "codepoint": "U+F09B7"
   },
   {
     "key": "51-to-jo-li",
-    "codepoint": "U+AF71"
+    "codepoint": "U+F09B8"
   },
   {
     "key": "51-ye-te{}@k{}a-b{}a-li",
-    "codepoint": "U+AF72"
+    "codepoint": "U+F09B9"
   },
   {
     "key": "52-CH{}UL$K{}UL@(CH{}UJUL$K{}UJUL)",
-    "codepoint": "U+AF73"
+    "codepoint": "U+F09BA"
   },
   {
     "key": "52-IX@TZ{}AM(_)@ku-aj",
-    "codepoint": "U+AF74"
+    "codepoint": "U+F09BB"
   },
   {
     "key": "52-JUN@NAL@YE",
-    "codepoint": "U+AF75"
+    "codepoint": "U+F09BC"
   },
   {
     "key": "52-K{}INA$K{}INICH",
-    "codepoint": "U+AF76"
+    "codepoint": "U+F09BD"
   },
   {
     "key": "52-MUWAN-na",
-    "codepoint": "U+AF77"
+    "codepoint": "U+F09BE"
   },
   {
     "key": "52-WUK",
-    "codepoint": "U+AF78"
+    "codepoint": "U+F09BF"
   },
   {
     "key": "52-at",
-    "codepoint": "U+AF79"
+    "codepoint": "U+F09C0"
   },
   {
     "key": "52-che",
-    "codepoint": "U+AF7A"
+    "codepoint": "U+F09C1"
   },
   {
     "key": "52-to-jo-li",
-    "codepoint": "U+AF7B"
+    "codepoint": "U+F09C2"
   },
   {
     "key": "52-ye-te{}-je",
-    "codepoint": "U+AF7C"
+    "codepoint": "U+F09C3"
   },
   {
     "key": "53-AT-ti",
-    "codepoint": "U+AF7D"
+    "codepoint": "U+F09C4"
   },
   {
     "key": "53-CH{}UL$K{}UL@(CH{}UJUL$K{}UJUL)",
-    "codepoint": "U+AF7E"
+    "codepoint": "U+F09C5"
   },
   {
     "key": "53-IX$IXIK",
-    "codepoint": "U+AF7F"
+    "codepoint": "U+F09C6"
   },
   {
     "key": "53-JUNяTAN-na",
-    "codepoint": "U+AF80"
+    "codepoint": "U+F09C7"
   },
   {
     "key": "53-K{}INICH",
-    "codepoint": "U+AF81"
+    "codepoint": "U+F09C8"
   },
   {
     "key": "53-MUWAN-ni",
-    "codepoint": "U+AF82"
+    "codepoint": "U+F09C9"
   },
   {
     "key": "53-che",
-    "codepoint": "U+AF83"
+    "codepoint": "U+F09CA"
   },
   {
     "key": "53-to-k{}a",
-    "codepoint": "U+AF84"
+    "codepoint": "U+F09CB"
   },
   {
     "key": "53-ye-te{}-je",
-    "codepoint": "U+AF85"
+    "codepoint": "U+F09CC"
   },
   {
     "key": "54-AYIN",
-    "codepoint": "U+AF86"
+    "codepoint": "U+F09CD"
   },
   {
     "key": "54-CH{}UL$K{}UL@(CH{}UJUL$K{}UJUL)",
-    "codepoint": "U+AF87"
+    "codepoint": "U+F09CE"
   },
   {
     "key": "54-IXIK-ki",
-    "codepoint": "U+AF88"
+    "codepoint": "U+F09CF"
   },
   {
     "key": "54-K{}INICH-ni",
-    "codepoint": "U+AF89"
+    "codepoint": "U+F09D0"
   },
   {
     "key": "54-MUYAL",
-    "codepoint": "U+AF8A"
+    "codepoint": "U+F09D1"
   },
   {
     "key": "54-[JAANAB{}]@PAKAL",
-    "codepoint": "U+AF8B"
+    "codepoint": "U+F09D2"
   },
   {
     "key": "54-che",
-    "codepoint": "U+AF8C"
+    "codepoint": "U+F09D3"
   },
   {
     "key": "54-to-k{}a@pa-ka-la",
-    "codepoint": "U+AF8D"
+    "codepoint": "U+F09D4"
   },
   {
     "key": "54-ye$YE",
-    "codepoint": "U+AF8E"
+    "codepoint": "U+F09D5"
   },
   {
     "key": "55-CH{}UL$K{}UL@(CH{}UJUL$K{}UJUL)",
-    "codepoint": "U+AF8F"
+    "codepoint": "U+F09D6"
   },
   {
     "key": "55-MUYAL",
-    "codepoint": "U+AF90"
+    "codepoint": "U+F09D7"
   },
   {
     "key": "55-[JANAAB{}]@PAKAL-la",
-    "codepoint": "U+AF91"
+    "codepoint": "U+F09D8"
   },
   {
     "key": "55-che",
-    "codepoint": "U+AF92"
+    "codepoint": "U+F09D9"
   },
   {
     "key": "55-k{}o",
-    "codepoint": "U+AF93"
+    "codepoint": "U+F09DA"
   },
   {
     "key": "55-to-ko",
-    "codepoint": "U+AF94"
+    "codepoint": "U+F09DB"
   },
   {
     "key": "55-ye$YE",
-    "codepoint": "U+AF95"
+    "codepoint": "U+F09DC"
   },
   {
     "key": "56-CH{}ULяAJAW-wa@$@K{}ULяAJAW-wa@(CH{}UJULяAJAW-wa@$@K{}UJULяAJAW-WA",
-    "codepoint": "U+AF96"
+    "codepoint": "U+F09DD"
   },
   {
     "key": "56-che-b{}u",
-    "codepoint": "U+AF97"
+    "codepoint": "U+F09DE"
   },
   {
     "key": "56-k{}o-b{}a",
-    "codepoint": "U+AF98"
+    "codepoint": "U+F09DF"
   },
   {
     "key": "56-to-ko@TAN@AJAW",
-    "codepoint": "U+AF99"
+    "codepoint": "U+F09E0"
   },
   {
     "key": "56-ye$YE",
-    "codepoint": "U+AF9A"
+    "codepoint": "U+F09E1"
   },
   {
     "key": "57-CH{}UL@cha-TAN-na@wi-WINIK-ki@$@K{}UL@cha-TAN-na@wi-WINIK-ki@(CH{}UJUL@cha-TAN-na@wi-WINIK-ki@$@K{}UJUL@cha-TAN-na@wi-WINIK-ki)",
-    "codepoint": "U+AF9B"
+    "codepoint": "U+F09E2"
   },
   {
     "key": "57-che-e-na",
-    "codepoint": "U+AF9C"
+    "codepoint": "U+F09E3"
   },
   {
     "key": "57-k{}o-jo",
-    "codepoint": "U+AF9D"
+    "codepoint": "U+F09E4"
   },
   {
     "key": "57-to-ko@TAN@WINIK-ki",
-    "codepoint": "U+AF9E"
+    "codepoint": "U+F09E5"
   },
   {
     "key": "57-ye$YE",
-    "codepoint": "U+AF9F"
+    "codepoint": "U+F09E6"
   },
   {
     "key": "58-CH{}UL@to-{k}@TAN@AJAW@$@K{}UL@to-{k}@TAN@AJAW@(CH{}UJUL@to-{k}@TAN@AJAW@$@K{}UJUL@to-{k}@TAN@AJAW)",
-    "codepoint": "U+AFA0"
+    "codepoint": "U+F09E7"
   },
   {
     "key": "58-che-e-na@TU@b{}a-ki",
-    "codepoint": "U+AFA1"
+    "codepoint": "U+F09E8"
   },
   {
     "key": "58-k{}u",
-    "codepoint": "U+AFA2"
+    "codepoint": "U+F09E9"
   },
   {
     "key": "58-to-ko-TAN-na",
-    "codepoint": "U+AFA3"
+    "codepoint": "U+F09EA"
   },
   {
     "key": "58-ye$YE",
-    "codepoint": "U+AFA4"
+    "codepoint": "U+F09EB"
   },
   {
     "key": "59-che-je-na",
-    "codepoint": "U+AFA5"
+    "codepoint": "U+F09EC"
   },
   {
     "key": "59-k{}u-ju",
-    "codepoint": "U+AFA6"
+    "codepoint": "U+F09ED"
   },
   {
     "key": "59-to-XAT",
-    "codepoint": "U+AFA7"
+    "codepoint": "U+F09EE"
   },
   {
     "key": "59-ye$YE",
-    "codepoint": "U+AFA8"
+    "codepoint": "U+F09EF"
   },
   {
     "key": "6--il",
-    "codepoint": "U+AFA9"
+    "codepoint": "U+F09F0"
   },
   {
     "key": "6-EB{}-[b{}u]",
-    "codepoint": "U+AFAA"
+    "codepoint": "U+F09F1"
   },
   {
     "key": "6-TUL",
-    "codepoint": "U+AFAB"
+    "codepoint": "U+F09F2"
   },
   {
     "key": "6-TZ{}AK",
-    "codepoint": "U+AFAC"
+    "codepoint": "U+F09F3"
   },
   {
     "key": "6-a$AJ",
-    "codepoint": "U+AFAD"
+    "codepoint": "U+F09F4"
   },
   {
     "key": "6-b{}a-ka-b{}a",
-    "codepoint": "U+AFAE"
+    "codepoint": "U+F09F5"
   },
   {
     "key": "6-cha-te{}@KAB{}A",
-    "codepoint": "U+AFAF"
+    "codepoint": "U+F09F6"
   },
   {
     "key": "6-ch{}a-JOM",
-    "codepoint": "U+AFB0"
+    "codepoint": "U+F09F7"
   },
   {
     "key": "6-ja{}-o-b{}a",
-    "codepoint": "U+AFB1"
+    "codepoint": "U+F09F8"
   },
   {
     "key": "6-ja{}",
-    "codepoint": "U+AFB2"
+    "codepoint": "U+F09F9"
   },
   {
     "key": "6-ka-lo-ma-te{}",
-    "codepoint": "U+AFB3"
+    "codepoint": "U+F09FA"
   },
   {
     "key": "6-k{}a-yi@U@SAK@NIK@IK{}-li@$@ch{}a-yi@U@SAK@NICH@IK{}-li",
-    "codepoint": "U+AFB4"
+    "codepoint": "U+F09FB"
   },
   {
     "key": "6-la",
-    "codepoint": "U+AFB5"
+    "codepoint": "U+F09FC"
   },
   {
     "key": "6-ma-ka-ja",
-    "codepoint": "U+AFB6"
+    "codepoint": "U+F09FD"
   },
   {
     "key": "6-na-wa-ja",
-    "codepoint": "U+AFB7"
+    "codepoint": "U+F09FE"
   },
   {
     "key": "6-o",
-    "codepoint": "U+AFB8"
+    "codepoint": "U+F09FF"
   },
   {
     "key": "6-pa-ka-xa",
-    "codepoint": "U+AFB9"
+    "codepoint": "U+F0A00"
   },
   {
     "key": "6-sa-mi-ya",
-    "codepoint": "U+AFBA"
+    "codepoint": "U+F0A01"
   },
   {
     "key": "6-ta$TA",
-    "codepoint": "U+AFBB"
+    "codepoint": "U+F0A02"
   },
   {
     "key": "6-tzi",
-    "codepoint": "U+AFBC"
+    "codepoint": "U+F0A03"
   },
   {
     "key": "6-u-lu",
-    "codepoint": "U+AFBD"
+    "codepoint": "U+F0A04"
   },
   {
     "key": "6-wa-ya-la-wa",
-    "codepoint": "U+AFBE"
+    "codepoint": "U+F0A05"
   },
   {
     "key": "6-xi",
-    "codepoint": "U+AFBF"
+    "codepoint": "U+F0A06"
   },
   {
     "key": "6-ya-AJAW@K{}AK{}",
-    "codepoint": "U+AFC0"
+    "codepoint": "U+F0A07"
   },
   {
     "key": "60-k{}u-ju",
-    "codepoint": "U+AFC1"
+    "codepoint": "U+F0A08"
   },
   {
     "key": "60-to-[xa]-AT-ti",
-    "codepoint": "U+AFC2"
+    "codepoint": "U+F0A09"
   },
   {
     "key": "60-yi",
-    "codepoint": "U+AFC3"
+    "codepoint": "U+F0A0A"
   },
   {
     "key": "61-TOK{}",
-    "codepoint": "U+AFC4"
+    "codepoint": "U+F0A0B"
   },
   {
     "key": "61-chi-[K{}IN]-li",
-    "codepoint": "U+AFC5"
+    "codepoint": "U+F0A0C"
   },
   {
     "key": "61-k{}u-xa-ja",
-    "codepoint": "U+AFC6"
+    "codepoint": "U+F0A0D"
   },
   {
     "key": "61-yi",
-    "codepoint": "U+AFC7"
+    "codepoint": "U+F0A0E"
   },
   {
     "key": "62-TOK{}",
-    "codepoint": "U+AFC8"
+    "codepoint": "U+F0A0F"
   },
   {
     "key": "62-chi$CHI",
-    "codepoint": "U+AFC9"
+    "codepoint": "U+F0A10"
   },
   {
     "key": "62-k{}u-xa-ji-ya",
-    "codepoint": "U+AFCA"
+    "codepoint": "U+F0A11"
   },
   {
     "key": "62-yi",
-    "codepoint": "U+AFCB"
+    "codepoint": "U+F0A12"
   },
   {
     "key": "63-CHICCHAN",
-    "codepoint": "U+AFCC"
+    "codepoint": "U+F0A13"
   },
   {
     "key": "63-TOK{}",
-    "codepoint": "U+AFCD"
+    "codepoint": "U+F0A14"
   },
   {
     "key": "63-k{}u-yu@NIK-ki@AJAW",
-    "codepoint": "U+AFCE"
+    "codepoint": "U+F0A15"
   },
   {
     "key": "63-yi-ch{}a-ki",
-    "codepoint": "U+AFCF"
+    "codepoint": "U+F0A16"
   },
   {
     "key": "64-CHICCHAN",
-    "codepoint": "U+AFD0"
+    "codepoint": "U+F0A17"
   },
   {
     "key": "64-TOK{}@PAKAL",
-    "codepoint": "U+AFD1"
+    "codepoint": "U+F0A18"
   },
   {
     "key": "64-k{}u$K{}U",
-    "codepoint": "U+AFD2"
+    "codepoint": "U+F0A19"
   },
   {
     "key": "64-yi-chi",
-    "codepoint": "U+AFD3"
+    "codepoint": "U+F0A1A"
   },
   {
     "key": "65-CHIJ",
-    "codepoint": "U+AFD4"
+    "codepoint": "U+F0A1B"
   },
   {
     "key": "65-TU@K{}U-li",
-    "codepoint": "U+AFD5"
+    "codepoint": "U+F0A1C"
   },
   {
     "key": "65-k{}u$K{}U",
-    "codepoint": "U+AFD6"
+    "codepoint": "U+F0A1D"
   },
   {
     "key": "65-yi-chi-NAL",
-    "codepoint": "U+AFD7"
+    "codepoint": "U+F0A1E"
   },
   {
     "key": "66-CHIT",
-    "codepoint": "U+AFD8"
+    "codepoint": "U+F0A1F"
   },
   {
     "key": "66-K{}UK{}",
-    "codepoint": "U+AFD9"
+    "codepoint": "U+F0A20"
   },
   {
     "key": "66-TU@WAY-[b{}i]-li",
-    "codepoint": "U+AFDA"
+    "codepoint": "U+F0A21"
   },
   {
     "key": "66-yi-IL-ji",
-    "codepoint": "U+AFDB"
+    "codepoint": "U+F0A22"
   },
   {
     "key": "67-CHIT-ti",
-    "codepoint": "U+AFDC"
+    "codepoint": "U+F0A23"
   },
   {
     "key": "67-tu-ku-nu",
-    "codepoint": "U+AFDD"
+    "codepoint": "U+F0A24"
   },
   {
     "key": "67-yi-IL-ji",
-    "codepoint": "U+AFDE"
+    "codepoint": "U+F0A25"
   },
   {
     "key": "68-CHITAM",
-    "codepoint": "U+AFDF"
+    "codepoint": "U+F0A26"
   },
   {
     "key": "68-tu-pa",
-    "codepoint": "U+AFE0"
+    "codepoint": "U+F0A27"
   },
   {
     "key": "68-yi-IL-la-ja",
-    "codepoint": "U+AFE1"
+    "codepoint": "U+F0A28"
   },
   {
     "key": "69-cho",
-    "codepoint": "U+AFE2"
+    "codepoint": "U+F0A29"
   },
   {
     "key": "69-tu-pa-ja",
-    "codepoint": "U+AFE3"
+    "codepoint": "U+F0A2A"
   },
   {
     "key": "69-yi-ka-tzo",
-    "codepoint": "U+AFE4"
+    "codepoint": "U+F0A2B"
   },
   {
     "key": "7--il",
-    "codepoint": "U+AFE5"
+    "codepoint": "U+F0A2C"
   },
   {
     "key": "7-EK{}",
-    "codepoint": "U+AFE6"
+    "codepoint": "U+F0A2D"
   },
   {
     "key": "7-TZ{}AK@b{}u-li",
-    "codepoint": "U+AFE7"
+    "codepoint": "U+F0A2E"
   },
   {
     "key": "7-a$AJ",
-    "codepoint": "U+AFE8"
+    "codepoint": "U+F0A2F"
   },
   {
     "key": "7-b{}a-ki",
-    "codepoint": "U+AFE9"
+    "codepoint": "U+F0A30"
   },
   {
     "key": "7-cha-ya",
-    "codepoint": "U+AFEA"
+    "codepoint": "U+F0A31"
   },
   {
     "key": "7-ch{}a-ka-ja",
-    "codepoint": "U+AFEB"
+    "codepoint": "U+F0A32"
   },
   {
     "key": "7-ja-na-b{}i",
-    "codepoint": "U+AFEC"
+    "codepoint": "U+F0A33"
   },
   {
     "key": "7-ja{}-i",
-    "codepoint": "U+AFED"
+    "codepoint": "U+F0A34"
   },
   {
     "key": "7-ka-{ka}-wa",
-    "codepoint": "U+AFEE"
+    "codepoint": "U+F0A35"
   },
   {
     "key": "7-k{}a-yi$ch{}a-yi",
-    "codepoint": "U+AFEF"
+    "codepoint": "U+F0A36"
   },
   {
     "key": "7-la-ka",
-    "codepoint": "U+AFF0"
+    "codepoint": "U+F0A37"
   },
   {
     "key": "7-ma-ka-xa",
-    "codepoint": "U+AFF1"
+    "codepoint": "U+F0A38"
   },
   {
     "key": "7-na$NA$NAJ",
-    "codepoint": "U+AFF2"
+    "codepoint": "U+F0A39"
   },
   {
     "key": "7-o",
-    "codepoint": "U+AFF3"
+    "codepoint": "U+F0A3A"
   },
   {
     "key": "7-pa-sa",
-    "codepoint": "U+AFF4"
+    "codepoint": "U+F0A3B"
   },
   {
     "key": "7-sa-ta",
-    "codepoint": "U+AFF5"
+    "codepoint": "U+F0A3C"
   },
   {
     "key": "7-ta$TA",
-    "codepoint": "U+AFF6"
+    "codepoint": "U+F0A3D"
   },
   {
     "key": "7-tzi",
-    "codepoint": "U+AFF7"
+    "codepoint": "U+F0A3E"
   },
   {
     "key": "7-u-ne-{n}",
-    "codepoint": "U+AFF8"
+    "codepoint": "U+F0A3F"
   },
   {
     "key": "7-wa$WA",
-    "codepoint": "U+AFF9"
+    "codepoint": "U+F0A40"
   },
   {
     "key": "7-xi",
-    "codepoint": "U+AFFA"
+    "codepoint": "U+F0A41"
   },
   {
     "key": "7-ya-AJAW-wa",
-    "codepoint": "U+AFFB"
+    "codepoint": "U+F0A42"
   },
   {
     "key": "70-CHOK",
-    "codepoint": "U+AFFC"
+    "codepoint": "U+F0A43"
   },
   {
     "key": "70-tu$TU",
-    "codepoint": "U+AFFD"
+    "codepoint": "U+F0A44"
   },
   {
     "key": "70-yi-la-ji",
-    "codepoint": "U+AFFE"
+    "codepoint": "U+F0A45"
   },
   {
     "key": "71-CHOK-ji",
-    "codepoint": "U+AFFF"
+    "codepoint": "U+F0A46"
   },
   {
     "key": "71-TUN",
-    "codepoint": "U+B000"
+    "codepoint": "U+F0A47"
   },
   {
     "key": "71-yi-li-aj-ji-ya",
-    "codepoint": "U+B001"
+    "codepoint": "U+F0A48"
   },
   {
     "key": "72-CHOK-ko-wa@CH{}A-ji",
-    "codepoint": "U+B002"
+    "codepoint": "U+F0A49"
   },
   {
     "key": "72-TUN",
-    "codepoint": "U+B003"
+    "codepoint": "U+F0A4A"
   },
   {
     "key": "72-yi-ta",
-    "codepoint": "U+B004"
+    "codepoint": "U+F0A4B"
   },
   {
     "key": "73-CHOK-wa@CH{}A-ji",
-    "codepoint": "U+B005"
+    "codepoint": "U+F0A4C"
   },
   {
     "key": "73-TUN",
-    "codepoint": "U+B006"
+    "codepoint": "U+F0A4D"
   },
   {
     "key": "73-yi-ta-ji",
-    "codepoint": "U+B007"
+    "codepoint": "U+F0A4E"
   },
   {
     "key": "74-TUN",
-    "codepoint": "U+B008"
+    "codepoint": "U+F0A4F"
   },
   {
     "key": "74-chu",
-    "codepoint": "U+B009"
+    "codepoint": "U+F0A50"
   },
   {
     "key": "74-yi-tz{}i-na",
-    "codepoint": "U+B00A"
+    "codepoint": "U+F0A51"
   },
   {
     "key": "75-TUN",
-    "codepoint": "U+B00B"
+    "codepoint": "U+F0A52"
   },
   {
     "key": "75-chu",
-    "codepoint": "U+B00C"
+    "codepoint": "U+F0A53"
   },
   {
     "key": "75-yi-[chi]-NAL",
-    "codepoint": "U+B00D"
+    "codepoint": "U+F0A54"
   },
   {
     "key": "76-TUN-ni",
-    "codepoint": "U+B00E"
+    "codepoint": "U+F0A55"
   },
   {
     "key": "76-chu",
-    "codepoint": "U+B00F"
+    "codepoint": "U+F0A56"
   },
   {
     "key": "76-yi-[ta]-ji",
-    "codepoint": "U+B010"
+    "codepoint": "U+F0A57"
   },
   {
     "key": "77-[TAN]@LAM",
-    "codepoint": "U+B011"
+    "codepoint": "U+F0A58"
   },
   {
     "key": "77-chu-ka",
-    "codepoint": "U+B012"
+    "codepoint": "U+F0A59"
   },
   {
     "key": "77-yo",
-    "codepoint": "U+B013"
+    "codepoint": "U+F0A5A"
   },
   {
     "key": "78-[TAN]@LAM-ja",
-    "codepoint": "U+B014"
+    "codepoint": "U+F0A5B"
   },
   {
     "key": "78-chu-ka-ja",
-    "codepoint": "U+B015"
+    "codepoint": "U+F0A5C"
   },
   {
     "key": "78-yo-a-AT-ta",
-    "codepoint": "U+B016"
+    "codepoint": "U+F0A5D"
   },
   {
     "key": "79-chu-[ku]",
-    "codepoint": "U+B017"
+    "codepoint": "U+F0A5E"
   },
   {
     "key": "79-yo-AT",
-    "codepoint": "U+B018"
+    "codepoint": "U+F0A5F"
   },
   {
     "key": "8-EK{}",
-    "codepoint": "U+B01A"
+    "codepoint": "U+F0A61"
   },
   {
     "key": "8-JA{}AB{}",
-    "codepoint": "U+B01B"
+    "codepoint": "U+F0A62"
   },
   {
     "key": "8-TZ{}AK-aj",
-    "codepoint": "U+B01C"
+    "codepoint": "U+F0A63"
   },
   {
     "key": "8-a$AJ",
-    "codepoint": "U+B01D"
+    "codepoint": "U+F0A64"
   },
   {
     "key": "8-b{}a-na",
-    "codepoint": "U+B01E"
+    "codepoint": "U+F0A65"
   },
   {
     "key": "8-ch{}a-ti",
-    "codepoint": "U+B01F"
+    "codepoint": "U+F0A66"
   },
   {
     "key": "8-i",
-    "codepoint": "U+B020"
+    "codepoint": "U+F0A67"
   },
   {
     "key": "8-ja-sa-wa",
-    "codepoint": "U+B021"
+    "codepoint": "U+F0A68"
   },
   {
     "key": "8-ka-{ka}-wa",
-    "codepoint": "U+B022"
+    "codepoint": "U+F0A69"
   },
   {
     "key": "8-k{}a-[b{}a]",
-    "codepoint": "U+B023"
+    "codepoint": "U+F0A6A"
   },
   {
     "key": "8-la-ka-ma",
-    "codepoint": "U+B024"
+    "codepoint": "U+F0A6B"
   },
   {
     "key": "8-ma-ko-ma",
-    "codepoint": "U+B025"
+    "codepoint": "U+F0A6C"
   },
   {
     "key": "8-na$NA$NAJ",
-    "codepoint": "U+B026"
+    "codepoint": "U+F0A6D"
   },
   {
     "key": "8-o",
-    "codepoint": "U+B027"
+    "codepoint": "U+F0A6E"
   },
   {
     "key": "8-pa-si-li",
-    "codepoint": "U+B028"
+    "codepoint": "U+F0A6F"
   },
   {
     "key": "8-sa-ta-yi",
-    "codepoint": "U+B029"
+    "codepoint": "U+F0A70"
   },
   {
     "key": "8-ta$TA",
-    "codepoint": "U+B02A"
+    "codepoint": "U+F0A71"
   },
   {
     "key": "8-tzi",
-    "codepoint": "U+B02B"
+    "codepoint": "U+F0A72"
   },
   {
     "key": "8-u-ti",
-    "codepoint": "U+B02C"
+    "codepoint": "U+F0A73"
   },
   {
     "key": "8-wa$WA",
-    "codepoint": "U+B02D"
+    "codepoint": "U+F0A74"
   },
   {
     "key": "8-xi",
-    "codepoint": "U+B02E"
+    "codepoint": "U+F0A75"
   },
   {
     "key": "8-ya-AJAW-wa@TE{}",
-    "codepoint": "U+B02F"
+    "codepoint": "U+F0A76"
   },
   {
     "key": "80-chu-[ku]-ja",
-    "codepoint": "U+B030"
+    "codepoint": "U+F0A77"
   },
   {
     "key": "80-yo-AT-ta",
-    "codepoint": "U+B031"
+    "codepoint": "U+F0A78"
   },
   {
     "key": "81-chu-[ku]-ji-ya",
-    "codepoint": "U+B032"
+    "codepoint": "U+F0A79"
   },
   {
     "key": "81-yo-AT-ti@(_)",
-    "codepoint": "U+B033"
+    "codepoint": "U+F0A7A"
   },
   {
     "key": "82-CHUM",
-    "codepoint": "U+B034"
+    "codepoint": "U+F0A7B"
   },
   {
     "key": "9-EK{}",
-    "codepoint": "U+B035"
+    "codepoint": "U+F0A7C"
   },
   {
     "key": "9-JA{}AB{}",
-    "codepoint": "U+B036"
+    "codepoint": "U+F0A7D"
   },
   {
     "key": "9-KAB{}",
-    "codepoint": "U+B037"
+    "codepoint": "U+F0A7E"
   },
   {
     "key": "9-TZ{}AM(_)",
-    "codepoint": "U+B038"
+    "codepoint": "U+F0A7F"
   },
   {
     "key": "9-XIB{}",
-    "codepoint": "U+B039"
+    "codepoint": "U+F0A80"
   },
   {
     "key": "9-a$AJ",
-    "codepoint": "U+B03A"
+    "codepoint": "U+F0A81"
   },
   {
     "key": "9-b{}a-te{}",
-    "codepoint": "U+B03B"
+    "codepoint": "U+F0A82"
   },
   {
     "key": "9-cha$ka",
-    "codepoint": "U+B03C"
+    "codepoint": "U+F0A83"
   },
   {
     "key": "9-ch{}a-ti",
-    "codepoint": "U+B03D"
+    "codepoint": "U+F0A84"
   },
   {
     "key": "9-i",
-    "codepoint": "U+B03E"
+    "codepoint": "U+F0A85"
   },
   {
     "key": "9-ja-sa-wa",
-    "codepoint": "U+B03F"
+    "codepoint": "U+F0A86"
   },
   {
     "key": "9-k{}a$ch{}a",
-    "codepoint": "U+B040"
+    "codepoint": "U+F0A87"
   },
   {
     "key": "9-la-ta",
-    "codepoint": "U+B041"
+    "codepoint": "U+F0A88"
   },
   {
     "key": "9-ma-ta-wi-la",
-    "codepoint": "U+B042"
+    "codepoint": "U+F0A89"
   },
   {
     "key": "9-na$NA$NAJ",
-    "codepoint": "U+B043"
+    "codepoint": "U+F0A8A"
   },
   {
     "key": "9-o",
-    "codepoint": "U+B044"
+    "codepoint": "U+F0A8B"
   },
   {
     "key": "9-pa-ta-na",
-    "codepoint": "U+B045"
+    "codepoint": "U+F0A8C"
   },
   {
     "key": "9-sa$SA",
-    "codepoint": "U+B046"
+    "codepoint": "U+F0A8D"
   },
   {
     "key": "9-ta$TA",
-    "codepoint": "U+B047"
+    "codepoint": "U+F0A8E"
   },
   {
     "key": "9-tzi-ka@JA{}AB{}@(_)",
-    "codepoint": "U+B048"
+    "codepoint": "U+F0A8F"
   },
   {
     "key": "9-u-ti",
-    "codepoint": "U+B049"
+    "codepoint": "U+F0A90"
   },
   {
     "key": "9-wa$WA",
-    "codepoint": "U+B04A"
+    "codepoint": "U+F0A91"
   },
   {
     "key": "9-ya-AJAW-wa@TE{}",
-    "codepoint": "U+B04B"
+    "codepoint": "U+F0A92"
   }
 ]

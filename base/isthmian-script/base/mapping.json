@@ -1,742 +1,742 @@
 [
   {
-    "key": "20",
-    "codepoint": "U+10000"
-  },
-  {
-    "key": "21",
-    "codepoint": "U+10001"
-  },
-  {
-    "key": "22",
-    "codepoint": "U+10002"
-  },
-  {
-    "key": "23",
-    "codepoint": "U+10003"
-  },
-  {
-    "key": "24",
-    "codepoint": "U+10004"
-  },
-  {
-    "key": "25",
-    "codepoint": "U+10005"
-  },
-  {
-    "key": "26",
-    "codepoint": "U+10006"
-  },
-  {
-    "key": "27",
-    "codepoint": "U+10007"
-  },
-  {
-    "key": "28",
-    "codepoint": "U+10008"
-  },
-  {
-    "key": "29",
-    "codepoint": "U+10009"
-  },
-  {
-    "key": "30",
-    "codepoint": "U+1000A"
-  },
-  {
-    "key": "31",
-    "codepoint": "U+1000B"
-  },
-  {
-    "key": "32",
-    "codepoint": "U+1000C"
-  },
-  {
-    "key": "33",
-    "codepoint": "U+1000D"
-  },
-  {
-    "key": "34",
-    "codepoint": "U+1000E"
-  },
-  {
-    "key": "35",
-    "codepoint": "U+1000F"
-  },
-  {
-    "key": "36",
-    "codepoint": "U+10010"
-  },
-  {
-    "key": "37",
-    "codepoint": "U+10011"
-  },
-  {
-    "key": "38",
-    "codepoint": "U+10012"
-  },
-  {
-    "key": "39",
-    "codepoint": "U+10013"
-  },
-  {
-    "key": "40",
-    "codepoint": "U+10014"
-  },
-  {
-    "key": "41",
-    "codepoint": "U+10015"
-  },
-  {
-    "key": "42",
-    "codepoint": "U+10016"
-  },
-  {
-    "key": "43",
-    "codepoint": "U+10017"
-  },
-  {
-    "key": "44",
-    "codepoint": "U+10018"
-  },
-  {
-    "key": "45",
-    "codepoint": "U+10019"
-  },
-  {
-    "key": "46",
-    "codepoint": "U+1001A"
-  },
-  {
-    "key": "47",
-    "codepoint": "U+1001B"
-  },
-  {
-    "key": "48",
-    "codepoint": "U+1001C"
-  },
-  {
-    "key": "49",
-    "codepoint": "U+1001D"
-  },
-  {
-    "key": "50",
-    "codepoint": "U+1001E"
-  },
-  {
-    "key": "51",
-    "codepoint": "U+1001F"
-  },
-  {
-    "key": "52",
-    "codepoint": "U+10020"
-  },
-  {
-    "key": "53",
-    "codepoint": "U+10021"
-  },
-  {
-    "key": "54",
-    "codepoint": "U+10022"
-  },
-  {
-    "key": "55",
-    "codepoint": "U+10023"
-  },
-  {
-    "key": "56",
-    "codepoint": "U+10024"
-  },
-  {
-    "key": "57",
-    "codepoint": "U+10025"
-  },
-  {
-    "key": "58",
-    "codepoint": "U+10026"
-  },
-  {
-    "key": "59",
-    "codepoint": "U+10027"
-  },
-  {
-    "key": "60",
-    "codepoint": "U+10028"
-  },
-  {
-    "key": "61",
-    "codepoint": "U+10029"
-  },
-  {
-    "key": "62",
-    "codepoint": "U+1002A"
-  },
-  {
-    "key": "63",
-    "codepoint": "U+1002B"
-  },
-  {
-    "key": "64",
-    "codepoint": "U+1002C"
-  },
-  {
-    "key": "65",
-    "codepoint": "U+1002D"
-  },
-  {
-    "key": "66",
-    "codepoint": "U+1002E"
-  },
-  {
-    "key": "67",
-    "codepoint": "U+1002F"
-  },
-  {
-    "key": "68",
-    "codepoint": "U+10030"
-  },
-  {
-    "key": "69",
-    "codepoint": "U+10031"
-  },
-  {
-    "key": "70",
-    "codepoint": "U+10032"
-  },
-  {
-    "key": "71",
-    "codepoint": "U+10033"
-  },
-  {
-    "key": "72",
-    "codepoint": "U+10034"
-  },
-  {
-    "key": "73",
-    "codepoint": "U+10035"
-  },
-  {
-    "key": "74",
-    "codepoint": "U+10036"
-  },
-  {
-    "key": "75",
-    "codepoint": "U+10037"
-  },
-  {
-    "key": "76",
-    "codepoint": "U+10038"
-  },
-  {
-    "key": "77",
-    "codepoint": "U+10039"
-  },
-  {
-    "key": "78",
-    "codepoint": "U+1003A"
-  },
-  {
-    "key": "79",
-    "codepoint": "U+1003B"
-  },
-  {
-    "key": "80",
-    "codepoint": "U+1003C"
-  },
-  {
-    "key": "81",
-    "codepoint": "U+1003D"
-  },
-  {
-    "key": "82",
-    "codepoint": "U+1003E"
-  },
-  {
-    "key": "83",
-    "codepoint": "U+1003F"
-  },
-  {
-    "key": "84",
-    "codepoint": "U+10040"
-  },
-  {
-    "key": "85",
-    "codepoint": "U+10041"
-  },
-  {
-    "key": "86",
-    "codepoint": "U+10042"
-  },
-  {
-    "key": "87",
-    "codepoint": "U+10043"
-  },
-  {
-    "key": "88",
-    "codepoint": "U+10044"
-  },
-  {
-    "key": "89",
-    "codepoint": "U+10045"
-  },
-  {
-    "key": "90",
-    "codepoint": "U+10046"
-  },
-  {
-    "key": "91",
-    "codepoint": "U+10047"
-  },
-  {
-    "key": "92",
-    "codepoint": "U+10048"
-  },
-  {
-    "key": "93",
-    "codepoint": "U+10049"
-  },
-  {
-    "key": "94",
-    "codepoint": "U+1004A"
-  },
-  {
-    "key": "95",
-    "codepoint": "U+1004B"
-  },
-  {
-    "key": "96",
-    "codepoint": "U+1004C"
-  },
-  {
-    "key": "97",
-    "codepoint": "U+1004D"
-  },
-  {
-    "key": "98",
-    "codepoint": "U+1004E"
-  },
-  {
-    "key": "99",
-    "codepoint": "U+1004F"
-  },
-  {
     "key": "100",
-    "codepoint": "U+10050"
+    "codepoint": "U+F058E"
   },
   {
     "key": "101",
-    "codepoint": "U+10051"
+    "codepoint": "U+F058F"
   },
   {
     "key": "102",
-    "codepoint": "U+10052"
+    "codepoint": "U+F0590"
   },
   {
     "key": "103",
-    "codepoint": "U+10053"
+    "codepoint": "U+F0591"
   },
   {
     "key": "104",
-    "codepoint": "U+10054"
+    "codepoint": "U+F0592"
   },
   {
     "key": "105",
-    "codepoint": "U+10055"
+    "codepoint": "U+F0593"
   },
   {
     "key": "106",
-    "codepoint": "U+10056"
+    "codepoint": "U+F0594"
   },
   {
     "key": "107",
-    "codepoint": "U+10057"
+    "codepoint": "U+F0595"
   },
   {
     "key": "108",
-    "codepoint": "U+10058"
+    "codepoint": "U+F0596"
   },
   {
     "key": "109",
-    "codepoint": "U+10059"
+    "codepoint": "U+F0597"
   },
   {
     "key": "110",
-    "codepoint": "U+1005A"
+    "codepoint": "U+F0598"
   },
   {
     "key": "111",
-    "codepoint": "U+1005B"
+    "codepoint": "U+F0599"
   },
   {
     "key": "112",
-    "codepoint": "U+1005C"
+    "codepoint": "U+F059A"
   },
   {
     "key": "113",
-    "codepoint": "U+1005D"
+    "codepoint": "U+F059B"
   },
   {
     "key": "114",
-    "codepoint": "U+1005E"
+    "codepoint": "U+F059C"
   },
   {
     "key": "115",
-    "codepoint": "U+1005F"
+    "codepoint": "U+F059D"
   },
   {
     "key": "116",
-    "codepoint": "U+10060"
+    "codepoint": "U+F059E"
   },
   {
     "key": "117",
-    "codepoint": "U+10061"
+    "codepoint": "U+F059F"
   },
   {
     "key": "118",
-    "codepoint": "U+10062"
+    "codepoint": "U+F05A0"
   },
   {
     "key": "119",
-    "codepoint": "U+10063"
+    "codepoint": "U+F05A1"
   },
   {
     "key": "120",
-    "codepoint": "U+10064"
+    "codepoint": "U+F05A2"
   },
   {
     "key": "121",
-    "codepoint": "U+10065"
+    "codepoint": "U+F05A3"
   },
   {
     "key": "122",
-    "codepoint": "U+10066"
+    "codepoint": "U+F05A4"
   },
   {
     "key": "123",
-    "codepoint": "U+10067"
+    "codepoint": "U+F05A5"
   },
   {
     "key": "124",
-    "codepoint": "U+10068"
+    "codepoint": "U+F05A6"
   },
   {
     "key": "125",
-    "codepoint": "U+10069"
+    "codepoint": "U+F05A7"
   },
   {
     "key": "126",
-    "codepoint": "U+1006A"
+    "codepoint": "U+F05A8"
   },
   {
     "key": "127",
-    "codepoint": "U+1006B"
+    "codepoint": "U+F05A9"
   },
   {
     "key": "128",
-    "codepoint": "U+1006C"
+    "codepoint": "U+F05AA"
   },
   {
     "key": "129",
-    "codepoint": "U+1006D"
+    "codepoint": "U+F05AB"
   },
   {
     "key": "130",
-    "codepoint": "U+1006E"
+    "codepoint": "U+F05AC"
   },
   {
     "key": "131",
-    "codepoint": "U+1006F"
+    "codepoint": "U+F05AD"
   },
   {
     "key": "132",
-    "codepoint": "U+10070"
+    "codepoint": "U+F05AE"
   },
   {
     "key": "133",
-    "codepoint": "U+10071"
+    "codepoint": "U+F05AF"
   },
   {
     "key": "134",
-    "codepoint": "U+10072"
+    "codepoint": "U+F05B0"
   },
   {
     "key": "135",
-    "codepoint": "U+10073"
+    "codepoint": "U+F05B1"
   },
   {
     "key": "136",
-    "codepoint": "U+10074"
+    "codepoint": "U+F05B2"
   },
   {
     "key": "137",
-    "codepoint": "U+10075"
+    "codepoint": "U+F05B3"
   },
   {
     "key": "138",
-    "codepoint": "U+10076"
+    "codepoint": "U+F05B4"
   },
   {
     "key": "139",
-    "codepoint": "U+10077"
+    "codepoint": "U+F05B5"
   },
   {
     "key": "140",
-    "codepoint": "U+10078"
+    "codepoint": "U+F05B6"
   },
   {
     "key": "141",
-    "codepoint": "U+10079"
+    "codepoint": "U+F05B7"
   },
   {
     "key": "142",
-    "codepoint": "U+1007A"
+    "codepoint": "U+F05B8"
   },
   {
     "key": "143",
-    "codepoint": "U+1007B"
+    "codepoint": "U+F05B9"
   },
   {
     "key": "144",
-    "codepoint": "U+1007C"
+    "codepoint": "U+F05BA"
   },
   {
     "key": "145",
-    "codepoint": "U+1007D"
+    "codepoint": "U+F05BB"
   },
   {
     "key": "146",
-    "codepoint": "U+1007E"
+    "codepoint": "U+F05BC"
   },
   {
     "key": "147",
-    "codepoint": "U+1007F"
+    "codepoint": "U+F05BD"
   },
   {
     "key": "148",
-    "codepoint": "U+10080"
+    "codepoint": "U+F05BE"
   },
   {
     "key": "149",
-    "codepoint": "U+10081"
+    "codepoint": "U+F05BF"
   },
   {
     "key": "150",
-    "codepoint": "U+10082"
+    "codepoint": "U+F05C0"
   },
   {
     "key": "151",
-    "codepoint": "U+10083"
+    "codepoint": "U+F05C1"
   },
   {
     "key": "152",
-    "codepoint": "U+10084"
+    "codepoint": "U+F05C2"
   },
   {
     "key": "153",
-    "codepoint": "U+10085"
+    "codepoint": "U+F05C3"
   },
   {
     "key": "154",
-    "codepoint": "U+10086"
+    "codepoint": "U+F05C4"
   },
   {
     "key": "155",
-    "codepoint": "U+10087"
+    "codepoint": "U+F05C5"
   },
   {
     "key": "156",
-    "codepoint": "U+10088"
+    "codepoint": "U+F05C6"
   },
   {
     "key": "157",
-    "codepoint": "U+10089"
+    "codepoint": "U+F05C7"
   },
   {
     "key": "158",
-    "codepoint": "U+1008A"
+    "codepoint": "U+F05C8"
   },
   {
     "key": "159",
-    "codepoint": "U+1008B"
+    "codepoint": "U+F05C9"
   },
   {
     "key": "160",
-    "codepoint": "U+1008C"
+    "codepoint": "U+F05CA"
   },
   {
     "key": "161",
-    "codepoint": "U+1008D"
+    "codepoint": "U+F05CB"
   },
   {
     "key": "162",
-    "codepoint": "U+1008E"
+    "codepoint": "U+F05CC"
   },
   {
     "key": "163",
-    "codepoint": "U+1008F"
+    "codepoint": "U+F05CD"
   },
   {
     "key": "164",
-    "codepoint": "U+10090"
+    "codepoint": "U+F05CE"
   },
   {
     "key": "165",
-    "codepoint": "U+10091"
+    "codepoint": "U+F05CF"
   },
   {
     "key": "166",
-    "codepoint": "U+10092"
+    "codepoint": "U+F05D0"
   },
   {
     "key": "167",
-    "codepoint": "U+10093"
+    "codepoint": "U+F05D1"
   },
   {
     "key": "168",
-    "codepoint": "U+10094"
+    "codepoint": "U+F05D2"
   },
   {
     "key": "169",
-    "codepoint": "U+10095"
+    "codepoint": "U+F05D3"
   },
   {
     "key": "170",
-    "codepoint": "U+10096"
+    "codepoint": "U+F05D4"
   },
   {
     "key": "171",
-    "codepoint": "U+10097"
+    "codepoint": "U+F05D5"
   },
   {
     "key": "172",
-    "codepoint": "U+10098"
+    "codepoint": "U+F05D6"
   },
   {
     "key": "173",
-    "codepoint": "U+10099"
+    "codepoint": "U+F05D7"
   },
   {
     "key": "174",
-    "codepoint": "U+1009A"
+    "codepoint": "U+F05D8"
   },
   {
     "key": "175",
-    "codepoint": "U+1009B"
+    "codepoint": "U+F05D9"
   },
   {
     "key": "176",
-    "codepoint": "U+1009C"
+    "codepoint": "U+F05DA"
   },
   {
     "key": "177",
-    "codepoint": "U+1009D"
+    "codepoint": "U+F05DB"
   },
   {
     "key": "178",
-    "codepoint": "U+1009E"
+    "codepoint": "U+F05DC"
   },
   {
     "key": "179",
-    "codepoint": "U+1009F"
+    "codepoint": "U+F05DD"
   },
   {
     "key": "180",
-    "codepoint": "U+100A0"
+    "codepoint": "U+F05DE"
   },
   {
     "key": "181",
-    "codepoint": "U+100A1"
+    "codepoint": "U+F05DF"
   },
   {
     "key": "182",
-    "codepoint": "U+100A2"
+    "codepoint": "U+F05E0"
   },
   {
     "key": "183",
-    "codepoint": "U+100A3"
+    "codepoint": "U+F05E1"
   },
   {
     "key": "184",
-    "codepoint": "U+100A4"
+    "codepoint": "U+F05E2"
   },
   {
     "key": "185",
-    "codepoint": "U+100A5"
+    "codepoint": "U+F05E3"
+  },
+  {
+    "key": "20",
+    "codepoint": "U+F05E4"
   },
   {
     "key": "201",
-    "codepoint": "U+100A6"
+    "codepoint": "U+F05E5"
   },
   {
     "key": "202",
-    "codepoint": "U+100A7"
+    "codepoint": "U+F05E6"
   },
   {
     "key": "203",
-    "codepoint": "U+100A8"
+    "codepoint": "U+F05E7"
   },
   {
     "key": "204",
-    "codepoint": "U+100A9"
+    "codepoint": "U+F05E8"
   },
   {
     "key": "205",
-    "codepoint": "U+100AA"
+    "codepoint": "U+F05E9"
   },
   {
     "key": "206",
-    "codepoint": "U+100AB"
+    "codepoint": "U+F05EA"
   },
   {
     "key": "207",
-    "codepoint": "U+100AC"
+    "codepoint": "U+F05EB"
   },
   {
     "key": "208",
-    "codepoint": "U+100AD"
+    "codepoint": "U+F05EC"
   },
   {
     "key": "209",
-    "codepoint": "U+100AE"
+    "codepoint": "U+F05ED"
+  },
+  {
+    "key": "21",
+    "codepoint": "U+F05EE"
   },
   {
     "key": "210",
-    "codepoint": "U+100AF"
+    "codepoint": "U+F05EF"
   },
   {
     "key": "211",
-    "codepoint": "U+100B0"
+    "codepoint": "U+F05F0"
   },
   {
     "key": "212",
-    "codepoint": "U+100B1"
+    "codepoint": "U+F05F1"
   },
   {
     "key": "213",
-    "codepoint": "U+100B2"
+    "codepoint": "U+F05F2"
   },
   {
     "key": "214",
-    "codepoint": "U+100B3"
+    "codepoint": "U+F05F3"
   },
   {
     "key": "215",
-    "codepoint": "U+100B4"
+    "codepoint": "U+F05F4"
   },
   {
     "key": "216",
-    "codepoint": "U+100B5"
+    "codepoint": "U+F05F5"
   },
   {
     "key": "217",
-    "codepoint": "U+100B6"
+    "codepoint": "U+F05F6"
   },
   {
     "key": "218",
-    "codepoint": "U+100B7"
+    "codepoint": "U+F05F7"
   },
   {
     "key": "219",
-    "codepoint": "U+100B8"
+    "codepoint": "U+F05F8"
+  },
+  {
+    "key": "22",
+    "codepoint": "U+F05F9"
+  },
+  {
+    "key": "23",
+    "codepoint": "U+F05FA"
+  },
+  {
+    "key": "24",
+    "codepoint": "U+F05FB"
+  },
+  {
+    "key": "25",
+    "codepoint": "U+F05FC"
+  },
+  {
+    "key": "26",
+    "codepoint": "U+F05FD"
+  },
+  {
+    "key": "27",
+    "codepoint": "U+F05FE"
+  },
+  {
+    "key": "28",
+    "codepoint": "U+F05FF"
+  },
+  {
+    "key": "29",
+    "codepoint": "U+F0600"
+  },
+  {
+    "key": "30",
+    "codepoint": "U+F0601"
+  },
+  {
+    "key": "31",
+    "codepoint": "U+F0602"
+  },
+  {
+    "key": "32",
+    "codepoint": "U+F0603"
+  },
+  {
+    "key": "33",
+    "codepoint": "U+F0604"
+  },
+  {
+    "key": "34",
+    "codepoint": "U+F0605"
+  },
+  {
+    "key": "35",
+    "codepoint": "U+F0606"
+  },
+  {
+    "key": "36",
+    "codepoint": "U+F0607"
+  },
+  {
+    "key": "37",
+    "codepoint": "U+F0608"
+  },
+  {
+    "key": "38",
+    "codepoint": "U+F0609"
+  },
+  {
+    "key": "39",
+    "codepoint": "U+F060A"
+  },
+  {
+    "key": "40",
+    "codepoint": "U+F060B"
+  },
+  {
+    "key": "41",
+    "codepoint": "U+F060C"
+  },
+  {
+    "key": "42",
+    "codepoint": "U+F060D"
+  },
+  {
+    "key": "43",
+    "codepoint": "U+F060E"
+  },
+  {
+    "key": "44",
+    "codepoint": "U+F060F"
+  },
+  {
+    "key": "45",
+    "codepoint": "U+F0610"
+  },
+  {
+    "key": "46",
+    "codepoint": "U+F0611"
+  },
+  {
+    "key": "47",
+    "codepoint": "U+F0612"
+  },
+  {
+    "key": "48",
+    "codepoint": "U+F0613"
+  },
+  {
+    "key": "49",
+    "codepoint": "U+F0614"
+  },
+  {
+    "key": "50",
+    "codepoint": "U+F0615"
+  },
+  {
+    "key": "51",
+    "codepoint": "U+F0616"
+  },
+  {
+    "key": "52",
+    "codepoint": "U+F0617"
+  },
+  {
+    "key": "53",
+    "codepoint": "U+F0618"
+  },
+  {
+    "key": "54",
+    "codepoint": "U+F0619"
+  },
+  {
+    "key": "55",
+    "codepoint": "U+F061A"
+  },
+  {
+    "key": "56",
+    "codepoint": "U+F061B"
+  },
+  {
+    "key": "57",
+    "codepoint": "U+F061C"
+  },
+  {
+    "key": "58",
+    "codepoint": "U+F061D"
+  },
+  {
+    "key": "59",
+    "codepoint": "U+F061E"
+  },
+  {
+    "key": "60",
+    "codepoint": "U+F061F"
+  },
+  {
+    "key": "61",
+    "codepoint": "U+F0620"
+  },
+  {
+    "key": "62",
+    "codepoint": "U+F0621"
+  },
+  {
+    "key": "63",
+    "codepoint": "U+F0622"
+  },
+  {
+    "key": "64",
+    "codepoint": "U+F0623"
+  },
+  {
+    "key": "65",
+    "codepoint": "U+F0624"
+  },
+  {
+    "key": "66",
+    "codepoint": "U+F0625"
+  },
+  {
+    "key": "67",
+    "codepoint": "U+F0626"
+  },
+  {
+    "key": "68",
+    "codepoint": "U+F0627"
+  },
+  {
+    "key": "69",
+    "codepoint": "U+F0628"
+  },
+  {
+    "key": "70",
+    "codepoint": "U+F0629"
+  },
+  {
+    "key": "71",
+    "codepoint": "U+F062A"
+  },
+  {
+    "key": "72",
+    "codepoint": "U+F062B"
+  },
+  {
+    "key": "73",
+    "codepoint": "U+F062C"
+  },
+  {
+    "key": "74",
+    "codepoint": "U+F062D"
+  },
+  {
+    "key": "75",
+    "codepoint": "U+F062E"
+  },
+  {
+    "key": "76",
+    "codepoint": "U+F062F"
+  },
+  {
+    "key": "77",
+    "codepoint": "U+F0630"
+  },
+  {
+    "key": "78",
+    "codepoint": "U+F0631"
+  },
+  {
+    "key": "79",
+    "codepoint": "U+F0632"
+  },
+  {
+    "key": "80",
+    "codepoint": "U+F0633"
+  },
+  {
+    "key": "81",
+    "codepoint": "U+F0634"
+  },
+  {
+    "key": "82",
+    "codepoint": "U+F0635"
+  },
+  {
+    "key": "83",
+    "codepoint": "U+F0636"
+  },
+  {
+    "key": "84",
+    "codepoint": "U+F0637"
+  },
+  {
+    "key": "85",
+    "codepoint": "U+F0638"
+  },
+  {
+    "key": "86",
+    "codepoint": "U+F0639"
+  },
+  {
+    "key": "87",
+    "codepoint": "U+F063A"
+  },
+  {
+    "key": "88",
+    "codepoint": "U+F063B"
+  },
+  {
+    "key": "89",
+    "codepoint": "U+F063C"
+  },
+  {
+    "key": "90",
+    "codepoint": "U+F063D"
+  },
+  {
+    "key": "91",
+    "codepoint": "U+F063E"
+  },
+  {
+    "key": "92",
+    "codepoint": "U+F063F"
+  },
+  {
+    "key": "93",
+    "codepoint": "U+F0640"
+  },
+  {
+    "key": "94",
+    "codepoint": "U+F0641"
+  },
+  {
+    "key": "95",
+    "codepoint": "U+F0642"
+  },
+  {
+    "key": "96",
+    "codepoint": "U+F0643"
+  },
+  {
+    "key": "97",
+    "codepoint": "U+F0644"
+  },
+  {
+    "key": "98",
+    "codepoint": "U+F0645"
+  },
+  {
+    "key": "99",
+    "codepoint": "U+F0646"
   }
 ]

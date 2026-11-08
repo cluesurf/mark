@@ -1,0 +1,2938 @@
+[
+  {
+    "key": "一",
+    "codepoint": "U+F0A93"
+  },
+  {
+    "key": "丁",
+    "codepoint": "U+F0A94"
+  },
+  {
+    "key": "七",
+    "codepoint": "U+F0A95"
+  },
+  {
+    "key": "三",
+    "codepoint": "U+F0A96"
+  },
+  {
+    "key": "上",
+    "codepoint": "U+F0A97"
+  },
+  {
+    "key": "下",
+    "codepoint": "U+F0A98"
+  },
+  {
+    "key": "丑",
+    "codepoint": "U+F0A99"
+  },
+  {
+    "key": "专",
+    "codepoint": "U+F0A9A"
+  },
+  {
+    "key": "丘",
+    "codepoint": "U+F0A9B"
+  },
+  {
+    "key": "丙",
+    "codepoint": "U+F0A9C"
+  },
+  {
+    "key": "东",
+    "codepoint": "U+F0A9D"
+  },
+  {
+    "key": "丝",
+    "codepoint": "U+F0A9E"
+  },
+  {
+    "key": "丞",
+    "codepoint": "U+F0A9F"
+  },
+  {
+    "key": "中",
+    "codepoint": "U+F0AA0"
+  },
+  {
+    "key": "丰",
+    "codepoint": "U+F0AA1"
+  },
+  {
+    "key": "丹",
+    "codepoint": "U+F0AA2"
+  },
+  {
+    "key": "主",
+    "codepoint": "U+F0AA3"
+  },
+  {
+    "key": "丽",
+    "codepoint": "U+F0AA4"
+  },
+  {
+    "key": "乃",
+    "codepoint": "U+F0AA5"
+  },
+  {
+    "key": "之",
+    "codepoint": "U+F0AA6"
+  },
+  {
+    "key": "乍",
+    "codepoint": "U+F0AA7"
+  },
+  {
+    "key": "乎",
+    "codepoint": "U+F0AA8"
+  },
+  {
+    "key": "乐",
+    "codepoint": "U+F0AA9"
+  },
+  {
+    "key": "乘",
+    "codepoint": "U+F0AAA"
+  },
+  {
+    "key": "乙",
+    "codepoint": "U+F0AAB"
+  },
+  {
+    "key": "九",
+    "codepoint": "U+F0AAC"
+  },
+  {
+    "key": "习",
+    "codepoint": "U+F0AAD"
+  },
+  {
+    "key": "乡",
+    "codepoint": "U+F0AAE"
+  },
+  {
+    "key": "买",
+    "codepoint": "U+F0AAF"
+  },
+  {
+    "key": "乳",
+    "codepoint": "U+F0AB0"
+  },
+  {
+    "key": "予",
+    "codepoint": "U+F0AB1"
+  },
+  {
+    "key": "争",
+    "codepoint": "U+F0AB2"
+  },
+  {
+    "key": "事",
+    "codepoint": "U+F0AB3"
+  },
+  {
+    "key": "二",
+    "codepoint": "U+F0AB4"
+  },
+  {
+    "key": "于",
+    "codepoint": "U+F0AB5"
+  },
+  {
+    "key": "云",
+    "codepoint": "U+F0AB6"
+  },
+  {
+    "key": "五",
+    "codepoint": "U+F0AB7"
+  },
+  {
+    "key": "井",
+    "codepoint": "U+F0AB8"
+  },
+  {
+    "key": "亚",
+    "codepoint": "U+F0AB9"
+  },
+  {
+    "key": "亟",
+    "codepoint": "U+F0ABA"
+  },
+  {
+    "key": "亡",
+    "codepoint": "U+F0ABB"
+  },
+  {
+    "key": "亥",
+    "codepoint": "U+F0ABC"
+  },
+  {
+    "key": "亦",
+    "codepoint": "U+F0ABD"
+  },
+  {
+    "key": "京",
+    "codepoint": "U+F0ABE"
+  },
+  {
+    "key": "亳",
+    "codepoint": "U+F0ABF"
+  },
+  {
+    "key": "人",
+    "codepoint": "U+F0AC0"
+  },
+  {
+    "key": "仆",
+    "codepoint": "U+F0AC1"
+  },
+  {
+    "key": "今",
+    "codepoint": "U+F0AC2"
+  },
+  {
+    "key": "介",
+    "codepoint": "U+F0AC3"
+  },
+  {
+    "key": "从",
+    "codepoint": "U+F0AC4"
+  },
+  {
+    "key": "仓",
+    "codepoint": "U+F0AC5"
+  },
+  {
+    "key": "令",
+    "codepoint": "U+F0AC6"
+  },
+  {
+    "key": "以",
+    "codepoint": "U+F0AC7"
+  },
+  {
+    "key": "仲",
+    "codepoint": "U+F0AC8"
+  },
+  {
+    "key": "企",
+    "codepoint": "U+F0AC9"
+  },
+  {
+    "key": "伊",
+    "codepoint": "U+F0ACA"
+  },
+  {
+    "key": "伐",
+    "codepoint": "U+F0ACB"
+  },
+  {
+    "key": "休",
+    "codepoint": "U+F0ACC"
+  },
+  {
+    "key": "会",
+    "codepoint": "U+F0ACD"
+  },
+  {
+    "key": "传",
+    "codepoint": "U+F0ACE"
+  },
+  {
+    "key": "伯",
+    "codepoint": "U+F0ACF"
+  },
+  {
+    "key": "位",
+    "codepoint": "U+F0AD0"
+  },
+  {
+    "key": "何",
+    "codepoint": "U+F0AD1"
+  },
+  {
+    "key": "作",
+    "codepoint": "U+F0AD2"
+  },
+  {
+    "key": "使",
+    "codepoint": "U+F0AD3"
+  },
+  {
+    "key": "侄",
+    "codepoint": "U+F0AD4"
+  },
+  {
+    "key": "依",
+    "codepoint": "U+F0AD5"
+  },
+  {
+    "key": "侵",
+    "codepoint": "U+F0AD6"
+  },
+  {
+    "key": "俘",
+    "codepoint": "U+F0AD7"
+  },
+  {
+    "key": "保",
+    "codepoint": "U+F0AD8"
+  },
+  {
+    "key": "傧",
+    "codepoint": "U+F0AD9"
+  },
+  {
+    "key": "僚",
+    "codepoint": "U+F0ADA"
+  },
+  {
+    "key": "儿",
+    "codepoint": "U+F0ADB"
+  },
+  {
+    "key": "允",
+    "codepoint": "U+F0ADC"
+  },
+  {
+    "key": "元",
+    "codepoint": "U+F0ADD"
+  },
+  {
+    "key": "兄",
+    "codepoint": "U+F0ADE"
+  },
+  {
+    "key": "兆",
+    "codepoint": "U+F0ADF"
+  },
+  {
+    "key": "光",
+    "codepoint": "U+F0AE0"
+  },
+  {
+    "key": "克",
+    "codepoint": "U+F0AE1"
+  },
+  {
+    "key": "兑",
+    "codepoint": "U+F0AE2"
+  },
+  {
+    "key": "兔",
+    "codepoint": "U+F0AE3"
+  },
+  {
+    "key": "兕",
+    "codepoint": "U+F0AE4"
+  },
+  {
+    "key": "兢",
+    "codepoint": "U+F0AE5"
+  },
+  {
+    "key": "入",
+    "codepoint": "U+F0AE6"
+  },
+  {
+    "key": "八",
+    "codepoint": "U+F0AE7"
+  },
+  {
+    "key": "公",
+    "codepoint": "U+F0AE8"
+  },
+  {
+    "key": "六",
+    "codepoint": "U+F0AE9"
+  },
+  {
+    "key": "兮",
+    "codepoint": "U+F0AEA"
+  },
+  {
+    "key": "兴",
+    "codepoint": "U+F0AEB"
+  },
+  {
+    "key": "兵",
+    "codepoint": "U+F0AEC"
+  },
+  {
+    "key": "典",
+    "codepoint": "U+F0AED"
+  },
+  {
+    "key": "兹",
+    "codepoint": "U+F0AEE"
+  },
+  {
+    "key": "兽",
+    "codepoint": "U+F0AEF"
+  },
+  {
+    "key": "内",
+    "codepoint": "U+F0AF0"
+  },
+  {
+    "key": "册",
+    "codepoint": "U+F0AF1"
+  },
+  {
+    "key": "再",
+    "codepoint": "U+F0AF2"
+  },
+  {
+    "key": "农",
+    "codepoint": "U+F0AF3"
+  },
+  {
+    "key": "冬",
+    "codepoint": "U+F0AF4"
+  },
+  {
+    "key": "冲",
+    "codepoint": "U+F0AF5"
+  },
+  {
+    "key": "函",
+    "codepoint": "U+F0AF6"
+  },
+  {
+    "key": "刀",
+    "codepoint": "U+F0AF7"
+  },
+  {
+    "key": "刃",
+    "codepoint": "U+F0AF8"
+  },
+  {
+    "key": "分",
+    "codepoint": "U+F0AF9"
+  },
+  {
+    "key": "刍",
+    "codepoint": "U+F0AFA"
+  },
+  {
+    "key": "刖",
+    "codepoint": "U+F0AFB"
+  },
+  {
+    "key": "刚",
+    "codepoint": "U+F0AFC"
+  },
+  {
+    "key": "初",
+    "codepoint": "U+F0AFD"
+  },
+  {
+    "key": "利",
+    "codepoint": "U+F0AFE"
+  },
+  {
+    "key": "前",
+    "codepoint": "U+F0AFF"
+  },
+  {
+    "key": "动",
+    "codepoint": "U+F0B00"
+  },
+  {
+    "key": "勺",
+    "codepoint": "U+F0B01"
+  },
+  {
+    "key": "勿",
+    "codepoint": "U+F0B02"
+  },
+  {
+    "key": "包",
+    "codepoint": "U+F0B03"
+  },
+  {
+    "key": "匕",
+    "codepoint": "U+F0B04"
+  },
+  {
+    "key": "化",
+    "codepoint": "U+F0B05"
+  },
+  {
+    "key": "北",
+    "codepoint": "U+F0B06"
+  },
+  {
+    "key": "匚",
+    "codepoint": "U+F0B07"
+  },
+  {
+    "key": "区",
+    "codepoint": "U+F0B08"
+  },
+  {
+    "key": "十",
+    "codepoint": "U+F0B09"
+  },
+  {
+    "key": "千",
+    "codepoint": "U+F0B0A"
+  },
+  {
+    "key": "卅",
+    "codepoint": "U+F0B0B"
+  },
+  {
+    "key": "午",
+    "codepoint": "U+F0B0C"
+  },
+  {
+    "key": "卒",
+    "codepoint": "U+F0B0D"
+  },
+  {
+    "key": "单",
+    "codepoint": "U+F0B0E"
+  },
+  {
+    "key": "卜",
+    "codepoint": "U+F0B0F"
+  },
+  {
+    "key": "占",
+    "codepoint": "U+F0B10"
+  },
+  {
+    "key": "卢",
+    "codepoint": "U+F0B11"
+  },
+  {
+    "key": "卣",
+    "codepoint": "U+F0B12"
+  },
+  {
+    "key": "卫",
+    "codepoint": "U+F0B13"
+  },
+  {
+    "key": "卯",
+    "codepoint": "U+F0B14"
+  },
+  {
+    "key": "危",
+    "codepoint": "U+F0B15"
+  },
+  {
+    "key": "即",
+    "codepoint": "U+F0B16"
+  },
+  {
+    "key": "厂",
+    "codepoint": "U+F0B17"
+  },
+  {
+    "key": "历",
+    "codepoint": "U+F0B18"
+  },
+  {
+    "key": "厚",
+    "codepoint": "U+F0B19"
+  },
+  {
+    "key": "去",
+    "codepoint": "U+F0B1A"
+  },
+  {
+    "key": "及",
+    "codepoint": "U+F0B1B"
+  },
+  {
+    "key": "友",
+    "codepoint": "U+F0B1C"
+  },
+  {
+    "key": "反",
+    "codepoint": "U+F0B1D"
+  },
+  {
+    "key": "叔",
+    "codepoint": "U+F0B1E"
+  },
+  {
+    "key": "取",
+    "codepoint": "U+F0B1F"
+  },
+  {
+    "key": "叟",
+    "codepoint": "U+F0B20"
+  },
+  {
+    "key": "口",
+    "codepoint": "U+F0B21"
+  },
+  {
+    "key": "古",
+    "codepoint": "U+F0B22"
+  },
+  {
+    "key": "句",
+    "codepoint": "U+F0B23"
+  },
+  {
+    "key": "可",
+    "codepoint": "U+F0B24"
+  },
+  {
+    "key": "司",
+    "codepoint": "U+F0B25"
+  },
+  {
+    "key": "各",
+    "codepoint": "U+F0B26"
+  },
+  {
+    "key": "合",
+    "codepoint": "U+F0B27"
+  },
+  {
+    "key": "同",
+    "codepoint": "U+F0B28"
+  },
+  {
+    "key": "名",
+    "codepoint": "U+F0B29"
+  },
+  {
+    "key": "后",
+    "codepoint": "U+F0B2A"
+  },
+  {
+    "key": "向",
+    "codepoint": "U+F0B2B"
+  },
+  {
+    "key": "吕",
+    "codepoint": "U+F0B2C"
+  },
+  {
+    "key": "君",
+    "codepoint": "U+F0B2D"
+  },
+  {
+    "key": "吠",
+    "codepoint": "U+F0B2E"
+  },
+  {
+    "key": "听",
+    "codepoint": "U+F0B2F"
+  },
+  {
+    "key": "吴",
+    "codepoint": "U+F0B30"
+  },
+  {
+    "key": "吹",
+    "codepoint": "U+F0B31"
+  },
+  {
+    "key": "呈",
+    "codepoint": "U+F0B32"
+  },
+  {
+    "key": "告",
+    "codepoint": "U+F0B33"
+  },
+  {
+    "key": "员",
+    "codepoint": "U+F0B34"
+  },
+  {
+    "key": "周",
+    "codepoint": "U+F0B35"
+  },
+  {
+    "key": "命",
+    "codepoint": "U+F0B36"
+  },
+  {
+    "key": "咙",
+    "codepoint": "U+F0B37"
+  },
+  {
+    "key": "咳",
+    "codepoint": "U+F0B38"
+  },
+  {
+    "key": "咸",
+    "codepoint": "U+F0B39"
+  },
+  {
+    "key": "品",
+    "codepoint": "U+F0B3A"
+  },
+  {
+    "key": "唐",
+    "codepoint": "U+F0B3B"
+  },
+  {
+    "key": "唯",
+    "codepoint": "U+F0B3C"
+  },
+  {
+    "key": "啖",
+    "codepoint": "U+F0B3D"
+  },
+  {
+    "key": "啬",
+    "codepoint": "U+F0B3E"
+  },
+  {
+    "key": "喜",
+    "codepoint": "U+F0B3F"
+  },
+  {
+    "key": "四",
+    "codepoint": "U+F0B40"
+  },
+  {
+    "key": "因",
+    "codepoint": "U+F0B41"
+  },
+  {
+    "key": "困",
+    "codepoint": "U+F0B42"
+  },
+  {
+    "key": "国",
+    "codepoint": "U+F0B43"
+  },
+  {
+    "key": "囿",
+    "codepoint": "U+F0B44"
+  },
+  {
+    "key": "圃",
+    "codepoint": "U+F0B45"
+  },
+  {
+    "key": "圉",
+    "codepoint": "U+F0B46"
+  },
+  {
+    "key": "土",
+    "codepoint": "U+F0B47"
+  },
+  {
+    "key": "在",
+    "codepoint": "U+F0B48"
+  },
+  {
+    "key": "场",
+    "codepoint": "U+F0B49"
+  },
+  {
+    "key": "垂",
+    "codepoint": "U+F0B4A"
+  },
+  {
+    "key": "基",
+    "codepoint": "U+F0B4B"
+  },
+  {
+    "key": "增",
+    "codepoint": "U+F0B4C"
+  },
+  {
+    "key": "士",
+    "codepoint": "U+F0B4D"
+  },
+  {
+    "key": "壬",
+    "codepoint": "U+F0B4E"
+  },
+  {
+    "key": "声",
+    "codepoint": "U+F0B4F"
+  },
+  {
+    "key": "壶",
+    "codepoint": "U+F0B50"
+  },
+  {
+    "key": "备",
+    "codepoint": "U+F0B51"
+  },
+  {
+    "key": "复",
+    "codepoint": "U+F0B52"
+  },
+  {
+    "key": "夕",
+    "codepoint": "U+F0B53"
+  },
+  {
+    "key": "外",
+    "codepoint": "U+F0B54"
+  },
+  {
+    "key": "夙",
+    "codepoint": "U+F0B55"
+  },
+  {
+    "key": "多",
+    "codepoint": "U+F0B56"
+  },
+  {
+    "key": "大",
+    "codepoint": "U+F0B57"
+  },
+  {
+    "key": "天",
+    "codepoint": "U+F0B58"
+  },
+  {
+    "key": "夫",
+    "codepoint": "U+F0B59"
+  },
+  {
+    "key": "夭",
+    "codepoint": "U+F0B5A"
+  },
+  {
+    "key": "央",
+    "codepoint": "U+F0B5B"
+  },
+  {
+    "key": "夷",
+    "codepoint": "U+F0B5C"
+  },
+  {
+    "key": "奚",
+    "codepoint": "U+F0B5D"
+  },
+  {
+    "key": "奠",
+    "codepoint": "U+F0B5E"
+  },
+  {
+    "key": "女",
+    "codepoint": "U+F0B5F"
+  },
+  {
+    "key": "奴",
+    "codepoint": "U+F0B60"
+  },
+  {
+    "key": "如",
+    "codepoint": "U+F0B61"
+  },
+  {
+    "key": "妃",
+    "codepoint": "U+F0B62"
+  },
+  {
+    "key": "妇",
+    "codepoint": "U+F0B63"
+  },
+  {
+    "key": "妊",
+    "codepoint": "U+F0B64"
+  },
+  {
+    "key": "妣",
+    "codepoint": "U+F0B65"
+  },
+  {
+    "key": "妥",
+    "codepoint": "U+F0B66"
+  },
+  {
+    "key": "妹",
+    "codepoint": "U+F0B67"
+  },
+  {
+    "key": "妾",
+    "codepoint": "U+F0B68"
+  },
+  {
+    "key": "始",
+    "codepoint": "U+F0B69"
+  },
+  {
+    "key": "姜",
+    "codepoint": "U+F0B6A"
+  },
+  {
+    "key": "娥",
+    "codepoint": "U+F0B6B"
+  },
+  {
+    "key": "娶",
+    "codepoint": "U+F0B6C"
+  },
+  {
+    "key": "婀",
+    "codepoint": "U+F0B6D"
+  },
+  {
+    "key": "婪",
+    "codepoint": "U+F0B6E"
+  },
+  {
+    "key": "媚",
+    "codepoint": "U+F0B6F"
+  },
+  {
+    "key": "嫔",
+    "codepoint": "U+F0B70"
+  },
+  {
+    "key": "嬖",
+    "codepoint": "U+F0B71"
+  },
+  {
+    "key": "子",
+    "codepoint": "U+F0B72"
+  },
+  {
+    "key": "孕",
+    "codepoint": "U+F0B73"
+  },
+  {
+    "key": "孙",
+    "codepoint": "U+F0B74"
+  },
+  {
+    "key": "季",
+    "codepoint": "U+F0B75"
+  },
+  {
+    "key": "学",
+    "codepoint": "U+F0B76"
+  },
+  {
+    "key": "宁",
+    "codepoint": "U+F0B77"
+  },
+  {
+    "key": "它",
+    "codepoint": "U+F0B78"
+  },
+  {
+    "key": "宄",
+    "codepoint": "U+F0B79"
+  },
+  {
+    "key": "宅",
+    "codepoint": "U+F0B7A"
+  },
+  {
+    "key": "安",
+    "codepoint": "U+F0B7B"
+  },
+  {
+    "key": "宋",
+    "codepoint": "U+F0B7C"
+  },
+  {
+    "key": "宕",
+    "codepoint": "U+F0B7D"
+  },
+  {
+    "key": "官",
+    "codepoint": "U+F0B7E"
+  },
+  {
+    "key": "宙",
+    "codepoint": "U+F0B7F"
+  },
+  {
+    "key": "宜",
+    "codepoint": "U+F0B80"
+  },
+  {
+    "key": "宝",
+    "codepoint": "U+F0B81"
+  },
+  {
+    "key": "客",
+    "codepoint": "U+F0B82"
+  },
+  {
+    "key": "宣",
+    "codepoint": "U+F0B83"
+  },
+  {
+    "key": "室",
+    "codepoint": "U+F0B84"
+  },
+  {
+    "key": "宫",
+    "codepoint": "U+F0B85"
+  },
+  {
+    "key": "宰",
+    "codepoint": "U+F0B86"
+  },
+  {
+    "key": "家",
+    "codepoint": "U+F0B87"
+  },
+  {
+    "key": "宿",
+    "codepoint": "U+F0B88"
+  },
+  {
+    "key": "寇",
+    "codepoint": "U+F0B89"
+  },
+  {
+    "key": "寐",
+    "codepoint": "U+F0B8A"
+  },
+  {
+    "key": "寝",
+    "codepoint": "U+F0B8B"
+  },
+  {
+    "key": "寮",
+    "codepoint": "U+F0B8C"
+  },
+  {
+    "key": "寻",
+    "codepoint": "U+F0B8D"
+  },
+  {
+    "key": "封",
+    "codepoint": "U+F0B8E"
+  },
+  {
+    "key": "射",
+    "codepoint": "U+F0B8F"
+  },
+  {
+    "key": "尊",
+    "codepoint": "U+F0B90"
+  },
+  {
+    "key": "小",
+    "codepoint": "U+F0B91"
+  },
+  {
+    "key": "少",
+    "codepoint": "U+F0B92"
+  },
+  {
+    "key": "尢",
+    "codepoint": "U+F0B93"
+  },
+  {
+    "key": "尧",
+    "codepoint": "U+F0B94"
+  },
+  {
+    "key": "尸",
+    "codepoint": "U+F0B95"
+  },
+  {
+    "key": "尽",
+    "codepoint": "U+F0B96"
+  },
+  {
+    "key": "屯",
+    "codepoint": "U+F0B97"
+  },
+  {
+    "key": "山",
+    "codepoint": "U+F0B98"
+  },
+  {
+    "key": "川",
+    "codepoint": "U+F0B99"
+  },
+  {
+    "key": "州",
+    "codepoint": "U+F0B9A"
+  },
+  {
+    "key": "工",
+    "codepoint": "U+F0B9B"
+  },
+  {
+    "key": "己",
+    "codepoint": "U+F0B9C"
+  },
+  {
+    "key": "巳",
+    "codepoint": "U+F0B9D"
+  },
+  {
+    "key": "巴",
+    "codepoint": "U+F0B9E"
+  },
+  {
+    "key": "巾",
+    "codepoint": "U+F0B9F"
+  },
+  {
+    "key": "师",
+    "codepoint": "U+F0BA0"
+  },
+  {
+    "key": "帛",
+    "codepoint": "U+F0BA1"
+  },
+  {
+    "key": "帝",
+    "codepoint": "U+F0BA2"
+  },
+  {
+    "key": "幕",
+    "codepoint": "U+F0BA3"
+  },
+  {
+    "key": "干",
+    "codepoint": "U+F0BA4"
+  },
+  {
+    "key": "年",
+    "codepoint": "U+F0BA5"
+  },
+  {
+    "key": "幼",
+    "codepoint": "U+F0BA6"
+  },
+  {
+    "key": "幽",
+    "codepoint": "U+F0BA7"
+  },
+  {
+    "key": "庞",
+    "codepoint": "U+F0BA8"
+  },
+  {
+    "key": "廿",
+    "codepoint": "U+F0BA9"
+  },
+  {
+    "key": "异",
+    "codepoint": "U+F0BAA"
+  },
+  {
+    "key": "弃",
+    "codepoint": "U+F0BAB"
+  },
+  {
+    "key": "弓",
+    "codepoint": "U+F0BAC"
+  },
+  {
+    "key": "弘",
+    "codepoint": "U+F0BAD"
+  },
+  {
+    "key": "弹",
+    "codepoint": "U+F0BAE"
+  },
+  {
+    "key": "强",
+    "codepoint": "U+F0BAF"
+  },
+  {
+    "key": "归",
+    "codepoint": "U+F0BB0"
+  },
+  {
+    "key": "录",
+    "codepoint": "U+F0BB1"
+  },
+  {
+    "key": "彗",
+    "codepoint": "U+F0BB2"
+  },
+  {
+    "key": "彘",
+    "codepoint": "U+F0BB3"
+  },
+  {
+    "key": "彭",
+    "codepoint": "U+F0BB4"
+  },
+  {
+    "key": "彻",
+    "codepoint": "U+F0BB5"
+  },
+  {
+    "key": "往",
+    "codepoint": "U+F0BB6"
+  },
+  {
+    "key": "征",
+    "codepoint": "U+F0BB7"
+  },
+  {
+    "key": "徐",
+    "codepoint": "U+F0BB8"
+  },
+  {
+    "key": "徒",
+    "codepoint": "U+F0BB9"
+  },
+  {
+    "key": "得",
+    "codepoint": "U+F0BBA"
+  },
+  {
+    "key": "徙",
+    "codepoint": "U+F0BBB"
+  },
+  {
+    "key": "循",
+    "codepoint": "U+F0BBC"
+  },
+  {
+    "key": "悖",
+    "codepoint": "U+F0BBD"
+  },
+  {
+    "key": "惠",
+    "codepoint": "U+F0BBE"
+  },
+  {
+    "key": "戈",
+    "codepoint": "U+F0BBF"
+  },
+  {
+    "key": "戋",
+    "codepoint": "U+F0BC0"
+  },
+  {
+    "key": "戌",
+    "codepoint": "U+F0BC1"
+  },
+  {
+    "key": "戍",
+    "codepoint": "U+F0BC2"
+  },
+  {
+    "key": "戎",
+    "codepoint": "U+F0BC3"
+  },
+  {
+    "key": "成",
+    "codepoint": "U+F0BC4"
+  },
+  {
+    "key": "我",
+    "codepoint": "U+F0BC5"
+  },
+  {
+    "key": "或",
+    "codepoint": "U+F0BC6"
+  },
+  {
+    "key": "戚",
+    "codepoint": "U+F0BC7"
+  },
+  {
+    "key": "户",
+    "codepoint": "U+F0BC8"
+  },
+  {
+    "key": "戾",
+    "codepoint": "U+F0BC9"
+  },
+  {
+    "key": "才",
+    "codepoint": "U+F0BCA"
+  },
+  {
+    "key": "扔",
+    "codepoint": "U+F0BCB"
+  },
+  {
+    "key": "执",
+    "codepoint": "U+F0BCC"
+  },
+  {
+    "key": "扬",
+    "codepoint": "U+F0BCD"
+  },
+  {
+    "key": "承",
+    "codepoint": "U+F0BCE"
+  },
+  {
+    "key": "抑",
+    "codepoint": "U+F0BCF"
+  },
+  {
+    "key": "折",
+    "codepoint": "U+F0BD0"
+  },
+  {
+    "key": "挚",
+    "codepoint": "U+F0BD1"
+  },
+  {
+    "key": "攸",
+    "codepoint": "U+F0BD2"
+  },
+  {
+    "key": "攻",
+    "codepoint": "U+F0BD3"
+  },
+  {
+    "key": "敏",
+    "codepoint": "U+F0BD4"
+  },
+  {
+    "key": "教",
+    "codepoint": "U+F0BD5"
+  },
+  {
+    "key": "敝",
+    "codepoint": "U+F0BD6"
+  },
+  {
+    "key": "散",
+    "codepoint": "U+F0BD7"
+  },
+  {
+    "key": "文",
+    "codepoint": "U+F0BD8"
+  },
+  {
+    "key": "斗",
+    "codepoint": "U+F0BD9"
+  },
+  {
+    "key": "斤",
+    "codepoint": "U+F0BDA"
+  },
+  {
+    "key": "斧",
+    "codepoint": "U+F0BDB"
+  },
+  {
+    "key": "斫",
+    "codepoint": "U+F0BDC"
+  },
+  {
+    "key": "断",
+    "codepoint": "U+F0BDD"
+  },
+  {
+    "key": "新",
+    "codepoint": "U+F0BDE"
+  },
+  {
+    "key": "施",
+    "codepoint": "U+F0BDF"
+  },
+  {
+    "key": "旁",
+    "codepoint": "U+F0BE0"
+  },
+  {
+    "key": "旃",
+    "codepoint": "U+F0BE1"
+  },
+  {
+    "key": "旋",
+    "codepoint": "U+F0BE2"
+  },
+  {
+    "key": "族",
+    "codepoint": "U+F0BE3"
+  },
+  {
+    "key": "旗",
+    "codepoint": "U+F0BE4"
+  },
+  {
+    "key": "日",
+    "codepoint": "U+F0BE5"
+  },
+  {
+    "key": "旦",
+    "codepoint": "U+F0BE6"
+  },
+  {
+    "key": "旧",
+    "codepoint": "U+F0BE7"
+  },
+  {
+    "key": "旨",
+    "codepoint": "U+F0BE8"
+  },
+  {
+    "key": "旬",
+    "codepoint": "U+F0BE9"
+  },
+  {
+    "key": "时",
+    "codepoint": "U+F0BEA"
+  },
+  {
+    "key": "昃",
+    "codepoint": "U+F0BEB"
+  },
+  {
+    "key": "明",
+    "codepoint": "U+F0BEC"
+  },
+  {
+    "key": "昏",
+    "codepoint": "U+F0BED"
+  },
+  {
+    "key": "易",
+    "codepoint": "U+F0BEE"
+  },
+  {
+    "key": "昔",
+    "codepoint": "U+F0BEF"
+  },
+  {
+    "key": "星",
+    "codepoint": "U+F0BF0"
+  },
+  {
+    "key": "春",
+    "codepoint": "U+F0BF1"
+  },
+  {
+    "key": "昱",
+    "codepoint": "U+F0BF2"
+  },
+  {
+    "key": "晋",
+    "codepoint": "U+F0BF3"
+  },
+  {
+    "key": "晕",
+    "codepoint": "U+F0BF4"
+  },
+  {
+    "key": "晦",
+    "codepoint": "U+F0BF5"
+  },
+  {
+    "key": "晨",
+    "codepoint": "U+F0BF6"
+  },
+  {
+    "key": "晶",
+    "codepoint": "U+F0BF7"
+  },
+  {
+    "key": "智",
+    "codepoint": "U+F0BF8"
+  },
+  {
+    "key": "暴",
+    "codepoint": "U+F0BF9"
+  },
+  {
+    "key": "曰",
+    "codepoint": "U+F0BFA"
+  },
+  {
+    "key": "曲",
+    "codepoint": "U+F0BFB"
+  },
+  {
+    "key": "曹",
+    "codepoint": "U+F0BFC"
+  },
+  {
+    "key": "曾",
+    "codepoint": "U+F0BFD"
+  },
+  {
+    "key": "月",
+    "codepoint": "U+F0BFE"
+  },
+  {
+    "key": "有",
+    "codepoint": "U+F0BFF"
+  },
+  {
+    "key": "服",
+    "codepoint": "U+F0C00"
+  },
+  {
+    "key": "木",
+    "codepoint": "U+F0C01"
+  },
+  {
+    "key": "未",
+    "codepoint": "U+F0C02"
+  },
+  {
+    "key": "朱",
+    "codepoint": "U+F0C03"
+  },
+  {
+    "key": "杏",
+    "codepoint": "U+F0C04"
+  },
+  {
+    "key": "杞",
+    "codepoint": "U+F0C05"
+  },
+  {
+    "key": "束",
+    "codepoint": "U+F0C06"
+  },
+  {
+    "key": "来",
+    "codepoint": "U+F0C07"
+  },
+  {
+    "key": "杲",
+    "codepoint": "U+F0C08"
+  },
+  {
+    "key": "析",
+    "codepoint": "U+F0C09"
+  },
+  {
+    "key": "林",
+    "codepoint": "U+F0C0A"
+  },
+  {
+    "key": "枚",
+    "codepoint": "U+F0C0B"
+  },
+  {
+    "key": "果",
+    "codepoint": "U+F0C0C"
+  },
+  {
+    "key": "柳",
+    "codepoint": "U+F0C0D"
+  },
+  {
+    "key": "栅",
+    "codepoint": "U+F0C0E"
+  },
+  {
+    "key": "栉",
+    "codepoint": "U+F0C0F"
+  },
+  {
+    "key": "树",
+    "codepoint": "U+F0C10"
+  },
+  {
+    "key": "栗",
+    "codepoint": "U+F0C11"
+  },
+  {
+    "key": "格",
+    "codepoint": "U+F0C12"
+  },
+  {
+    "key": "桑",
+    "codepoint": "U+F0C13"
+  },
+  {
+    "key": "梏",
+    "codepoint": "U+F0C14"
+  },
+  {
+    "key": "梦",
+    "codepoint": "U+F0C15"
+  },
+  {
+    "key": "棋",
+    "codepoint": "U+F0C16"
+  },
+  {
+    "key": "森",
+    "codepoint": "U+F0C17"
+  },
+  {
+    "key": "楚",
+    "codepoint": "U+F0C18"
+  },
+  {
+    "key": "槁",
+    "codepoint": "U+F0C19"
+  },
+  {
+    "key": "次",
+    "codepoint": "U+F0C1A"
+  },
+  {
+    "key": "歌",
+    "codepoint": "U+F0C1B"
+  },
+  {
+    "key": "止",
+    "codepoint": "U+F0C1C"
+  },
+  {
+    "key": "正",
+    "codepoint": "U+F0C1D"
+  },
+  {
+    "key": "此",
+    "codepoint": "U+F0C1E"
+  },
+  {
+    "key": "步",
+    "codepoint": "U+F0C1F"
+  },
+  {
+    "key": "武",
+    "codepoint": "U+F0C20"
+  },
+  {
+    "key": "歹",
+    "codepoint": "U+F0C21"
+  },
+  {
+    "key": "死",
+    "codepoint": "U+F0C22"
+  },
+  {
+    "key": "殳",
+    "codepoint": "U+F0C23"
+  },
+  {
+    "key": "每",
+    "codepoint": "U+F0C24"
+  },
+  {
+    "key": "比",
+    "codepoint": "U+F0C25"
+  },
+  {
+    "key": "毕",
+    "codepoint": "U+F0C26"
+  },
+  {
+    "key": "毙",
+    "codepoint": "U+F0C27"
+  },
+  {
+    "key": "气",
+    "codepoint": "U+F0C28"
+  },
+  {
+    "key": "水",
+    "codepoint": "U+F0C29"
+  },
+  {
+    "key": "永",
+    "codepoint": "U+F0C2A"
+  },
+  {
+    "key": "汜",
+    "codepoint": "U+F0C2B"
+  },
+  {
+    "key": "汝",
+    "codepoint": "U+F0C2C"
+  },
+  {
+    "key": "沈",
+    "codepoint": "U+F0C2D"
+  },
+  {
+    "key": "沮",
+    "codepoint": "U+F0C2E"
+  },
+  {
+    "key": "泉",
+    "codepoint": "U+F0C2F"
+  },
+  {
+    "key": "泞",
+    "codepoint": "U+F0C30"
+  },
+  {
+    "key": "泳",
+    "codepoint": "U+F0C31"
+  },
+  {
+    "key": "泷",
+    "codepoint": "U+F0C32"
+  },
+  {
+    "key": "泺",
+    "codepoint": "U+F0C33"
+  },
+  {
+    "key": "洋",
+    "codepoint": "U+F0C34"
+  },
+  {
+    "key": "洛",
+    "codepoint": "U+F0C35"
+  },
+  {
+    "key": "洧",
+    "codepoint": "U+F0C36"
+  },
+  {
+    "key": "洹",
+    "codepoint": "U+F0C37"
+  },
+  {
+    "key": "涉",
+    "codepoint": "U+F0C38"
+  },
+  {
+    "key": "涛",
+    "codepoint": "U+F0C39"
+  },
+  {
+    "key": "涿",
+    "codepoint": "U+F0C3A"
+  },
+  {
+    "key": "淡",
+    "codepoint": "U+F0C3B"
+  },
+  {
+    "key": "淮",
+    "codepoint": "U+F0C3C"
+  },
+  {
+    "key": "渊",
+    "codepoint": "U+F0C3D"
+  },
+  {
+    "key": "渔",
+    "codepoint": "U+F0C3E"
+  },
+  {
+    "key": "游",
+    "codepoint": "U+F0C3F"
+  },
+  {
+    "key": "湔",
+    "codepoint": "U+F0C40"
+  },
+  {
+    "key": "湿",
+    "codepoint": "U+F0C41"
+  },
+  {
+    "key": "滋",
+    "codepoint": "U+F0C42"
+  },
+  {
+    "key": "演",
+    "codepoint": "U+F0C43"
+  },
+  {
+    "key": "潢",
+    "codepoint": "U+F0C44"
+  },
+  {
+    "key": "火",
+    "codepoint": "U+F0C45"
+  },
+  {
+    "key": "炎",
+    "codepoint": "U+F0C46"
+  },
+  {
+    "key": "烬",
+    "codepoint": "U+F0C47"
+  },
+  {
+    "key": "焚",
+    "codepoint": "U+F0C48"
+  },
+  {
+    "key": "焱",
+    "codepoint": "U+F0C49"
+  },
+  {
+    "key": "熊",
+    "codepoint": "U+F0C4A"
+  },
+  {
+    "key": "熹",
+    "codepoint": "U+F0C4B"
+  },
+  {
+    "key": "燎",
+    "codepoint": "U+F0C4C"
+  },
+  {
+    "key": "燕",
+    "codepoint": "U+F0C4D"
+  },
+  {
+    "key": "爰",
+    "codepoint": "U+F0C4E"
+  },
+  {
+    "key": "爵",
+    "codepoint": "U+F0C4F"
+  },
+  {
+    "key": "爻",
+    "codepoint": "U+F0C50"
+  },
+  {
+    "key": "片",
+    "codepoint": "U+F0C51"
+  },
+  {
+    "key": "版",
+    "codepoint": "U+F0C52"
+  },
+  {
+    "key": "牛",
+    "codepoint": "U+F0C53"
+  },
+  {
+    "key": "牝",
+    "codepoint": "U+F0C54"
+  },
+  {
+    "key": "牡",
+    "codepoint": "U+F0C55"
+  },
+  {
+    "key": "牢",
+    "codepoint": "U+F0C56"
+  },
+  {
+    "key": "牧",
+    "codepoint": "U+F0C57"
+  },
+  {
+    "key": "物",
+    "codepoint": "U+F0C58"
+  },
+  {
+    "key": "犀",
+    "codepoint": "U+F0C59"
+  },
+  {
+    "key": "犬",
+    "codepoint": "U+F0C5A"
+  },
+  {
+    "key": "犹",
+    "codepoint": "U+F0C5B"
+  },
+  {
+    "key": "狂",
+    "codepoint": "U+F0C5C"
+  },
+  {
+    "key": "献",
+    "codepoint": "U+F0C5D"
+  },
+  {
+    "key": "猴",
+    "codepoint": "U+F0C5E"
+  },
+  {
+    "key": "率",
+    "codepoint": "U+F0C5F"
+  },
+  {
+    "key": "玉",
+    "codepoint": "U+F0C60"
+  },
+  {
+    "key": "珍",
+    "codepoint": "U+F0C61"
+  },
+  {
+    "key": "甘",
+    "codepoint": "U+F0C62"
+  },
+  {
+    "key": "生",
+    "codepoint": "U+F0C63"
+  },
+  {
+    "key": "甫",
+    "codepoint": "U+F0C64"
+  },
+  {
+    "key": "田",
+    "codepoint": "U+F0C65"
+  },
+  {
+    "key": "甲",
+    "codepoint": "U+F0C66"
+  },
+  {
+    "key": "申",
+    "codepoint": "U+F0C67"
+  },
+  {
+    "key": "男",
+    "codepoint": "U+F0C68"
+  },
+  {
+    "key": "画",
+    "codepoint": "U+F0C69"
+  },
+  {
+    "key": "甾",
+    "codepoint": "U+F0C6A"
+  },
+  {
+    "key": "畋",
+    "codepoint": "U+F0C6B"
+  },
+  {
+    "key": "畏",
+    "codepoint": "U+F0C6C"
+  },
+  {
+    "key": "畜",
+    "codepoint": "U+F0C6D"
+  },
+  {
+    "key": "畴",
+    "codepoint": "U+F0C6E"
+  },
+  {
+    "key": "疑",
+    "codepoint": "U+F0C6F"
+  },
+  {
+    "key": "疾",
+    "codepoint": "U+F0C70"
+  },
+  {
+    "key": "癸",
+    "codepoint": "U+F0C71"
+  },
+  {
+    "key": "登",
+    "codepoint": "U+F0C72"
+  },
+  {
+    "key": "白",
+    "codepoint": "U+F0C73"
+  },
+  {
+    "key": "百",
+    "codepoint": "U+F0C74"
+  },
+  {
+    "key": "皿",
+    "codepoint": "U+F0C75"
+  },
+  {
+    "key": "盂",
+    "codepoint": "U+F0C76"
+  },
+  {
+    "key": "监",
+    "codepoint": "U+F0C77"
+  },
+  {
+    "key": "盗",
+    "codepoint": "U+F0C78"
+  },
+  {
+    "key": "盘",
+    "codepoint": "U+F0C79"
+  },
+  {
+    "key": "盟",
+    "codepoint": "U+F0C7A"
+  },
+  {
+    "key": "盥",
+    "codepoint": "U+F0C7B"
+  },
+  {
+    "key": "盦",
+    "codepoint": "U+F0C7C"
+  },
+  {
+    "key": "目",
+    "codepoint": "U+F0C7D"
+  },
+  {
+    "key": "直",
+    "codepoint": "U+F0C7E"
+  },
+  {
+    "key": "相",
+    "codepoint": "U+F0C7F"
+  },
+  {
+    "key": "省",
+    "codepoint": "U+F0C80"
+  },
+  {
+    "key": "眉",
+    "codepoint": "U+F0C81"
+  },
+  {
+    "key": "眚",
+    "codepoint": "U+F0C82"
+  },
+  {
+    "key": "眢",
+    "codepoint": "U+F0C83"
+  },
+  {
+    "key": "矢",
+    "codepoint": "U+F0C84"
+  },
+  {
+    "key": "石",
+    "codepoint": "U+F0C85"
+  },
+  {
+    "key": "硪",
+    "codepoint": "U+F0C86"
+  },
+  {
+    "key": "磬",
+    "codepoint": "U+F0C87"
+  },
+  {
+    "key": "示",
+    "codepoint": "U+F0C88"
+  },
+  {
+    "key": "礼",
+    "codepoint": "U+F0C89"
+  },
+  {
+    "key": "祀",
+    "codepoint": "U+F0C8A"
+  },
+  {
+    "key": "祏",
+    "codepoint": "U+F0C8B"
+  },
+  {
+    "key": "祓",
+    "codepoint": "U+F0C8C"
+  },
+  {
+    "key": "祖",
+    "codepoint": "U+F0C8D"
+  },
+  {
+    "key": "祝",
+    "codepoint": "U+F0C8E"
+  },
+  {
+    "key": "祠",
+    "codepoint": "U+F0C8F"
+  },
+  {
+    "key": "祥",
+    "codepoint": "U+F0C90"
+  },
+  {
+    "key": "祭",
+    "codepoint": "U+F0C91"
+  },
+  {
+    "key": "禄",
+    "codepoint": "U+F0C92"
+  },
+  {
+    "key": "禋",
+    "codepoint": "U+F0C93"
+  },
+  {
+    "key": "福",
+    "codepoint": "U+F0C94"
+  },
+  {
+    "key": "禘",
+    "codepoint": "U+F0C95"
+  },
+  {
+    "key": "禦",
+    "codepoint": "U+F0C96"
+  },
+  {
+    "key": "禾",
+    "codepoint": "U+F0C97"
+  },
+  {
+    "key": "秉",
+    "codepoint": "U+F0C98"
+  },
+  {
+    "key": "秋",
+    "codepoint": "U+F0C99"
+  },
+  {
+    "key": "秦",
+    "codepoint": "U+F0C9A"
+  },
+  {
+    "key": "稻",
+    "codepoint": "U+F0C9B"
+  },
+  {
+    "key": "突",
+    "codepoint": "U+F0C9C"
+  },
+  {
+    "key": "立",
+    "codepoint": "U+F0C9D"
+  },
+  {
+    "key": "竞",
+    "codepoint": "U+F0C9E"
+  },
+  {
+    "key": "箕",
+    "codepoint": "U+F0C9F"
+  },
+  {
+    "key": "簠",
+    "codepoint": "U+F0CA0"
+  },
+  {
+    "key": "米",
+    "codepoint": "U+F0CA1"
+  },
+  {
+    "key": "粗",
+    "codepoint": "U+F0CA2"
+  },
+  {
+    "key": "粟",
+    "codepoint": "U+F0CA3"
+  },
+  {
+    "key": "粪",
+    "codepoint": "U+F0CA4"
+  },
+  {
+    "key": "糠",
+    "codepoint": "U+F0CA5"
+  },
+  {
+    "key": "系",
+    "codepoint": "U+F0CA6"
+  },
+  {
+    "key": "终",
+    "codepoint": "U+F0CA7"
+  },
+  {
+    "key": "绍",
+    "codepoint": "U+F0CA8"
+  },
+  {
+    "key": "绝",
+    "codepoint": "U+F0CA9"
+  },
+  {
+    "key": "绥",
+    "codepoint": "U+F0CAA"
+  },
+  {
+    "key": "续",
+    "codepoint": "U+F0CAB"
+  },
+  {
+    "key": "绿",
+    "codepoint": "U+F0CAC"
+  },
+  {
+    "key": "编",
+    "codepoint": "U+F0CAD"
+  },
+  {
+    "key": "缶",
+    "codepoint": "U+F0CAE"
+  },
+  {
+    "key": "网",
+    "codepoint": "U+F0CAF"
+  },
+  {
+    "key": "罗",
+    "codepoint": "U+F0CB0"
+  },
+  {
+    "key": "羁",
+    "codepoint": "U+F0CB1"
+  },
+  {
+    "key": "羊",
+    "codepoint": "U+F0CB2"
+  },
+  {
+    "key": "美",
+    "codepoint": "U+F0CB3"
+  },
+  {
+    "key": "羞",
+    "codepoint": "U+F0CB4"
+  },
+  {
+    "key": "羽",
+    "codepoint": "U+F0CB5"
+  },
+  {
+    "key": "翊",
+    "codepoint": "U+F0CB6"
+  },
+  {
+    "key": "老",
+    "codepoint": "U+F0CB7"
+  },
+  {
+    "key": "耋",
+    "codepoint": "U+F0CB8"
+  },
+  {
+    "key": "而",
+    "codepoint": "U+F0CB9"
+  },
+  {
+    "key": "耑",
+    "codepoint": "U+F0CBA"
+  },
+  {
+    "key": "耳",
+    "codepoint": "U+F0CBB"
+  },
+  {
+    "key": "聋",
+    "codepoint": "U+F0CBC"
+  },
+  {
+    "key": "聿",
+    "codepoint": "U+F0CBD"
+  },
+  {
+    "key": "肄",
+    "codepoint": "U+F0CBE"
+  },
+  {
+    "key": "育",
+    "codepoint": "U+F0CBF"
+  },
+  {
+    "key": "膏",
+    "codepoint": "U+F0CC0"
+  },
+  {
+    "key": "膻",
+    "codepoint": "U+F0CC1"
+  },
+  {
+    "key": "臣",
+    "codepoint": "U+F0CC2"
+  },
+  {
+    "key": "自",
+    "codepoint": "U+F0CC3"
+  },
+  {
+    "key": "臬",
+    "codepoint": "U+F0CC4"
+  },
+  {
+    "key": "臭",
+    "codepoint": "U+F0CC5"
+  },
+  {
+    "key": "致",
+    "codepoint": "U+F0CC6"
+  },
+  {
+    "key": "舂",
+    "codepoint": "U+F0CC7"
+  },
+  {
+    "key": "舆",
+    "codepoint": "U+F0CC8"
+  },
+  {
+    "key": "舌",
+    "codepoint": "U+F0CC9"
+  },
+  {
+    "key": "舞",
+    "codepoint": "U+F0CCA"
+  },
+  {
+    "key": "舟",
+    "codepoint": "U+F0CCB"
+  },
+  {
+    "key": "般",
+    "codepoint": "U+F0CCC"
+  },
+  {
+    "key": "良",
+    "codepoint": "U+F0CCD"
+  },
+  {
+    "key": "苣",
+    "codepoint": "U+F0CCE"
+  },
+  {
+    "key": "苴",
+    "codepoint": "U+F0CCF"
+  },
+  {
+    "key": "荒",
+    "codepoint": "U+F0CD0"
+  },
+  {
+    "key": "莫",
+    "codepoint": "U+F0CD1"
+  },
+  {
+    "key": "获",
+    "codepoint": "U+F0CD2"
+  },
+  {
+    "key": "萬",
+    "codepoint": "U+F0CD3"
+  },
+  {
+    "key": "葬",
+    "codepoint": "U+F0CD4"
+  },
+  {
+    "key": "蒙",
+    "codepoint": "U+F0CD5"
+  },
+  {
+    "key": "蒿",
+    "codepoint": "U+F0CD6"
+  },
+  {
+    "key": "蔑",
+    "codepoint": "U+F0CD7"
+  },
+  {
+    "key": "虎",
+    "codepoint": "U+F0CD8"
+  },
+  {
+    "key": "虞",
+    "codepoint": "U+F0CD9"
+  },
+  {
+    "key": "虢",
+    "codepoint": "U+F0CDA"
+  },
+  {
+    "key": "虹",
+    "codepoint": "U+F0CDB"
+  },
+  {
+    "key": "蚕",
+    "codepoint": "U+F0CDC"
+  },
+  {
+    "key": "蛊",
+    "codepoint": "U+F0CDD"
+  },
+  {
+    "key": "蜀",
+    "codepoint": "U+F0CDE"
+  },
+  {
+    "key": "蜩",
+    "codepoint": "U+F0CDF"
+  },
+  {
+    "key": "蝠",
+    "codepoint": "U+F0CE0"
+  },
+  {
+    "key": "血",
+    "codepoint": "U+F0CE1"
+  },
+  {
+    "key": "行",
+    "codepoint": "U+F0CE2"
+  },
+  {
+    "key": "衍",
+    "codepoint": "U+F0CE3"
+  },
+  {
+    "key": "衣",
+    "codepoint": "U+F0CE4"
+  },
+  {
+    "key": "袆",
+    "codepoint": "U+F0CE5"
+  },
+  {
+    "key": "袭",
+    "codepoint": "U+F0CE6"
+  },
+  {
+    "key": "裘",
+    "codepoint": "U+F0CE7"
+  },
+  {
+    "key": "見",
+    "codepoint": "U+F0CE8"
+  },
+  {
+    "key": "观",
+    "codepoint": "U+F0CE9"
+  },
+  {
+    "key": "视",
+    "codepoint": "U+F0CEA"
+  },
+  {
+    "key": "角",
+    "codepoint": "U+F0CEB"
+  },
+  {
+    "key": "解",
+    "codepoint": "U+F0CEC"
+  },
+  {
+    "key": "言",
+    "codepoint": "U+F0CED"
+  },
+  {
+    "key": "訇",
+    "codepoint": "U+F0CEE"
+  },
+  {
+    "key": "诺",
+    "codepoint": "U+F0CEF"
+  },
+  {
+    "key": "谢",
+    "codepoint": "U+F0CF0"
+  },
+  {
+    "key": "谷",
+    "codepoint": "U+F0CF1"
+  },
+  {
+    "key": "豆",
+    "codepoint": "U+F0CF2"
+  },
+  {
+    "key": "豊",
+    "codepoint": "U+F0CF3"
+  },
+  {
+    "key": "豕",
+    "codepoint": "U+F0CF4"
+  },
+  {
+    "key": "豚",
+    "codepoint": "U+F0CF5"
+  },
+  {
+    "key": "象",
+    "codepoint": "U+F0CF6"
+  },
+  {
+    "key": "豢",
+    "codepoint": "U+F0CF7"
+  },
+  {
+    "key": "豹",
+    "codepoint": "U+F0CF8"
+  },
+  {
+    "key": "贝",
+    "codepoint": "U+F0CF9"
+  },
+  {
+    "key": "贞",
+    "codepoint": "U+F0CFA"
+  },
+  {
+    "key": "责",
+    "codepoint": "U+F0CFB"
+  },
+  {
+    "key": "败",
+    "codepoint": "U+F0CFC"
+  },
+  {
+    "key": "贮",
+    "codepoint": "U+F0CFD"
+  },
+  {
+    "key": "赤",
+    "codepoint": "U+F0CFE"
+  },
+  {
+    "key": "赫",
+    "codepoint": "U+F0CFF"
+  },
+  {
+    "key": "足",
+    "codepoint": "U+F0D00"
+  },
+  {
+    "key": "跽",
+    "codepoint": "U+F0D01"
+  },
+  {
+    "key": "軎",
+    "codepoint": "U+F0D02"
+  },
+  {
+    "key": "车",
+    "codepoint": "U+F0D03"
+  },
+  {
+    "key": "载",
+    "codepoint": "U+F0D04"
+  },
+  {
+    "key": "辔",
+    "codepoint": "U+F0D05"
+  },
+  {
+    "key": "辛",
+    "codepoint": "U+F0D06"
+  },
+  {
+    "key": "辜",
+    "codepoint": "U+F0D07"
+  },
+  {
+    "key": "辟",
+    "codepoint": "U+F0D08"
+  },
+  {
+    "key": "辰",
+    "codepoint": "U+F0D09"
+  },
+  {
+    "key": "进",
+    "codepoint": "U+F0D0A"
+  },
+  {
+    "key": "迟",
+    "codepoint": "U+F0D0B"
+  },
+  {
+    "key": "追",
+    "codepoint": "U+F0D0C"
+  },
+  {
+    "key": "退",
+    "codepoint": "U+F0D0D"
+  },
+  {
+    "key": "逆",
+    "codepoint": "U+F0D0E"
+  },
+  {
+    "key": "逌",
+    "codepoint": "U+F0D0F"
+  },
+  {
+    "key": "逐",
+    "codepoint": "U+F0D10"
+  },
+  {
+    "key": "逢",
+    "codepoint": "U+F0D11"
+  },
+  {
+    "key": "遘",
+    "codepoint": "U+F0D12"
+  },
+  {
+    "key": "遣",
+    "codepoint": "U+F0D13"
+  },
+  {
+    "key": "避",
+    "codepoint": "U+F0D14"
+  },
+  {
+    "key": "邋",
+    "codepoint": "U+F0D15"
+  },
+  {
+    "key": "邑",
+    "codepoint": "U+F0D16"
+  },
+  {
+    "key": "邦",
+    "codepoint": "U+F0D17"
+  },
+  {
+    "key": "郑",
+    "codepoint": "U+F0D18"
+  },
+  {
+    "key": "郢",
+    "codepoint": "U+F0D19"
+  },
+  {
+    "key": "郭",
+    "codepoint": "U+F0D1A"
+  },
+  {
+    "key": "鄙",
+    "codepoint": "U+F0D1B"
+  },
+  {
+    "key": "酆",
+    "codepoint": "U+F0D1C"
+  },
+  {
+    "key": "酉",
+    "codepoint": "U+F0D1D"
+  },
+  {
+    "key": "酌",
+    "codepoint": "U+F0D1E"
+  },
+  {
+    "key": "酒",
+    "codepoint": "U+F0D1F"
+  },
+  {
+    "key": "醜",
+    "codepoint": "U+F0D20"
+  },
+  {
+    "key": "醴",
+    "codepoint": "U+F0D21"
+  },
+  {
+    "key": "釆",
+    "codepoint": "U+F0D22"
+  },
+  {
+    "key": "采",
+    "codepoint": "U+F0D23"
+  },
+  {
+    "key": "钘",
+    "codepoint": "U+F0D24"
+  },
+  {
+    "key": "钻",
+    "codepoint": "U+F0D25"
+  },
+  {
+    "key": "铧",
+    "codepoint": "U+F0D26"
+  },
+  {
+    "key": "锾",
+    "codepoint": "U+F0D27"
+  },
+  {
+    "key": "镬",
+    "codepoint": "U+F0D28"
+  },
+  {
+    "key": "長",
+    "codepoint": "U+F0D29"
+  },
+  {
+    "key": "门",
+    "codepoint": "U+F0D2A"
+  },
+  {
+    "key": "问",
+    "codepoint": "U+F0D2B"
+  },
+  {
+    "key": "闻",
+    "codepoint": "U+F0D2C"
+  },
+  {
+    "key": "队",
+    "codepoint": "U+F0D2D"
+  },
+  {
+    "key": "阱",
+    "codepoint": "U+F0D2E"
+  },
+  {
+    "key": "阳",
+    "codepoint": "U+F0D2F"
+  },
+  {
+    "key": "陆",
+    "codepoint": "U+F0D30"
+  },
+  {
+    "key": "降",
+    "codepoint": "U+F0D31"
+  },
+  {
+    "key": "陟",
+    "codepoint": "U+F0D32"
+  },
+  {
+    "key": "陴",
+    "codepoint": "U+F0D33"
+  },
+  {
+    "key": "陵",
+    "codepoint": "U+F0D34"
+  },
+  {
+    "key": "隹",
+    "codepoint": "U+F0D35"
+  },
+  {
+    "key": "雀",
+    "codepoint": "U+F0D36"
+  },
+  {
+    "key": "集",
+    "codepoint": "U+F0D37"
+  },
+  {
+    "key": "雇",
+    "codepoint": "U+F0D38"
+  },
+  {
+    "key": "雉",
+    "codepoint": "U+F0D39"
+  },
+  {
+    "key": "雏",
+    "codepoint": "U+F0D3A"
+  },
+  {
+    "key": "雚",
+    "codepoint": "U+F0D3B"
+  },
+  {
+    "key": "雩",
+    "codepoint": "U+F0D3C"
+  },
+  {
+    "key": "雪",
+    "codepoint": "U+F0D3D"
+  },
+  {
+    "key": "雷",
+    "codepoint": "U+F0D3E"
+  },
+  {
+    "key": "霖",
+    "codepoint": "U+F0D3F"
+  },
+  {
+    "key": "霜",
+    "codepoint": "U+F0D40"
+  },
+  {
+    "key": "霾",
+    "codepoint": "U+F0D41"
+  },
+  {
+    "key": "面",
+    "codepoint": "U+F0D42"
+  },
+  {
+    "key": "韦",
+    "codepoint": "U+F0D43"
+  },
+  {
+    "key": "页",
+    "codepoint": "U+F0D44"
+  },
+  {
+    "key": "须",
+    "codepoint": "U+F0D45"
+  },
+  {
+    "key": "风",
+    "codepoint": "U+F0D46"
+  },
+  {
+    "key": "飞",
+    "codepoint": "U+F0D47"
+  },
+  {
+    "key": "食",
+    "codepoint": "U+F0D48"
+  },
+  {
+    "key": "飨",
+    "codepoint": "U+F0D49"
+  },
+  {
+    "key": "馈",
+    "codepoint": "U+F0D4A"
+  },
+  {
+    "key": "香",
+    "codepoint": "U+F0D4B"
+  },
+  {
+    "key": "马",
+    "codepoint": "U+F0D4C"
+  },
+  {
+    "key": "驱",
+    "codepoint": "U+F0D4D"
+  },
+  {
+    "key": "驳",
+    "codepoint": "U+F0D4E"
+  },
+  {
+    "key": "骊",
+    "codepoint": "U+F0D4F"
+  },
+  {
+    "key": "鬯",
+    "codepoint": "U+F0D50"
+  },
+  {
+    "key": "鬳",
+    "codepoint": "U+F0D51"
+  },
+  {
+    "key": "鬼",
+    "codepoint": "U+F0D52"
+  },
+  {
+    "key": "鱼",
+    "codepoint": "U+F0D53"
+  },
+  {
+    "key": "鲁",
+    "codepoint": "U+F0D54"
+  },
+  {
+    "key": "鸟",
+    "codepoint": "U+F0D55"
+  },
+  {
+    "key": "鸡",
+    "codepoint": "U+F0D56"
+  },
+  {
+    "key": "鸣",
+    "codepoint": "U+F0D57"
+  },
+  {
+    "key": "鸿",
+    "codepoint": "U+F0D58"
+  },
+  {
+    "key": "鹿",
+    "codepoint": "U+F0D59"
+  },
+  {
+    "key": "麇",
+    "codepoint": "U+F0D5A"
+  },
+  {
+    "key": "麋",
+    "codepoint": "U+F0D5B"
+  },
+  {
+    "key": "麐",
+    "codepoint": "U+F0D5C"
+  },
+  {
+    "key": "麑",
+    "codepoint": "U+F0D5D"
+  },
+  {
+    "key": "麓",
+    "codepoint": "U+F0D5E"
+  },
+  {
+    "key": "麟",
+    "codepoint": "U+F0D5F"
+  },
+  {
+    "key": "麦",
+    "codepoint": "U+F0D60"
+  },
+  {
+    "key": "黄",
+    "codepoint": "U+F0D61"
+  },
+  {
+    "key": "黹",
+    "codepoint": "U+F0D62"
+  },
+  {
+    "key": "黻",
+    "codepoint": "U+F0D63"
+  },
+  {
+    "key": "黼",
+    "codepoint": "U+F0D64"
+  },
+  {
+    "key": "黾",
+    "codepoint": "U+F0D65"
+  },
+  {
+    "key": "鼍",
+    "codepoint": "U+F0D66"
+  },
+  {
+    "key": "鼓",
+    "codepoint": "U+F0D67"
+  },
+  {
+    "key": "鼠",
+    "codepoint": "U+F0D68"
+  },
+  {
+    "key": "鼻",
+    "codepoint": "U+F0D69"
+  },
+  {
+    "key": "齐",
+    "codepoint": "U+F0D6A"
+  },
+  {
+    "key": "齿",
+    "codepoint": "U+F0D6B"
+  },
+  {
+    "key": "龋",
+    "codepoint": "U+F0D6C"
+  },
+  {
+    "key": "龍",
+    "codepoint": "U+F0D6D"
+  },
+  {
+    "key": "龟",
+    "codepoint": "U+F0D6E"
+  },
+  {
+    "key": "龠",
+    "codepoint": "U+F0D6F"
+  },
+  {
+    "key": "龢",
+    "codepoint": "U+F0D70"
+  }
+]

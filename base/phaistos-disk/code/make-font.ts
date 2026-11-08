@@ -10,15 +10,25 @@ import {
   createNotdefGlyph,
   createFont,
   writeFont,
+  writeMapping,
   UNITS_PER_EM,
 } from '../../../code/make-font'
+import {
+  codePointOf,
+  formatCodePoint,
+  readFontCodePoints,
+} from '../../../code/code-point'
 import opentype from 'opentype.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.join(__dirname, '..', 'base')
 
-// Phaistos Disc Unicode block starts at U+101D0.
-const UNICODE_BASE = 0x101d0
+// Every sign sits on its plane 15 private use code point in
+// `code-points.json`, keyed by its file name (`01` to `49`, Evans's
+// numbering). Unicode's Phaistos Disc block (U+101D0) is not used: the
+// drawings number 49, and the font is one of the Mark set, which keeps
+// every sign off real characters.
+const FONT = 'phaistos-disk'
 
 function parseSvgDimensions(svgContent: string): {
   width: number
@@ -64,6 +74,7 @@ type SvgInfo = {
 async function main() {
   const svgDir = path.join(baseDir, 'mark')
   const entries = await fs.readdir(svgDir)
+  const points = readFontCodePoints(FONT)
   const svgFiles = entries
     .filter(f => f.match(/^\d+\.svg$/))
     .sort()
@@ -84,8 +95,7 @@ async function main() {
       continue
     }
 
-    const glyphNum = parseInt(numMatch[1]!, 10)
-    const codePoint = UNICODE_BASE + glyphNum - 1
+    const codePoint = codePointOf(points, FONT, path.basename(file, '.svg'))
 
     try {
       const svgContent = await fs.readFile(
@@ -137,6 +147,7 @@ async function main() {
 
   // Second pass: build glyphs using the global scale.
   const glyphs: Array<opentype.Glyph> = [createNotdefGlyph()]
+  const mapping: Array<{ key: string; codepoint: string }> = []
   let processed = 0
 
   for (const info of svgInfos) {
@@ -164,16 +175,11 @@ async function main() {
 
     const advanceWidth = Math.round(info.width * globalScale)
     glyphs.push(createGlyph(info.codePoint, combinedPath, advanceWidth))
+    mapping.push({
+      key: path.basename(info.file, '.svg'),
+      codepoint: formatCodePoint(info.codePoint),
+    })
     processed++
-
-    const hexCode = info.codePoint
-      .toString(16)
-      .toUpperCase()
-      .padStart(5, '0')
-
-    console.log(
-      `  ${info.file} -> U+${hexCode} (${info.width.toFixed(0)}x${info.height.toFixed(0)}, advance=${advanceWidth})`,
-    )
   }
 
   console.log(
@@ -183,10 +189,11 @@ async function main() {
   const font = createFont(glyphs, {
     fontFamily: 'MarkPhaistosDisc',
     description:
-      'Phaistos Disc signs mapped to the Unicode Phaistos Disc block (U+101D0-U+101FF).',
+      'Phaistos Disc signs, each on its own plane 15 private use code point.',
   })
 
   await writeFont(font, path.join(baseDir, 'MarkPhaistosDisc-Regular.otf'))
+  await writeMapping(baseDir, mapping)
 
   console.log('\nDone.')
 }

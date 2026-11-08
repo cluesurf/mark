@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarkPhaistosDisc Grid</title>
+    <!-- Written by code/make-grids.ts from base/mapping.json. Do not edit. -->
     <style>
       @font-face {
         font-family: 'MarkPhaistosDisc';
@@ -34,8 +32,8 @@
       }
 
       .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         line-height: 1;
         width: 840px;
         margin: 0 auto;
@@ -45,8 +43,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        aspect-ratio: 1;
-        font-size: 52px;
+        width: 48px;
+        height: 48px;
+        font-size: 36px;
         color: #18181b;
         font-family: 'MarkPhaistosDisc', sans-serif;
       }
@@ -54,23 +53,8 @@
   </head>
   <body>
     <div class="section-label">
-      MarkPhaistosDisc (Phaistos Disc · Phaistos Disc block)
+      MarkPhaistosDisc: 48 signs, plane 15 private use, U+F0D71 to U+F0DA1
     </div>
-    <div class="grid" id="grid"></div>
-    <script>
-      // Phaistos Disc signs are mapped to the Unicode Phaistos Disc
-      // block (U+101D0 onward). The font covers 45 signs from
-      // U+101D0 to U+101FC.
-      var PHAISTOS_BASE = 0x101d0
-      var COUNT = 45
-      var parts = []
-      for (var i = 0; i < COUNT; i++) {
-        var cp = PHAISTOS_BASE + i
-        var ch = String.fromCodePoint(cp)
-        var hex = cp.toString(16).toUpperCase()
-        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
-      }
-      document.getElementById('grid').innerHTML = parts.join('')
-    </script>
+    <div class="grid"><span title="01 U+F0D71">󰵱</span><span title="02 U+F0D72">󰵲</span><span title="03 U+F0D73">󰵳</span><span title="04 U+F0D74">󰵴</span><span title="05 U+F0D75">󰵵</span><span title="06 U+F0D76">󰵶</span><span title="07 U+F0D77">󰵷</span><span title="08 U+F0D78">󰵸</span><span title="09 U+F0D79">󰵹</span><span title="10 U+F0D7A">󰵺</span><span title="11 U+F0D7B">󰵻</span><span title="12 U+F0D7C">󰵼</span><span title="13 U+F0D7D">󰵽</span><span title="14 U+F0D7E">󰵾</span><span title="15 U+F0D7F">󰵿</span><span title="16 U+F0D80">󰶀</span><span title="17 U+F0D81">󰶁</span><span title="19 U+F0D83">󰶃</span><span title="20 U+F0D84">󰶄</span><span title="21 U+F0D85">󰶅</span><span title="22 U+F0D86">󰶆</span><span title="23 U+F0D87">󰶇</span><span title="24 U+F0D88">󰶈</span><span title="25 U+F0D89">󰶉</span><span title="26 U+F0D8A">󰶊</span><span title="27 U+F0D8B">󰶋</span><span title="28 U+F0D8C">󰶌</span><span title="29 U+F0D8D">󰶍</span><span title="30 U+F0D8E">󰶎</span><span title="31 U+F0D8F">󰶏</span><span title="32 U+F0D90">󰶐</span><span title="33 U+F0D91">󰶑</span><span title="34 U+F0D92">󰶒</span><span title="35 U+F0D93">󰶓</span><span title="36 U+F0D94">󰶔</span><span title="37 U+F0D95">󰶕</span><span title="38 U+F0D96">󰶖</span><span title="39 U+F0D97">󰶗</span><span title="40 U+F0D98">󰶘</span><span title="41 U+F0D99">󰶙</span><span title="42 U+F0D9A">󰶚</span><span title="43 U+F0D9B">󰶛</span><span title="44 U+F0D9C">󰶜</span><span title="45 U+F0D9D">󰶝</span><span title="46 U+F0D9E">󰶞</span><span title="47 U+F0D9F">󰶟</span><span title="48 U+F0DA0">󰶠</span><span title="49 U+F0DA1">󰶡</span></div>
   </body>
 </html>

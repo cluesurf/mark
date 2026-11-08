@@ -2,6 +2,11 @@ import fs from 'fs/promises'
 import path from 'path'
 import opentype from 'opentype.js'
 import { SVGPathData } from 'svg-pathdata'
+import {
+  codePointOf,
+  formatCodePoint,
+  readFontCodePoints,
+} from './code-point'
 
 export const UNITS_PER_EM = 1000
 export const ASCENDER = 800
@@ -120,8 +125,9 @@ export function createGlyph(
     .toUpperCase()
     .padStart(4, '0')
 
+  // The glyph list's convention: `uniXXXX` in the BMP, `uXXXXX` above.
   return new opentype.Glyph({
-    name: `uni${hexCode}`,
+    name: codePoint > 0xffff ? `u${hexCode}` : `uni${hexCode}`,
     unicode: codePoint,
     advanceWidth,
     path: glyphPath,
@@ -145,6 +151,13 @@ export type FontMetadataOptions = {
   fontFamily: string
   description: string
   styleName?: string
+  /**
+   * OS/2 usWeightClass. opentype.js writes 500 when none is given, so a
+   * font whose served variant is 400 or 600 must name it: the font seed
+   * matches a variant by weight, and the replace route refuses a file
+   * whose OS/2 weight is not its variant's.
+   */
+  weightClass?: number
 }
 
 /**
@@ -156,11 +169,19 @@ export function createFont(
   glyphs: Array<opentype.Glyph>,
   options: FontMetadataOptions,
 ): opentype.Font {
-  const { fontFamily, description, styleName = 'Regular' } = options
+  const {
+    fontFamily,
+    description,
+    styleName = 'Regular',
+    weightClass,
+  } = options
 
   return new opentype.Font({
     familyName: fontFamily,
     styleName,
+    // Undefined leaves opentype.js's own 500, which the fonts built
+    // before this option still carry.
+    weightClass,
     // opentype.js would otherwise join these without a hyphen, so
     // name 4 and name 6 are set here to the house spelling.
     fullName: `${fontFamily} ${styleName}`,
@@ -201,12 +222,30 @@ export async function writeFont(
 }
 
 /**
- * High-level: build a font from a directory of SVGs where each
- * filename is a single character (codepoint derived from filename)
- * and all SVGs share the same square viewBox.
+ * Write `mapping.json` beside a font: each sign name and the code point
+ * the font draws it at, in code point order. A derived listing for
+ * readers that want one font's signs alone; `code-points.json` at the
+ * package root is the source.
+ */
+
+export async function writeMapping(
+  baseDir: string,
+  mapping: Array<{ key: string; codepoint: string }>,
+) {
+  const mappingPath = path.join(baseDir, 'mapping.json')
+  await fs.writeFile(mappingPath, JSON.stringify(mapping, null, 2) + '\n')
+  console.log(`  -> ${mappingPath}`)
+}
+
+/**
+ * High-level: build a font from a directory of SVGs, all sharing the
+ * same square viewBox. Each file is one sign, placed at the code point
+ * `code-points.json` gives `<font>/<file name>`.
  */
 
 export type MakeFontOptions = {
+  /** The folder under `base/`, the first half of a manifest key. */
+  font: string
   svgDir: string
   outputPath: string
   fontFamily: string
@@ -215,8 +254,13 @@ export type MakeFontOptions = {
   svgSize?: number
 }
 
-export async function makeFont(options: MakeFontOptions) {
+export type SignMapping = Array<{ key: string; codepoint: string }>
+
+export async function makeFont(
+  options: MakeFontOptions,
+): Promise<SignMapping> {
   const {
+    font: folder,
     svgDir,
     outputPath,
     fontFamily,
@@ -225,8 +269,15 @@ export async function makeFont(options: MakeFontOptions) {
     svgSize = 3000,
   } = options
 
+  const points = readFontCodePoints(folder)
   const entries = await fs.readdir(svgDir)
-  const svgFiles = entries.filter(f => f.endsWith('.svg')).sort()
+  const svgFiles = entries
+    .filter(f => f.endsWith('.svg'))
+    .sort(
+      (a, b) =>
+        codePointOf(points, folder, path.basename(a, '.svg')) -
+        codePointOf(points, folder, path.basename(b, '.svg')),
+    )
 
   console.log(
     `Building ${fontFamily}-${styleName} from ${svgFiles.length} SVGs in ${svgDir}`,
@@ -234,43 +285,153 @@ export async function makeFont(options: MakeFontOptions) {
 
   const transform = squareTransform(svgSize)
   const glyphs: Array<opentype.Glyph> = [createNotdefGlyph()]
-  let processed = 0
+  const mapping: SignMapping = []
   let skipped = 0
 
   for (const file of svgFiles) {
-    const char = path.basename(file, '.svg')
-    const codePoint = char.codePointAt(0)
+    const key = path.basename(file, '.svg')
+    const codePoint = codePointOf(points, folder, key)
+    const svgContent = await fs.readFile(path.join(svgDir, file), 'utf-8')
+    const pathDataList = extractPathData(svgContent)
 
-    if (!codePoint) {
-      console.warn(`  skip ${file}: no codepoint`)
+    if (pathDataList.length === 0) {
+      console.warn(`  skip ${file}: no <path> found`)
       skipped++
       continue
     }
 
+    let glyphPath: opentype.Path
+
     try {
-      const svgContent = await fs.readFile(
-        path.join(svgDir, file),
-        'utf-8',
-      )
-      const pathDataList = extractPathData(svgContent)
-
-      if (pathDataList.length === 0) {
-        console.warn(`  skip ${file}: no <path> found`)
-        skipped++
-        continue
-      }
-
-      const glyphPath = combinePaths(pathDataList, transform)
-      glyphs.push(createGlyph(codePoint, glyphPath))
-      processed++
+      glyphPath = combinePaths(pathDataList, transform)
     } catch (err) {
       console.warn(`  error ${file}:`, err)
       skipped++
+      continue
     }
+
+    glyphs.push(createGlyph(codePoint, glyphPath))
+    mapping.push({ key, codepoint: formatCodePoint(codePoint) })
   }
 
-  console.log(`  ${processed} glyphs, ${skipped} skipped`)
+  console.log(`  ${mapping.length} glyphs, ${skipped} skipped`)
 
   const font = createFont(glyphs, { fontFamily, description, styleName })
   await writeFont(font, outputPath)
+
+  return mapping
+}
+
+/**
+ * Build a font from SVGs of one height and varying widths (Rongorongo,
+ * Indus, Byblos, the Mesoamerican sets, and the `0 0 <advance> <em>`
+ * form `extract-mark.ts` writes): the view box height fills the em, the
+ * width sets the advance, and each glyph keeps its own proportions.
+ * Signs are placed on `code-points.json` and written in its order.
+ */
+
+export type MakeViewBoxFontOptions = {
+  font: string
+  svgDir: string
+  outputPath: string
+  fontFamily: string
+  description: string
+  styleName?: string
+  /** OS/2 usWeightClass: see `FontMetadataOptions.weightClass`. */
+  weightClass?: number
+  /** The view box side assumed for an SVG that has none. */
+  svgSize?: number
+  /**
+   * Round every point to whole font units before writing. opentype.js
+   * writes CFF points as rounded steps from the previous point, so
+   * fractional points drift along a contour (up to 4 units of 1000 on a
+   * font drawn at 2048 units per em). Whole points do not drift.
+   */
+  roundToUnits?: boolean
+}
+
+export async function makeViewBoxFont(
+  options: MakeViewBoxFontOptions,
+): Promise<SignMapping> {
+  const {
+    font: folder,
+    svgDir,
+    outputPath,
+    fontFamily,
+    description,
+    styleName = 'Regular',
+    weightClass,
+    svgSize = 3000,
+    roundToUnits = false,
+  } = options
+
+  const round = roundToUnits
+    ? (value: number) => Math.round(value)
+    : (value: number) => value
+  const points = readFontCodePoints(folder)
+  const names = (await fs.readdir(svgDir))
+    .filter(f => f.endsWith('.svg'))
+    .map(f => path.basename(f, '.svg'))
+    .sort(
+      (a, b) =>
+        codePointOf(points, folder, a) - codePointOf(points, folder, b),
+    )
+
+  console.log(
+    `Building ${fontFamily}-${styleName} from ${names.length} SVGs in ${svgDir}`,
+  )
+
+  const glyphs: Array<opentype.Glyph> = [createNotdefGlyph()]
+  const mapping: SignMapping = []
+  let skipped = 0
+
+  for (const name of names) {
+    const codePoint = codePointOf(points, folder, name)
+    const svg = await fs.readFile(path.join(svgDir, `${name}.svg`), 'utf-8')
+    const pathDataList = extractPathData(svg)
+
+    if (pathDataList.length === 0) {
+      console.warn(`  skip ${name}.svg: no <path> found`)
+      skipped++
+      continue
+    }
+
+    const box = svg.match(
+      /viewBox="\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+([\d.]+)\s*"/,
+    )
+    const width = box ? parseFloat(box[1]!) : svgSize
+    const height = box ? parseFloat(box[2]!) : svgSize
+    const scale = UNITS_PER_EM / height
+    const transform = (x: number, y: number): [number, number] => [
+      round(x * scale),
+      round(ASCENDER - y * scale),
+    ]
+
+    let glyphPath: opentype.Path
+
+    try {
+      glyphPath = combinePaths(pathDataList, transform)
+    } catch (err) {
+      console.warn(`  error ${name}.svg:`, err)
+      skipped++
+      continue
+    }
+
+    glyphs.push(createGlyph(codePoint, glyphPath, Math.round(width * scale)))
+    mapping.push({ key: name, codepoint: formatCodePoint(codePoint) })
+  }
+
+  console.log(`  ${mapping.length} glyphs, ${skipped} skipped`)
+
+  // No space or Latin glyph: a Mark font draws its signs and nothing on
+  // a real character, so text around a sign falls back to the page font.
+  const font = createFont(glyphs, {
+    fontFamily,
+    description,
+    styleName,
+    weightClass,
+  })
+  await writeFont(font, outputPath)
+
+  return mapping
 }

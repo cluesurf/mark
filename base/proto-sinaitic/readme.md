@@ -29,56 +29,85 @@ glyph a revolution carved in wall, transforming pictures into an
 alphabet that would father Hebrew, Arabic, Greek, Latin, and the letters
 you're reading now.
 
+## Font
+
+| font family | signs | code points |
+| :---------- | :---- | :---------- |
+| `MarkProtoSinaitic` | 27 | U+F1785 to U+F179F |
+
+Every sign sits on its own code point in Unicode's plane 15 private use
+area. No sign is on a real Unicode character, so a sign copied out of
+this font never pastes as another script's letter, and no other font
+draws one by mistake. A private use point means something only in this
+font: text written in it should keep each sign's name beside it.
+
+The points are fixed in [`code-points.json`](../../code-points.json) at
+the package root, keyed `proto-sinaitic/<sign name>`, and never move. Each
+sign's name and point are in [`./base/mapping.json`](./base/mapping.json),
+in sign order. Signs are named by the Gardiner number of the Egyptian hieroglyph each is thought to come from (`F001`, the ox head), in Phoenician letter order. The font has a Regular and a Semibold, with the same signs on the same points.
+
+To type or copy a sign, find its name in `mapping.json` and write its
+point in text set in `MarkProtoSinaitic`: `F001` is U+F1785, written
+`&#xF1785;` in HTML or `'\u{F1785}'` in JavaScript. Or open [`./test/grid.html`](./test/grid.html)
+in a browser, which shows every sign with its name and point on hover,
+and copy from there.
+
+Fonts are in the
+[`./base`](https://github.com/cluesurf/mark/tree/make/base/proto-sinaitic/base)
+folder (`MarkProtoSinaitic-Regular.ttf`, `MarkProtoSinaitic-Semibold.ttf`), built from the
+drawings in [`./base/mark`](./base/mark) by
+[`./code/make-font.ts`](./code/make-font.ts). From the package root:
+
+```bash
+pnpm assign --write          # a point for each new drawing, never moving one
+pnpm make:fonts proto-sinaitic
+pnpm make:grids
+pnpm make:readmes
+pnpm check:fonts             # every glyph on its manifest point, all in plane 15
+```
+
 ## Glyphs
 
 <p align='center'>
   <img src='https://github.com/cluesurf/mark/blob/make/base/proto-sinaitic/view/list.png?raw=true'>
 </p>
 
-The 27 glyphs are mapped to underlying associated Egyptian Heiroglyph
-characters:
+The 27 signs, in Phoenician letter order. Each is named by the Gardiner
+number of the Egyptian hieroglyph it is thought to come from, and sits
+on its own plane 15 point. The last two columns are the real Unicode
+Egyptian hieroglyph and Phoenician letter, for reference only (after the
+[Wikipedia table](https://en.wikipedia.org/wiki/Proto-Sinaitic_script#Table_of_Symbols)):
+this font draws nothing at those points.
 
-```
-𓃾 𓉐 𓉔 𓌙 𓆟 𓀠 𓌉 𓐅 𓉗 𓎛 𓄤 𓂝 𓂧 𓍢
-𓈖 𓆓 𓁹 𓂋 𓀁 𓂏 𓊋 𓇑 𓃻 𓁶 𓇴 𓌔 𓏴
-```
-
-Here is how they seem to map to Phoenician glyphs, according to the
-[Wikipedia page](https://en.wikipedia.org/wiki/Proto-Sinaitic_script#Table_of_Symbols):
-
-| hieroglyphs | phoenician |
-| :---------: | :--------: |
-|      𓃾      |     𐤀      |
-|      𓉐      |     𐤁      |
-|      𓉔      |     𐤁      |
-|      𓌙      |     𐤂      |
-|      𓆟      |     𐤃      |
-|      𓀠      |     𐤄      |
-|      𓌉      |     𐤅      |
-|      𓐅      |     𐤆      |
-|      𓉗      |     𐤇      |
-|      𓎛      |     𐤇      |
-|      𓄤      |     𐤈      |
-|      𓂝      |     𐤉      |
-|      𓂧      |     𐤊      |
-|      𓍢      |     𐤋      |
-|      𓈖      |     𐤌      |
-|      𓆓      |     𐤍      |
-|      𓁹      |     𐤏      |
-|      𓂋      |     𐤐      |
-|      𓀁      |     𐤄      |
-|      𓂏      |     𐤐      |
-|      𓊋      |     𐤐      |
-|      𓇑      |     𐤑      |
-|      𓃻      |     𐤒      |
-|      𓁶      |     𐤓      |
-|      𓇴      |     𐤔      |
-|      𓌔      |     𐤔      |
-|      𓏴      |     𐤕      |
-
-Fonts are in the
-[`./base`](https://github.com/cluesurf/mark/tree/make/base/proto-sinaitic/base)
-folder.
+| sign | code point | Egyptian | Phoenician |
+| :--- | :--------- | :------: | :--------: |
+| `F001` | U+F1785 | 𓃾 | 𐤀 |
+| `O001` | U+F1786 | 𓉐 | 𐤁 |
+| `O004` | U+F1787 | 𓉔 | 𐤁 |
+| `T014` | U+F1788 | 𓌙 | 𐤂 |
+| `K005` | U+F1789 | 𓆟 | 𐤃 |
+| `A028` | U+F178A | 𓀠 | 𐤄 |
+| `T003` | U+F178B | 𓌉 | 𐤅 |
+| `Z016A` | U+F178C | 𓐅 | 𐤆 |
+| `O006` | U+F178D | 𓉗 | 𐤇 |
+| `V028` | U+F178E | 𓎛 | 𐤇 |
+| `F035` | U+F178F | 𓄤 | 𐤈 |
+| `D036` | U+F1790 | 𓂝 | 𐤉 |
+| `D046` | U+F1791 | 𓂧 | 𐤊 |
+| `V001` | U+F1792 | 𓍢 | 𐤋 |
+| `N035` | U+F1793 | 𓈖 | 𐤌 |
+| `I010` | U+F1794 | 𓆓 | 𐤍 |
+| `D004` | U+F1795 | 𓁹 | 𐤏 |
+| `D021` | U+F1796 | 𓂋 | 𐤐 |
+| `A002` | U+F1797 | 𓀁 | 𐤄 |
+| `D025` | U+F1798 | 𓂏 | 𐤐 |
+| `O038` | U+F1799 | 𓊋 | 𐤐 |
+| `M022` | U+F179A | 𓇑 | 𐤑 |
+| `E036` | U+F179B | 𓃻 | 𐤒 |
+| `D001` | U+F179C | 𓁶 | 𐤓 |
+| `N006` | U+F179D | 𓇴 | 𐤔 |
+| `T010` | U+F179E | 𓌔 | 𐤔 |
+| `Z009` | U+F179F | 𓏴 | 𐤕 |
 
 ## License
 

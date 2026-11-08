@@ -1,10 +1,27 @@
 {
   "name": "@cluesurf/mark",
   "version": "0.6.0",
+  "description": "Ancient Script Fonts by ClueSurf",
+  "license": "OFL-1.1",
+  "repository": "github:cluesurf/mark",
+  "keywords": [
+    "font",
+    "typeface",
+    "ancient scripts",
+    "unicode"
+  ],
+  "archive": {
+    "identifier": "mark-font",
+    "title": "Mark"
+  },
   "type": "module",
   "scripts": {
     "make": "rm -rf host && tsc && tsc-alias",
-    "make:font": "tsx code/make-font.ts",
+    "assign": "tsx code/assign-code-points.ts",
+    "make:fonts": "tsx code/make-fonts.ts",
+    "make:grids": "tsx code/make-grids.ts",
+    "make:readmes": "tsx code/make-readmes.ts",
+    "check:fonts": "tsx code/check-fonts.ts",
     "scan": "rm -rf host && concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "host": "pnpm make && npm publish --access=public"
   },

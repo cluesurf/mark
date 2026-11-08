@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarkIsthmianScript Grid</title>
+    <!-- Written by code/make-grids.ts from base/mapping.json. Do not edit. -->
     <style>
       @font-face {
         font-family: 'MarkIsthmianScript';
@@ -34,8 +32,8 @@
       }
 
       .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         line-height: 1;
         width: 840px;
         margin: 0 auto;
@@ -45,8 +43,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        aspect-ratio: 1;
-        font-size: 52px;
+        width: 48px;
+        height: 48px;
+        font-size: 36px;
         color: #18181b;
         font-family: 'MarkIsthmianScript', sans-serif;
       }
@@ -54,24 +53,8 @@
   </head>
   <body>
     <div class="section-label">
-      MarkIsthmianScript (Isthmian · Linear B blocks)
+      MarkIsthmianScript: 185 signs, plane 15 private use, U+F058E to U+F0646
     </div>
-    <div class="grid" id="grid"></div>
-    <script>
-      // Isthmian glyphs are mapped sequentially to the Linear B
-      // Unicode blocks (U+10000 onward). The font currently covers
-      // 185 glyphs, spanning from the Syllabary (U+10000) into the
-      // Ideograms block.
-      var LINEAR_B_BASE = 0x10000
-      var COUNT = 185
-      var parts = []
-      for (var i = 0; i < COUNT; i++) {
-        var cp = LINEAR_B_BASE + i
-        var ch = String.fromCodePoint(cp)
-        var hex = cp.toString(16).toUpperCase()
-        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
-      }
-      document.getElementById('grid').innerHTML = parts.join('')
-    </script>
+    <div class="grid"><span title="100 U+F058E">󰖎</span><span title="101 U+F058F">󰖏</span><span title="102 U+F0590">󰖐</span><span title="103 U+F0591">󰖑</span><span title="104 U+F0592">󰖒</span><span title="105 U+F0593">󰖓</span><span title="106 U+F0594">󰖔</span><span title="107 U+F0595">󰖕</span><span title="108 U+F0596">󰖖</span><span title="109 U+F0597">󰖗</span><span title="110 U+F0598">󰖘</span><span title="111 U+F0599">󰖙</span><span title="112 U+F059A">󰖚</span><span title="113 U+F059B">󰖛</span><span title="114 U+F059C">󰖜</span><span title="115 U+F059D">󰖝</span><span title="116 U+F059E">󰖞</span><span title="117 U+F059F">󰖟</span><span title="118 U+F05A0">󰖠</span><span title="119 U+F05A1">󰖡</span><span title="120 U+F05A2">󰖢</span><span title="121 U+F05A3">󰖣</span><span title="122 U+F05A4">󰖤</span><span title="123 U+F05A5">󰖥</span><span title="124 U+F05A6">󰖦</span><span title="125 U+F05A7">󰖧</span><span title="126 U+F05A8">󰖨</span><span title="127 U+F05A9">󰖩</span><span title="128 U+F05AA">󰖪</span><span title="129 U+F05AB">󰖫</span><span title="130 U+F05AC">󰖬</span><span title="131 U+F05AD">󰖭</span><span title="132 U+F05AE">󰖮</span><span title="133 U+F05AF">󰖯</span><span title="134 U+F05B0">󰖰</span><span title="135 U+F05B1">󰖱</span><span title="136 U+F05B2">󰖲</span><span title="137 U+F05B3">󰖳</span><span title="138 U+F05B4">󰖴</span><span title="139 U+F05B5">󰖵</span><span title="140 U+F05B6">󰖶</span><span title="141 U+F05B7">󰖷</span><span title="142 U+F05B8">󰖸</span><span title="143 U+F05B9">󰖹</span><span title="144 U+F05BA">󰖺</span><span title="145 U+F05BB">󰖻</span><span title="146 U+F05BC">󰖼</span><span title="147 U+F05BD">󰖽</span><span title="148 U+F05BE">󰖾</span><span title="149 U+F05BF">󰖿</span><span title="150 U+F05C0">󰗀</span><span title="151 U+F05C1">󰗁</span><span title="152 U+F05C2">󰗂</span><span title="153 U+F05C3">󰗃</span><span title="154 U+F05C4">󰗄</span><span title="155 U+F05C5">󰗅</span><span title="156 U+F05C6">󰗆</span><span title="157 U+F05C7">󰗇</span><span title="158 U+F05C8">󰗈</span><span title="159 U+F05C9">󰗉</span><span title="160 U+F05CA">󰗊</span><span title="161 U+F05CB">󰗋</span><span title="162 U+F05CC">󰗌</span><span title="163 U+F05CD">󰗍</span><span title="164 U+F05CE">󰗎</span><span title="165 U+F05CF">󰗏</span><span title="166 U+F05D0">󰗐</span><span title="167 U+F05D1">󰗑</span><span title="168 U+F05D2">󰗒</span><span title="169 U+F05D3">󰗓</span><span title="170 U+F05D4">󰗔</span><span title="171 U+F05D5">󰗕</span><span title="172 U+F05D6">󰗖</span><span title="173 U+F05D7">󰗗</span><span title="174 U+F05D8">󰗘</span><span title="175 U+F05D9">󰗙</span><span title="176 U+F05DA">󰗚</span><span title="177 U+F05DB">󰗛</span><span title="178 U+F05DC">󰗜</span><span title="179 U+F05DD">󰗝</span><span title="180 U+F05DE">󰗞</span><span title="181 U+F05DF">󰗟</span><span title="182 U+F05E0">󰗠</span><span title="183 U+F05E1">󰗡</span><span title="184 U+F05E2">󰗢</span><span title="185 U+F05E3">󰗣</span><span title="20 U+F05E4">󰗤</span><span title="201 U+F05E5">󰗥</span><span title="202 U+F05E6">󰗦</span><span title="203 U+F05E7">󰗧</span><span title="204 U+F05E8">󰗨</span><span title="205 U+F05E9">󰗩</span><span title="206 U+F05EA">󰗪</span><span title="207 U+F05EB">󰗫</span><span title="208 U+F05EC">󰗬</span><span title="209 U+F05ED">󰗭</span><span title="21 U+F05EE">󰗮</span><span title="210 U+F05EF">󰗯</span><span title="211 U+F05F0">󰗰</span><span title="212 U+F05F1">󰗱</span><span title="213 U+F05F2">󰗲</span><span title="214 U+F05F3">󰗳</span><span title="215 U+F05F4">󰗴</span><span title="216 U+F05F5">󰗵</span><span title="217 U+F05F6">󰗶</span><span title="218 U+F05F7">󰗷</span><span title="219 U+F05F8">󰗸</span><span title="22 U+F05F9">󰗹</span><span title="23 U+F05FA">󰗺</span><span title="24 U+F05FB">󰗻</span><span title="25 U+F05FC">󰗼</span><span title="26 U+F05FD">󰗽</span><span title="27 U+F05FE">󰗾</span><span title="28 U+F05FF">󰗿</span><span title="29 U+F0600">󰘀</span><span title="30 U+F0601">󰘁</span><span title="31 U+F0602">󰘂</span><span title="32 U+F0603">󰘃</span><span title="33 U+F0604">󰘄</span><span title="34 U+F0605">󰘅</span><span title="35 U+F0606">󰘆</span><span title="36 U+F0607">󰘇</span><span title="37 U+F0608">󰘈</span><span title="38 U+F0609">󰘉</span><span title="39 U+F060A">󰘊</span><span title="40 U+F060B">󰘋</span><span title="41 U+F060C">󰘌</span><span title="42 U+F060D">󰘍</span><span title="43 U+F060E">󰘎</span><span title="44 U+F060F">󰘏</span><span title="45 U+F0610">󰘐</span><span title="46 U+F0611">󰘑</span><span title="47 U+F0612">󰘒</span><span title="48 U+F0613">󰘓</span><span title="49 U+F0614">󰘔</span><span title="50 U+F0615">󰘕</span><span title="51 U+F0616">󰘖</span><span title="52 U+F0617">󰘗</span><span title="53 U+F0618">󰘘</span><span title="54 U+F0619">󰘙</span><span title="55 U+F061A">󰘚</span><span title="56 U+F061B">󰘛</span><span title="57 U+F061C">󰘜</span><span title="58 U+F061D">󰘝</span><span title="59 U+F061E">󰘞</span><span title="60 U+F061F">󰘟</span><span title="61 U+F0620">󰘠</span><span title="62 U+F0621">󰘡</span><span title="63 U+F0622">󰘢</span><span title="64 U+F0623">󰘣</span><span title="65 U+F0624">󰘤</span><span title="66 U+F0625">󰘥</span><span title="67 U+F0626">󰘦</span><span title="68 U+F0627">󰘧</span><span title="69 U+F0628">󰘨</span><span title="70 U+F0629">󰘩</span><span title="71 U+F062A">󰘪</span><span title="72 U+F062B">󰘫</span><span title="73 U+F062C">󰘬</span><span title="74 U+F062D">󰘭</span><span title="75 U+F062E">󰘮</span><span title="76 U+F062F">󰘯</span><span title="77 U+F0630">󰘰</span><span title="78 U+F0631">󰘱</span><span title="79 U+F0632">󰘲</span><span title="80 U+F0633">󰘳</span><span title="81 U+F0634">󰘴</span><span title="82 U+F0635">󰘵</span><span title="83 U+F0636">󰘶</span><span title="84 U+F0637">󰘷</span><span title="85 U+F0638">󰘸</span><span title="86 U+F0639">󰘹</span><span title="87 U+F063A">󰘺</span><span title="88 U+F063B">󰘻</span><span title="89 U+F063C">󰘼</span><span title="90 U+F063D">󰘽</span><span title="91 U+F063E">󰘾</span><span title="92 U+F063F">󰘿</span><span title="93 U+F0640">󰙀</span><span title="94 U+F0641">󰙁</span><span title="95 U+F0642">󰙂</span><span title="96 U+F0643">󰙃</span><span title="97 U+F0644">󰙄</span><span title="98 U+F0645">󰙅</span><span title="99 U+F0646">󰙆</span></div>
   </body>
 </html>

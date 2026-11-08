@@ -7,19 +7,25 @@ import {
   createNotdefGlyph,
   createFont,
   writeFont,
+  writeMapping,
   UNITS_PER_EM,
   ASCENDER,
   DESCENDER,
 } from '../../../code/make-font'
+import {
+  codePointOf,
+  formatCodePoint,
+  readFontCodePoints,
+} from '../../../code/code-point'
 import opentype from 'opentype.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const baseDir = path.join(__dirname, '..', 'base')
 
-// Proto-Elamite has no codepoints of its own in Unicode. The glyphs are
-// hosted on the precomposed Hangul syllables that carry a KS X 1001 code,
-// read in order from `base/hangul-ks-x-1001.csv`.
-const CODEPOINT_CSV = 'hangul-ks-x-1001.csv'
+// Proto-Elamite has no code points of its own in Unicode. Each sign
+// sits on its plane 15 private use code point in `code-points.json`,
+// keyed by its CDLI sign name.
+const FONT = 'proto-elamite'
 
 type Matrix = [number, number, number, number, number, number]
 
@@ -68,24 +74,7 @@ async function main() {
 
   console.log(`Found ${svgFiles.length} SVGs`)
 
-  // Host codepoints: the `unicode` column of the KS X 1001 hangul CSV,
-  // in order. Glyph i maps to the i-th KS X 1001 hangul syllable.
-  const csvText = await fs.readFile(
-    path.join(baseDir, CODEPOINT_CSV),
-    'utf-8',
-  )
-  const codePoints = csvText
-    .trim()
-    .split('\n')
-    .slice(1)
-    .map(line => parseInt(line.split(',')[1]!.replace(/^U\+/, ''), 16))
-
-  console.log(`Loaded ${codePoints.length} KS X 1001 host codepoints`)
-  if (svgFiles.length > codePoints.length) {
-    throw new Error(
-      `Not enough host codepoints: ${svgFiles.length} glyphs > ${codePoints.length} codepoints`,
-    )
-  }
+  const points = readFontCodePoints(FONT)
 
   // Glyphs are centered on the em's vertical middle and share ONE global
   // scale (the tallest sign fills the target ink height). This keeps
@@ -114,7 +103,7 @@ async function main() {
   for (let i = 0; i < svgFiles.length; i++) {
     const file = svgFiles[i]!
     const key = path.basename(file, '.svg')
-    const codePoint = codePoints[i]!
+    const codePoint = codePointOf(points, FONT, key)
 
     try {
       const svg = await fs.readFile(path.join(svgDir, file), 'utf-8')
@@ -201,11 +190,7 @@ async function main() {
     )
     glyphs.push(createGlyph(it.codePoint, finalPath, advanceWidth))
 
-    const hexCode = it.codePoint
-      .toString(16)
-      .toUpperCase()
-      .padStart(4, '0')
-    mapping.push({ key: it.key, codepoint: `U+${hexCode}` })
+    mapping.push({ key: it.key, codepoint: formatCodePoint(it.codePoint) })
     processed++
   }
 
@@ -214,17 +199,11 @@ async function main() {
   const font = createFont(glyphs, {
     fontFamily: 'MarkProtoElamite',
     description:
-      'Proto-Elamite sign list hosted on the KS X 1001 hangul syllables. Glyphs derived from the CDLI proto-elamite_data corpus (CC-BY-4.0).',
+      'Proto-Elamite signs, each on its own plane 15 private use code point. Glyphs derived from the CDLI proto-elamite_data corpus (CC-BY-4.0).',
   })
 
   await writeFont(font, path.join(baseDir, 'MarkProtoElamite-Regular.otf'))
-
-  const mappingPath = path.join(baseDir, 'mapping.json')
-  await fs.writeFile(
-    mappingPath,
-    JSON.stringify(mapping, null, 2) + '\n',
-  )
-  console.log(`  -> ${mappingPath}`)
+  await writeMapping(baseDir, mapping)
 
   console.log('\nDone.')
 }

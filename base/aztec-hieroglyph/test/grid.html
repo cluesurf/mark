@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarkAztecHieroglyph Grid</title>
+    <!-- Written by code/make-grids.ts from base/mapping.json. Do not edit. -->
     <style>
       @font-face {
         font-family: 'MarkAztecHieroglyph';
@@ -34,8 +32,8 @@
       }
 
       .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         line-height: 1;
         width: 840px;
         margin: 0 auto;
@@ -45,8 +43,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        aspect-ratio: 1;
-        font-size: 52px;
+        width: 48px;
+        height: 48px;
+        font-size: 36px;
         color: #18181b;
         font-family: 'MarkAztecHieroglyph', sans-serif;
       }
@@ -54,24 +53,8 @@
   </head>
   <body>
     <div class="section-label">
-      MarkAztecHieroglyph (Aztec · Linear B Ideograms block)
+      MarkAztecHieroglyph: 34 signs, plane 15 private use, U+F0000 to U+F0021
     </div>
-    <div class="grid" id="grid"></div>
-    <script>
-      // Aztec glyphs are mapped sequentially to the
-      // Linear B Ideograms Unicode block (U+10080 onward).
-      // The font currently covers 34 glyphs starting at
-      // U+10080.
-      var LINEAR_B_BASE = 0x10080
-      var COUNT = 34
-      var parts = []
-      for (var i = 0; i < COUNT; i++) {
-        var cp = LINEAR_B_BASE + i
-        var ch = String.fromCodePoint(cp)
-        var hex = cp.toString(16).toUpperCase()
-        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
-      }
-      document.getElementById('grid').innerHTML = parts.join('')
-    </script>
+    <div class="grid"><span title="a U+F0000">󰀀</span><span title="ch U+F0001">󰀁</span><span title="e U+F0002">󰀂</span><span title="i U+F0003">󰀃</span><span title="ka' U+F0004">󰀄</span><span title="ka U+F0005">󰀅</span><span title="ke U+F0006">󰀆</span><span title="ko U+F0007">󰀇</span><span title="kwe U+F0008">󰀈</span><span title="ma U+F0009">󰀉</span><span title="me U+F000A">󰀊</span><span title="mi U+F000B">󰀋</span><span title="mo U+F000C">󰀌</span><span title="na U+F000D">󰀍</span><span title="ne U+F000E">󰀎</span><span title="o U+F000F">󰀏</span><span title="pa U+F0010">󰀐</span><span title="pe U+F0011">󰀑</span><span title="pi U+F0012">󰀒</span><span title="po U+F0013">󰀓</span><span title="sa U+F0014">󰀔</span><span title="si U+F0015">󰀕</span><span title="so U+F0016">󰀖</span><span title="te' U+F0017">󰀗</span><span title="te U+F0018">󰀘</span><span title="tla U+F0019">󰀙</span><span title="to U+F001A">󰀚</span><span title="wa' U+F001B">󰀛</span><span title="wa U+F001C">󰀜</span><span title="we' U+F001D">󰀝</span><span title="we U+F001E">󰀞</span><span title="wi U+F001F">󰀟</span><span title="xa U+F0020">󰀠</span><span title="xo U+F0021">󰀡</span></div>
   </body>
 </html>

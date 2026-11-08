@@ -1,138 +1,138 @@
 [
   {
     "key": "a",
-    "codepoint": "U+10080"
+    "codepoint": "U+F0000"
   },
   {
     "key": "ch",
-    "codepoint": "U+10081"
+    "codepoint": "U+F0001"
   },
   {
     "key": "e",
-    "codepoint": "U+10082"
+    "codepoint": "U+F0002"
   },
   {
     "key": "i",
-    "codepoint": "U+10083"
+    "codepoint": "U+F0003"
   },
   {
     "key": "ka'",
-    "codepoint": "U+10084"
+    "codepoint": "U+F0004"
   },
   {
     "key": "ka",
-    "codepoint": "U+10085"
+    "codepoint": "U+F0005"
   },
   {
     "key": "ke",
-    "codepoint": "U+10086"
+    "codepoint": "U+F0006"
   },
   {
     "key": "ko",
-    "codepoint": "U+10087"
+    "codepoint": "U+F0007"
   },
   {
     "key": "kwe",
-    "codepoint": "U+10088"
+    "codepoint": "U+F0008"
   },
   {
     "key": "ma",
-    "codepoint": "U+10089"
+    "codepoint": "U+F0009"
   },
   {
     "key": "me",
-    "codepoint": "U+1008A"
+    "codepoint": "U+F000A"
   },
   {
     "key": "mi",
-    "codepoint": "U+1008B"
+    "codepoint": "U+F000B"
   },
   {
     "key": "mo",
-    "codepoint": "U+1008C"
+    "codepoint": "U+F000C"
   },
   {
     "key": "na",
-    "codepoint": "U+1008D"
+    "codepoint": "U+F000D"
   },
   {
     "key": "ne",
-    "codepoint": "U+1008E"
+    "codepoint": "U+F000E"
   },
   {
     "key": "o",
-    "codepoint": "U+1008F"
+    "codepoint": "U+F000F"
   },
   {
     "key": "pa",
-    "codepoint": "U+10090"
+    "codepoint": "U+F0010"
   },
   {
     "key": "pe",
-    "codepoint": "U+10091"
+    "codepoint": "U+F0011"
   },
   {
     "key": "pi",
-    "codepoint": "U+10092"
+    "codepoint": "U+F0012"
   },
   {
     "key": "po",
-    "codepoint": "U+10093"
+    "codepoint": "U+F0013"
   },
   {
     "key": "sa",
-    "codepoint": "U+10094"
+    "codepoint": "U+F0014"
   },
   {
     "key": "si",
-    "codepoint": "U+10095"
+    "codepoint": "U+F0015"
   },
   {
     "key": "so",
-    "codepoint": "U+10096"
+    "codepoint": "U+F0016"
   },
   {
     "key": "te'",
-    "codepoint": "U+10097"
+    "codepoint": "U+F0017"
   },
   {
     "key": "te",
-    "codepoint": "U+10098"
+    "codepoint": "U+F0018"
   },
   {
     "key": "tla",
-    "codepoint": "U+10099"
+    "codepoint": "U+F0019"
   },
   {
     "key": "to",
-    "codepoint": "U+1009A"
+    "codepoint": "U+F001A"
   },
   {
     "key": "wa'",
-    "codepoint": "U+1009B"
+    "codepoint": "U+F001B"
   },
   {
     "key": "wa",
-    "codepoint": "U+1009C"
+    "codepoint": "U+F001C"
   },
   {
     "key": "we'",
-    "codepoint": "U+1009D"
+    "codepoint": "U+F001D"
   },
   {
     "key": "we",
-    "codepoint": "U+1009E"
+    "codepoint": "U+F001E"
   },
   {
     "key": "wi",
-    "codepoint": "U+1009F"
+    "codepoint": "U+F001F"
   },
   {
     "key": "xa",
-    "codepoint": "U+100A0"
+    "codepoint": "U+F0020"
   },
   {
     "key": "xo",
-    "codepoint": "U+100A1"
+    "codepoint": "U+F0021"
   }
 ]

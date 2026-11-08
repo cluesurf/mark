@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarkGupta Grid</title>
+    <!-- Written by code/make-grids.ts from base/mapping.json. Do not edit. -->
     <style>
       @font-face {
         font-family: 'MarkGupta';
@@ -34,8 +32,8 @@
       }
 
       .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         line-height: 1;
         width: 840px;
         margin: 0 auto;
@@ -45,8 +43,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        aspect-ratio: 1;
-        font-size: 52px;
+        width: 48px;
+        height: 48px;
+        font-size: 36px;
         color: #18181b;
         font-family: 'MarkGupta', sans-serif;
       }
@@ -54,26 +53,8 @@
   </head>
   <body>
     <div class="section-label">
-      MarkGupta (Gupta · Brahmi block)
+      MarkGupta: 48 signs, plane 15 private use, U+F159F to U+F15CE
     </div>
-    <div class="grid" id="grid"></div>
-    <script>
-      // Gupta glyphs are mapped to the Unicode Brahmi block
-      // (U+11000 onward), spanning U+11000-U+1104D and U+11052-U+11075
-      // (skipping the Brahmi number signs at U+1104E-U+11051).
-      var ranges = [
-        [0x11000, 0x1104d],
-        [0x11052, 0x11075],
-      ]
-      var parts = []
-      ranges.forEach(function (range) {
-        for (var cp = range[0]; cp <= range[1]; cp++) {
-          var ch = String.fromCodePoint(cp)
-          var hex = cp.toString(16).toUpperCase()
-          parts.push('<span title="U+' + hex + '">' + ch + '</span>')
-        }
-      })
-      document.getElementById('grid').innerHTML = parts.join('')
-    </script>
+    <div class="grid"><span title="upadhmaniya U+F159F">󱖟</span><span title="a U+F15A0">󱖠</span><span title="aa U+F15A1">󱖡</span><span title="i U+F15A2">󱖢</span><span title="ii U+F15A3">󱖣</span><span title="u U+F15A4">󱖤</span><span title="uu U+F15A5">󱖥</span><span title="vocalic-r U+F15A6">󱖦</span><span title="vocalic-rr U+F15A7">󱖧</span><span title="vocalic-l U+F15A8">󱖨</span><span title="vocalic-ll U+F15A9">󱖩</span><span title="e U+F15AA">󱖪</span><span title="ai U+F15AB">󱖫</span><span title="o U+F15AC">󱖬</span><span title="au U+F15AD">󱖭</span><span title="ka U+F15AE">󱖮</span><span title="kha U+F15AF">󱖯</span><span title="ga U+F15B0">󱖰</span><span title="gha U+F15B1">󱖱</span><span title="nga U+F15B2">󱖲</span><span title="ca U+F15B3">󱖳</span><span title="cha U+F15B4">󱖴</span><span title="ja U+F15B5">󱖵</span><span title="jha U+F15B6">󱖶</span><span title="nya U+F15B7">󱖷</span><span title="tta U+F15B8">󱖸</span><span title="ttha U+F15B9">󱖹</span><span title="dda U+F15BA">󱖺</span><span title="ddha U+F15BB">󱖻</span><span title="nna U+F15BC">󱖼</span><span title="ta U+F15BD">󱖽</span><span title="tha U+F15BE">󱖾</span><span title="da U+F15BF">󱖿</span><span title="dha U+F15C0">󱗀</span><span title="na U+F15C1">󱗁</span><span title="pa U+F15C2">󱗂</span><span title="pha U+F15C3">󱗃</span><span title="ba U+F15C4">󱗄</span><span title="bha U+F15C5">󱗅</span><span title="ma U+F15C6">󱗆</span><span title="ya U+F15C7">󱗇</span><span title="ra U+F15C8">󱗈</span><span title="la U+F15C9">󱗉</span><span title="va U+F15CA">󱗊</span><span title="sha U+F15CB">󱗋</span><span title="ssa U+F15CC">󱗌</span><span title="sa U+F15CD">󱗍</span><span title="ha U+F15CE">󱗎</span></div>
   </body>
 </html>

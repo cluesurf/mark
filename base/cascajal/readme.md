@@ -46,21 +46,40 @@ of its decipherment debates.
 
 ## Font
 
-| font family   | # glyphs | description   |
-| :------------ | :------- | :------------ |
-| `MarkCascajal` | 62       | Cascajal signs |
+| font family | signs | code points |
+| :---------- | :---- | :---------- |
+| `MarkCascajal` | 62 | U+F0550 to U+F058D |
 
-The **62 glyphs** are mapped sequentially to the
-[Linear B Ideograms](<https://en.wikipedia.org/wiki/Linear_B_Ideograms_(Unicode_block)>)
-Unicode block, starting at **U+10080**. The Cascajal script has no
-codepoints of its own in Unicode, so this block was chosen as a host for
-its similar pictographic character. See
-[`./base/mapping.json`](./base/mapping.json) for the full
-glyph-to-codepoint mapping.
+Every sign sits on its own code point in Unicode's plane 15 private use
+area. No sign is on a real Unicode character, so a sign copied out of
+this font never pastes as another script's letter, and no other font
+draws one by mistake. A private use point means something only in this
+font: text written in it should keep each sign's name beside it.
+
+The points are fixed in [`code-points.json`](../../code-points.json) at
+the package root, keyed `cascajal/<sign name>`, and never move. Each
+sign's name and point are in [`./base/mapping.json`](./base/mapping.json),
+in sign order. Signs are named by catalogue number. The script is undeciphered: the names are not readings.
+
+To type or copy a sign, find its name in `mapping.json` and write its
+point in text set in `MarkCascajal`: `1` is U+F0550, written
+`&#xF0550;` in HTML or `'\u{F0550}'` in JavaScript. Or open [`./test/grid.html`](./test/grid.html)
+in a browser, which shows every sign with its name and point on hover,
+and copy from there.
 
 Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/cascajal/base)
-folder.
+folder (`MarkCascajal-Regular.otf`), built from the
+drawings in [`./base/mark`](./base/mark) by
+[`./code/make-font.ts`](./code/make-font.ts). From the package root:
+
+```bash
+pnpm assign --write          # a point for each new drawing, never moving one
+pnpm make:fonts cascajal
+pnpm make:grids
+pnpm make:readmes
+pnpm check:fonts             # every glyph on its manifest point, all in plane 15
+```
 
 ## Glyphs
 

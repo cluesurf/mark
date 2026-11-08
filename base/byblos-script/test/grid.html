@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarkByblosScript Grid</title>
+    <!-- Written by code/make-grids.ts from base/mapping.json. Do not edit. -->
     <style>
       @font-face {
         font-family: 'MarkByblosScript';
@@ -55,24 +53,8 @@
   </head>
   <body>
     <div class="section-label">
-      MarkByblosScript (Byblos syllabary · Egyptian Hieroglyphs block)
+      MarkByblosScript: 114 signs, plane 15 private use, U+F152D to U+F159E
     </div>
-    <div class="grid" id="grid"></div>
-    <script>
-      // Byblos glyphs are mapped sequentially to the
-      // Egyptian Hieroglyphs Unicode block (U+13000 onward).
-      // The font currently covers 114 glyphs starting at
-      // U+13000.
-      var EGYPTIAN_BASE = 0x13000
-      var COUNT = 114
-      var parts = []
-      for (var i = 0; i < COUNT; i++) {
-        var cp = EGYPTIAN_BASE + i
-        var ch = String.fromCodePoint(cp)
-        var hex = cp.toString(16).toUpperCase()
-        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
-      }
-      document.getElementById('grid').innerHTML = parts.join('')
-    </script>
+    <div class="grid"><span title="A.1 U+F152D">󱔭</span><span title="A.2 U+F152E">󱔮</span><span title="A.3 U+F152F">󱔯</span><span title="A.4 U+F1530">󱔰</span><span title="A.5 U+F1531">󱔱</span><span title="A.6 U+F1532">󱔲</span><span title="A.7 U+F1533">󱔳</span><span title="A.8 U+F1534">󱔴</span><span title="A.9 U+F1535">󱔵</span><span title="A.10 U+F1536">󱔶</span><span title="A.11 U+F1537">󱔷</span><span title="A.12 U+F1538">󱔸</span><span title="A.13 U+F1539">󱔹</span><span title="A.14 U+F153A">󱔺</span><span title="A.15 U+F153B">󱔻</span><span title="A.16 U+F153C">󱔼</span><span title="A.17 U+F153D">󱔽</span><span title="A.18 U+F153E">󱔾</span><span title="A.19 U+F153F">󱔿</span><span title="A.20 U+F1540">󱕀</span><span title="A.21 U+F1541">󱕁</span><span title="B.1 U+F1542">󱕂</span><span title="B.2 U+F1543">󱕃</span><span title="B.3 U+F1544">󱕄</span><span title="B.4 U+F1545">󱕅</span><span title="B.5 U+F1546">󱕆</span><span title="B.6 U+F1547">󱕇</span><span title="B.7 U+F1548">󱕈</span><span title="B.8 U+F1549">󱕉</span><span title="B.9 U+F154A">󱕊</span><span title="B.10 U+F154B">󱕋</span><span title="B.11 U+F154C">󱕌</span><span title="B.12 U+F154D">󱕍</span><span title="B.13 U+F154E">󱕎</span><span title="C.1 U+F154F">󱕏</span><span title="C.2 U+F1550">󱕐</span><span title="D.1 U+F1551">󱕑</span><span title="D.2 U+F1552">󱕒</span><span title="D.3 U+F1553">󱕓</span><span title="D.4 U+F1554">󱕔</span><span title="D.5 U+F1555">󱕕</span><span title="D.6 U+F1556">󱕖</span><span title="D.7 U+F1557">󱕗</span><span title="D.8 U+F1558">󱕘</span><span title="D.9 U+F1559">󱕙</span><span title="E.1 U+F155A">󱕚</span><span title="E.2 U+F155B">󱕛</span><span title="E.3 U+F155C">󱕜</span><span title="E.4 U+F155D">󱕝</span><span title="E.5 U+F155E">󱕞</span><span title="E.6 U+F155F">󱕟</span><span title="E.7 U+F1560">󱕠</span><span title="E.8 U+F1561">󱕡</span><span title="E.9 U+F1562">󱕢</span><span title="E.10 U+F1563">󱕣</span><span title="E.11 U+F1564">󱕤</span><span title="E.12 U+F1565">󱕥</span><span title="E.13 U+F1566">󱕦</span><span title="E.14 U+F1567">󱕧</span><span title="E.15 U+F1568">󱕨</span><span title="E.16 U+F1569">󱕩</span><span title="E.17 U+F156A">󱕪</span><span title="E.18 U+F156B">󱕫</span><span title="E.19 U+F156C">󱕬</span><span title="E.20 U+F156D">󱕭</span><span title="E.21 U+F156E">󱕮</span><span title="E.22 U+F156F">󱕯</span><span title="E.23 U+F1570">󱕰</span><span title="E.24 U+F1571">󱕱</span><span title="E.25 U+F1572">󱕲</span><span title="E.26 U+F1573">󱕳</span><span title="F.1 U+F1574">󱕴</span><span title="F.2 U+F1575">󱕵</span><span title="F.3 U+F1576">󱕶</span><span title="F.4 U+F1577">󱕷</span><span title="F.5 U+F1578">󱕸</span><span title="F.6 U+F1579">󱕹</span><span title="G.1 U+F157A">󱕺</span><span title="G.2 U+F157B">󱕻</span><span title="G.3 U+F157C">󱕼</span><span title="G.4 U+F157D">󱕽</span><span title="G.5 U+F157E">󱕾</span><span title="G.6 U+F157F">󱕿</span><span title="G.7 U+F1580">󱖀</span><span title="G.8 U+F1581">󱖁</span><span title="G.9 U+F1582">󱖂</span><span title="G.10 U+F1583">󱖃</span><span title="G.11 U+F1584">󱖄</span><span title="G.12 U+F1585">󱖅</span><span title="G.13 U+F1586">󱖆</span><span title="G.14 U+F1587">󱖇</span><span title="G.15 U+F1588">󱖈</span><span title="G.16 U+F1589">󱖉</span><span title="G.17 U+F158A">󱖊</span><span title="H.1 U+F158B">󱖋</span><span title="H.2 U+F158C">󱖌</span><span title="H.3 U+F158D">󱖍</span><span title="H.4 U+F158E">󱖎</span><span title="H.5 U+F158F">󱖏</span><span title="H.6 U+F1590">󱖐</span><span title="H.7 U+F1591">󱖑</span><span title="H.8 U+F1592">󱖒</span><span title="I.1 U+F1593">󱖓</span><span title="I.2 U+F1594">󱖔</span><span title="I.3 U+F1595">󱖕</span><span title="I.4 U+F1596">󱖖</span><span title="I.5 U+F1597">󱖗</span><span title="I.6 U+F1598">󱖘</span><span title="I.7 U+F1599">󱖙</span><span title="I.8 U+F159A">󱖚</span><span title="I.9 U+F159B">󱖛</span><span title="I.10 U+F159C">󱖜</span><span title="I.11 U+F159D">󱖝</span><span title="I.12 U+F159E">󱖞</span></div>
   </body>
 </html>

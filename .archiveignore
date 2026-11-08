@@ -1,0 +1,34 @@
+# What NOT to publish to the Internet Archive. gitignore syntax.
+# Everything else in this folder goes into the published zip.
+# `.git/` and `.env*` are always left out.
+
+# build output, dependencies, scratch (as in .gitignore)
+node_modules/
+tmp/
+host/
+hold/
+head/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+*.tfvars
+*.log
+
+# work in progress, not yet in git
+base/indus-script/view/
+
+# not in git either (the global *.zip rule)
+base/cascajal/cascajal.zip
+
+# editor and agent settings
+.vscode/
+.claude/
+.DS_Store
+*.bak
+
+# credentials
+.npmrc
+*.pem
+*.key

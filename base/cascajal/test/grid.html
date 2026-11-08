@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarkCascajal Grid</title>
+    <!-- Written by code/make-grids.ts from base/mapping.json. Do not edit. -->
     <style>
       @font-face {
         font-family: 'MarkCascajal';
@@ -34,8 +32,8 @@
       }
 
       .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         line-height: 1;
         width: 840px;
         margin: 0 auto;
@@ -45,8 +43,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        aspect-ratio: 1;
-        font-size: 52px;
+        width: 48px;
+        height: 48px;
+        font-size: 36px;
         color: #18181b;
         font-family: 'MarkCascajal', sans-serif;
       }
@@ -54,24 +53,8 @@
   </head>
   <body>
     <div class="section-label">
-      MarkCascajal (Cascajal · Linear B Ideograms block)
+      MarkCascajal: 62 signs, plane 15 private use, U+F0550 to U+F058D
     </div>
-    <div class="grid" id="grid"></div>
-    <script>
-      // Cascajal glyphs are mapped sequentially to the
-      // Linear B Ideograms Unicode block (U+10080 onward).
-      // The font currently covers 62 glyphs starting at
-      // U+10080.
-      var LINEAR_B_BASE = 0x10080
-      var COUNT = 62
-      var parts = []
-      for (var i = 0; i < COUNT; i++) {
-        var cp = LINEAR_B_BASE + i
-        var ch = String.fromCodePoint(cp)
-        var hex = cp.toString(16).toUpperCase()
-        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
-      }
-      document.getElementById('grid').innerHTML = parts.join('')
-    </script>
+    <div class="grid"><span title="1 U+F0550">󰕐</span><span title="10 U+F0551">󰕑</span><span title="11 U+F0552">󰕒</span><span title="12 U+F0553">󰕓</span><span title="13 U+F0554">󰕔</span><span title="14 U+F0555">󰕕</span><span title="15 U+F0556">󰕖</span><span title="16 U+F0557">󰕗</span><span title="17 U+F0558">󰕘</span><span title="18 U+F0559">󰕙</span><span title="19 U+F055A">󰕚</span><span title="2 U+F055B">󰕛</span><span title="20 U+F055C">󰕜</span><span title="21 U+F055D">󰕝</span><span title="22 U+F055E">󰕞</span><span title="23 U+F055F">󰕟</span><span title="24 U+F0560">󰕠</span><span title="25 U+F0561">󰕡</span><span title="26 U+F0562">󰕢</span><span title="27 U+F0563">󰕣</span><span title="28 U+F0564">󰕤</span><span title="29 U+F0565">󰕥</span><span title="3 U+F0566">󰕦</span><span title="30 U+F0567">󰕧</span><span title="31 U+F0568">󰕨</span><span title="32 U+F0569">󰕩</span><span title="33 U+F056A">󰕪</span><span title="34 U+F056B">󰕫</span><span title="35 U+F056C">󰕬</span><span title="36 U+F056D">󰕭</span><span title="37 U+F056E">󰕮</span><span title="38 U+F056F">󰕯</span><span title="39 U+F0570">󰕰</span><span title="4 U+F0571">󰕱</span><span title="40 U+F0572">󰕲</span><span title="41 U+F0573">󰕳</span><span title="42 U+F0574">󰕴</span><span title="43 U+F0575">󰕵</span><span title="44 U+F0576">󰕶</span><span title="45 U+F0577">󰕷</span><span title="46 U+F0578">󰕸</span><span title="47 U+F0579">󰕹</span><span title="48 U+F057A">󰕺</span><span title="49 U+F057B">󰕻</span><span title="5 U+F057C">󰕼</span><span title="50 U+F057D">󰕽</span><span title="51 U+F057E">󰕾</span><span title="52 U+F057F">󰕿</span><span title="53 U+F0580">󰖀</span><span title="54 U+F0581">󰖁</span><span title="55 U+F0582">󰖂</span><span title="56 U+F0583">󰖃</span><span title="57 U+F0584">󰖄</span><span title="58 U+F0585">󰖅</span><span title="59 U+F0586">󰖆</span><span title="6 U+F0587">󰖇</span><span title="60 U+F0588">󰖈</span><span title="61 U+F0589">󰖉</span><span title="62 U+F058A">󰖊</span><span title="7 U+F058B">󰖋</span><span title="8 U+F058C">󰖌</span><span title="9 U+F058D">󰖍</span></div>
   </body>
 </html>

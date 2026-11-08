@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarkProtoCanaanite Grid</title>
+    <!-- Written by code/make-grids.ts from base/mapping.json. Do not edit. -->
     <style>
       @font-face {
         font-family: 'MarkProtoCanaanite';
@@ -34,8 +32,8 @@
       }
 
       .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         line-height: 1;
         width: 840px;
         margin: 0 auto;
@@ -45,8 +43,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        aspect-ratio: 1;
-        font-size: 52px;
+        width: 48px;
+        height: 48px;
+        font-size: 36px;
         color: #18181b;
         font-family: 'MarkProtoCanaanite', sans-serif;
       }
@@ -54,23 +53,8 @@
   </head>
   <body>
     <div class="section-label">
-      MarkProtoCanaanite (Proto-Canaanite · Phoenician block)
+      MarkProtoCanaanite: 21 signs, plane 15 private use, U+F1770 to U+F1784
     </div>
-    <div class="grid" id="grid"></div>
-    <script>
-      // Proto-Canaanite letters are mapped to the Unicode Phoenician
-      // block (U+10900 onward). The font covers the 22 letters from
-      // U+10900 to U+10915.
-      var PHOENICIAN_BASE = 0x10900
-      var COUNT = 22
-      var parts = []
-      for (var i = 0; i < COUNT; i++) {
-        var cp = PHOENICIAN_BASE + i
-        var ch = String.fromCodePoint(cp)
-        var hex = cp.toString(16).toUpperCase()
-        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
-      }
-      document.getElementById('grid').innerHTML = parts.join('')
-    </script>
+    <div class="grid"><span title="alf U+F1770">󱝰</span><span title="bet U+F1771">󱝱</span><span title="gaml U+F1772">󱝲</span><span title="delt U+F1773">󱝳</span><span title="he U+F1774">󱝴</span><span title="wau U+F1775">󱝵</span><span title="zai U+F1776">󱝶</span><span title="het U+F1777">󱝷</span><span title="tet U+F1778">󱝸</span><span title="yod U+F1779">󱝹</span><span title="kaf U+F177A">󱝺</span><span title="lamd U+F177B">󱝻</span><span title="mem U+F177C">󱝼</span><span title="nun U+F177D">󱝽</span><span title="semk U+F177E">󱝾</span><span title="pe U+F177F">󱝿</span><span title="sade U+F1780">󱞀</span><span title="qof U+F1781">󱞁</span><span title="rosh U+F1782">󱞂</span><span title="shin U+F1783">󱞃</span><span title="tau U+F1784">󱞄</span></div>
   </body>
 </html>

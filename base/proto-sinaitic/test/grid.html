@@ -2,16 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarkProtoSinaitic Grid</title>
+    <!-- Written by code/make-grids.ts from base/mapping.json. Do not edit. -->
     <style>
       @font-face {
         font-family: 'MarkProtoSinaitic';
-        src: url('../base/MarkProtoSinaitic-Regular.ttf')
-          format('truetype');
+        src: url('../base/MarkProtoSinaitic-Regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
       }
@@ -35,8 +32,8 @@
       }
 
       .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        display: flex;
+        flex-wrap: wrap;
         line-height: 1;
         width: 840px;
         margin: 0 auto;
@@ -46,8 +43,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        aspect-ratio: 1;
-        font-size: 52px;
+        width: 48px;
+        height: 48px;
+        font-size: 36px;
         color: #18181b;
         font-family: 'MarkProtoSinaitic', sans-serif;
       }
@@ -55,23 +53,8 @@
   </head>
   <body>
     <div class="section-label">
-      MarkProtoSinaitic (Proto-Sinaitic · Egyptian Hieroglyphs)
+      MarkProtoSinaitic: 27 signs, plane 15 private use, U+F1785 to U+F179F
     </div>
-    <div class="grid" id="grid"></div>
-    <script>
-      // Proto-Sinaitic glyphs are mapped onto the associated Egyptian
-      // Hieroglyph characters they descend from (27 signs).
-      var CHARS = [
-        '𓃾', '𓉐', '𓉔', '𓌙', '𓆟', '𓀠', '𓌉', '𓐅', '𓉗',
-        '𓎛', '𓄤', '𓂝', '𓂧', '𓍢', '𓈖', '𓆓', '𓁹', '𓂋',
-        '𓀁', '𓂏', '𓊋', '𓇑', '𓃻', '𓁶', '𓇴', '𓌔', '𓏴',
-      ]
-      var parts = []
-      CHARS.forEach(function (ch) {
-        var hex = ch.codePointAt(0).toString(16).toUpperCase()
-        parts.push('<span title="U+' + hex + '">' + ch + '</span>')
-      })
-      document.getElementById('grid').innerHTML = parts.join('')
-    </script>
+    <div class="grid"><span title="F001 U+F1785">󱞅</span><span title="O001 U+F1786">󱞆</span><span title="O004 U+F1787">󱞇</span><span title="T014 U+F1788">󱞈</span><span title="K005 U+F1789">󱞉</span><span title="A028 U+F178A">󱞊</span><span title="T003 U+F178B">󱞋</span><span title="Z016A U+F178C">󱞌</span><span title="O006 U+F178D">󱞍</span><span title="V028 U+F178E">󱞎</span><span title="F035 U+F178F">󱞏</span><span title="D036 U+F1790">󱞐</span><span title="D046 U+F1791">󱞑</span><span title="V001 U+F1792">󱞒</span><span title="N035 U+F1793">󱞓</span><span title="I010 U+F1794">󱞔</span><span title="D004 U+F1795">󱞕</span><span title="D021 U+F1796">󱞖</span><span title="A002 U+F1797">󱞗</span><span title="D025 U+F1798">󱞘</span><span title="O038 U+F1799">󱞙</span><span title="M022 U+F179A">󱞚</span><span title="E036 U+F179B">󱞛</span><span title="D001 U+F179C">󱞜</span><span title="N006 U+F179D">󱞝</span><span title="T010 U+F179E">󱞞</span><span title="Z009 U+F179F">󱞟</span></div>
   </body>
 </html>

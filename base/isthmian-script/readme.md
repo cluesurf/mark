@@ -47,22 +47,40 @@ of its decipherment debates.
 
 ## Font
 
-| font family          | # glyphs | description     |
-| :------------------- | :------- | :-------------- |
-| `MarkIsthmianScript` | 185      | Isthmian script |
+| font family | signs | code points |
+| :---------- | :---- | :---------- |
+| `MarkIsthmianScript` | 185 | U+F058E to U+F0646 |
 
-The **185 glyphs** are mapped sequentially to the
-[Linear B](<https://en.wikipedia.org/wiki/Linear_B_Syllabary_(Unicode_block)>)
-Unicode blocks, starting at **U+10000**. With 185 glyphs the set exceeds a
-single 128-slot block, so it spans from the Syllabary (U+10000) into the
-Ideograms block. Isthmian script has no codepoints of its own in Unicode,
-so this range was chosen as a host for its similar pictographic character.
-See [`./base/mapping.json`](./base/mapping.json) for the full
-glyph-to-codepoint mapping.
+Every sign sits on its own code point in Unicode's plane 15 private use
+area. No sign is on a real Unicode character, so a sign copied out of
+this font never pastes as another script's letter, and no other font
+draws one by mistake. A private use point means something only in this
+font: text written in it should keep each sign's name beside it.
+
+The points are fixed in [`code-points.json`](../../code-points.json) at
+the package root, keyed `isthmian-script/<sign name>`, and never move. Each
+sign's name and point are in [`./base/mapping.json`](./base/mapping.json),
+in sign order. Signs are named by catalogue number. The script is undeciphered: the names are not readings.
+
+To type or copy a sign, find its name in `mapping.json` and write its
+point in text set in `MarkIsthmianScript`: `100` is U+F058E, written
+`&#xF058E;` in HTML or `'\u{F058E}'` in JavaScript. Or open [`./test/grid.html`](./test/grid.html)
+in a browser, which shows every sign with its name and point on hover,
+and copy from there.
 
 Fonts are in the
 [`./base`](https://github.com/cluesurf/mark/tree/make/base/isthmian-script/base)
-folder.
+folder (`MarkIsthmianScript-Regular.otf`), built from the
+drawings in [`./base/mark`](./base/mark) by
+[`./code/make-font.ts`](./code/make-font.ts). From the package root:
+
+```bash
+pnpm assign --write          # a point for each new drawing, never moving one
+pnpm make:fonts isthmian-script
+pnpm make:grids
+pnpm make:readmes
+pnpm check:fonts             # every glyph on its manifest point, all in plane 15
+```
 
 ## Glyphs
 
